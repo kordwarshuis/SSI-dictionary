@@ -9,10 +9,9 @@ export default defineNuxtConfig({
   ssr: true,
 
   app: {
-    // Set the base URL for GitHub Pages deployment
-    // Change this to match your GitHub Pages URL if needed
-    // e.g. baseURL: '/SSI-dictionary/'
-    baseURL: '/',
+    // Sub-path used by GitHub Pages project sites:
+    // https://kordwarshuis.github.io/SSI-dictionary/
+    baseURL: process.env.NUXT_APP_BASE_URL ?? '/SSI-dictionary/',
     head: {
       title: 'SSI Dictionary',
       meta: [
