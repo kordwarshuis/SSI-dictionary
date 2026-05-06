@@ -110,7 +110,7 @@ jobs:
 
       - name: Fetch WOT-terms content
         env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
+          GENERATED_JSON_GLOSSARIES_DIR: ../public/data/glossaries
           GLOSSARY_DIR: glossary
         # Run from within the checked-out WOT-terms repo so relative `docs/`
         # paths resolve correctly, then fall back to original cwd.
@@ -122,9 +122,6 @@ jobs:
           else
             echo "WOT-terms checkout not available, skipping."
           fi
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: ../public/data/glossaries
-          GLOSSARY_DIR: glossary
 
       # ── 7. Combine all glossaries into dictionary.json ────────────────────
       - name: Create combined dictionary
