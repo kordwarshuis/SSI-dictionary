@@ -117,8 +117,24 @@ function isTermVisible(term) {
 // ── HTML sanitisation ──────────────────────────────────────────────────────
 // The definition HTML is produced by our own scraping pipeline (trusted source).
 // We keep v-html but strip any <script> tags as a minimal safety measure.
+// Also ensure external links open in a new tab with noopener noreferrer.
 function safeHtml(html) {
-  return String(html).replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
+  return String(html)
+    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
+    .replace(/<a\b([^>]*?)>/gi, (match, attrs) => {
+      if (/target\s*=\s*["']?_blank["']?/i.test(attrs)) {
+        return `<a${attrs}>`
+      }
+
+      let newAttrs = attrs
+      if (!/rel\s*=\s*['"]/i.test(newAttrs)) {
+        newAttrs += ' rel="noopener noreferrer"'
+      }
+      if (!/target\s*=\s*['"]/i.test(newAttrs)) {
+        newAttrs += ' target="_blank"'
+      }
+      return `<a${newAttrs}>`
+    })
 }
 </script>
 
