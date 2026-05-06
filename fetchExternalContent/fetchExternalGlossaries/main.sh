@@ -29,9 +29,5 @@ echo "Using GENERATED_JSON_GLOSSARIES_DIR=$GENERATED_JSON_GLOSSARIES_DIR"
 
 node fetchExternalContent/fetchExternalGlossaries/fetchSpecUpT/fetchSpecUpT.mjs
 
-
-
-
-
 # # Combine glossaries
 node fetchExternalContent/fetchExternalGlossaries/createDictionary.mjs
