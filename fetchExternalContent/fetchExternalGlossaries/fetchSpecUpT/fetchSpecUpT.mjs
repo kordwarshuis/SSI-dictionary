@@ -35,6 +35,16 @@ const SPEC_UP_T_SOURCES = [
         organisation: 'ToIP Glossary',
         jsonFileName: 'terms-definitions-toip-glossary.json',
     },
+    {
+        url: 'https://trustoverip.github.io/kswg-did-method-webs-specification/index.html',
+        organisation: 'ToIP (DID:Webs)',
+        jsonFileName: 'terms-definitions-toipdidwebs.json',
+    },
+    {
+        url: 'https://trustoverip.github.io/ctwg-general-glossary/index.html',
+        organisation: 'ToIP General Glossary',
+        jsonFileName: 'terms-definitions-general-glossary.json',
+    },
 ];
 // ── End config ────────────────────────────────────────────────────────────────
 
