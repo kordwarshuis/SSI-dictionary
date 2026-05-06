@@ -34,7 +34,9 @@ export default defineNuxtConfig({
   // Nitro config for static generation
   nitro: {
     prerender: {
-      routes: ['/']
+      // Also prerender the API route so it is served as a static JSON file
+      // on gh-pages (no server available there for client-side fetches).
+      routes: ['/', '/api/dictionary.json']
     }
   },
 
