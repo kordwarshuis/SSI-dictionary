@@ -32,105 +32,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # ── 4. Prepare output directories ─────────────────────────────────────
-      - name: Create output directories
-        run: |
-          mkdir -p public/data/glossaries
-          mkdir -p fetchExternalContent/fetchExternalGlossaries/fetchNistContent/download
-          mkdir -p static/json
+      # ── 4. Fetch glossaries & combine into dictionary.json ────────────────
+      #    main.sh owns all fetcher invocations and directory setup so there
+      #    is a single source of truth – edit main.sh, not this workflow.
+      - name: Fetch glossaries
+        run: bash fetchExternalContent/fetchExternalGlossaries/main.sh
 
-      # ── 4b. Fetch NIST overview filter list from WOT-terms ────────────────
-      #    The NIST fetcher uses overview.json to decide which NIST terms are
-      #    relevant. We pull the authoritative copy from the WOT-terms repo.
-      - name: Fetch NIST overview filter (from WOT-terms)
-        run: |
-          curl -fsSL \
-            "https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/json/overview.json" \
-            -o static/json/overview.json \
-          || echo "Warning: could not fetch overview.json – NIST fetcher may skip."
-
-      # ── 5. Fetch individual glossaries ─────────────────────────────────────
-      #    Each fetcher runs independently so a single failure does not abort
-      #    the whole workflow. The `|| true` ensures the step still passes
-      #    even if a remote site is temporarily unreachable.
-      - name: Fetch Digital Govt NZ
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchDigitalGovtNzContent/fetchDigitalGovtNzContent.mjs || true
-
-      - name: Fetch Essif-Lab
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchEssifLabContent/fetchEssifLabContent.mjs || true
-
-      - name: Fetch NIST
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchNistContent/fetchNistContent.mjs || true
-
-      - name: Fetch ToIP
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchToIPContent/fetchToIPContent.mjs || true
-
-      - name: Fetch ToIP did:webs
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchToipDidWebs/fetchToipDidWebs.mjs || true
-
-      - name: Fetch TSWG ACDC
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchTswgAcdc/fetchTswgAcdc.mjs || true
-
-      - name: Fetch TSWG CESR
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchTswgCesr/fetchTswgCesr.mjs || true
-
-      - name: Fetch TSWG KERI
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchTswgKeri/fetchTswgKeri.mjs || true
-
-      - name: Fetch W3C DID
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-        run: node fetchExternalContent/fetchExternalGlossaries/fetchW3cDid/fetchW3cDid.mjs || true
-
-      # ── 6. Fetch WOT-terms glossary (from sister repo) ────────────────────
-      #    Checks out the WOT-terms repo into a temp directory so the fetcher
-      #    can read the Markdown glossary files.
-      - name: Checkout WOT-terms (for WebOfTrust definitions)
-        uses: actions/checkout@v4
-        with:
-          repository: WebOfTrust/WOT-terms
-          path: _wot-terms-checkout
-        continue-on-error: true   # skip gracefully if the repo is inaccessible
-
-      - name: Fetch WOT-terms content
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: ../public/data/glossaries
-          GLOSSARY_DIR: glossary
-        # Run from within the checked-out WOT-terms repo so relative `docs/`
-        # paths resolve correctly, then fall back to original cwd.
-        run: |
-          if [ -d "_wot-terms-checkout" ]; then
-            cd _wot-terms-checkout
-            node ../fetchExternalContent/fetchExternalGlossaries/fetchWotTermsContent/fetchWotTermsContent.mjs || true
-            cd ..
-          else
-            echo "WOT-terms checkout not available, skipping."
-          fi
-
-      # ── 7. Combine all glossaries into dictionary.json ────────────────────
-      - name: Create combined dictionary
-        env:
-          GENERATED_JSON_GLOSSARIES_DIR: public/data/glossaries
-          GENERATED_JSON_DICTIONARY_DIR: public/data
-        run: node fetchExternalContent/fetchExternalGlossaries/createDictionary.mjs
-
-      # ── 8. Commit the generated file back to the repo ─────────────────────
+      # ── 5. Commit the generated file back to the repo ─────────────────────
       - name: Commit and push dictionary.json
         run: |
           git config user.name  "github-actions[bot]"
