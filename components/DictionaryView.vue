@@ -35,7 +35,17 @@ function normalise(str) {
 
 const searchTerm = ref('')
 const organisations = ref([])
-const checkedOrganisations = ref({})
+const checkedOrganisations = ref({});
+const organisationLinks = {
+  'Essif-Lab': 'https://github.com/essif-lab',
+  'KSWG (KERI)': 'https://trustoverip.github.io/kswg-keri-specification/index.html',
+  'KSWG (ACDC)': 'https://trustoverip.github.io/kswg-acdc-specification/index.html',
+  'KSWG (CESR)': 'https://trustoverip.github.io/kswg-cesr-specification/index.html',
+  'ToIP': 'https://trustoverip.org/',
+  'ToIP Glossary': 'https://trustoverip.org/',
+  'ToIP (DID:Webs)': 'https://trustoverip.github.io/kswg-did-method-webs-specification/index.html',
+  'W3C (DID)': 'https://www.w3.org/TR/did-core/'
+};
 const animateCards = ref(false)
 
 // ── Lifecycle ──────────────────────────────────────────────────────────────
@@ -143,37 +153,30 @@ function safeHtml(html) {
     <!-- Search bar -->
     <div class="input-group mb-3">
       <span class="input-group-text" id="search-addon">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-search"
-          viewBox="0 0 16 16"
-          aria-hidden="true"
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+          viewBox="0 0 16 16" aria-hidden="true">
           <path
-            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
-          />
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
         </svg>
       </span>
-      <input
-        v-model="searchTerm"
-        type="text"
-        class="form-control"
-        placeholder="Search terms…"
-        aria-label="Search terms"
-        aria-describedby="search-addon"
-      />
+      <input v-model="searchTerm" type="text" class="form-control" placeholder="Search terms…" aria-label="Search terms"
+        aria-describedby="search-addon" />
+    </div>
+
+    <!-- Glossary source links -->
+    <div class="mb-3 small">
+      <strong>Source links:</strong>
+      <span v-for="(url, org) in organisationLinks" :key="org" class="me-3">
+        <a v-if="organisations.includes(org)" :href="url" target="_blank" rel="noopener noreferrer"
+          class="text-decoration-none">
+          {{ org }} ↗
+        </a>
+      </span>
     </div>
 
     <!-- Glossary toggle buttons -->
     <div class="mt-4 mb-0 d-flex gap-2 flex-wrap">
-      <button
-        type="button"
-        class="btn btn-sm btn-outline-secondary"
-        @click="toggleAllCheckboxes"
-      >
+      <button type="button" class="btn btn-sm btn-outline-secondary" @click="toggleAllCheckboxes">
         Toggle Glossaries
       </button>
       <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOn">
@@ -188,20 +191,15 @@ function safeHtml(html) {
 
     <!-- Organisation checkboxes -->
     <div class="d-flex flex-wrap gap-2 mb-2">
-      <div
-        v-for="org in organisations"
-        :key="org"
-        class="form-check form-check-inline"
-      >
-        <input
-          :id="`checkbox-${org}`"
-          class="form-check-input"
-          type="checkbox"
-          :checked="checkedOrganisations[org]"
-          @change="handleCheckboxChange(org)"
-        />
+      <div v-for="org in organisations" :key="org" class="form-check form-check-inline">
+        <input :id="`checkbox-${org}`" class="form-check-input" type="checkbox" :checked="checkedOrganisations[org]"
+          @change="handleCheckboxChange(org)" />
         <label class="form-check-label" :for="`checkbox-${org}`">
-          {{ org }}
+          <span>{{ org }}</span>
+          <a v-if="organisationLinks[org]" :href="organisationLinks[org]" target="_blank" rel="noopener noreferrer"
+            class="ms-1 text-decoration-none" title="Open source link">
+            ↗
+          </a>
         </label>
       </div>
     </div>
@@ -210,12 +208,7 @@ function safeHtml(html) {
 
     <!-- Terms list -->
     <ul class="list-unstyled">
-      <li
-        v-for="term in termsData"
-        :key="term.anchor"
-        :class="{ 'd-none': !isTermVisible(term) }"
-        class="mb-5"
-      >
+      <li v-for="term in termsData" :key="term.anchor" :class="{ 'd-none': !isTermVisible(term) }" class="mb-5">
         <h2 :id="term.anchor" class="h4 border-bottom pb-1">
           <a :href="`#${encodeURIComponent(term.anchor)}`" class="text-decoration-none text-dark">
             {{ term.term }}
@@ -223,12 +216,8 @@ function safeHtml(html) {
         </h2>
 
         <ul class="list-unstyled ms-2">
-          <li
-            v-for="(def, defIndex) in term.definitions"
-            :key="defIndex"
-            :class="{ 'd-none': !checkedOrganisations[def.organisation] }"
-            class="mb-3"
-          >
+          <li v-for="(def, defIndex) in term.definitions" :key="defIndex"
+            :class="{ 'd-none': !checkedOrganisations[def.organisation] }" class="mb-3">
             <div :class="['card', { 'animate-outline': animateCards }]">
               <div class="card-header d-flex justify-content-end">
                 <span class="badge bg-secondary fs-6 fw-normal">
@@ -257,10 +246,12 @@ function safeHtml(html) {
   0% {
     outline: 2px solid transparent;
   }
+
   50% {
     outline: 2px solid #6c757d;
     outline-offset: 2px;
   }
+
   100% {
     outline: 2px solid transparent;
   }
