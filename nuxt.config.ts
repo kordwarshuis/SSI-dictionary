@@ -33,7 +33,10 @@ export default defineNuxtConfig({
   // Nitro config for static generation
   nitro: {
     prerender: {
-      // Also prerender the API route so it is served as a static JSON file
+      // Disable the link crawler – it follows URLs found in dictionary data
+      // and fails on external/missing paths, breaking the build.
+      crawlLinks: false,
+      // Prerender the API route so it is served as a static JSON file
       // on gh-pages (no server available there for client-side fetches).
       routes: ['/', '/api/dictionary.json']
     }
