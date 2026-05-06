@@ -1,0 +1,394 @@
+[
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": ". Indexed signature (indexed-signature)",
+    "definition": "",
+    "anchor": ".Indexedsignature(indexedsignature)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Authentic Chained Data Container (ACDC, authentic-chained-data-container)",
+    "definition": "",
+    "anchor": "AuthenticChainedDataContainer(ACDC,authenticchaineddatacontainer)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Autonomic identifier (AID, autonomic-identifier)",
+    "definition": "",
+    "anchor": "Autonomicidentifier(AID,autonomicidentifier)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Autonomic identity system (AIS, autonomic-identity-system)",
+    "definition": "",
+    "anchor": "Autonomicidentitysystem(AIS,autonomicidentitysystem)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Autonomic namespace (AN, autonomic-namespace)",
+    "definition": "",
+    "anchor": "Autonomicnamespace(AN,autonomicnamespace)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Backer (backer)",
+    "definition": "",
+    "anchor": "Backer(backer)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Concise Binary Object Representation (CBOR, concise-binary-object-representation)",
+    "definition": "",
+    "anchor": "ConciseBinaryObjectRepresentation(CBOR,concisebinaryobjectrepresentation)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Configuration traits (Modes, configuration-traits)",
+    "definition": "See also: Configuration traits field.",
+    "anchor": "Configurationtraits(Modes,configurationtraits)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Controller (controller)",
+    "definition": "",
+    "anchor": "Controller(controller)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Cryptographic primitive (Cryptographic primitives, cryptographic-primitive)",
+    "definition": "",
+    "anchor": "Cryptographicprimitive(Cryptographicprimitives,cryptographicprimitive)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Cryptonym (Cryptonymous, cryptonym)",
+    "definition": "",
+    "anchor": "Cryptonym(Cryptonymous,cryptonym)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Current threshold (current-threshold)",
+    "definition": "",
+    "anchor": "Currentthreshold(currentthreshold)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Dead-attack (dead-attack)",
+    "definition": "",
+    "anchor": "Deadattack(deadattack)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Decentralized Key Management Infrastructure (DKMI, decentralized-key-management-infrastructure)",
+    "definition": "",
+    "anchor": "DecentralizedKeyManagementInfrastructure(DKMI,decentralizedkeymanagementinfrastructure)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Duplicity (duplicity)",
+    "definition": "",
+    "anchor": "Duplicity(duplicity)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "End-verifiability (end-verifiability)",
+    "definition": "",
+    "anchor": "Endverifiability(endverifiability)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Establishment event (establishment-event)",
+    "definition": "",
+    "anchor": "Establishmentevent(establishmentevent)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Exchange identifier (exchange-identifier)",
+    "definition": "",
+    "anchor": "Exchangeidentifier(exchangeidentifier)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "First-seen (First seen, first-seen)",
+    "definition": "",
+    "anchor": "Firstseen(Firstseen,firstseen)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Inception (inception)",
+    "definition": "",
+    "anchor": "Inception(inception)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Inception event (inception-event)",
+    "definition": "",
+    "anchor": "Inceptionevent(inceptionevent)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Interaction event (interaction-event)",
+    "definition": "",
+    "anchor": "Interactionevent(interactionevent)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "KERIs Algorithm for Witness Agreement (KAWA, keris-algorithm-for-witness-agreement)",
+    "definition": "",
+    "anchor": "KERIsAlgorithmforWitnessAgreement(KAWA,kerisalgorithmforwitnessagreement)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Key event (key-event)",
+    "definition": "",
+    "anchor": "Keyevent(keyevent)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Key event log (KEL, kel, key-event-log)",
+    "definition": "",
+    "anchor": "Keyeventlog(KEL,kel,keyeventlog)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Key event message (key-event-message)",
+    "definition": "",
+    "anchor": "Keyeventmessage(keyeventmessage)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Key event receipt (key-event-receipt)",
+    "definition": "",
+    "anchor": "Keyeventreceipt(keyeventreceipt)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Key event receipt infrastructure (KERI, key-event-receipt-infrastructure)",
+    "definition": "",
+    "anchor": "Keyeventreceiptinfrastructure(KERI,keyeventreceiptinfrastructure)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Key event receipt log (KERL, key-event-receipt-log)",
+    "definition": "See annex Key event receipt log.",
+    "anchor": "Keyeventreceiptlog(KERL,keyeventreceiptlog)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Key-state (key-state)",
+    "definition": "",
+    "anchor": "Keystate(keystate)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Live-attack (Live-attacks, live-attack)",
+    "definition": "See Security Properties of Prerotation.",
+    "anchor": "Liveattack(Liveattacks,liveattack)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Message (message)",
+    "definition": "",
+    "anchor": "Message(message)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "MsgPack (MGPK, messagepack)",
+    "definition": "",
+    "anchor": "MsgPack(MGPK,messagepack)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Next threshold (next-threshold)",
+    "definition": "",
+    "anchor": "Nextthreshold(nextthreshold)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Non-establishment event (non-establishment-event)",
+    "definition": "",
+    "anchor": "Nonestablishmentevent(nonestablishmentevent)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Out-of-band introduction (OOBI, out-of-band-introduction)",
+    "definition": "",
+    "anchor": "Outofbandintroduction(OOBI,outofbandintroduction)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Primitive (primitive)",
+    "definition": "",
+    "anchor": "Primitive(primitive)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Python dict (Python dictionary, python-dict)",
+    "definition": "A Python dict (short for dictionary) is a built-in data type for an associative array or hash table that stores keyvalue pairs: you look up a key and get its value.",
+    "anchor": "Pythondict(Pythondictionary,pythondict)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Receipt (receipt)",
+    "definition": "",
+    "anchor": "Receipt(receipt)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Receiver (receiver)",
+    "definition": "",
+    "anchor": "Receiver(receiver)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Rotation (rotation)",
+    "definition": "",
+    "anchor": "Rotation(rotation)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Rotation event (rotation-event)",
+    "definition": "",
+    "anchor": "Rotationevent(rotationevent)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Routed exchange message (routed-exchange-message)",
+    "definition": "",
+    "anchor": "Routedexchangemessage(routedexchangemessage)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "SAIDive (saidive)",
+    "definition": "any fields that are derived from digest of the message body using the SAID protocol.",
+    "anchor": "SAIDive(saidive)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Salt (salt)",
+    "definition": "",
+    "anchor": "Salt(salt)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Seal (seal)",
+    "definition": "",
+    "anchor": "Seal(seal)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Self-addressed data (SAD, self-addressed-data)",
+    "definition": "",
+    "anchor": "Selfaddresseddata(SAD,selfaddresseddata)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Self-addressing identifier (SAID, self-addressing-identifier)",
+    "definition": "",
+    "anchor": "Selfaddressingidentifier(SAID,selfaddressingidentifier)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Self-certifying identifier (SCID, self-certifying-identifier)",
+    "definition": "",
+    "anchor": "Selfcertifyingidentifier(SCID,selfcertifyingidentifier)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Signature (Signatures, digital-signature)",
+    "definition": "",
+    "anchor": "Signature(Signatures,digitalsignature)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Validator (validator)",
+    "definition": "",
+    "anchor": "Validator(validator)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Verifiable (verifiable)",
+    "definition": "",
+    "anchor": "Verifiable(verifiable)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Verifier (verifier)",
+    "definition": "",
+    "anchor": "Verifier(verifier)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Version (version)",
+    "definition": "",
+    "anchor": "Version(version)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Watcher (watcher)",
+    "definition": "",
+    "anchor": "Watcher(watcher)"
+  },
+  {
+    "organisation": "KSWG (KERI)",
+    "url": "https://trustoverip.github.io/kswg-keri-specification/index.html",
+    "term": "Witness (witness)",
+    "definition": "",
+    "anchor": "Witness(witness)"
+  }
+]
