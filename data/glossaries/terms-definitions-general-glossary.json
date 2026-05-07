@@ -1,0 +1,1507 @@
+[
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "ADR (ADR)",
+    "definition": "architectural-decision-record",
+    "anchor": "ADR(ADR)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "agency (agency)",
+    "definition": "Agents can be people, edge computers and the functionality within wallets; the service an agent offers.",
+    "anchor": "agency(agency)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "API (API)",
+    "definition": "application-programming-interface",
+    "anchor": "API(API)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "append-only event logs (append-only-event-logs)",
+    "definition": "Append-only is a property of computer data storage such that new data can be appended to the storage, but where existing data is immutable.",
+    "anchor": "appendonlyeventlogs(appendonlyeventlogs)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "application programming interface (application-programming-interface)",
+    "definition": "An application programming interface (API) is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software.",
+    "anchor": "applicationprogramminginterface(applicationprogramminginterface)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "architectural-decision record (architectural-decision-record)",
+    "definition": "Is a justified software design choice that addresses a functional or non-functional requirement that is architecturally significant.",
+    "anchor": "architecturaldecisionrecord(architecturaldecisionrecord)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "authentic web (authentic-web)",
+    "definition": "The authentic web is the internet as a whole giant verifiable data structure. Also called Web5. The web will be one big graph. Thats the mental model of the authentic web.",
+    "anchor": "authenticweb(authenticweb)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "authenticity (authenticity)",
+    "definition": "The quality of having an objectively verifiable origin ; contrast veracity. When a newspaper publishes a story about an event, every faithful reproduction of that story may be authentic  but that does not mean the story was true (has veracity).",
+    "anchor": "authenticity(authenticity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "authority (authority)",
+    "definition": "https://glossary.trustoverip.org/#term:authority",
+    "anchor": "authority(authority)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "authorization (authorization)",
+    "definition": "Is the function of specifying access rights/privileges to resources, which is related to general information security and computer security, and to access control in particular.",
+    "anchor": "authorization(authorization)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "autonomic computing systems (autonomic-computing-systems)",
+    "definition": "Self managing computing systems using algorithmic governance, from the 90s way way way before DAOs. KERI creator Sam Smith worked at funded Navy research in the 90s on autonomic survivable systems as in self-healing systems: We called them autonomic way back then.",
+    "anchor": "autonomiccomputingsystems(autonomiccomputingsystems)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "base64 (base64)",
+    "definition": "In computer programming, Base64 is a group of binary-to-text encoding schemes that represent binary data (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits.",
+    "anchor": "base64(base64)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "BFT (BFT)",
+    "definition": "byzantine-fault-tolerance",
+    "anchor": "BFT(BFT)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "blake3 (blake3)",
+    "definition": "BLAKE3 is a relatively young (2020) cryptographic hash function based on Bao and BLAKE2.",
+    "anchor": "blake3(blake3)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "branch (branch)",
+    "definition": "In software development a branch refers to the result of branching: the duplication of an object under version control for further separate modification.",
+    "anchor": "branch(branch)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "byzantine agreement (byzantine-agreement)",
+    "definition": "(non PoW) Byzantine Agreement is byzantine-fault-tolerance of distributed computing systems that enable them to come to consensus despite arbitrary behavior from a fraction of the nodes in the network. BA consensus makes no assumptions about the behavior of nodes in the system. Practical Byzantine Fault Tolerance (pBFT) is the prototypical model for Byzantine agreement, and it can reach consensus fast and efficiently while concurrently decoupling consensus from resources (i.e., financial stake in PoS or electricity in PoW).",
+    "anchor": "byzantineagreement(byzantineagreement)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "byzantine-fault tolerance (byzantine-fault-tolerance)",
+    "definition": "A Byzantine fault (also interactive consistency, source congruency, error avalanche, byzantine-agreement problem, Byzantine generals problem, and Byzantine failure) is a condition of a computer system, particularly distributed computing systems, where components may fail and there is imperfect information on whether a component has failed.",
+    "anchor": "byzantinefaulttolerance(byzantinefaulttolerance)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "canonicalization (canonicalization)",
+    "definition": "In computer science, canonicalization (sometimes standardization or normalization) is a process for converting data that has more than one possible representation into a standard, normal, or canonical form.",
+    "anchor": "canonicalization(canonicalization)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "CBOR (CBOR)",
+    "definition": "concise-binary-object-representation",
+    "anchor": "CBOR(CBOR)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "certificate transparency (certificate-transparency)",
+    "definition": "Certificate Transparency (CT) is an Internet security standard and open source framework for monitoring and auditing digital certificates. The standard creates a system of public logs that seek to eventually record all certificates issued by publicly trusted certificate authorities, allowing efficient identification of mistakenly or maliciously issued certificates. As of 2021, Certificate Transparency is mandatory for all SSL/TLS certificates.",
+    "anchor": "certificatetransparency(certificatetransparency)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "chain of custody (chain-of-custody)",
+    "definition": "From Wikipedia (Source):",
+    "anchor": "chainofcustody(chainofcustody)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "challenge-message (Challenge Message)",
+    "definition": "A message sent and responded to during an Identity Authentication session.",
+    "anchor": "challengemessage(ChallengeMessage)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "claim (claim)",
+    "definition": "An assertion of the truth of something, typically one which is disputed or in doubt. A set of claims might convey personally identifying information: name, address, date of birth and citizenship, for example. (Source).",
+    "anchor": "claim(claim)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "clone (clone)",
+    "definition": "A copy of a system that is - and works exactly as the original",
+    "anchor": "clone(clone)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "cloud agent (cloud-agent)",
+    "definition": "Cloud agent is software that is installed on the cloud server instances in order to provide security, monitoring, and analysis solutions for the cloud. They actually provide information and helps to provide control over cloud entities.",
+    "anchor": "cloudagent(cloudagent)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "code table (code-table)",
+    "definition": "a code table is the Internets most comprehensive yet simple resource for browsing and searching for alt codes, ascii codes, entities in html, unicode characters, and unicode groups and categories.",
+    "anchor": "codetable(codetable)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "collision (collision)",
+    "definition": "In cryptography and identity collision generally refers to something going wrong because an identical result has been produced but it refers to - or points to - different sources or assets backing this result.",
+    "anchor": "collision(collision)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "complementary integrity verification (complementary-integrity-verification)",
+    "definition": "A mechanism that can verify integrity independent of needing access to a previous instance or reference version of the information for comparison.",
+    "anchor": "complementaryintegrityverification(complementaryintegrityverification)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "concatenation (concatenation)",
+    "definition": "In formal language theory and computer programming, string concatenation is the operation of joining character strings end-to-end. For example, the concatenation of snow and ball is snowball.",
+    "anchor": "concatenation(concatenation)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "concise-binary-object-representation",
+    "definition": "It is a binary data serialization format loosely based on JSON authored by C. Bormann. Like JSON it allows the transmission of data objects that contain namevalue pairs, but in a more concise manner. This increases processing and transfer speeds at the cost of human readability.",
+    "anchor": "concisebinaryobjectrepresentation"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "confidentiality (confidentiality)",
+    "definition": "All statements in a conversation are only known by the parties to that conversation.",
+    "anchor": "confidentiality(confidentiality)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "configuration files (configuration-files)",
+    "definition": "In computing, configuration files (commonly known simply as config files) are files used to configure the parameters and initial settings for some computer programs. They are used for user applications, server processes and operating system settings.",
+    "anchor": "configurationfiles(configurationfiles)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "consensus mechanism (consensus-mechanism)",
+    "definition": "How groups of entitities come to decisions. In general to learn about consensus mechanisms read any textbook on decision making, automated reasoning, multi-objective decision making, operations research etc.",
+    "anchor": "consensusmechanism(consensusmechanism)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "content-addressable hash (content-addressable-hash)",
+    "definition": "Finding content by a hash of this content, generated by a one-way hash function applied to the content.",
+    "anchor": "contentaddressablehash(contentaddressablehash)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "coroutines (coroutines)",
+    "definition": "Computer programs that can be suspended and resumed at will.",
+    "anchor": "coroutines(coroutines)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "CRUD (CRUD)",
+    "definition": "Is acronym for the traditional client-server database update policy is CRUD (Create, Read, Update, Delete).",
+    "anchor": "CRUD(CRUD)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "crypto libraries (crypto-libraries)",
+    "definition": "Cryptography libraries deal with cryptography algorithms and have API function calls to each of the supported features.",
+    "anchor": "cryptolibraries(cryptolibraries)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "cryptocurrency (cryptocurrency)",
+    "definition": "A digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a digital ledger or computerized database using strong cryptography to secure transaction record entries, to control the creation of additional digital coin records.",
+    "anchor": "cryptocurrency(cryptocurrency)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "cryptographic commitment scheme (cryptographic-commitment-scheme)",
+    "definition": "is a cryptographic primitive that allows one to commit to a chosen value (or chosen statement) while keeping it hidden to others, with the ability to reveal the committed value later.",
+    "anchor": "cryptographiccommitmentscheme(cryptographiccommitmentscheme)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "Cryptographic Primitive (cryptographic-primitive)",
+    "definition": "the serialization of a value associated with a cryptographic operation including but not limited to a digest (hash), a salt, a seed, a private key, a public key, or a signature.",
+    "anchor": "CryptographicPrimitive(cryptographicprimitive)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "cryptographic strength (cryptographic-strength)",
+    "definition": "The term cryptographically strong is often used to describe an encryption algorithm, and implies, in comparison to some other algorithm (which is thus cryptographically weak), greater resistance to attack. But it can also be used to describe hashing and unique identifier and filename creation algorithms.",
+    "anchor": "cryptographicstrength(cryptographicstrength)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "cryptonym (cryptonym)",
+    "definition": "a cryptographic pseudonymous identifier represented by a string of characters derived from a random or pseudo-random secret seed or salt via a one-way cryptographic function with a sufficiently high degree of cryptographic strength (e.g., 128 bits, see appendix on cryptographic-strength. A cryptonym is a type of primitive.",
+    "anchor": "cryptonym(cryptonym)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "CSPRNG (CSPRNG)",
+    "definition": "means Cryptographically Secure Pseudorandom Number Generator, which means that a sequence of numbers (bits, bytes) that is produced from an algorithm that is deterministic (the sequence is generated from some unknown internal state), hence pseudorandom is also cryptographically secure, or not.",
+    "anchor": "CSPRNG(CSPRNG)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "CT (CT)",
+    "definition": "certificate-transparency",
+    "anchor": "CT(CT)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "DAG (DAG)",
+    "definition": "directed-acyclic-graph",
+    "anchor": "DAG(DAG)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "data anchor (data-anchor)",
+    "definition": "Data anchors are digest of digital data, that uniquely identify this data. The digest is the anchor and can be used to identify - and point to the data at the same time.",
+    "anchor": "dataanchor(dataanchor)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "decentralized identifier (decentralized-identifier)",
+    "definition": "Decentralized identifiers (DID) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.",
+    "anchor": "decentralizedidentifier(decentralizedidentifier)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "decentralized identity (decentralized-identity)",
+    "definition": "is a technology that uses cryptography to allow individuals to create and control their own unique identifiers. They can use these identifiers to obtain Verifiable Credentials from trusted organizations and, subsequently, present elements of these credentials as proof of claims about themselves. In this model, the individual takes ownership of their own identity and does not need to cede control to centralized service providers or companies.",
+    "anchor": "decentralizedidentity(decentralizedidentity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "decentralized key-management infrastructure (decentralized-key-management-infrastructure)",
+    "definition": "a key management infrastructure that does not rely on a single entity for the integrity and security of the system as a whole. Trust in a DKMI is decentralized through the use of technologies that make it possible for geographically and politically disparate entities to reach an agreement on the key state of an identifier DPKI.",
+    "anchor": "decentralizedkeymanagementinfrastructure(decentralizedkeymanagementinfrastructure)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "DHT (DHT)",
+    "definition": "distributed-hash-table",
+    "anchor": "DHT(DHT)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "DIDs (DID)",
+    "definition": "decentralized-identifier",
+    "anchor": "DIDs(DID)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "digest (digest)",
+    "definition": "verifiable cryptographic commitment. Its a collision-resistant hash of content.",
+    "anchor": "digest(digest)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "digital signature (digital-signature)",
+    "definition": "A digital signature is a mathematical scheme for verifying the authenticity of digital messages or documents. A valid digital signature, where the prerequisites are satisfied, gives a recipient very strong reason to believe that the message was created by a known sender (authentication), and that the message was not altered in transit (integrity).",
+    "anchor": "digitalsignature(digitalsignature)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "directed acyclic graph (directed-acyclic-graph)",
+    "definition": "From Wikipedia (source):",
+    "anchor": "directedacyclicgraph(directedacyclicgraph)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "distributed hash table (distributed-hash-table)",
+    "definition": "It is a distributed system that provides a lookup service similar to a hash table: key-value pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key. The main advantage of a DHT is that nodes can be added or removed with minimum work around re-distributing keys.",
+    "anchor": "distributedhashtable(distributedhashtable)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "DKPI (dkmi, dkpi, DKMI)",
+    "definition": "decentralized-key-management-infrastructure",
+    "anchor": "DKPI(dkmi,dkpi,DKMI)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "domain name (domain-name)",
+    "definition": "A domain name is a string that identifies a realm of administrative autonomy, authority or control within the Internet. Domain names are used in various networking contexts and for application-specific naming and addressing purposes.",
+    "anchor": "domainname(domainname)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "double-spend proof (double-spend-proof)",
+    "definition": "Total global ordering of transactions so that value cant be spent twice at the same time from the unit of value. Or in everyday language: you cant spend your money twice.",
+    "anchor": "doublespendproof(doublespendproof)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "E2E (E2E)",
+    "definition": "end-to-end",
+    "anchor": "E2E(E2E)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "eclipse attack (eclipse-attack)",
+    "definition": "An eclipse attack is a peer-to-peer network-based attack. Eclipse attack can only be performed on nodes that accept incoming connections from other nodes, and not all nodes accept incoming connections.",
+    "anchor": "eclipseattack(eclipseattack)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "electronic signature (electronic-signature)",
+    "definition": "An electronic signature, or e-signature, refers to data in electronic form, which is logically associated with other data in electronic form and which is used by the signatory to sign. This type of signature has the same legal standing as a handwritten signature as long as it adheres to the requirements of the specific regulation under which it was created (e.g., eIDAS in the European Union, NIST-DSS in the USA or ZertES in Switzerland).",
+    "anchor": "electronicsignature(electronicsignature)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "end to end (end-to-end)",
+    "definition": "Inter-host communication and data flow transformations, considered in motion and at rest.",
+    "anchor": "endtoend(endtoend)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "entity (entity)",
+    "definition": "entity in the #essiflab glossary.",
+    "anchor": "entity(entity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "entropy (entropy)",
+    "definition": "Unpredictable information. Often used as a secret or as input to a key generation algorithm.",
+    "anchor": "entropy(entropy)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "ephemeral (ephemeral)",
+    "definition": "Lasting for a markedly brief time. Having a short lifespan.",
+    "anchor": "ephemeral(ephemeral)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "escrow (escrow)",
+    "definition": "Escrow as a noun is a (legal) arrangement in which a third party temporarily holds money or property until a particular condition has been met.",
+    "anchor": "escrow(escrow)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "extensible business reporting language (extensible-business-reporting-language)",
+    "definition": "XBRL is the open international standard for digital business reporting, managed by a global not for profit consortium, XBRL International.",
+    "anchor": "extensiblebusinessreportinglanguage(extensiblebusinessreportinglanguage)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "FFI (FFI)",
+    "definition": "foreign-function-interface",
+    "anchor": "FFI(FFI)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "foreign function interface (foreign-function-interface)",
+    "definition": "Is a mechanism by which a program written in one, usually an interpreted (scripted), programming language that can call routines or make use of services written or compiled in another one.",
+    "anchor": "foreignfunctioninterface(foreignfunctioninterface)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "GLEIF (GLEIF)",
+    "definition": "Global Legal Entity Identifier Foundation",
+    "anchor": "GLEIF(GLEIF)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "gnu privacy guard (gnu-privacy-guard)",
+    "definition": "also GnuPG; is a free-software replacement for Symantecs PGP cryptographic software suite. It is compliant with RFC 4880, the IETF standards-track specification of OpenPGP. Modern versions of PGP are interoperable with GnuPG and other OpenPGP-compliant systems.",
+    "anchor": "gnuprivacyguard(gnuprivacyguard)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "governance framework (governance-framework)",
+    "definition": "Also called Governance structure. Governance frameworks are the structure of a government and reflect the interrelated relationships, factors, and other influences upon the institution. Governance frameworks structure and delineate power and the governing or management roles in an organization. They also set rules, procedures, and other informational guidelines.",
+    "anchor": "governanceframework(governanceframework)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "GPG (GPG)",
+    "definition": "gnu-privacy-guard",
+    "anchor": "GPG(GPG)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "hardware security module (hardware-security-module)",
+    "definition": "A HSM is a physical computing device that safeguards and manages secrets (most importantly digital keys), performs encryption and decryption functions for digital signatures, strong authenticity and other cryptographic functions.",
+    "anchor": "hardwaresecuritymodule(hardwaresecuritymodule)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "hierarchical asynchronous coroutines and input output (hierarchical-asynchronous-coroutines-and-input-output)",
+    "definition": "HIO is an acronym which stands for Weightless hierarchical asynchronous coroutines and I/O in Python.",
+    "anchor": "hierarchicalasynchronouscoroutinesandinputoutput(hierarchicalasynchronouscoroutinesandinputoutput)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "hierchical deterministic keys (hierchical-deterministic-keys)",
+    "definition": "An HDK type is a deterministic Bitcoin wallet derived from a known seed that allows child keys to be created from the parent key. Because the child key is generated from a known seed, a relationship between the child and parent keys is invisible to anyone without that seed.",
+    "anchor": "hierchicaldeterministickeys(hierchicaldeterministickeys)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "hio (hio)",
+    "definition": "Weightless hierarchical asynchronous coroutines and I/O in Python.",
+    "anchor": "hio(hio)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "HSM (HSM)",
+    "definition": "hardware-security-module",
+    "anchor": "HSM(HSM)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "I O (I-O)",
+    "definition": "input-output",
+    "anchor": "IO(IO)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "IANA (IANA)",
+    "definition": "internet-assigned-numbers-authority",
+    "anchor": "IANA(IANA)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "identifier (identifier)",
+    "definition": "Something to uniquely identify (public) identities; pointing to something or someone else.",
+    "anchor": "identifier(identifier)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "identifier system (identifier-system)",
+    "definition": "a system for uniquely identifying (public) identities",
+    "anchor": "identifiersystem(identifiersystem)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "identity (identity)",
+    "definition": "A unique entity. Typically represented by a unique identifier.",
+    "anchor": "identity(identity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "inconsistency (inconsistency)",
+    "definition": "If a reason, idea, opinion, etc. is inconsistent, different parts of it do not agree, or it does not agree with something else. Data inconsistency occurs when similar data is kept in different formats in more than one file. When this happens, it is important to match the data between files.",
+    "anchor": "inconsistency(inconsistency)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "input output (input-output)",
+    "definition": "In computing, input/output (I/O, or informally io or IO) is the communication between an information processing system, such as a computer, and the outside world, possibly a human or another information processing system. Inputs are the signals or data received by the system and outputs are the signals or data sent from it. The term can also be used as part of an action; to perform I/O is to perform an input or output operation.",
+    "anchor": "inputoutput(inputoutput)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "integrity",
+    "definition": "Integrity (of a message or data) means that the information is whole, sound, and unimpaired (not necessarily correct). It means nothing is missing from the information; it is complete and in intended good order.",
+    "anchor": "integrity"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "internal inconsistency (internal-inconsistency)",
+    "definition": "Internal is used to describe things that exist or happen inside an entity. In our scope of digital identifier its (in)consistency is considered within the defining data structures and related data stores.",
+    "anchor": "internalinconsistency(internalinconsistency)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "internet assigned numbers authority (internet-assigned-numbers-authority)",
+    "definition": "is the organization that oversees the allocation of IP addresses to internet service providers (ISPs).",
+    "anchor": "internetassignednumbersauthority(internetassignednumbersauthority)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "interoperability (interoperability)",
+    "definition": "Interoperability is a characteristic of a product or system to work with other products or systems. While the term was initially defined for information technology or systems engineering services to allow for information exchange.",
+    "anchor": "interoperability(interoperability)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "interoperable (interoperable)",
+    "definition": "interoperability",
+    "anchor": "interoperable(interoperable)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "Interplanetary Filesystem (IPFS, interplanetary-file-system)",
+    "definition": "The InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing peer-to-peer network for sharing data using a distributed hash table to store provider information.",
+    "anchor": "InterplanetaryFilesystem(IPFS,interplanetaryfilesystem)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "ip address (ip-address)",
+    "definition": "An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification and location addressing.",
+    "anchor": "ipaddress(ipaddress)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "javascript object notation (javascript-object-notation)",
+    "definition": "JSON (JavaScript Object Notation, pronounced /desn/; also /desn/) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attributevalue pairs and arrays (or other serializable values). It is a common data format with diverse uses in electronic data interchange, including that of web applications with servers.",
+    "anchor": "javascriptobjectnotation(javascriptobjectnotation)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "javascript object signing and encryption (javascript-object-signing-and-encryption)",
+    "definition": "is a framework intended to provide a method to securely transfer claims (such as authorization information) between parties. The JOSE framework provides a collection of specifications to serve this purpose.",
+    "anchor": "javascriptobjectsigningandencryption(javascriptobjectsigningandencryption)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "JOSE (JOSE)",
+    "definition": "javascript-object-signing-and-encryption",
+    "anchor": "JOSE(JOSE)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "JSON (JSON)",
+    "definition": "javascript-object-notation",
+    "anchor": "JSON(JSON)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "JSONPath",
+    "definition": "In computer software, JSONPath is a query language for querying values in JSON.",
+    "anchor": "JSONPath"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "key (key)",
+    "definition": "In our digital scope its a mechanism for granting or restricting access to something. MAY be used to issue and prove, MAY be used to transfer and control over identity and cryptocurrency. More",
+    "anchor": "key(key)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "key compromise (key-compromise)",
+    "definition": "Basically there are three infrastructures that are included in key management systems that must be protected:",
+    "anchor": "keycompromise(keycompromise)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "key management (key-management)",
+    "definition": "Management of cryptographic keys in a crypto-system. This includes dealing with the generation, exchange, storage, use, crypto-shredding (destruction) and replacement of keys (also key-rotation). It includes cryptographic protocol design, key servers, user procedures, and other relevant protocols.",
+    "anchor": "keymanagement(keymanagement)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "key pair (keypair, key-pair)",
+    "definition": "is an ordered pair consisting of a public key and its corresponding private key.",
+    "anchor": "keypair(keypair,keypair)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "key state (key-state)",
+    "definition": "a set of currently authoritative keypairs for an AID and any other information necessary to secure or establish control authority over an AID. This includes current keys, prior next key digests, current thresholds, prior next thresholds, witnesses, witness thresholds, and configurations.",
+    "anchor": "keystate(keystate)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "key store (key-store)",
+    "definition": "The on-device storage of public/private key pairs associated with an AID.",
+    "anchor": "keystore(keystore)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "key stretching (key-stretching)",
+    "definition": "In cryptography, key stretching techniques are used to make a possibly weak key, typically a password or passphrase, more secure against a brute-force attack by increasing the resources (time and possibly space) it takes to test each possible key.",
+    "anchor": "keystretching(keystretching)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "key transparency (key-transparency)",
+    "definition": "provides a lookup service for generic records and a public, tamper-proof audit log of all record changes. While being publicly auditable, individual records are only revealed in response to queries for specific IDs.",
+    "anchor": "keytransparency(keytransparency)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "keypair",
+    "definition": "key-pair",
+    "anchor": "keypair"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "keystore (keystore)",
+    "definition": "A keystore in KERI is the encrypted data store that hold the private keys for a collection of AIDs.",
+    "anchor": "keystore(keystore)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "large language model (large-language-model)",
+    "definition": "A large language model (LLM) is a language model consisting of a neural network with many parameters (typically billions of weights or more), trained on large quantities of unlabeled text using self-supervised learning or semi-supervised learning.",
+    "anchor": "largelanguagemodel(largelanguagemodel)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "lead bytes (lead-bytes)",
+    "definition": "In order to avoid confusion with the use of the term pad character, when pre-padding with bytes that are not replaced later, we use the term lead bytes. So lead-bytes are added pre-conversion.",
+    "anchor": "leadbytes(leadbytes)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "legal entity (legal-entity)",
+    "definition": "Unique parties that are legally or financially responsible for the performance of financial transactions or have the legal right in their jurisdiction to enter independently into legal contracts.",
+    "anchor": "legalentity(legalentity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "LEI (LEI)",
+    "definition": "Legal Entity Identifier",
+    "anchor": "LEI(LEI)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "levels of assurance (levels-of-assurance)",
+    "definition": "Identity and other trust decisions are often not binary. They are judgement calls. Any time that judgement is not a simple Yes/No answer, you have the option for levels of assurance. Also LoA.",
+    "anchor": "levelsofassurance(levelsofassurance)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "liveness (liveness)",
+    "definition": "Liveness refers to a set of properties of concurrent systems, that require a system to make progress despite the fact that its concurrently executing components (processes) may have to take turns in critical sections, parts of the program that cannot be simultaneously run by multiple processes.",
+    "anchor": "liveness(liveness)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "LLM (LLM)",
+    "definition": "large-language-model",
+    "anchor": "LLM(LLM)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "LoA (LoA)",
+    "definition": "levels-of-assurance",
+    "anchor": "LoA(LoA)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "LoC (LoC)",
+    "definition": "loci-of-control",
+    "anchor": "LoC(LoC)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "loci of control (loci-of-control)",
+    "definition": "Locus of control is the degree to which people believe that they, as opposed to external forces (beyond their influence), have control over the outcome of events in their lives. Also LoC.",
+    "anchor": "lociofcontrol(lociofcontrol)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "media type (media-type)",
+    "definition": "A Media type (formerly known as MIME type) is a standard way to indicate the nature and format of a file, in the same way as image/jpeg for JPEG images, used on the internet.",
+    "anchor": "mediatype(mediatype)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "messagepack (messagepack)",
+    "definition": "MessagePack is a computer data interchange format. It is a binary form for representing simple data structures like arrays and associative arrays. MessagePack aims to be as compact and simple as possible. The official implementation is available in a variety of languages",
+    "anchor": "messagepack(messagepack)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "MFA (MFA)",
+    "definition": "multi-factor-authentication",
+    "anchor": "MFA(MFA)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "MIME type (MIME-type)",
+    "definition": "media-type",
+    "anchor": "MIMEtype(MIMEtype)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "multi-factor authentication (multi-factor-authentication)",
+    "definition": "Authentication by combining multiple security factors. Well-known factors are what you know, what you have and what you are.",
+    "anchor": "multifactorauthentication(multifactorauthentication)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "multicodec (multicodec)",
+    "definition": "Is a self-describing multi-format, it wraps other formats with a tiny bit of self-description. A multi-codec identifier is both a variant (variable length integer) and the code identifying data.",
+    "anchor": "multicodec(multicodec)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "multiplexing (multiplexing)",
+    "definition": "In telecommunications and computer networking, multiplexing (sometimes contracted to muxing) is a method by which multiple analog or digital signals are combined into one signal over a shared medium. The aim is to share a scarce resource - a physical transmission medium.",
+    "anchor": "multiplexing(multiplexing)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "multisig (multisig)",
+    "definition": "also multi-signature or multisignature; is a digital signature scheme which allows a group of users to sign a single piece of digital data.",
+    "anchor": "multisig(multisig)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "namespace (namespace)",
+    "definition": "In an identity system, an identifier can be generalized to a namespace to provide a systematic way of organizing identifiers for related resources and their attributes. A namespace is a grouping of symbols or identifiers for a set of related objects.",
+    "anchor": "namespace(namespace)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "NFT (NFT)",
+    "definition": "non-fungible-token",
+    "anchor": "NFT(NFT)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "non normative (non-normative)",
+    "definition": "A theory is called non-normative if it does not do what has described under normative. In general, the purpose of non-normative theories is not to give answers, but rather to describe possibilities or predict what might happen as a result of certain actions.",
+    "anchor": "nonnormative(nonnormative)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "Non-Disclosure Agreement (NDA, non-disclosure-agreement)",
+    "definition": "An agreement that outlines requirements for handling confidential information",
+    "anchor": "NonDisclosureAgreement(NDA,nondisclosureagreement)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "non-fungible token (non-fungible-token)",
+    "definition": "A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger.",
+    "anchor": "nonfungibletoken(nonfungibletoken)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "normative (normative)",
+    "definition": "a theory is normative if it, in some sense, tells you what you should do - what action you should take. If it includes a usable procedure for determining the optimal action in a given scenario.",
+    "anchor": "normative(normative)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "one-way function (one-way-function)",
+    "definition": "In computer science, a one-way function is a function that is easy to compute on every input, but hard to invert given the image of a random input. Here, easy and hard are to be understood in the sense of computational complexity theory, specifically the theory of polynomial time problems.",
+    "anchor": "onewayfunction(onewayfunction)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "owner (owner)",
+    "definition": "Owner in ToIP glossary",
+    "anchor": "owner(owner)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "ownership (ownership)",
+    "definition": "Ownership in ToIP glossary",
+    "anchor": "ownership(ownership)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "P2P (P2P)",
+    "definition": "peer-to-peer",
+    "anchor": "P2P(P2P)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "pad (pad)",
+    "definition": "is a character used to fill empty space, because many applications have fields that must be a particular length.",
+    "anchor": "pad(pad)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "passcode (passcode)",
+    "definition": "A password, sometimes called a passcode (for example in Apple devices), is secret data, typically a string of characters, usually used to confirm a users identity.",
+    "anchor": "passcode(passcode)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "payload (payload)",
+    "definition": "The term payload is used to distinguish between the interesting information in a chunk of data or similar and the overhead to support it. The payload refers to the interesting part.",
+    "anchor": "payload(payload)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "pdf-document (pdf)",
+    "definition": "A document in the standard portable document format pdf-format",
+    "anchor": "pdfdocument(pdf)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "peer to peer (peer-to-peer)",
+    "definition": "Peer-to-peer (P2P) computing or networking is a distributed application architecture that partitions tasks or workloads between peers. Peers are equally privileged, equipotent participants in the network. They are said to form a peer-to-peer network of nodes",
+    "anchor": "peertopeer(peertopeer)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "perfect security (perfect-security)",
+    "definition": "a special case of Information theoretic security itps.",
+    "anchor": "perfectsecurity(perfectsecurity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "persistent data structure (persistent-data-structure)",
+    "definition": "An append only verifiable data structure. What we sign may not change.",
+    "anchor": "persistentdatastructure(persistentdatastructure)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "PGP (PGP)",
+    "definition": "pretty-good-privacy",
+    "anchor": "PGP(PGP)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "pipelining (pipelining)",
+    "definition": "In computing, a pipeline, also known as a data pipeline, is a set of data processing elements connected in series, where the output of one element is the input of the next one. The elements of a pipeline are often executed in parallel or in time-sliced fashion. Some amount of buffer storage is often inserted between elements.",
+    "anchor": "pipelining(pipelining)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "PKI (PKI)",
+    "definition": "public-key-infrastructure",
+    "anchor": "PKI(PKI)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "post pad (post-pad)",
+    "definition": "the action and / or result of extending a string with trailing pad characters to align to a certain length in bits or bytes.",
+    "anchor": "postpad(postpad)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "post quantum (post-quantum)",
+    "definition": "In cryptography, post-quantum cryptography (PQC) (sometimes referred to as quantum-proof, quantum-safe or quantum-resistant) refers to cryptographic algorithms (usually public-key algorithms) that are thought to be secure against a cryptanalytic attack by a quantum computer.",
+    "anchor": "postquantum(postquantum)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "pre pad (pre-pad)",
+    "definition": "the action and / or result of prepending a string with leading pad characters to align to a certain length in bits or bytes.",
+    "anchor": "prepad(prepad)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "pretty good privacy (pretty-good-privacy)",
+    "definition": "Is an encryption program that provides cryptographic privacy and authentication for data communication. PGP is used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. Phil Zimmermann developed PGP in 1991.",
+    "anchor": "prettygoodprivacy(prettygoodprivacy)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "primitive (primitive)",
+    "definition": "a serialization of a unitary value. All Primitives in KERI must be expressed in composable-event-streaming-representation.",
+    "anchor": "primitive(primitive)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "privacy (privacy)",
+    "definition": "Privacy is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively.",
+    "anchor": "privacy(privacy)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "PRNG (PRNG)",
+    "definition": "means Pseudorandom Number Generator which means that a sequence of numbers (bits, bytes) is produced from an algorithm which looks random, but is in fact deterministic (the sequence is generated from some unknown internal state), hence pseudorandom.",
+    "anchor": "PRNG(PRNG)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "proof of authority (proof-of-authority)",
+    "definition": "Proof that somebody or something has certain rights or permissions. Its about data. Whereas proof-of-authorship is about data and its original creator.",
+    "anchor": "proofofauthority(proofofauthority)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "protocol (protocol)",
+    "definition": "Generic term to describe a code of correct conduct. Also called etiquette: a code of personal behavior.",
+    "anchor": "protocol(protocol)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "provenance (provenance)",
+    "definition": "From Wikipedia (Source):",
+    "anchor": "provenance(provenance)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "pseudo-random number (pseudo-random-number)",
+    "definition": "A (set of) value(s) or element(s) that is statistically random, but it is derived from a known starting point and is typically repeated over and over.",
+    "anchor": "pseudorandomnumber(pseudorandomnumber)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "public key infrastructure (public-key-infrastructure)",
+    "definition": "Is a set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke digital certificates and manage public-key encryption.",
+    "anchor": "publickeyinfrastructure(publickeyinfrastructure)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "race condition (race-condition)",
+    "definition": "A race condition or race hazard is the condition of an electronics, software, or other system where the systems substantive behavior is dependent on the sequence or timing of other uncontrollable events. It becomes a bug when one or more of the possible behaviors is undesirable.",
+    "anchor": "racecondition(racecondition)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "rainbow table attack (rainbow-table-attack)",
+    "definition": "A rainbow table attack is a password-cracking method that uses a special table (a rainbow table) to crack the password hashes in a database.",
+    "anchor": "rainbowtableattack(rainbowtableattack)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "registry (registry)",
+    "definition": "In our digital mental model its an official digital record book. When people refer to a registry, they usually mean a specific instance, within a multi-tenant registry. E.g. Docker Hub is a multi-tenant registry, where theres a set of official / public images.",
+    "anchor": "registry(registry)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "replay attack (replay-attack)",
+    "definition": "A replay attack occurs when a cybercriminal eavesdrops on a secure network communication, intercepts it, and then fraudulently delays or resends it to misdirect the receiver into doing what the hacker wants.",
+    "anchor": "replayattack(replayattack)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "repo (repo)",
+    "definition": "Software is our line of work. In this, repo is the short hand for Repository, mostly referring to a software repo(sitory) on Github.com, Gitlab (https://gitlab.com) or other software repository hosting services.",
+    "anchor": "repo(repo)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "revocation (revocation)",
+    "definition": "Revocation is the act of recall or annulment. It is the cancelling of an act, the recalling of a grant or privilege, or the making void of some deed previously existing.",
+    "anchor": "revocation(revocation)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "ricardian contract (ricardian-contract)",
+    "definition": "The Ricardian contract, as invented by Ian Grigg in 1996, is a method of recording a document as a contract at law, and linking it securely to other systems, such as accounting, for the contract as an issuance of value.",
+    "anchor": "ricardiancontract(ricardiancontract)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "root of trust (root-of-trust)",
+    "definition": "A root-of-trust is some component of a system that is security by design and its security characteristics may be inherently trusted or relied upon by other components of the system.",
+    "anchor": "rootoftrust(rootoftrust)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "salt (salt)",
+    "definition": "random data fed as an additional input to a one-way function that hashes data.",
+    "anchor": "salt(salt)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "schema namespace registry (schema-namespace-registry)",
+    "definition": "a centrally managed schema-registry where corporations or individuals reserve schemas within a specific namespace in order to have an interoperable schema that is labeled with a corporation-specific or individual-specific namespace.",
+    "anchor": "schemanamespaceregistry(schemanamespaceregistry)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "schema registry (schema-registry)",
+    "definition": "Central registry for credential schemas based on namespaces.",
+    "anchor": "schemaregistry(schemaregistry)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "seal",
+    "definition": "a seal is a cryptographic commitment in the form of a cryptographic digest or hash tree root (Merkle root) that anchors arbitrary data or a tree of hashes of arbitrary data to a particular event in the key event sequence.",
+    "anchor": "seal"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "security overlay properties trillema (security-overlay-properties-trillema)",
+    "definition": "An identifier system has some degree of any combination of the three properties authenticity, privacy and confidentiality, but not all three completely.",
+    "anchor": "securityoverlaypropertiestrillema(securityoverlaypropertiestrillema)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "seed (seed)",
+    "definition": "In cryptography a seed is a pseudorandomly generated number, often expressed in representation of a series of words.",
+    "anchor": "seed(seed)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "self sovereignty (self-sovereignty)",
+    "definition": "Self sovereignty in Trust over IP wiki.",
+    "anchor": "selfsovereignty(selfsovereignty)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "semver (semver)",
+    "definition": "Semantic Versioning Specification 2.0. See also (https://semver.org/)[https://semver.org/].",
+    "anchor": "semver(semver)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "service endpoint (service-endpoint)",
+    "definition": "In our context we consider a web service endpoint which is a uniform-resource-locator at which clients of specific service can get access to the service.",
+    "anchor": "serviceendpoint(serviceendpoint)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "Service Level Agreement (SLA, service-level-agreement)",
+    "definition": "A document that contains detailed descriptions of the services to be provided by service parties and the service level requirements expected for these services.",
+    "anchor": "ServiceLevelAgreement(SLA,servicelevelagreement)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "side-channel attack (side-channel-attack)",
+    "definition": "any attack that extracts secrets by observing indirect information leaked by a system  things like how long it takes to do an operation, how much power it uses, emitted radio/EM noise, cache behavior, or even tiny sounds  rather than breaking the cryptography or protocol directly.",
+    "anchor": "sidechannelattack(sidechannelattack)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "signed digest (signed-digest)",
+    "definition": "commitment to content, by digitally signing a digest of this content.",
+    "anchor": "signeddigest(signeddigest)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "signing threshold (signing-threshold)",
+    "definition": "Is the minimum number of valid signatures to satisfy the requirement for successful verification in a threshold-signature-scheme.",
+    "anchor": "signingthreshold(signingthreshold)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "source of truth (source-of-truth)",
+    "definition": "The source of truth is a trusted data source that gives a complete picture of the data object as a whole.",
+    "anchor": "sourceoftruth(sourceoftruth)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "spanning layer (spanning-layer)",
+    "definition": "An all encompassing layer horizontal layer in a software architecture. Each trust layer only spans platform specific applications. It bifurcates the internet trust map into domain silos (e.g. twitter.com), because there is no spanning trust layer.",
+    "anchor": "spanninglayer(spanninglayer)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "SSL",
+    "definition": "See: Secure Sockets Layer.",
+    "anchor": "SSL"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "SSL (Secure Sockets Layer)",
+    "definition": "The original transport layer security protocol developed by Netscape and partners. Now deprecated in favor of Transport Layer Security (TLS).",
+    "anchor": "SSL(SecureSocketsLayer)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "sub shell (sub-shell)",
+    "definition": "A subshell is basically a new shell just to run a desired program. A subshell can access the global variables set by the parent shell but not the local variables. Any changes made by a subshell to a global variable is not passed to the parent shell.",
+    "anchor": "subshell(subshell)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "supermajority (supermajority)",
+    "definition": "Sufficient majority that is labeled immune from certain kinds of attacks or faults.",
+    "anchor": "supermajority(supermajority)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "TCP",
+    "definition": "transmission-control-protocol",
+    "anchor": "TCP"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "TCP (Transmission Control Protocol)",
+    "definition": "The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP). Therefore, the entire suite is commonly referred to as TCP/IP. TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network. Major internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP, which is part of the Transport Layer of the TCP/IP suite. SSL/TLS often runs on top of TCP.",
+    "anchor": "TCP(TransmissionControlProtocol)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "tcp endpoint (tcp-endpoint)",
+    "definition": "This is a service-endpoint of the web transmission-control-protocol",
+    "anchor": "tcpendpoint(tcpendpoint)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "TEE (TEE)",
+    "definition": "trusted-execution-environment",
+    "anchor": "TEE(TEE)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "threshold structure security (threshold-structure-security)",
+    "definition": "A threshold structure for security allows for weaker key management or execution environment infrastructure individually, but achieve greater overall security by multiplying the number of attack surfaces that an attacker must overcome to compromise a system.",
+    "anchor": "thresholdstructuresecurity(thresholdstructuresecurity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "TPM (TPM)",
+    "definition": "trusted-platform-module",
+    "anchor": "TPM(TPM)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "trans-contextual value (trans-contextual-value)",
+    "definition": "Value that is transferrable between contexts. How do we recapture the value in our data? 1- Leverage cooperative network effects 2- Retake control of our data.",
+    "anchor": "transcontextualvalue(transcontextualvalue)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "Tritet (tritet)",
+    "definition": "3 bits. See Performant resynchronization with unique start bits.",
+    "anchor": "Tritet(tritet)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "trusted execution environment (trusted-execution-environment)",
+    "definition": "Protected hardware/software/firmware security system. The controller may protect its key generation, key storage, and event signing infrastructure by running it inside a trusted execution environment (TEE).",
+    "anchor": "trustedexecutionenvironment(trustedexecutionenvironment)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "trusted platform module (trusted-platform-module)",
+    "definition": "A device that enhances the security and privacy (of identity systems) by providing hardware-based cryptographic functions.",
+    "anchor": "trustedplatformmodule(trustedplatformmodule)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "ts node (ts-node)",
+    "definition": "npm package that lets you run typescript from a shell",
+    "anchor": "tsnode(tsnode)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "UI (UI)",
+    "definition": "user-interface",
+    "anchor": "UI(UI)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "uniform resource locator (uniform-resource-locator)",
+    "definition": "A Uniform Resource Locator (URL), colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it.",
+    "anchor": "uniformresourcelocator(uniformresourcelocator)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "URL (URL)",
+    "definition": "uniform-resource-locator",
+    "anchor": "URL(URL)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "user interface (user-interface)",
+    "definition": "A user interface (UI or U/I) is the space where interactions between humans and machines occur.",
+    "anchor": "userinterface(userinterface)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "validate (validate)",
+    "definition": "ESSIF-lab definition of validate. Although this definition is very general, in the KERI/ACDC vocabulary, validate currently has extra diverse meanings extending the one of eSSIF-lab, such as",
+    "anchor": "validate(validate)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "validators (validator)",
+    "definition": "any entity or agent that evaluates whether or not a given signed statement as attributed to an identifier is valid at the time of its issuance.",
+    "anchor": "validators(validator)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "variable length (variable-length)",
+    "definition": "a type of count code allowing for vaiable size signatures or attachments which can be parsed to get the full size.",
+    "anchor": "variablelength(variablelength)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "VC (VC)",
+    "definition": "verifiable-credential",
+    "anchor": "VC(VC)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "VDS (VDS)",
+    "definition": "verifiable-data-structure",
+    "anchor": "VDS(VDS)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "veracity (veracity)",
+    "definition": "The quality of being true; contrast authenticity. When a newspaper publishes a story about an event, every faithful reproduction of that story may be authentic  but that does not mean the story was true (has veracity).",
+    "anchor": "veracity(veracity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "verifiable data registry (verifiable-data-registry)",
+    "definition": "A role a system might perform by mediating issuance and verification of ACDCs. See verifiable data registry.",
+    "anchor": "verifiabledataregistry(verifiabledataregistry)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "verifiable data structure (verifiable-data-structure)",
+    "definition": "A verifiable data structure is a data structure that incorporates cryptographic techniques to ensure the integrity and authenticity of its contents. It allows users to verify the correctness of the data stored within the structure without relying on a trusted third party.",
+    "anchor": "verifiabledatastructure(verifiabledatastructure)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "verified integrity (verified-integrity)",
+    "definition": "A mechanism that can unambiguously assess whether the information is/continues to be whole, sound and unimpaired",
+    "anchor": "verifiedintegrity(verifiedintegrity)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "verifier (verifier)",
+    "definition": "any entity or agent that cryptographically verifies the signature(s) and digests on an event Message.",
+    "anchor": "verifier(verifier)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "verify signature (verify-signature)",
+    "definition": "Applying an algorithm that, given the message, public key and signature, either accepts or rejects the messages claim to authenticity.",
+    "anchor": "verifysignature(verifysignature)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "wallet (wallet)",
+    "definition": "A crypto wallet is a device, physical medium, program or a service which stores the public and/or private keys for cryptocurrency transactions and digital identifiers.",
+    "anchor": "wallet(wallet)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "web of trust (web-of-trust)",
+    "definition": "In cryptography, a web of trust is a concept used in PGP, gnu-privacy-guard, and other OpenPGP-compatible systems to establish the authenticity of the binding between a public key and its owner.",
+    "anchor": "weboftrust(weboftrust)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "XBRL (XBRL)",
+    "definition": "extensible-business-reporting-language",
+    "anchor": "XBRL(XBRL)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "zero trust (zero-trust)",
+    "definition": "a Zero Trust approach trusts no one.",
+    "anchor": "zerotrust(zerotrust)"
+  },
+  {
+    "organisation": "ToIP General Glossary",
+    "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
+    "term": "zero-trust computing (zero-trust-computing)",
+    "definition": "A security model centered on the principle of never trust, always verify. It assumes that threats can exist inside and outside the network, and thus, no entity  a device, user, or system  is inherently trusted. This approach requires continuous verification of all users and devices attempting to access network resources.",
+    "anchor": "zerotrustcomputing(zerotrustcomputing)"
+  }
+]
