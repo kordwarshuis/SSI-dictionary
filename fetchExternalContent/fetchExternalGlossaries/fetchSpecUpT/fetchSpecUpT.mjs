@@ -17,22 +17,22 @@ dotenv.config();
 const SPEC_UP_T_SOURCES = [
     {
         url: 'https://trustoverip.github.io/kswg-keri-specification/index.html',
-        organisation: 'KSWG (KERI)',
+        organisation: 'KERI',
         jsonFileName: 'terms-definitions-kswg-keri.json',
     },
     {
         url: 'https://trustoverip.github.io/kswg-acdc-specification/index.html',
-        organisation: 'KSWG (ACDC)',
+        organisation: 'ACDC',
         jsonFileName: 'terms-definitions-kswg-acdc.json',
     },
     {
         url: 'https://trustoverip.github.io/kswg-cesr-specification/index.html',
-        organisation: 'KSWG (CESR)',
+        organisation: 'CESR',
         jsonFileName: 'terms-definitions-kswg-cesr.json',
     },
     {
         url: 'https://glossary.trustoverip.org',
-        organisation: 'ToIP Glossary',
+        organisation: 'ToIP',
         jsonFileName: 'terms-definitions-toip-glossary.json',
     },
     {
@@ -42,12 +42,12 @@ const SPEC_UP_T_SOURCES = [
     },
     {
         url: 'https://trustoverip.github.io/ctwg-general-glossary/index.html',
-        organisation: 'ToIP General Glossary',
+        organisation: 'ToIP General',
         jsonFileName: 'terms-definitions-general-glossary.json',
     },
     {
         url: 'https://henkvancann.github.io/vlei-glossary/index.html',
-        organisation: 'VLEI Glossary',
+        organisation: 'vLEI',
         jsonFileName: 'terms-definitions-vlei-glossary.json',
     },
 ];
