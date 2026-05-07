@@ -38,15 +38,16 @@ jobs:
       - name: Fetch glossaries
         run: bash fetchExternalContent/fetchExternalGlossaries/main.sh
 
-      # ── 5. Commit the generated file back to the repo ─────────────────────
-      - name: Commit and push dictionary.json
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/glossaries/ public/data/dictionary.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "chore(data): update glossaries [skip ci]"
-            git push
-          fi
+      # ── 5. Generate static site ────────────────────────────────────────────
+      - name: Generate static site
+        run: npm run generate
+
+      # ── 6. Deploy to GitHub Pages ─────────────────────────────────────────
+      #    Data never touches the main branch – it is built and shipped
+      #    directly to gh-pages in this ephemeral runner.
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./.output/public

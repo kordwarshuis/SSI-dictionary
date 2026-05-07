@@ -4,10 +4,8 @@ node_modules/
 dist/
 public/
 
-# Generated data – committed by the GitHub Action, not manually
-# (Remove the next two lines if you want to version-control the data locally)
-# public/data/glossaries/
-# public/data/dictionary.json
+# public/data/ is generated at CI runtime and deployed directly to gh-pages.
+# It is never committed to main.
 
 # Local env overrides – never commit the real file
 .env
