@@ -45,6 +45,11 @@ const SPEC_UP_T_SOURCES = [
         organisation: 'ToIP General Glossary',
         jsonFileName: 'terms-definitions-general-glossary.json',
     },
+    {
+        url: 'https://henkvancann.github.io/vlei-glossary/index.html',
+        organisation: 'VLEI Glossary',
+        jsonFileName: 'terms-definitions-vlei-glossary.json',
+    },
 ];
 // ── End config ────────────────────────────────────────────────────────────────
 
