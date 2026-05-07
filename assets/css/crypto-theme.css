@@ -108,6 +108,11 @@ pre {
     color: var(--clr-text-dim) !important;
 }
 
+.definition-placeholder {
+    color: var(--clr-text-dim) !important;
+    font-style: italic;
+}
+
 /* ── Hero / Page Header ─────────────────────────────────────────────────── */
 
 .ssi-hero {
