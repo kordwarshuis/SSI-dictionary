@@ -34,8 +34,29 @@ function normalise(str) {
 // ── State ──────────────────────────────────────────────────────────────────
 
 const searchTerm = ref('')
-const organisations = ref([])
-const checkedOrganisations = ref({});
+
+// Derived from props so it is available during SSR and on first render,
+// eliminating the flash of "sources: 0 / all terms hidden" that occurred
+// when these were initialised only inside onMounted.
+const organisations = computed(() => {
+  const seen = new Set()
+  props.termsData.forEach((term) =>
+    term.definitions.forEach((def) => seen.add(def.organisation))
+  )
+  return Array.from(seen).sort()
+})
+
+// Stores per-org overrides; entries default to true (visible).
+const orgOverrides = ref({})
+
+const checkedOrganisations = computed(() => {
+  const result = {}
+  organisations.value.forEach((org) => {
+    result[org] = org in orgOverrides.value ? orgOverrides.value[org] : true
+  })
+  return result
+})
+
 const organisationLinks = computed(() => {
   const links = {}
   props.termsData.forEach((term) =>
@@ -49,24 +70,6 @@ const organisationLinks = computed(() => {
 })
 const animateCards = ref(false)
 
-// ── Lifecycle ──────────────────────────────────────────────────────────────
-
-onMounted(() => {
-  const seen = new Set()
-  props.termsData.forEach((term) =>
-    term.definitions.forEach((def) => seen.add(def.organisation))
-  )
-
-  const orgArray = Array.from(seen).sort()
-  organisations.value = orgArray
-
-  const initial = {}
-  orgArray.forEach((org) => {
-    initial[org] = true
-  })
-  checkedOrganisations.value = initial
-})
-
 // ── Checkbox helpers ───────────────────────────────────────────────────────
 
 function triggerAnimation() {
@@ -78,8 +81,8 @@ function triggerAnimation() {
 
 function handleCheckboxChange(org) {
   triggerAnimation()
-  checkedOrganisations.value = {
-    ...checkedOrganisations.value,
+  orgOverrides.value = {
+    ...orgOverrides.value,
     [org]: !checkedOrganisations.value[org]
   }
 }
@@ -89,23 +92,19 @@ function toggleAllCheckboxes() {
   organisations.value.forEach((org) => {
     next[org] = !checkedOrganisations.value[org]
   })
-  checkedOrganisations.value = next
+  orgOverrides.value = next
 }
 
 function turnAllOn() {
   const next = {}
-  organisations.value.forEach((org) => {
-    next[org] = true
-  })
-  checkedOrganisations.value = next
+  organisations.value.forEach((org) => { next[org] = true })
+  orgOverrides.value = next
 }
 
 function turnAllOff() {
   const next = {}
-  organisations.value.forEach((org) => {
-    next[org] = false
-  })
-  checkedOrganisations.value = next
+  organisations.value.forEach((org) => { next[org] = false })
+  orgOverrides.value = next
 }
 
 // ── Visibility filter ──────────────────────────────────────────────────────
