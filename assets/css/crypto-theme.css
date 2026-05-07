@@ -1,0 +1,499 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   SSI Dictionary — Crypto / Decentralized-Trust Theme
+   Aesthetic: dark terminal, neon green, glowing nodes, monospace everything
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Share+Tech+Mono&display=swap');
+
+/* ── Custom Properties ──────────────────────────────────────────────────── */
+
+:root {
+    --clr-bg: #060d06;
+    --clr-surface: #0b160b;
+    --clr-card: #0e1a0e;
+    --clr-card-hover: #121f12;
+    --clr-border: #1a3320;
+    --clr-border-glow: #00ff4155;
+
+    --clr-green: #00ff41;
+    --clr-green-dim: #00b82e;
+    --clr-green-muted: #2d6b3a;
+    --clr-cyan: #00e5ff;
+    --clr-cyan-dim: #0099cc;
+    --clr-purple: #b06aff;
+    --clr-amber: #f5a623;
+
+    --clr-text: #b8ffb8;
+    --clr-text-dim: #6aab6a;
+    --clr-text-muted: #3d6b3d;
+
+    --font-mono: 'Space Mono', 'Share Tech Mono', 'Courier New', monospace;
+
+    --glow-green: 0 0 8px #00ff4166, 0 0 20px #00ff4133;
+    --glow-cyan: 0 0 8px #00e5ff66, 0 0 20px #00e5ff33;
+    --glow-card: 0 0 0 1px var(--clr-border), 0 0 20px #00ff411a;
+}
+
+/* ── Global Reset / Base ────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--clr-bg) !important;
+    color: var(--clr-text) !important;
+    font-family: var(--font-mono) !important;
+    /* Scanline overlay */
+    background-image:
+        repeating-linear-gradient(0deg,
+            transparent,
+            transparent 2px,
+            rgba(0, 255, 65, 0.015) 2px,
+            rgba(0, 255, 65, 0.015) 4px) !important;
+}
+
+/* ── Scrollbar ──────────────────────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--clr-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--clr-green-muted);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-green-dim);
+}
+
+/* ── Typography ─────────────────────────────────────────────────────────── */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-mono) !important;
+    color: var(--clr-green) !important;
+}
+
+a {
+    color: var(--clr-cyan) !important;
+}
+
+a:hover {
+    color: var(--clr-green) !important;
+    text-shadow: var(--glow-green);
+}
+
+code,
+pre {
+    font-family: var(--font-mono) !important;
+    color: var(--clr-amber) !important;
+    background: #0a1a0a !important;
+}
+
+.text-muted,
+.text-secondary {
+    color: var(--clr-text-dim) !important;
+}
+
+/* ── Hero / Page Header ─────────────────────────────────────────────────── */
+
+.ssi-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 3.5rem 1rem 2.5rem;
+    text-align: center;
+    border-bottom: 1px solid var(--clr-border);
+    background:
+        radial-gradient(ellipse 80% 60% at 50% -20%, #00ff411a 0%, transparent 70%),
+        var(--clr-surface);
+}
+
+/* Animated hex-grid background */
+.ssi-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(circle, var(--clr-green-muted) 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.18;
+    animation: grid-drift 20s linear infinite;
+}
+
+@keyframes grid-drift {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 28px 28px;
+    }
+}
+
+.ssi-hero__title {
+    position: relative;
+    font-size: clamp(2rem, 5vw, 3.5rem) !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em;
+    color: var(--clr-green) !important;
+    text-shadow: var(--glow-green), 0 0 60px #00ff4155;
+    margin-bottom: 0.75rem;
+}
+
+.ssi-hero__subtitle {
+    position: relative;
+    color: var(--clr-text-dim) !important;
+    font-size: 0.95rem;
+    max-width: 560px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.ssi-hero__badge-row {
+    position: relative;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.ssi-hero__badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.65rem;
+    border: 1px solid var(--clr-green-muted);
+    color: var(--clr-green-dim) !important;
+    border-radius: 2px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: #00ff410d;
+}
+
+/* Blinking cursor after title */
+.ssi-hero__title::after {
+    content: '_';
+    animation: blink 1.1s step-end infinite;
+    color: var(--clr-cyan);
+    margin-left: 2px;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* ── Container ──────────────────────────────────────────────────────────── */
+
+.container {
+    background: transparent !important;
+}
+
+/* ── Search Input ───────────────────────────────────────────────────────── */
+
+.input-group-text {
+    background: var(--clr-surface) !important;
+    border: 1px solid var(--clr-border) !important;
+    border-right: none !important;
+    color: var(--clr-green) !important;
+}
+
+.form-control {
+    background: var(--clr-surface) !important;
+    border: 1px solid var(--clr-border) !important;
+    border-left: none !important;
+    color: var(--clr-text) !important;
+    font-family: var(--font-mono) !important;
+    caret-color: var(--clr-green);
+}
+
+.form-control::placeholder {
+    color: var(--clr-text-muted) !important;
+}
+
+.form-control:focus {
+    box-shadow: var(--glow-green) !important;
+    border-color: var(--clr-green-dim) !important;
+    background: var(--clr-card) !important;
+    outline: none;
+}
+
+/* Search group: left border highlight on focus-within */
+.input-group:focus-within .input-group-text {
+    border-color: var(--clr-green-dim) !important;
+    color: var(--clr-cyan) !important;
+}
+
+/* ── Buttons ────────────────────────────────────────────────────────────── */
+
+.btn-outline-secondary {
+    color: var(--clr-green-dim) !important;
+    border-color: var(--clr-green-muted) !important;
+    font-family: var(--font-mono) !important;
+    font-size: 0.75rem !important;
+    letter-spacing: 0.05em;
+    background: transparent !important;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+    background: #00ff410f !important;
+    border-color: var(--clr-green) !important;
+    color: var(--clr-green) !important;
+    box-shadow: var(--glow-green) !important;
+}
+
+/* ── Source Links ───────────────────────────────────────────────────────── */
+
+.source-links {
+    font-size: 0.78rem;
+    color: var(--clr-text-muted) !important;
+    letter-spacing: 0.03em;
+}
+
+.source-links strong {
+    color: var(--clr-text-dim) !important;
+}
+
+/* ── Checkboxes ─────────────────────────────────────────────────────────── */
+
+.form-check-input {
+    background-color: var(--clr-surface) !important;
+    border-color: var(--clr-green-muted) !important;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: var(--clr-green-dim) !important;
+    border-color: var(--clr-green) !important;
+    box-shadow: 0 0 6px var(--clr-green) !important;
+}
+
+.form-check-label {
+    color: var(--clr-text-dim) !important;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.form-check-label:hover {
+    color: var(--clr-green) !important;
+}
+
+/* ── Divider ────────────────────────────────────────────────────────────── */
+
+hr {
+    border: none !important;
+    height: 1px !important;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            var(--clr-green-muted) 20%,
+            var(--clr-green) 50%,
+            var(--clr-green-muted) 80%,
+            transparent 100%) !important;
+    opacity: 0.5 !important;
+    margin: 1.25rem 0 !important;
+}
+
+/* ── Term Headings ──────────────────────────────────────────────────────── */
+
+.term-heading {
+    color: var(--clr-green) !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid var(--clr-border) !important;
+    padding-bottom: 0.4rem !important;
+}
+
+.term-heading a {
+    color: var(--clr-green) !important;
+    text-decoration: none !important;
+}
+
+.term-heading a:hover {
+    color: var(--clr-cyan) !important;
+    text-shadow: var(--glow-cyan);
+}
+
+/* Hash prefix before term name */
+.term-heading::before {
+    content: '# ';
+    color: var(--clr-green-muted) !important;
+    font-size: 0.85em;
+}
+
+/* ── Cards ──────────────────────────────────────────────────────────────── */
+
+.card {
+    background: var(--clr-card) !important;
+    border: 1px solid var(--clr-border) !important;
+    border-radius: 4px !important;
+    box-shadow: var(--glow-card) !important;
+    transition: box-shadow 0.3s, border-color 0.3s, transform 0.2s;
+}
+
+.card:hover {
+    border-color: var(--clr-green-muted) !important;
+    box-shadow: 0 0 0 1px var(--clr-green-muted), 0 0 28px #00ff4125 !important;
+    transform: translateY(-1px);
+    background: var(--clr-card-hover) !important;
+}
+
+.card-header {
+    background: #0a140a !important;
+    border-bottom: 1px solid var(--clr-border) !important;
+    padding: 0.45rem 0.85rem !important;
+}
+
+.card-body {
+    font-size: 0.9rem;
+    line-height: 1.75;
+    color: var(--clr-text) !important;
+}
+
+.card-body * {
+    color: var(--clr-text) !important;
+}
+
+.card-body a {
+    color: var(--clr-cyan) !important;
+}
+
+.card-body a:hover {
+    color: var(--clr-green) !important;
+}
+
+.card-footer {
+    background: #0a140a !important;
+    border-top: 1px solid var(--clr-border) !important;
+    font-size: 0.78rem;
+    padding: 0.45rem 0.85rem !important;
+}
+
+.card-footer a {
+    color: var(--clr-green-dim) !important;
+    text-decoration: none !important;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+}
+
+.card-footer a::after {
+    content: ' ↗';
+}
+
+.card-footer a:hover {
+    color: var(--clr-cyan) !important;
+    text-shadow: var(--glow-cyan);
+}
+
+/* ── Badge (organisation label) ─────────────────────────────────────────── */
+
+.badge.bg-secondary {
+    background: #0a200a !important;
+    color: var(--clr-green-dim) !important;
+    border: 1px solid var(--clr-green-muted) !important;
+    font-family: var(--font-mono) !important;
+    font-size: 0.7rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 2px !important;
+    box-shadow: 0 0 6px #00ff4133;
+    padding: 0.25em 0.6em !important;
+}
+
+/* ── Card pulse animation ───────────────────────────────────────────────── */
+
+@keyframes outline-pulse {
+    0% {
+        box-shadow: var(--glow-card);
+    }
+
+    50% {
+        box-shadow: 0 0 0 2px var(--clr-green), 0 0 32px #00ff4155;
+    }
+
+    100% {
+        box-shadow: var(--glow-card);
+    }
+}
+
+.animate-outline {
+    animation: outline-pulse 1s ease-in-out !important;
+}
+
+/* ── Loading spinner ────────────────────────────────────────────────────── */
+
+.spinner-border {
+    color: var(--clr-green) !important;
+    box-shadow: var(--glow-green) !important;
+}
+
+/* ── Alert (error state) ────────────────────────────────────────────────── */
+
+.alert-danger {
+    background: #1a0505 !important;
+    border-color: #7f1d1d !important;
+    color: #fca5a5 !important;
+    font-size: 0.85rem;
+}
+
+/* ── Misc Bootstrap overrides ───────────────────────────────────────────── */
+
+.display-5 {
+    font-family: var(--font-mono) !important;
+}
+
+.lead {
+    font-family: var(--font-mono) !important;
+}
+
+/* Make the main page wrapper dark */
+.container.py-5 {
+    background: transparent !important;
+}
+
+/* ── Node-count stat badge ──────────────────────────────────────────────── */
+
+.stat-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--clr-text-muted);
+    border: 1px solid var(--clr-border);
+    padding: 0.2rem 0.6rem;
+    border-radius: 2px;
+    background: #00ff410a;
+}
+
+.stat-pill span {
+    color: var(--clr-green);
+    font-weight: 700;
+}

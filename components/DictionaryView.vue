@@ -150,9 +150,10 @@ function safeHtml(html) {
 </script>
 
 <template>
-  <div class="glossaries-combined container px-3">
+  <div class="glossaries-combined">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+
         <!-- Search bar -->
         <div class="input-group mb-3">
           <span class="input-group-text" id="search-addon">
@@ -162,107 +163,97 @@ function safeHtml(html) {
                 d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
             </svg>
           </span>
-      <input v-model="searchTerm" type="text" class="form-control" placeholder="Search terms…" aria-label="Search terms"
-        aria-describedby="search-addon" />
-    </div>
+          <input v-model="searchTerm" type="text" class="form-control" placeholder="grep terms…"
+            aria-label="Search terms" aria-describedby="search-addon" />
+        </div>
 
-    <!-- Glossary source links -->
-    <div class="mb-3 small">
-      <strong>Source links:</strong>
-      <span v-for="(url, org) in organisationLinks" :key="org" class="me-3">
-        <a v-if="organisations.includes(org)" :href="url" target="_blank" rel="noopener noreferrer"
-          class="text-decoration-none">
-          {{ org }} ↗
-        </a>
-      </span>
-    </div>
+        <!-- Stats row -->
+        <div class="d-flex gap-3 mb-3 flex-wrap align-items-center">
+          <span class="stat-pill">
+            nodes&nbsp;<span>{{ termsData.length }}</span>
+          </span>
+          <span class="stat-pill">
+            sources&nbsp;<span>{{ organisations.length }}</span>
+          </span>
+        </div>
 
-    <!-- Glossary toggle buttons -->
-    <div class="mt-4 mb-0 d-flex gap-2 flex-wrap">
-      <button type="button" class="btn btn-sm btn-outline-secondary" @click="toggleAllCheckboxes">
-        Toggle Glossaries
-      </button>
-      <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOn">
-        All on
-      </button>
-      <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOff">
-        All off
-      </button>
-    </div>
+        <!-- Glossary source links -->
+        <!-- <div class="mb-3 source-links small">
+          <strong>// sources:</strong>
+          <span v-for="(url, org) in organisationLinks" :key="org" class="me-3">
+            <a v-if="organisations.includes(org)" :href="url" target="_blank" rel="noopener noreferrer"
+              class="text-decoration-none">
+              {{ org }} ↗
+            </a>
+          </span>
+        </div> -->
 
-    <hr />
+        <!-- Glossary toggle buttons -->
+        <div class="mt-3 mb-0 d-flex gap-2 flex-wrap">
+          <button type="button" class="btn btn-sm btn-outline-secondary" @click="toggleAllCheckboxes">
+            toggle
+          </button>
+          <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOn">
+            all on
+          </button>
+          <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOff">
+            all off
+          </button>
+        </div>
 
-    <!-- Organisation checkboxes -->
-    <div class="d-flex flex-wrap gap-2 mb-2">
-      <div v-for="org in organisations" :key="org" class="form-check form-check-inline">
-        <input :id="`checkbox-${org}`" class="form-check-input" type="checkbox" :checked="checkedOrganisations[org]"
-          @change="handleCheckboxChange(org)" />
-        <label class="form-check-label" :for="`checkbox-${org}`">
-          <span>{{ org }}</span>
-          <a v-if="organisationLinks[org]" :href="organisationLinks[org]" target="_blank" rel="noopener noreferrer"
-            class="ms-1 text-decoration-none" title="Open source link">
-            ↗
-          </a>
-        </label>
-      </div>
-    </div>
+        <hr />
 
-    <hr />
+        <!-- Organisation checkboxes -->
+        <div class="d-flex flex-wrap gap-2 mb-2">
+          <div v-for="org in organisations" :key="org" class="form-check form-check-inline">
+            <input :id="`checkbox-${org}`" class="form-check-input" type="checkbox" :checked="checkedOrganisations[org]"
+              @change="handleCheckboxChange(org)" />
+            <label class="form-check-label" :for="`checkbox-${org}`">
+              <span>{{ org }}</span>
+              <a v-if="organisationLinks[org]" :href="organisationLinks[org]" target="_blank" rel="noopener noreferrer"
+                class="ms-1 text-decoration-none" title="Open source link">
+                ↗
+              </a>
+            </label>
+          </div>
+        </div>
 
-    <!-- Terms list -->
-    <ul class="list-unstyled">
-      <li v-for="term in termsData" :key="term.anchor" :class="{ 'd-none': !isTermVisible(term) }" class="mb-5">
-        <h2 :id="term.anchor" class="h4 border-bottom pb-1">
-          <a :href="`#${encodeURIComponent(term.anchor)}`" class="text-decoration-none text-dark">
-            {{ term.term }}
-          </a>
-        </h2>
+        <hr />
 
-        <ul class="list-unstyled ms-2">
-          <li v-for="(def, defIndex) in term.definitions" :key="defIndex"
-            :class="{ 'd-none': !checkedOrganisations[def.organisation] }" class="mb-3">
-            <div :class="['card', { 'animate-outline': animateCards }]">
-              <div class="card-header d-flex justify-content-end">
-                <span class="badge bg-secondary fs-6 fw-normal">
-                  {{ def.organisation }}
-                </span>
-              </div>
-              <div class="card-body">
-                <!-- eslint-disable-next-line vue/no-v-html -->
-                <div class="card-text" v-html="safeHtml(def.definition)" />
-              </div>
-              <div class="card-footer">
-                <a :href="def.url" target="_blank" rel="noopener noreferrer">
-                  Learn more ↗
-                </a>
-              </div>
-            </div>
+        <!-- Terms list -->
+        <ul class="list-unstyled">
+          <li v-for="term in termsData" :key="term.anchor" :class="{ 'd-none': !isTermVisible(term) }" class="mb-5">
+            <h2 :id="term.anchor" class="h4 term-heading">
+              <a :href="`#${encodeURIComponent(term.anchor)}`">
+                {{ term.term }}
+              </a>
+            </h2>
+
+            <ul class="list-unstyled ms-2">
+              <li v-for="(def, defIndex) in term.definitions" :key="defIndex"
+                :class="{ 'd-none': !checkedOrganisations[def.organisation] }" class="mb-3">
+                <div :class="['card', { 'animate-outline': animateCards }]">
+                  <div class="card-header d-flex justify-content-end">
+                    <span class="badge bg-secondary fs-6 fw-normal">
+                      {{ def.organisation }}
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <!-- eslint-disable-next-line vue/no-v-html -->
+                    <div class="card-text" v-html="safeHtml(def.definition)" />
+                  </div>
+                  <div class="card-footer">
+                    <a :href="def.url" target="_blank" rel="noopener noreferrer">
+                      learn more
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </li>
         </ul>
-      </li>
-    </ul>
+
       </div>
     </div>
   </div>
 </template>
-
-<style scoped>
-@keyframes outline-pulse {
-  0% {
-    outline: 2px solid transparent;
-  }
-
-  50% {
-    outline: 2px solid #6c757d;
-    outline-offset: 2px;
-  }
-
-  100% {
-    outline: 2px solid transparent;
-  }
-}
-
-.animate-outline {
-  animation: outline-pulse 1s ease-in-out;
-}
-</style>

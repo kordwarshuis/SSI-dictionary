@@ -15,35 +15,54 @@ const { data: termsData, status, error } = await useFetch('/api/dictionary.json'
 </script>
 
 <template>
-  <div class="container py-5">
-    <header class="mb-5 text-center">
-      <h1 class="display-5 fw-bold">SSI Dictionary</h1>
-      <p class="lead text-muted">
-        Searchable definitions from multiple Self-Sovereign Identity standards
-        bodies and communities.
+  <div>
+    <!-- Hero -->
+    <header class="ssi-hero">
+      <h1 class="ssi-hero__title">SSI Dictionary</h1>
+      <p class="ssi-hero__subtitle">
+        Cryptographically-rooted definitions from authoritative Self-Sovereign
+        Identity standards bodies — decentralized trust, no single point of
+        control.
       </p>
+      <!-- <div class="ssi-hero__badge-row">
+        <span class="ssi-hero__badge">🔐 cryptography</span>
+        <span class="ssi-hero__badge">🌐 decentralized trust</span>
+        <span class="ssi-hero__badge">🔑 self-sovereign identity</span>
+        <span class="ssi-hero__badge">📜 verifiable credentials</span>
+        <span class="ssi-hero__badge">⛓ keri</span>
+      </div> -->
     </header>
 
-    <!-- Loading state -->
-    <div v-if="status === 'pending'" class="text-center py-5">
-      <div class="spinner-border text-secondary" role="status">
-        <span class="visually-hidden">Loading dictionary…</span>
+    <div class="container py-4">
+      <!-- Loading state -->
+      <div v-if="status === 'pending'" class="text-center py-5">
+        <div class="spinner-border" role="status" aria-hidden="true"></div>
+        <p class="mt-3 text-muted">
+          <span class="term-prompt">$</span> loading dictionary&hellip;
+        </p>
       </div>
-      <p class="mt-3 text-muted">Loading dictionary…</p>
-    </div>
 
-    <!-- Error state -->
-    <div v-else-if="error" class="alert alert-danger" role="alert">
-      <strong>Could not load dictionary.</strong>
-      The <code>public/data/dictionary.json</code> file is missing or empty.
-      Run <code>npm run fetch-glossaries</code> locally first, then restart the dev server.
-      <details class="mt-2">
-        <summary>Error details</summary>
-        <pre class="mt-1 small">{{ error }}</pre>
-      </details>
-    </div>
+      <!-- Error state -->
+      <div v-else-if="error" class="alert alert-danger" role="alert">
+        <strong>&gt; ERROR:</strong> Could not load dictionary.<br />
+        The <code>public/data/dictionary.json</code> file is missing or empty.
+        Run <code>npm run fetch-glossaries</code> locally first, then restart.
+        <details class="mt-2">
+          <summary>Stack trace</summary>
+          <pre class="mt-1 small">{{ error }}</pre>
+        </details>
+      </div>
 
-    <!-- Dictionary -->
-    <DictionaryView v-else :terms-data="termsData" />
+      <!-- Dictionary -->
+      <DictionaryView v-else :terms-data="termsData" />
+    </div>
   </div>
 </template>
+
+<style scoped>
+.term-prompt {
+  color: var(--clr-green);
+  font-weight: 700;
+  margin-right: 0.4em;
+}
+</style>

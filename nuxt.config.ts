@@ -2,8 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  // Include Bootstrap CSS globally
-  css: ['bootstrap/dist/css/bootstrap.min.css'],
+  // Include Bootstrap CSS globally, then our crypto theme on top
+  css: [
+    'bootstrap/dist/css/bootstrap.min.css',
+    '~/assets/css/crypto-theme.css'
+  ],
 
   // Static site generation for GitHub Pages
   ssr: true,
