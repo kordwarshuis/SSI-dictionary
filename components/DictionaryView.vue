@@ -240,7 +240,10 @@ function safeHtml(html) {
                   </div>
                   <div class="card-body">
                     <!-- eslint-disable-next-line vue/no-v-html -->
-                    <div class="card-text" v-html="safeHtml(def.definition)" />
+                    <div v-if="def.definition" class="card-text" v-html="safeHtml(def.definition)" />
+                    <p v-else class="card-text text-muted fst-italic">
+                      This is externally referenced and therefor not included here.
+                    </p>
                   </div>
                   <div class="card-footer">
                     <a :href="def.url" target="_blank" rel="noopener noreferrer">
