@@ -2,6 +2,7 @@ node_modules/
 .nuxt/
 .output/
 dist/
+public/
 
 # Generated data – committed by the GitHub Action, not manually
 # (Remove the next two lines if you want to version-control the data locally)
