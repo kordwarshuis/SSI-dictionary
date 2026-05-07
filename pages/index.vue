@@ -16,7 +16,7 @@ const { data: termsData, status, error } = await useFetch('/api/dictionary.json'
 
 <template>
   <div class="container py-5">
-    <header class="mb-5">
+    <header class="mb-5 text-center">
       <h1 class="display-5 fw-bold">SSI Dictionary</h1>
       <p class="lead text-muted">
         Searchable definitions from multiple Self-Sovereign Identity standards
