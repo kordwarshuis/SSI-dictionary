@@ -36,16 +36,17 @@ function normalise(str) {
 const searchTerm = ref('')
 const organisations = ref([])
 const checkedOrganisations = ref({});
-const organisationLinks = {
-  'Essif-Lab': 'https://github.com/essif-lab',
-  'KSWG (KERI)': 'https://trustoverip.github.io/kswg-keri-specification/index.html',
-  'KSWG (ACDC)': 'https://trustoverip.github.io/kswg-acdc-specification/index.html',
-  'KSWG (CESR)': 'https://trustoverip.github.io/kswg-cesr-specification/index.html',
-  'ToIP': 'https://trustoverip.org/',
-  'ToIP Glossary': 'https://trustoverip.org/',
-  'ToIP (DID:Webs)': 'https://trustoverip.github.io/kswg-did-method-webs-specification/index.html',
-  'W3C (DID)': 'https://www.w3.org/TR/did-core/'
-};
+const organisationLinks = computed(() => {
+  const links = {}
+  props.termsData.forEach((term) =>
+    term.definitions.forEach((def) => {
+      if (def.organisation && def.url && !links[def.organisation]) {
+        links[def.organisation] = def.url
+      }
+    })
+  )
+  return links
+})
 const animateCards = ref(false)
 
 // ── Lifecycle ──────────────────────────────────────────────────────────────
