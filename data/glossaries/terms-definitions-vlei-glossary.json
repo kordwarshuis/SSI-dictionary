@@ -1,797 +1,797 @@
 [
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Active Status (active-status)",
     "definition": "A LEI Entity status in the Global LEI System.",
     "anchor": "ActiveStatus(activestatus)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Annual Vlei Issuer Qualification (annual-vlei-issuer-qualification)",
     "definition": "A formal annual evaluation process performed by GLEIF to ensure that the Qualified vLEI Issuer continues to meet the requirements of the vLEI Ecosystem Governance Framework.",
     "anchor": "AnnualVleiIssuerQualification(annualvleiissuerqualification)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Audit Report (audit-report)",
     "definition": "An audit report provided to the Qualified vLEI Issuer by its internal or",
     "anchor": "AuditReport(auditreport)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Authentic Chained Data Container (ACDC, authentic-chained-data-container)",
     "definition": "vLEI are ACDCs.",
     "anchor": "AuthenticChainedDataContainer(ACDC,authenticchaineddatacontainer)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Authorized Vlei Representative (AVR, authorized-vlei-representative)",
     "definition": "This a representative of a Legal Entity that are authorized by the DAR of a Legal Entity to request issuance and revocation of:",
     "anchor": "AuthorizedVleiRepresentative(AVR,authorizedvleirepresentative)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Autonomic Identifier (AID, autonomic-identifier)",
     "definition": "AIDs are self-certifying identifiers that are imbued with self-management capabilities via the KERI protocol. There are two main classes of AIDs in KERI: 1) transferable AIDS, and 2) non-transferable AIDS. Key management policies are different for the two classes of AIDs.",
     "anchor": "AutonomicIdentifier(AID,autonomicidentifier)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Candidate Vlei Issuer (candidate-vlei-issuer)",
     "definition": "An organization that has applied to become a Qualified vLEI Issuer.",
     "anchor": "CandidateVleiIssuer(candidatevleiissuer)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Challenge Message (challenge-message)",
     "definition": "A message sent and responded to during the Identity Authentication session.",
     "anchor": "ChallengeMessage(challengemessage)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Composable Event Streaming Representation (CESR, composable-event-streaming-representation)",
     "definition": "",
     "anchor": "ComposableEventStreamingRepresentation(CESR,composableeventstreamingrepresentation)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Continuity Policy (continuity-policy)",
     "definition": "A policy that GLEIF must have for the survival of control authority of all controllers for the GLEIF Root AID and its Delegated AIDs, including Escrow Controllers and that QVIs and Legal Entities should have for survival of Control authority of their Controllers.",
     "anchor": "ContinuityPolicy(continuitypolicy)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Controller (controller)",
     "definition": "Also see: the examples Root AID GLEIF Authorized Representative, the Internal Delegated AID GLEIF Authorized Representative and the External Delegated AID GLEIF Authorized Representative in the GLEIF Identifier Governance Framework.",
     "anchor": "Controller(controller)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Delegated AIDs (delegated-aids, delegated-aid)",
     "definition": "Autonomic Identifiers (AIDs) which have associated Decentralized Identifier (DIDs). These are primary identifiers. Unless otherwise indicated, whenever the term identifier is used with reference to KERI, the references are to primary identifiers. Examples are: GLEIF Internal Delegated AID (GIDA) and GLEIF External Delegated AID (GEDA).",
     "anchor": "DelegatedAIDs(delegatedaids,delegatedaid)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Delegatee (delegatee)",
     "definition": "",
     "anchor": "Delegatee(delegatee)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Delegator (delegator)",
     "definition": "",
     "anchor": "Delegator(delegator)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Designated Authorized Representative (DAR, DARs, designated-authorized-representative)",
     "definition": "A representative of a Qualified vLEI Issuer or a Legal Entity that are authorized by the QVI or the Legal Entity to act officially on behalf of the QVI or the Legal Entity. DARs of QVIs can authorize vLEI Issuer Qualification Program Checklists, execute the vLEI Issuer Qualification Agreement and provide designate/replace Qualified vLEI Issuer Authorized Representatives (QARs). DARs of Legal Entities can execute the contract between a Qualified vLEI Issuer and the Legal Entity and provide designate/replace Legal Entity Authorized Representatives (LARs).",
     "anchor": "DesignatedAuthorizedRepresentative(DAR,DARs,designatedauthorizedrepresentative)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Disclosee (disclosee)",
     "definition": "",
     "anchor": "Disclosee(disclosee)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Discloser (discloser)",
     "definition": "",
     "anchor": "Discloser(discloser)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Distributed Hash Table (DHT, distributed-hash-table)",
     "definition": "Within the vLEI Ecosystem, these tables are used for the discovery of AIDs.",
     "anchor": "DistributedHashTable(DHT,distributedhashtable)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "ECR (ecr)",
     "definition": "engagement-context-role",
     "anchor": "ECR(ecr)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Effective Date (effective-date)",
     "definition": "The later of the dates of signing shown on the first page of the vLEI Issuer Qualification Agreement.",
     "anchor": "EffectiveDate(effectivedate)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Engagement Context Role (engagement-context-role)",
     "definition": "A person that represents the legal-entity in a functional or in another context role and is issued an ECR vlei-credential.",
     "anchor": "EngagementContextRole(engagementcontextrole)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Engagement Context Role Person (ECR Person, engagement-context-role-person)",
     "definition": "A person that represents the Legal Entity in a functional or in another context role and is issued an ECR vLEI Credential.",
     "anchor": "EngagementContextRolePerson(ECRPerson,engagementcontextroleperson)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Escrow Agent (escrow-agent)",
     "definition": "Specific organizations appointed by GLEIF as secondary signers to the GLEIF Root AID, to be able to act if the required weighted multi-sig threshold of GLEIF primary signers is not available for key rotation or recovery.",
     "anchor": "EscrowAgent(escrowagent)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Extraordinary vLEI Issuer Qualification (extraordinary-vlei-issuer-qualification)",
     "definition": "Qualification conducted under exceptional circumstances which give GLEIF reason to believe that the Qualification Documentation is no longer current or being adhered to.",
     "anchor": "ExtraordinaryvLEIIssuerQualification(extraordinaryvleiissuerqualification)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Fully Signed (fully-signed)",
     "definition": "Meets the threshold of the signed keys.",
     "anchor": "FullySigned(fullysigned)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "GAR (gar)",
     "definition": "gleif-authorized-representative",
     "anchor": "GAR(gar)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "GLEIF API (gleif-api)",
     "definition": "API to directly access the complete LEI data pool in real time with rich query capabilities.",
     "anchor": "GLEIFAPI(gleifapi)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "GLEIF Authorized Representative (GAR, gleif-authorized-representative)",
     "definition": "A representative of GLEIF authorized to perform the identity verification requirements needed to issue the QVI vLEI Credential. GLEIF has authorized specific GARs, Internal and External GARs, for the GIDA and GEDA (see definition of Delegated AIDs).",
     "anchor": "GLEIFAuthorizedRepresentative(GAR,gleifauthorizedrepresentative)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "GLEIF Business Day (gleif-business-day)",
     "definition": "Business Day in Frankfurt am Main, Germany (Monday  Friday)",
     "anchor": "GLEIFBusinessDay(gleifbusinessday)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "GLEIF Identifier Governance Framework (v1., gleif-identifier-governance-framework)",
     "definition": "A document that details the purpose, principles, policies, and specifications that apply to the use of the GLEIF Root Autonomic Identifier (AID) and its GLEIF Delegated AIDs in the vLEI Ecosystem.",
     "anchor": "GLEIFIdentifierGovernanceFramework(v1.,gleifidentifiergovernanceframework)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "GLEIF Root of Trust AID (gleif-root-of-trust-aid)",
     "definition": "The GLEIF Root Aid provides the Root of Trust for the ecosystem tree of trust. Each branch in that tree is a Chain of Trust. The Delegated Aid Chain of Trust branch provides trust for delegated GLEIF AIDS and Qualified vLEI Issuer Delegated AIDs. The vLEI Chain of Trust branch, that attaches to the Delegated AID Chain of Trust branch, provides trust for all vLEIs within the vLEI ecosystem.",
     "anchor": "GLEIFRootofTrustAID(gleifrootoftrustaid)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "GLEIF Website (gleif-website)",
     "definition": "http://www.gleif.org",
     "anchor": "GLEIFWebsite(gleifwebsite)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Global Legal Entity Identifier Foundation (GLEIF) (GLEIF)",
     "definition": "Established by the Financial Stability Board in June 2014, the Global Legal Entity Identifier Foundation (GLEIF) is tasked to support the implementation and use of the Legal Entity Identifier (LEI).",
     "anchor": "GlobalLegalEntityIdentifierFoundation(GLEIF)(GLEIF)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Global Legal Entity Identifier System (GLEIS, global-legal-entity-identifier-system)",
     "definition": "A three-level system of",
     "anchor": "GlobalLegalEntityIdentifierSystem(GLEIS,globallegalentityidentifiersystem)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Global LEI Repository (global-lei-repository)",
     "definition": "A database managed by GLEIF containing all current and historical LEIs and LEI reference data.",
     "anchor": "GlobalLEIRepository(globalleirepository)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Identity Assurance (identity-assurance)",
     "definition": "A process that is part of Identity Verification, the steps of which are defined in each of the vLEI Credential Frameworks of the vLEI Ecosystem Governance Framework, which must be conducted before the issuance of vLEI Credentials.",
     "anchor": "IdentityAssurance(identityassurance)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Identity Authentication (identity-authentication)",
     "definition": "A process that is part of Identity Verification, the steps of which are defined in each of the vLEI Credential Frameworks of the vLEI Ecosystem Governance Framework, which must be conducted before the issuance of vLEI Credentials.",
     "anchor": "IdentityAuthentication(identityauthentication)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Inception Event (inception-event)",
     "definition": "",
     "anchor": "InceptionEvent(inceptionevent)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Interaction Event (interaction-event)",
     "definition": "",
     "anchor": "InteractionEvent(interactionevent)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Issuance and Presentation Exchange (IPEX, issuance-and-presentation-exchange-protocol)",
     "definition": "",
     "anchor": "IssuanceandPresentationExchange(IPEX,issuanceandpresentationexchangeprotocol)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Issuee (issuee)",
     "definition": "",
     "anchor": "Issuee(issuee)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Issuer (issuer)",
     "definition": "",
     "anchor": "Issuer(issuer)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Keri (KERI)",
     "definition": "key-event-receipt-infrastructure",
     "anchor": "Keri(KERI)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Key Event Log (KEL, key-event-log)",
     "definition": "",
     "anchor": "KeyEventLog(KEL,keyeventlog)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Key Event Receipt Infrastructure (KERI, key-event-receipt-infrastructure)",
     "definition": "Provides the identifier and key management architecture for the vLEI Ecosystem Technical Architecture",
     "anchor": "KeyEventReceiptInfrastructure(KERI,keyeventreceiptinfrastructure)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Key Management (key-management)",
     "definition": "Unless otherwise specified, the term key-pair refers to an asymmetric (public, private) key-pair for digital signatures. The private key is used to generate signatures and the public key is used to validate signatures.",
     "anchor": "KeyManagement(keymanagement)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Key Pre-Rotation for Transferable AIDs (key-pre-rotation-for-transferable-aids)",
     "definition": "KERI, the authoritative key stage of a transferable AID consists of two sets of key-pairs. The first set is the current set of signing keys and the second set is the pre-committed set of one-time rotation keys that after rotation will become the next or pre-rotated set of signing keys. These two sets provide the basis for KERIs pre-rotation mechanism and the on-device storage of public/private key pairs associated with an AID.",
     "anchor": "KeyPreRotationforTransferableAIDs(keyprerotationfortransferableaids)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Key Store (key-store)",
     "definition": "In our context its associated with an",
     "anchor": "KeyStore(keystore)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Legal Entity Authorized Representative (LAR, legal-entity-authorized-representative)",
     "definition": "A representative of a Legal Entity that are authorized by a DAR of a Legal Entity to request issuance and revocation of vLEI Legal Entity Credentials, Legal Entity Official Organizational Role vLEI Credentials (OOR vLEI Credentials), and Legal Entity Engagement Context Role vLEI Credentials (ECR vLEI Credentials).",
     "anchor": "LegalEntityAuthorizedRepresentative(LAR,legalentityauthorizedrepresentative)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Legal Entity Engagement Context Role vLEI Credential Governance Framework (legal-entity-engagement-context-role-vlei-credential-governance-framework)",
     "definition": "A document that details the requirements for vlei-role-credentials issued to representatives of a Legal Entity in other than official roles but in functional or other context of engagement.",
     "anchor": "LegalEntityEngagementContextRolevLEICredentialGovernanceFramework(legalentityengagementcontextrolevleicredentialgovernanceframework)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Legal Entity Identifier(s) (LEIs) (LEI, Leis, lei)",
     "definition": "Identifiers assigned to Legal Entities",
     "anchor": "LegalEntityIdentifier(s)(LEIs)(LEI,Leis,lei)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Legal Entity Iso 17442 2020 (Legal Entity As defined in ISO 17442:2020, legal-entity-iso-17442-2020)",
     "definition": "A legal person or structure that is organized under the laws of any jurisdiction; includes, but is not limited to, unique parties that are legally or financially responsible for the performance of financial transactions or have the legal right in their jurisdiction to enter independently into legal contracts, regardless of whether they are incorporated or constituted in some other way (e.g., trust, partnership, contractual). It includes governmental organizations and supra-nationals and individuals when acting in a business capacity but excludes natural persons. It also includes international branches.",
     "anchor": "LegalEntityIso174422020(LegalEntityAsdefinedinISO17442:2020,legalentityiso174422020)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Legal Entity Official Organizational Role vLEI Credential Governance Framework (legal-entity-official-organizational-role-vlei-credential-governance-framework)",
     "definition": "A document that details the requirements for vlei-role-credential issued to official representatives of a Legal Entity.",
     "anchor": "LegalEntityOfficialOrganizationalRolevLEICredentialGovernanceFramework(legalentityofficialorganizationalrolevleicredentialgovernanceframework)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Legal Entity vLEI Credential Governance Framework (legal-entity-vlei-credential-governance-framework)",
     "definition": "A document that details the requirements for vLEI Credential issued by a qualified-vlei-issuer to a legal-entity.",
     "anchor": "LegalEntityvLEICredentialGovernanceFramework(legalentityvleicredentialgovernanceframework)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Lei Issuer (LEI Issuer)",
     "definition": "An organization accredited by GLEIF to validate legal entity information and register new LEIs and reference data which are sent to GLEIF for inclusion in the GLEIS.",
     "anchor": "LeiIssuer(LEIIssuer)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Level of Assurance (LoA, assurance-level)",
     "definition": "",
     "anchor": "LevelofAssurance(LoA,assurancelevel)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Non-Disclosure Agreement (NDA, non-disclosure-agreement)",
     "definition": "(Appendix 1 to the vLEI Issuer Qualification Agreement)",
     "anchor": "NonDisclosureAgreement(NDA,nondisclosureagreement)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Non-Transferable AIDs (non-transferable-aids, non-transferable-aid, non-transferable-aid)",
     "definition": "Non-transferable AIDs are self-certifying but are not meant for long term persistent use and hence their key-pair(s) are not rotatable. Instead, the identifier is abandoned and replaced with a new identifier with a new set of key-pair(s). These may also be called ephemeral AIDs. Within KERI, the primary use for non-transferable (ephemeral) AIDs are for the Witness identifiers. Because Witnesses are used in a pool, the pool forms a threshold structure which provides protection from the exploit of a minority of the key-pairs of the ephemeral Witness AIDs in the pool. If a given Witness AID has its key(s) compromised, then the Witness AID itself is abandoned and replaced. Thus, the Witness pool management policy protects Witness ephemeral AIDs.",
     "anchor": "NonTransferableAIDs(nontransferableaids,nontransferableaid,nontransferableaid)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Official Organizational Role (OOR, official-organizational-role)",
     "definition": "A person that represents the Legal Entity in an official organizational role and is issued an OOR vLEI Credential.",
     "anchor": "OfficialOrganizationalRole(OOR,officialorganizationalrole)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Official Organizational Role Person (OOR Person, official-organizational-role-person)",
     "definition": "A person that represents the Legal Entity in an official organizational role and is issued an OOR vLEI Credential.",
     "anchor": "OfficialOrganizationalRolePerson(OORPerson,officialorganizationalroleperson)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Oor (OOR)",
     "definition": "See official-organizational-role",
     "anchor": "Oor(OOR)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Out of Band Interaction (out-of-band-interaction)",
     "definition": "A session, an example is a continuous web meeting attended by all",
     "anchor": "OutofBandInteraction(outofbandinteraction)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Out-of-band Introduction (OOBI, out-of-band-introduction)",
     "definition": "Source verifiable LEI (vLEI) Ecosystem Governance Framework Glossary; enhanced by Henk van Cann.",
     "anchor": "OutofbandIntroduction(OOBI,outofbandintroduction)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "PDF (pdf-document, pdf)",
     "definition": "",
     "anchor": "PDF(pdfdocument,pdf)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Proof Request (proof-request)",
     "definition": "One of the initiating steps in the Issuance and Presentation Exchange Protocol (IPEX). In this step, a Verifier is requesting a credential presentation from a holder of a credential as proof that the holder is in possession of a credential that meets criterial defined in the proof request.",
     "anchor": "ProofRequest(proofrequest)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qualification (Qualification)",
     "definition": "The formal evaluation process performed by GLEIF to ensure that an organization which has applied for Qualification (a Candidate vLEI Issuer) meets the requirements of the vLEI Ecosystem Governance Framework.",
     "anchor": "Qualification(Qualification)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qualified Vlei Issuer  Legal Entity Required Contract Terms (Qualified vLEI Issuer  Legal Entity Required Contract Terms)",
     "definition": "A document that specifies the contract terms that must be included in the agreement between a Qualified vLEI Issuer and a Legal Entity that has requested a Legal Entity vLEI. (Appendix 7 to the vLEI Issuer Qualification Agreement)",
     "anchor": "QualifiedVleiIssuerLegalEntityRequiredContractTerms(QualifiedvLEIIssuerLegalEntityRequiredContractTerms)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qualified vLEI Issuer (QVI, qualified-vlei-issuer)",
     "definition": "The contracting party to the vLEI Issuer Qualification Agreement that has been qualified by GLEIF as a Qualified vLEI Issuer.",
     "anchor": "QualifiedvLEIIssuer(QVI,qualifiedvleiissuer)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qualified vLEI Issuer Authorized Representative (QAR, qualified-vlei-issuer-authorized-representative)",
     "definition": "A designated representative of a QVI authorized to conduct QVI operations with GLEIF and Legal Entities. QARs perform the Identity Verification requirements needed to issue vLEI Legal Entity Credentials, Legal Entity Official Organizational Role vLEI Credentials (OOR vLEI Credentials), and Legal Entity Engagement Context Role vLEI Credentials (ECR vLEI Credentials) as well as the issuance and revocation these Credentials.",
     "anchor": "QualifiedvLEIIssuerAuthorizedRepresentative(QAR,qualifiedvleiissuerauthorizedrepresentative)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qualified vLEI Issuer Business Day (qualified-vlei-issuer-business-day)",
     "definition": "Business Day according to local Qualified vLEI Issuer business calendar.",
     "anchor": "QualifiedvLEIIssuerBusinessDay(qualifiedvleiissuerbusinessday)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qualified Vlei Issuer Identifier And Vlei Credential Governance Framework (qualified-vlei-issuer-identifier-and-vlei-credential-governance-framework)",
     "definition": "A document that details the requirements to create and delegate AIDs for the QVI and to enable the vLEI Credential to be issued by GLEIF to Qualified vLEI Issuers which allows the Qualified vLEI Issuers to issue, verify and revoke Legal Entity vLEI Credentials, Legal Entity Official Organizational Role vLEI Credentials, and Legal Entity Engagement Context Role vLEI Credentials.",
     "anchor": "QualifiedVleiIssuerIdentifierAndVleiCredentialGovernanceFramework(qualifiedvleiissueridentifierandvleicredentialgovernanceframework)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qualified vLEI Issuer TrustMark Terms of Use (qualified-vlei-issuer-trustmark-terms-of-use)",
     "definition": "A document that details the terms of use of the TrustMark by the Qualified vLEI Issuer. (Appendix 6 to the vLEI Issuer Qualification Agreement)",
     "anchor": "QualifiedvLEIIssuerTrustMarkTermsofUse(qualifiedvleiissuertrustmarktermsofuse)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qualified Vlei Issuer Vlei Credential Governance Framework (qualified-vlei-issuer-vlei-credential-governance-framework)",
     "definition": "A document that details the requirements to enable this Credential to be issued by GLEIF to qualified-vlei-issuer which allows the Qualified vLEI Issuers to issue, verify and revoke legal-entity-vlei-credential-governance-framework, legal-entity-official-organizational-role-vlei-credential-governance-framework, and legal-entity-engagement-context-role-vlei-credential-governance-framework.",
     "anchor": "QualifiedVleiIssuerVleiCredentialGovernanceFramework(qualifiedvleiissuervleicredentialgovernanceframework)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qvi (Qualified vLEI Issuer, qvi)",
     "definition": "The contracting party to the vLEI Issuer Qualification Agreement that has been qualified by GLEIF as a Qualified vLEI Issuer.",
     "anchor": "Qvi(QualifiedvLEIIssuer,qvi)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Qvi Authorized Representative (QAR, qvi-authorized-representative)",
     "definition": "A designated representative of a QVI authorized, to conduct QVI operations with GLEIF and legal-entity. Also referring to a person in the role of a QAR.",
     "anchor": "QviAuthorizedRepresentative(QAR,qviauthorizedrepresentative)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "QVI Authorized Representative Person (QAR Person, qvi-authorized-representative-person)",
     "definition": "A person in the role of a QAR.",
     "anchor": "QVIAuthorizedRepresentativePerson(QARPerson,qviauthorizedrepresentativeperson)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Registrar (Ledger) (registrar)",
     "definition": "",
     "anchor": "Registrar(Ledger)(registrar)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Resolver (resolver)",
     "definition": "",
     "anchor": "Resolver(resolver)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Root of Trust (root-of-trust)",
     "definition": "Strong governance which begins with the issuance and maintenance of the LEI itself, GLEIF will be the anchor of the vLEI ecosystem, at the root of the governance that will position the LEI as a key component in building a trust layer for identification and verification of legal entities as the LEI allows authentication that the legal entity is indeed who it claims to be and that those who act on its behalf, can.",
     "anchor": "RootofTrust(rootoftrust)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Rotation Event (rotation-event)",
     "definition": "",
     "anchor": "RotationEvent(rotationevent)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Seal (seal)",
     "definition": "",
     "anchor": "Seal(seal)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Self-addressing Identifier (SAID, self-addressing-identifier)",
     "definition": "",
     "anchor": "SelfaddressingIdentifier(SAID,selfaddressingidentifier)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Service Endpoints (service-endpoint, service-endpoints, service-endpoint)",
     "definition": "",
     "anchor": "ServiceEndpoints(serviceendpoint,serviceendpoints,serviceendpoint)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Service Level Agreement (SLA, service-level-agreement)",
     "definition": "A document that contains detailed descriptions of the services to be provided by GLEIF and Qualified vLEI Issuers and the service level requirements expected for these services. (Appendix 5 to the vLEI Issuer Qualification Agreement).",
     "anchor": "ServiceLevelAgreement(SLA,servicelevelagreement)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Signature Verification Infrastructure (signature-verification-infrastructure)",
     "definition": "An attack against signature verification infrastructure typically requires replacing the signature verification code with malicious code that falsely reports signature verification on signed statements. KERI provides a specific protection mechanism for signature verification via a Watcher pool where an event is only accepted as verified if a sufficient majority of the Watchers in a pool agree on the verification status of the signature(s) on that event. This provides a threshold structure where an attacker must compromise the code integrity of a sufficient number of Watchers for successful attack. Because the composition of a Watcher pool does not need to be publicly disclosed, an attacker must also discover that composition to ensure a successful attack.",
     "anchor": "SignatureVerificationInfrastructure(signatureverificationinfrastructure)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Source (Sources, sources, source)",
     "definition": "The sources or edges section of a vLEI credential cause the vLEI credential to become a fragment of a distributed property graph. The sources chain a vLEI credential to other vLEI credential to which this credential is dependent.",
     "anchor": "Source(Sources,sources,source)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Spot Check (spot-check)",
     "definition": "The operation of performing an OOBI exchange and challenge/response exchange over a live session with an unauthenticated contact to ensure the other person in the live session has control of the contacts private keys.",
     "anchor": "SpotCheck(spotcheck)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Strength (strength)",
     "definition": "All key-pairs MUST be generated using a cryptographic algorithm with at least 128 bits of cryptographic strength for the salt or seed used to generate the private key of the key pair.",
     "anchor": "Strength(strength)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Swiss Law (swiss-law)",
     "definition": "A set of rules, orders, regulation and court decisions which constitutes the law in Switzerland. The source of Swiss law can be federal or cantonal.",
     "anchor": "SwissLaw(swisslaw)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Third Party Services (third-party-services)",
     "definition": "IT or operational infrastructure services outsourced by Qualified vLEI Issuers.",
     "anchor": "ThirdPartyServices(thirdpartyservices)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Trustmark (TrustMark)",
     "definition": "A TrustMark for a Qualified vLEI Issuer provided GLEIF by to the Qualified vLEI Issuer (refer to Appendix 6 to the vLEI Issuer Qualification Agreement).",
     "anchor": "Trustmark(TrustMark)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Validator (validator)",
     "definition": "An entity or component that determines that a given signed statement associated with an identifier was valid at the time of its issuance.",
     "anchor": "Validator(validator)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Verifiable Legal Entity Identifier (vLEI, verifiable-legal-entity-identifier)",
     "definition": "Verifiable credentials are issued by authorized validation agents (QVI) under the governance of GLEIF, who delegate tasks to these agents. They provide cryptographic proof that the information about a legal entity, as linked to its Legal Entity Identifier (LEI), is verifiably authentic, accurate, and up-to-date.",
     "anchor": "VerifiableLegalEntityIdentifier(vLEI,verifiablelegalentityidentifier)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Verifiable LEI (vLEI, verifiable-lei)",
     "definition": "An Authentic Chained Data Container credential which contains an LEI issued in accordance with the vLEI Ecosystem Governance Framework requirements.",
     "anchor": "VerifiableLEI(vLEI,verifiablelei)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Verifiable LEI Ecosystem (vlei-ecosystem, vLEI Ecosystem, verifiable-lei-ecosystem)",
     "definition": "Governance Framework Information Trust Policies",
     "anchor": "VerifiableLEIEcosystem(vleiecosystem,vLEIEcosystem,verifiableleiecosystem)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Verifier (verifier)",
     "definition": "An entity or component that cryptographically verifies the signature(s) on an event message.",
     "anchor": "Verifier(verifier)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI (vlei)",
     "definition": "verifiable-legal-entity-identifier",
     "anchor": "vLEI(vlei)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "VLEI Chain Of Trust (vLEI Chain of Trust)",
     "definition": "The cryptographic chain of trust for organizational identity established for the vLEI which connects the following entities: GLEIF>Qualified vLEI Issuers>Legal Entities>Persons Representing",
     "anchor": "VLEIChainOfTrust(vLEIChainofTrust)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Credential (vlei-credential)",
     "definition": "Credential concerning a verifiable Legal Entity Identifier, residing in the GLEIS and compliant with one or more of the GLEIF governance-frameworks",
     "anchor": "vLEICredential(vleicredential)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Day (day, vlei-day)",
     "definition": "A business day, provided that a given day only counts as such if it is a business day both at GLEIFs legal domicile in the operating office in Frankfurt/Germany, and at the Qualified vLEI Issuers domicile. Defined term in the vLEI Issuer Qualification Agreement.",
     "anchor": "vLEIDay(day,vleiday)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "VLEI Ecosystem Governance Framework (vlei-ecosystem-governance-framework)",
     "definition": "The vLEI Ecosystem Governance Framework, which has been designed from the ground up to complement GLEIFs existing LEI governance, defines the vLEI operational model and describes how the new digital trust ecosystems range of vLEI issuing stakeholders will qualify for and perform their roles in the Global LEI System.",
     "anchor": "VLEIEcosystemGovernanceFramework(vleiecosystemgovernanceframework)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Ecosystem Stakeholder (vLEI Ecosystem Stakeholder)",
     "definition": "A stakeholder in the vLEI Ecosystem following the requirements outlined in the vLEI Ecosystem Governance Framework.",
     "anchor": "vLEIEcosystemStakeholder(vLEIEcosystemStakeholder)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Issuance (vLEI Issuance)",
     "definition": "The process of issuing a vLEI Credential.",
     "anchor": "vLEIIssuance(vLEIIssuance)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Issuer Contact Details (vLEI Issuer Contact Details)",
     "definition": "A list of contact details of GLEIF and the Candidate vLEI Issuer during Qualification and of GLEIF and the Qualified vLEI Issuer during ongoing operations. Also, will include the names and email addresses of Designated Authorized Representatives (DARs) of the Legal Entity (Appendix 4 to the vLEI Issuer Qualification Agreement).",
     "anchor": "vLEIIssuerContactDetails(vLEIIssuerContactDetails)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Issuer Qualification Agreement (vLEI Issuer Qualification Agreement)",
     "definition": "An agreement between GLEIF and an organization that has been qualified by GLEIF to operate as a Qualified vLEI Issuer.",
     "anchor": "vLEIIssuerQualificationAgreement(vLEIIssuerQualificationAgreement)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Issuer Qualification Program Checklist (vLEI Issuer Qualification Program Checklist)",
     "definition": "The document that details the control and process requirements for Qualification (Appendix 3 to the vLEI Issuer Qualification Agreement).",
     "anchor": "vLEIIssuerQualificationProgramChecklist(vLEIIssuerQualificationProgramChecklist)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Issuer Qualification Program Manual (vLEI Issuer Qualification Program Manual)",
     "definition": "The document that describes the Qualification program (Appendix 2 to the vLEI Issuer Qualification Agreement).",
     "anchor": "vLEIIssuerQualificationProgramManual(vLEIIssuerQualificationProgramManual)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Maintenance (vLEI Maintenance)",
     "definition": "All steps taken to ensure that the vLEI continues to be based on the existence of a LEI that maintains the required entity and registration statuses in the GLEIS as well as keeping credential wallets and private keys secure.",
     "anchor": "vLEIMaintenance(vLEIMaintenance)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Revocation (vLEI Revocation)",
     "definition": "The process of revoking a vLEI Credential.",
     "anchor": "vLEIRevocation(vLEIRevocation)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Role Credential (vlei-role-credential)",
     "definition": "It is a vlei-credential that attests to a role within a legal entity to an individual or an entity. It cryptographically proves that the individual or entity is authorized to act in that role on behalf of the legal entity.",
     "anchor": "vLEIRoleCredential(vleirolecredential)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI Software (vlei-software)",
     "definition": "Open-source developed software sponsored by GLEIF with the capabilities for vLEI Credential Issuance, vLEI Credential Presentation, Identifier and Key Management and vLEI Credential Revocation and supporting functions.",
     "anchor": "vLEISoftware(vleisoftware)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "vLEI User (vLEI User)",
     "definition": "Any user of vLEI credentials in any applicable use case.",
     "anchor": "vLEIUser(vLEIUser)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Watcher (watcher)",
     "definition": "an entity or component that keeps a copy of a kerl for an identifier but that is not designated by the controller of the identifier as one of its witnesses. See annex watcher.",
     "anchor": "Watcher(watcher)"
   },
   {
-    "organisation": "VLEI Glossary",
+    "organisation": "vLEI",
     "url": "https://henkvancann.github.io/vlei-glossary/index.html",
     "term": "Witness (witness)",
     "definition": "a witness is an entity or component designated (trusted) by the controller of an identifier. The primary role of a witness is to verify, sign, and keep events associated with an identifier. A witness is the controller of its own self-referential identifier which may or may not be the same as the identifier to which it is a witness. See also keris-algorithm-for-witness-agreement.",
