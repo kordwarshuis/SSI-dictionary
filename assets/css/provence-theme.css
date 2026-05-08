@@ -232,8 +232,8 @@ a:focus {
 }
 
 .card {
-  background: var(--clr-card) !important;
-  border: 1px solid rgba(216, 154, 111, 0.25) !important;
+  background: rgba(154, 159, 104, 0.12) !important;
+  border: 1px solid rgba(154, 159, 104, 0.28) !important;
   border-radius: 1rem !important;
   box-shadow: var(--clr-shadow);
 }
