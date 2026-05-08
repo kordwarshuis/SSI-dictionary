@@ -218,8 +218,8 @@ pre {
 /* ── Search Input ───────────────────────────────────────────────────────── */
 
 .input-group-text {
-    background: var(--clr-surface) !important;
-    border: 1px solid var(--clr-border) !important;
+    background: #08120c !important;
+    border: 1px solid rgba(124, 255, 108, 0.24) !important;
     border-right: none !important;
     color: var(--clr-green) !important;
 }
