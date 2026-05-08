@@ -324,8 +324,8 @@ function safeHtml(html) {
 
 <style scoped>
 mark {
-  background-color: #ffe033;
-  color: inherit;
+  background-color: rgba(255, 223, 104, 0.72);
+  color: #6a3f0f;
   padding: 0 2px;
   border-radius: 2px;
 }
