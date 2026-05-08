@@ -126,18 +126,20 @@ function isTermVisible(term) {
     return term.definitions.some((def) => checkedOrganisations.value[def.organisation])
   }
 
-  // Tokenise the term name so that "SSI" never matches inside "addressing".
-  // A token matches when it starts with the search string (prefix) or equals it
-  // exactly (for abbreviations: all-uppercase ≥2 chars).
-  const normSearch = normalise(raw)
-  const isAbbreviation = raw.length >= 2 && /^[A-Z0-9]+$/.test(raw)
+  // Tokenise BOTH the query and the term name.
+  // Every query token must match at least one term token (AND semantics).
+  // An all-uppercase query token (≥2 chars) is an abbreviation → exact match;
+  // otherwise prefix match ("key" matches "Key", "keyboard", …).
+  const queryTokens = tokenise(raw)
+  const termTokens = tokenise(term.term)
 
-  const tokens = tokenise(term.term)
-  const termMatches = tokens.some((token) => {
-    const normToken = normalise(token)
-    return isAbbreviation
-      ? normToken === normSearch          // exact token match for abbreviations
-      : normToken.startsWith(normSearch)  // prefix match for normal words
+  const termMatches = queryTokens.every((qRaw) => {
+    const qNorm = normalise(qRaw)
+    const isAbbreviation = qRaw.length >= 2 && /^[A-Z0-9]+$/.test(qRaw)
+    return termTokens.some((tRaw) => {
+      const tNorm = normalise(tRaw)
+      return isAbbreviation ? tNorm === qNorm : tNorm.startsWith(qNorm)
+    })
   })
 
   if (!termMatches) return false
@@ -158,29 +160,25 @@ function highlightTerm(termName) {
   const raw = searchTerm.value.trim()
   if (!raw) return escapeHtml(termName)
 
-  const normSearch = normalise(raw)
-  const isAbbreviation = raw.length >= 2 && /^[A-Z0-9]+$/.test(raw)
+  // Build the same query-token list used in isTermVisible.
+  const queryTokens = tokenise(raw).map((qRaw) => ({
+    norm: normalise(qRaw),
+    isAbbreviation: qRaw.length >= 2 && /^[A-Z0-9]+$/.test(qRaw)
+  }))
 
-  // Walk through the original string token by token, preserving separators.
-  // Highlight a token if it matches by the same rule used in isTermVisible.
-  let result = ''
-  let cursor = 0
-  // Split while keeping the separator characters so we can reconstruct faithfully.
+  // Walk the term name token-by-token, preserving separators.
   const parts = termName.split(/([ \-_,()\/]+)/)
+  let result = ''
   for (const part of parts) {
     if (TOKEN_SEP.test(part)) {
-      // It's a separator — emit as-is
       result += escapeHtml(part)
     } else {
-      const normToken = normalise(part)
-      const matches = isAbbreviation
-        ? normToken === normSearch
-        : normToken.startsWith(normSearch)
-      result += matches
-        ? `<mark>${escapeHtml(part)}</mark>`
-        : escapeHtml(part)
+      const normPart = normalise(part)
+      const hit = queryTokens.some(({ norm, isAbbreviation }) =>
+        isAbbreviation ? normPart === norm : normPart.startsWith(norm)
+      )
+      result += hit ? `<mark>${escapeHtml(part)}</mark>` : escapeHtml(part)
     }
-    cursor += part.length
   }
   return result
 }
@@ -225,6 +223,8 @@ function safeHtml(html) {
           </span>
           <input v-model="searchTerm" type="text" class="form-control" placeholder="grep terms…"
             aria-label="Search terms" aria-describedby="search-addon" />
+          <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button"
+            aria-label="Clear search" @click="searchTerm = ''">&#x2715;</button>
         </div>
 
         <!-- Stats row -->
@@ -328,5 +328,14 @@ mark {
   color: #6a3f0f;
   padding: 0 2px;
   border-radius: 2px;
+}
+.clear-btn {
+  border-left: 0;
+  color: #6c757d;
+  line-height: 1;
+}
+.clear-btn:hover {
+  color: #000;
+  background: transparent;
 }
 </style>
