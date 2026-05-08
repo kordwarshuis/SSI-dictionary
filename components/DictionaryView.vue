@@ -110,18 +110,61 @@ function turnAllOff() {
 // ── Visibility filter ──────────────────────────────────────────────────────
 
 function isTermVisible(term) {
-  const normalisedTerm = normalise(term.term)
-  const normalisedSearch = normalise(searchTerm.value)
+  const raw = searchTerm.value.trim()
 
   // An empty search string matches every term
-  if (!normalisedSearch) {
+  if (!raw) {
     return term.definitions.some((def) => checkedOrganisations.value[def.organisation])
   }
 
+  // All-uppercase input (≥2 chars) is treated as an abbreviation: require word boundaries
+  // so that e.g. "SSI" does not match "transmission".
+  const isAbbreviation = raw.length >= 2 && /^[A-Z0-9]+$/.test(raw)
+
+  if (isAbbreviation) {
+    const regex = new RegExp(`\\b${raw}\\b`, 'i')
+    return term.definitions.some(
+      (def) => checkedOrganisations.value[def.organisation] && regex.test(term.term)
+    )
+  }
+
+  const normalisedTerm = normalise(term.term)
+  const normalisedSearch = normalise(raw)
   const regex = new RegExp(normalisedSearch, 'i')
   return term.definitions.some(
     (def) => checkedOrganisations.value[def.organisation] && regex.test(normalisedTerm)
   )
+}
+
+// ── Term highlight ───────────────────────────────────────────────────────────
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
+function highlightTerm(termName) {
+  const raw = searchTerm.value.trim()
+  if (!raw) return escapeHtml(termName)
+
+  const isAbbreviation = raw.length >= 2 && /^[A-Z0-9]+$/.test(raw)
+  const escapedRaw = raw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const pattern = isAbbreviation ? `\\b${escapedRaw}\\b` : escapedRaw
+  const regex = new RegExp(`(${pattern})`, 'gi')
+
+  let result = ''
+  let lastIndex = 0
+  let match
+  while ((match = regex.exec(termName)) !== null) {
+    result += escapeHtml(termName.slice(lastIndex, match.index))
+    result += `<mark>${escapeHtml(match[0])}</mark>`
+    lastIndex = match.index + match[0].length
+  }
+  result += escapeHtml(termName.slice(lastIndex))
+  return result
 }
 
 // ── HTML sanitisation ──────────────────────────────────────────────────────
@@ -224,7 +267,8 @@ function safeHtml(html) {
           <li v-for="term in termsData" :key="term.anchor" :class="{ 'd-none': !isTermVisible(term) }" class="mb-5">
             <h2 :id="term.anchor" class="h4 term-heading">
               <a :href="`#${encodeURIComponent(term.anchor)}`">
-                {{ term.term }}
+                <!-- eslint-disable-next-line vue/no-v-html -->
+                <span v-html="highlightTerm(term.term)" />
               </a>
             </h2>
 
@@ -259,3 +303,12 @@ function safeHtml(html) {
     </div>
   </div>
 </template>
+
+<style scoped>
+mark {
+  background-color: #ffe033;
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+</style>
