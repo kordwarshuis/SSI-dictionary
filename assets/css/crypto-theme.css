@@ -8,24 +8,24 @@
 /* ── Custom Properties ──────────────────────────────────────────────────── */
 
 :root {
-    --clr-bg: #060d06;
-    --clr-surface: #0b160b;
-    --clr-card: #0e1a0e;
-    --clr-card-hover: #121f12;
-    --clr-border: #1a3320;
-    --clr-border-glow: #00ff4155;
+    --clr-bg: #040804;
+    --clr-surface: #07110a;
+    --clr-card: #08120c;
+    --clr-card-hover: #0d190f;
+    --clr-border: #0c2d14;
+    --clr-border-glow: #00ff41aa;
 
-    --clr-green: #00ff41;
-    --clr-green-dim: #00b82e;
-    --clr-green-muted: #2d6b3a;
-    --clr-cyan: #00e5ff;
-    --clr-cyan-dim: #0099cc;
-    --clr-purple: #b06aff;
-    --clr-amber: #f5a623;
+    --clr-green: #7cff6c;
+    --clr-green-dim: #4dbf3f;
+    --clr-green-muted: #3b7a42;
+    --clr-cyan: #7ce0ff;
+    --clr-cyan-dim: #4aa3bf;
+    --clr-purple: #c18cff;
+    --clr-amber: #ffd470;
 
-    --clr-text: #b8ffb8;
-    --clr-text-dim: #6aab6a;
-    --clr-text-muted: #3d6b3d;
+    --clr-text: #d2ffd3;
+    --clr-text-dim: #8cd294;
+    --clr-text-muted: #639568;
 
     --font-mono: 'Space Mono', 'Share Tech Mono', 'Courier New', monospace;
 
@@ -120,10 +120,10 @@ pre {
     overflow: hidden;
     padding: 3.5rem 1rem 2.5rem;
     text-align: center;
-    border-bottom: 1px solid var(--clr-border);
+    border-bottom: 1px solid rgba(124, 255, 108, 0.24);
     background:
-        radial-gradient(ellipse 80% 60% at 50% -20%, #00ff411a 0%, transparent 70%),
-        var(--clr-surface);
+        radial-gradient(ellipse 80% 60% at 50% -20%, rgba(124, 255, 108, 0.16) 0%, transparent 70%),
+        linear-gradient(180deg, rgba(4, 8, 4, 0.95), rgba(7, 17, 10, 0.98));
 }
 
 /* Animated hex-grid background */
@@ -160,7 +160,8 @@ pre {
 
 .ssi-hero__subtitle {
     position: relative;
-    color: var(--clr-text-dim) !important;
+    color: var(--clr-text) !important;
+    opacity: 0.88;
     font-size: 0.95rem;
     max-width: 560px;
     margin: 0 auto;
@@ -224,8 +225,8 @@ pre {
 }
 
 .form-control {
-    background: var(--clr-surface) !important;
-    border: 1px solid var(--clr-border) !important;
+    background: #08120c !important;
+    border: 1px solid rgba(124, 255, 108, 0.24) !important;
     border-left: none !important;
     color: var(--clr-text) !important;
     font-family: var(--font-mono) !important;
@@ -233,7 +234,7 @@ pre {
 }
 
 .form-control::placeholder {
-    color: var(--clr-text-muted) !important;
+    color: #8ec692 !important;
 }
 
 .form-control:focus {
@@ -274,12 +275,12 @@ pre {
 
 .source-links {
     font-size: 0.78rem;
-    color: var(--clr-text-muted) !important;
+    color: var(--clr-text-dim) !important;
     letter-spacing: 0.03em;
 }
 
 .source-links strong {
-    color: var(--clr-text-dim) !important;
+    color: var(--clr-green) !important;
 }
 
 /* ── Checkboxes ─────────────────────────────────────────────────────────── */
@@ -314,22 +315,22 @@ hr {
     height: 1px !important;
     background: linear-gradient(90deg,
             transparent 0%,
-            var(--clr-green-muted) 20%,
-            var(--clr-green) 50%,
-            var(--clr-green-muted) 80%,
+            rgba(124, 255, 108, 0.12) 20%,
+            rgba(124, 255, 108, 0.45) 50%,
+            rgba(124, 255, 108, 0.12) 80%,
             transparent 100%) !important;
-    opacity: 0.5 !important;
+    opacity: 0.75 !important;
     margin: 1.25rem 0 !important;
 }
 
 /* ── Term Headings ──────────────────────────────────────────────────────── */
 
 .term-heading {
-    color: var(--clr-green) !important;
+    color: var(--clr-text) !important;
     font-size: 1.05rem !important;
     font-weight: 700 !important;
     letter-spacing: 0.04em;
-    border-bottom: 1px solid var(--clr-border) !important;
+    border-bottom: 1px solid rgba(124, 255, 108, 0.18) !important;
     padding-bottom: 0.4rem !important;
 }
 
@@ -353,23 +354,23 @@ hr {
 /* ── Cards ──────────────────────────────────────────────────────────────── */
 
 .card {
-    background: var(--clr-card) !important;
-    border: 1px solid var(--clr-border) !important;
+    background: #08140e !important;
+    border: 1px solid rgba(124, 255, 108, 0.18) !important;
     border-radius: 4px !important;
-    box-shadow: var(--glow-card) !important;
-    transition: box-shadow 0.3s, border-color 0.3s, transform 0.2s;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.08), 0 0 0 1px rgba(124, 255, 108, 0.08) !important;
+    transition: box-shadow 0.3s, border-color 0.3s, transform 0.2s, background 0.2s;
 }
 
 .card:hover {
-    border-color: var(--clr-green-muted) !important;
-    box-shadow: 0 0 0 1px var(--clr-green-muted), 0 0 28px #00ff4125 !important;
+    border-color: rgba(124, 255, 108, 0.35) !important;
+    box-shadow: 0 0 0 1px rgba(124, 255, 108, 0.25), 0 0 32px rgba(124, 255, 108, 0.16) !important;
     transform: translateY(-1px);
-    background: var(--clr-card-hover) !important;
+    background: #0f2114 !important;
 }
 
 .card-header {
-    background: #0a140a !important;
-    border-bottom: 1px solid var(--clr-border) !important;
+    background: #06130b !important;
+    border-bottom: 1px solid rgba(124, 255, 108, 0.16) !important;
     padding: 0.45rem 0.85rem !important;
 }
 
@@ -418,16 +419,16 @@ hr {
 /* ── Badge (organisation label) ─────────────────────────────────────────── */
 
 .badge.bg-secondary {
-    background: #0a200a !important;
-    color: var(--clr-green-dim) !important;
-    border: 1px solid var(--clr-green-muted) !important;
+    background: rgba(7, 17, 10, 0.95) !important;
+    color: var(--clr-text-dim) !important;
+    border: 1px solid rgba(124, 255, 108, 0.24) !important;
     font-family: var(--font-mono) !important;
     font-size: 0.7rem !important;
     font-weight: 400 !important;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     border-radius: 2px !important;
-    box-shadow: 0 0 6px #00ff4133;
+    box-shadow: 0 0 8px rgba(124, 255, 108, 0.15);
     padding: 0.25em 0.6em !important;
 }
 
