@@ -17,7 +17,7 @@ const { data: termsData, status, error } = await useFetch('/api/dictionary.json'
 <template>
   <div>
     <!-- Hero -->
-    <header class="ssi-hero">
+    <header class="ssi-hero text-center py-5">
       <h1 class="ssi-hero__title">SSI Dictionary</h1>
       <p class="ssi-hero__subtitle">
         Cryptographically-rooted definitions from authoritative Self-Sovereign
