@@ -107,6 +107,15 @@ function turnAllOff() {
   orgOverrides.value = next
 }
 
+// ── Tokeniser ──────────────────────────────────────────────────────────────
+// Splits a term name into discrete tokens on any separator character.
+// "self-addressing identifier (SAID)" → ["self", "addressing", "identifier", "SAID"]
+const TOKEN_SEP = /[\s\-_,()\/]+/
+
+function tokenise(str) {
+  return String(str).split(TOKEN_SEP).filter(Boolean)
+}
+
 // ── Visibility filter ──────────────────────────────────────────────────────
 
 function isTermVisible(term) {
@@ -117,23 +126,22 @@ function isTermVisible(term) {
     return term.definitions.some((def) => checkedOrganisations.value[def.organisation])
   }
 
-  // All-uppercase input (≥2 chars) is treated as an abbreviation: require word boundaries
-  // so that e.g. "SSI" does not match "transmission".
+  // Tokenise the term name so that "SSI" never matches inside "addressing".
+  // A token matches when it starts with the search string (prefix) or equals it
+  // exactly (for abbreviations: all-uppercase ≥2 chars).
+  const normSearch = normalise(raw)
   const isAbbreviation = raw.length >= 2 && /^[A-Z0-9]+$/.test(raw)
 
-  if (isAbbreviation) {
-    const regex = new RegExp(`\\b${raw}\\b`, 'i')
-    return term.definitions.some(
-      (def) => checkedOrganisations.value[def.organisation] && regex.test(term.term)
-    )
-  }
+  const tokens = tokenise(term.term)
+  const termMatches = tokens.some((token) => {
+    const normToken = normalise(token)
+    return isAbbreviation
+      ? normToken === normSearch          // exact token match for abbreviations
+      : normToken.startsWith(normSearch)  // prefix match for normal words
+  })
 
-  const normalisedTerm = normalise(term.term)
-  const normalisedSearch = normalise(raw)
-  const regex = new RegExp(normalisedSearch, 'i')
-  return term.definitions.some(
-    (def) => checkedOrganisations.value[def.organisation] && regex.test(normalisedTerm)
-  )
+  if (!termMatches) return false
+  return term.definitions.some((def) => checkedOrganisations.value[def.organisation])
 }
 
 // ── Term highlight ───────────────────────────────────────────────────────────
@@ -150,20 +158,30 @@ function highlightTerm(termName) {
   const raw = searchTerm.value.trim()
   if (!raw) return escapeHtml(termName)
 
+  const normSearch = normalise(raw)
   const isAbbreviation = raw.length >= 2 && /^[A-Z0-9]+$/.test(raw)
-  const escapedRaw = raw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const pattern = isAbbreviation ? `\\b${escapedRaw}\\b` : escapedRaw
-  const regex = new RegExp(`(${pattern})`, 'gi')
 
+  // Walk through the original string token by token, preserving separators.
+  // Highlight a token if it matches by the same rule used in isTermVisible.
   let result = ''
-  let lastIndex = 0
-  let match
-  while ((match = regex.exec(termName)) !== null) {
-    result += escapeHtml(termName.slice(lastIndex, match.index))
-    result += `<mark>${escapeHtml(match[0])}</mark>`
-    lastIndex = match.index + match[0].length
+  let cursor = 0
+  // Split while keeping the separator characters so we can reconstruct faithfully.
+  const parts = termName.split(/([ \-_,()\/]+)/)
+  for (const part of parts) {
+    if (TOKEN_SEP.test(part)) {
+      // It's a separator — emit as-is
+      result += escapeHtml(part)
+    } else {
+      const normToken = normalise(part)
+      const matches = isAbbreviation
+        ? normToken === normSearch
+        : normToken.startsWith(normSearch)
+      result += matches
+        ? `<mark>${escapeHtml(part)}</mark>`
+        : escapeHtml(part)
+    }
+    cursor += part.length
   }
-  result += escapeHtml(termName.slice(lastIndex))
   return result
 }
 
