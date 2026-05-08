@@ -31,6 +31,11 @@ const SPEC_UP_T_SOURCES = [
         jsonFileName: 'terms-definitions-kswg-cesr.json',
     },
     {
+        url: 'https://trustoverip.github.io/kerisuite-glossary/index.html',
+        organisation: 'KERI Suite',
+        jsonFileName: 'terms-definitions-kerisuite-glossary.json',
+    },
+    {
         url: 'https://glossary.trustoverip.org',
         organisation: 'ToIP',
         jsonFileName: 'terms-definitions-toip-glossary.json',
