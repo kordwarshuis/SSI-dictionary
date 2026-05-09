@@ -142,6 +142,11 @@ a:focus {
   font-weight: 600;
 }
 
+.input-group {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
 .input-group-text {
   background: rgba(252, 235, 199, 0.96) !important;
   border: 1px solid rgba(216, 154, 111, 0.45) !important;

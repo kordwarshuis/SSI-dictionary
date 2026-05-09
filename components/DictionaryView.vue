@@ -356,7 +356,7 @@ onUnmounted(() => {
     </div><!-- /.ssi-content -->
 
     <!-- Organisation checkboxes: full-width strip so all sources fit in one row -->
-    <div class="checkboxes-strip">
+    <div class="checkboxes-strip p-0">
       <div class="text-center">
         <div v-for="org in organisations" :key="org" class="form-check form-check-inline">
           <input :id="`checkbox-${org}`" class="form-check-input" type="checkbox" :checked="checkedOrganisations[org]"
