@@ -309,7 +309,7 @@ onMounted(() => {
       </div>
 
       <!-- Stats row -->
-      <hr />
+      <!-- <hr /> -->
 
       <!-- Source visibility controls -->
       <div class="mb-3 text-center">
@@ -363,7 +363,8 @@ onMounted(() => {
           <template #default="{ item: term, active }">
             <DynamicScrollerItem :item="term" :active="active">
               <div
-                :class="['term-item', isDefinitionsVisible(term) ? 'mb-5' : 'mb-2 border border-secondary-subtle p-2 rounded term-collapsed']">
+                :class="['term-item', isDefinitionsVisible(term) ? '' : 'border border-secondary-subtle p-2 rounded term-collapsed']"
+                :style="{ paddingBottom: '2rem' }">
                 <h2 :id="term.anchor" class="h4 term-heading">
                   <span class="term-heading-row">
                     <button type="button" class="term-toggle" @click="toggleTerm(term)">
@@ -491,6 +492,15 @@ mark {
 
 .term-collapsed {
   background-color: rgba(154, 159, 104, 0.12);
+}
+
+.term-item {
+  box-sizing: border-box;
+  padding-bottom: 2rem;
+}
+
+.term-item:last-child {
+  padding-bottom: 0;
 }
 
 /* Content sections: same readable text width as the old Bootstrap column,
