@@ -24,7 +24,7 @@ function clearHashFromUrl() {
   <div>
     <!-- Hero -->
     <header class="ssi-hero text-center py-2">
-      <h1 class="ssi-hero__title">
+      <h1 class="ssi-hero__title fs-3">
         <button type="button" class="ssi-hero__title-button" @click="clearHashFromUrl">
           SSI Dictionary
         </button>
@@ -43,7 +43,7 @@ function clearHashFromUrl() {
       </div> -->
     </header>
 
-    <div class="container py-4">
+    <div class="container-fluid py-0 px-0">
       <!-- Loading state -->
       <div v-if="status === 'pending'" class="text-center py-5">
         <div class="spinner-border" role="status" aria-hidden="true"></div>

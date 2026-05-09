@@ -77,7 +77,10 @@ const termOverrides = ref({})
 // Controls visibility of back-to-top button
 const showBackToTop = ref(false)
 
-// Ref to the DynamicScroller component (used for scroll-to-top)
+// Guards DynamicScroller from mounting until the page is laid out.
+const isMounted = ref(false)
+
+// Ref to the scroller element for scroll-to-top
 const scrollerRef = ref(null)
 
 const checkedOrganisations = computed(() => {
@@ -187,6 +190,13 @@ function isTermVisible(term) {
 // and non-matching terms are never rendered into the DOM at all.
 const visibleTerms = computed(() => props.termsData.filter(isTermVisible))
 
+// Incrementing key that forces DynamicScroller to fully remount whenever the
+// visible set changes. DynamicScroller maintains two internal pools during
+// transitions which causes items to overlap at the same Y position; a clean
+// remount avoids that entirely.
+const scrollerKey = ref(0)
+watch(visibleTerms, () => { scrollerKey.value++ })
+
 function isDefinitionsVisible(term) {
   if (term.anchor in termOverrides.value) {
     return termOverrides.value[term.anchor]
@@ -266,8 +276,6 @@ function safeHtml(html) {
   return result
 }
 // ── Back to top button ─────────────────────────────────────────────────────
-// Scroll events come from the DynamicScroller element (via @scroll on the
-// component), not from window, because the list uses its own overflow container.
 
 function handleScroll(e) {
   showBackToTop.value = (e.target?.scrollTop ?? 0) > 300
@@ -275,143 +283,132 @@ function handleScroll(e) {
 
 function scrollToTop() {
   scrollerRef.value?.$el.scrollTo({ top: 0, behavior: 'instant' })
-}</script>
+}
+
+onMounted(() => {
+  nextTick(() => { isMounted.value = true })
+})</script>
 
 <template>
   <div class="glossaries-combined">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+    <div class="ssi-content">
 
-        <!-- Search bar -->
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="search-addon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-              viewBox="0 0 16 16" aria-hidden="true">
-              <path
-                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-            </svg>
-          </span>
-          <input v-model="searchTerm" type="text" class="form-control" placeholder="grep terms…"
-            aria-label="Search terms" aria-describedby="search-addon" />
-          <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button"
-            aria-label="Clear search" @click="clearSearch">&#x2715;</button>
-        </div>
-
-        <!-- Stats row -->
-        <hr />
-
-        <!-- Source visibility controls -->
-        <div class="mb-3 d-flex gap-2 flex-wrap">
-          <button type="button" class="btn btn-sm btn-outline-secondary" @click="toggleAllCheckboxes">
-            toggle sources
-          </button>
-          <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOn">
-            all sources on
-          </button>
-          <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOff">
-            all sources off
-          </button>
-        </div>
-
-        <!-- Organisation checkboxes -->
-        <div class="d-flex flex-wrap gap-2 mb-2">
-          <div v-for="org in organisations" :key="org" class="form-check form-check-inline">
-            <input :id="`checkbox-${org}`" class="form-check-input" type="checkbox" :checked="checkedOrganisations[org]"
-              @change="handleCheckboxChange(org)" />
-            <label class="form-check-label" :for="`checkbox-${org}`">
-              <span>{{ org }}</span>
-              <a v-if="organisationLinks[org]" :href="organisationLinks[org]" target="_blank" rel="noopener noreferrer"
-                class="ms-1 text-decoration-none" title="Open source link">
-                ↗
-              </a>
-            </label>
-          </div>
-        </div>
-
-        <hr />
-
-        <!-- Term visibility toggle -->
-        <div class="mb-3 d-flex flex-wrap gap-2 align-items-center term-visibility-toggle">
-          <button type="button" class="btn btn-sm ms-1" :class="showDefinitions ? 'btn-secondary' : 'btn-outline-secondary'"
-            @click="setAllTermsVisible(true)">
-            Terms and definitions visible
-          </button>
-          <button type="button" class="btn btn-sm" :class="!showDefinitions ? 'btn-secondary' : 'btn-outline-secondary'"
-            @click="setAllTermsVisible(false)">
-            Only terms visible
-          </button>
-        </div>
-
-        <!-- Terms list -->
-        <ClientOnly>
-          <DynamicScroller
-            ref="scrollerRef"
-            :items="visibleTerms"
-            :min-item-size="54"
-            key-field="anchor"
-            class="terms-scroller"
-            @scroll.passive="handleScroll"
-          >
-            <template #default="{ item: term, active }">
-              <DynamicScrollerItem
-                :item="term"
-                :active="active"
-                :size-dependencies="[isDefinitionsVisible(term), checkedOrganisations]"
-              >
-                <div
-                  :class="['term-item', isDefinitionsVisible(term) ? 'mb-5' : 'mb-2 border border-secondary-subtle p-2 rounded term-collapsed']"
-                >
-                  <h2 :id="term.anchor" class="h4 term-heading">
-                    <span class="term-heading-row">
-                      <button type="button" class="term-toggle" @click="toggleTerm(term)">
-                        <!-- eslint-disable-next-line vue/no-v-html -->
-                        <span v-html="highlightTerm(term.term)"></span>
-                      </button>
-                      <a
-                        :href="`#${term.anchor}`"
-                        class="term-anchor-link"
-                        title="Copy link to this term"
-                        aria-label="Link to this term"
-                        @click.stop
-                      >#</a>
-                    </span>
-                  </h2>
-
-                  <ul v-if="isDefinitionsVisible(term)" class="list-unstyled ms-2">
-                    <li v-for="(def, defIndex) in term.definitions" :key="defIndex"
-                      :class="{ 'd-none': !checkedOrganisations[def.organisation] }" class="mb-3">
-                      <div :class="['card', { 'animate-outline': animateCards }]">
-                        <div class="card-header d-flex justify-content-end">
-                          <span class="badge bg-secondary fs-6 fw-normal">
-                            {{ def.organisation }}
-                          </span>
-                        </div>
-                        <div class="card-body">
-                          <!-- eslint-disable-next-line vue/no-v-html -->
-                          <div v-if="def.definition" class="card-text" v-html="safeHtml(def.definition)"></div>
-                          <p v-else class="card-text definition-placeholder">
-                            This is externally referenced and therefor not included here.
-                          </p>
-                        </div>
-                        <div class="card-footer">
-                          <a :href="def.url" target="_blank" rel="noopener noreferrer">
-                            learn more
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </DynamicScrollerItem>
-            </template>
-          </DynamicScroller>
-          <template #fallback>
-            <p class="text-muted py-3">Loading terms…</p>
-          </template>
-        </ClientOnly>
-
+      <!-- Search bar -->
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="search-addon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+            viewBox="0 0 16 16" aria-hidden="true">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+          </svg>
+        </span>
+        <input v-model="searchTerm" type="text" class="form-control" placeholder="grep terms…" aria-label="Search terms"
+          aria-describedby="search-addon" />
+        <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button" aria-label="Clear search"
+          @click="clearSearch">&#x2715;</button>
       </div>
-    </div>
+
+      <!-- Stats row -->
+      <hr />
+
+      <!-- Source visibility controls -->
+      <div class="mb-3 text-center">
+        <button type="button" class="btn btn-sm btn-outline-secondary" @click="toggleAllCheckboxes">
+          toggle sources
+        </button>
+        <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOn">
+          all sources on
+        </button>
+        <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOff">
+          all sources off
+        </button>
+|
+      <!-- Term visibility toggle -->
+        <button type="button" class="btn btn-sm ms-1"
+          :class="showDefinitions ? 'btn-secondary' : 'btn-outline-secondary'" @click="setAllTermsVisible(true)">
+          Terms and definitions visible
+        </button>
+        <button type="button" class="btn btn-sm" :class="!showDefinitions ? 'btn-secondary' : 'btn-outline-secondary'"
+          @click="setAllTermsVisible(false)">
+          Only terms visible
+        </button>
+      </div>
+
+    </div><!-- /.ssi-content -->
+
+    <!-- Organisation checkboxes: full-width strip so all sources fit in one row -->
+    <div class="checkboxes-strip">
+      <div class="text-center">
+        <div v-for="org in organisations" :key="org" class="form-check form-check-inline">
+          <input :id="`checkbox-${org}`" class="form-check-input" type="checkbox" :checked="checkedOrganisations[org]"
+            @change="handleCheckboxChange(org)" />
+          <label class="form-check-label" :for="`checkbox-${org}`">
+            <span>{{ org }}</span>
+            <a v-if="organisationLinks[org]" :href="organisationLinks[org]" target="_blank" rel="noopener noreferrer"
+              class="ms-1 text-decoration-none" title="Open source link">
+              ↗
+            </a>
+          </label>
+        </div>
+      </div>
+    </div><!-- /.checkboxes-strip -->
+
+    <div class="ssi-content">
+      <hr />
+
+      <!-- Terms list -->
+      <ClientOnly>
+        <DynamicScroller v-if="isMounted" :key="scrollerKey" ref="scrollerRef" :items="visibleTerms" :min-item-size="54"
+          key-field="anchor" class="terms-scroller" @scroll.passive="handleScroll">
+          <template #default="{ item: term, active }">
+            <DynamicScrollerItem :item="term" :active="active">
+              <div
+                :class="['term-item', isDefinitionsVisible(term) ? 'mb-5' : 'mb-2 border border-secondary-subtle p-2 rounded term-collapsed']">
+                <h2 :id="term.anchor" class="h4 term-heading">
+                  <span class="term-heading-row">
+                    <button type="button" class="term-toggle" @click="toggleTerm(term)">
+                      <!-- eslint-disable-next-line vue/no-v-html -->
+                      <span v-html="highlightTerm(term.term)"></span>
+                    </button>
+                    <a :href="`#${term.anchor}`" class="term-anchor-link" title="Copy link to this term"
+                      aria-label="Link to this term" @click.stop>#</a>
+                  </span>
+                </h2>
+
+                <ul v-if="isDefinitionsVisible(term)" class="list-unstyled ms-2">
+                  <li v-for="(def, defIndex) in term.definitions" :key="defIndex"
+                    :class="{ 'd-none': !checkedOrganisations[def.organisation] }" class="mb-3">
+                    <div :class="['card', { 'animate-outline': animateCards }]">
+                      <div class="card-header d-flex justify-content-end">
+                        <span class="badge bg-secondary fs-6 fw-normal">
+                          {{ def.organisation }}
+                        </span>
+                      </div>
+                      <div class="card-body">
+                        <!-- eslint-disable-next-line vue/no-v-html -->
+                        <div v-if="def.definition" class="card-text" v-html="safeHtml(def.definition)"></div>
+                        <p v-else class="card-text definition-placeholder">
+                          This is externally referenced and therefor not included here.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a :href="def.url" target="_blank" rel="noopener noreferrer">
+                          learn more
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </DynamicScrollerItem>
+          </template>
+        </DynamicScroller>
+        <template #fallback>
+          <p class="text-muted py-3">Loading terms…</p>
+        </template>
+      </ClientOnly>
+
+    </div><!-- /.ssi-content -->
 
     <!-- Back to top button -->
     <button v-if="showBackToTop" class="back-to-top-btn" @click="scrollToTop" aria-label="Back to top"
@@ -432,11 +429,13 @@ mark {
   padding: 0 2px;
   border-radius: 2px;
 }
+
 .clear-btn {
   border-left: 0;
   color: #6c757d;
   line-height: 1;
 }
+
 .clear-btn:hover {
   color: #000;
   background: transparent;
@@ -494,13 +493,34 @@ mark {
   background-color: rgba(154, 159, 104, 0.12);
 }
 
-/* The DynamicScroller needs an explicit height so it can determine which items
-   are in the viewport. Without this (or page-mode), it falls back to rendering
-   up to 500 items. calc(100dvh - 420px) accounts for the hero + controls above
-   the list; min-height keeps it usable on short/narrow screens. */
+/* Content sections: same readable text width as the old Bootstrap column,
+   now achieved via max-width + padding instead of column constraints. */
+.ssi-content {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.vue-recycle-scroller > * {
+  max-width: 900px !important;
+  margin: 0 auto;
+}
+
+/* Checkboxes strip: truly full-width so all org labels fit in one row
+   on wide screens. Small side padding keeps them off the viewport edge. */
+.checkboxes-strip {
+  padding: 0 1rem 0.5rem;
+}
+
+/* The DynamicScroller needs a fixed height + overflow-y: auto so it can
+   measure exactly which items are in the viewport. calc(100dvh - 340px)
+   subtracts the hero + controls above the list. min-height keeps it usable
+   on short screens. The scroller fills most of the viewport so scrolling
+   feels natural. */
 .terms-scroller {
-  height: calc(100dvh - 420px);
-  min-height: 300px;
+  height: calc(100dvh - 340px);
+  min-height: 400px;
+  overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-gutter: stable;
 }
