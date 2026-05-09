@@ -296,10 +296,29 @@ function scrollToTop() {
   scrollerRef.value?.$el.scrollTo({ top: 0, behavior: 'instant' })
 }
 
+// ── Hash / deep-link navigation ────────────────────────────────────────────
+// The virtual scroller only renders items in the viewport, so native
+// browser hash-scrolling (which relies on finding the element in the DOM)
+// does not work.  scrollToAnchor() resolves the anchor to an index in
+// visibleTerms and delegates to the scroller's own scrollToItem().
+
+function scrollToAnchor(anchor) {
+  if (!scrollerRef.value || !anchor) return
+  const idx = visibleTerms.value.findIndex((t) => t.anchor === anchor)
+  if (idx === -1) return
+  scrollerRef.value.scrollToItem(idx)
+  history.replaceState(null, '', `#${anchor}`)
+}
+
 onMounted(() => {
   nextTick(() => {
     isMounted.value = true
-    nextTick(updateScrollerHeight)
+    nextTick(() => {
+      updateScrollerHeight()
+      // After the scroller is rendered, honour any hash in the URL.
+      const hash = window.location.hash.slice(1)
+      if (hash) nextTick(() => scrollToAnchor(decodeURIComponent(hash)))
+    })
   })
   window.addEventListener('resize', updateScrollerHeight)
 })
@@ -391,7 +410,7 @@ onUnmounted(() => {
                       <span v-html="highlightTerm(term.term)"></span>
                     </button>
                     <a :href="`#${term.anchor}`" class="term-anchor-link" title="Copy link to this term"
-                      aria-label="Link to this term" @click.stop>#</a>
+                      aria-label="Link to this term" @click.prevent.stop="scrollToAnchor(term.anchor)">#</a>
                   </span>
                 </h2>
 
