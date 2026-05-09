@@ -5,8 +5,13 @@ export default defineNuxtConfig({
   // Include Bootstrap CSS globally, then our crypto theme on top
   css: [
     'bootstrap/dist/css/bootstrap.min.css',
-    '~/assets/css/provence-theme.css'
+    '~/assets/css/provence-theme.css',
+    'vue-virtual-scroller/dist/vue-virtual-scroller.css'
   ],
+
+  build: {
+    transpile: ['vue-virtual-scroller']
+  },
 
   // Static site generation for GitHub Pages
   ssr: true,

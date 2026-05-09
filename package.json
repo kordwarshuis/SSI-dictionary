@@ -12,8 +12,8 @@
     "fetch-glossaries": "bash fetchExternalContent/fetchExternalGlossaries/main.sh"
   },
   "devDependencies": {
-    "nuxt": "^3.13.0",
-    "@nuxt/devtools": "latest"
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.13.0"
   },
   "dependencies": {
     "adm-zip": "^0.5.16",
@@ -21,6 +21,7 @@
     "bootstrap": "^5.3.3",
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.0",
-    "marked": "^13.0.0"
+    "marked": "^13.0.0",
+    "vue-virtual-scroller": "^3.0.3"
   }
 }

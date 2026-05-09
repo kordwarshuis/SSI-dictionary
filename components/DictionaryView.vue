@@ -1,4 +1,6 @@
 <script setup>
+import { DynamicScroller, DynamicScrollerItem } from 'vue-virtual-scroller'
+
 /**
  * DictionaryView.vue
  *
@@ -35,6 +37,23 @@ function normalise(str) {
 
 const searchTerm = ref('')
 
+// Debounced version of searchTerm used for filtering/highlighting so that
+// the 11k-item computed list only recalculates after the user stops typing.
+const debouncedSearch = ref('')
+let _debounceTimer = null
+watch(searchTerm, (val) => {
+  clearTimeout(_debounceTimer)
+  _debounceTimer = setTimeout(() => {
+    debouncedSearch.value = val.trim()
+  }, 300)
+})
+
+function clearSearch() {
+  clearTimeout(_debounceTimer)
+  searchTerm.value = ''
+  debouncedSearch.value = ''
+}
+
 // Derived from props so it is available during SSR and on first render,
 // eliminating the flash of "sources: 0 / all terms hidden" that occurred
 // when these were initialised only inside onMounted.
@@ -57,6 +76,9 @@ const termOverrides = ref({})
 
 // Controls visibility of back-to-top button
 const showBackToTop = ref(false)
+
+// Ref to the DynamicScroller component (used for scroll-to-top)
+const scrollerRef = ref(null)
 
 const checkedOrganisations = computed(() => {
   const result = {}
@@ -133,7 +155,7 @@ function tokenise(str) {
 // ── Visibility filter ──────────────────────────────────────────────────────
 
 function isTermVisible(term) {
-  const raw = searchTerm.value.trim()
+  const raw = debouncedSearch.value  // already trimmed by the watcher
 
   // An empty search string matches every term
   if (!raw) {
@@ -160,6 +182,11 @@ function isTermVisible(term) {
   return term.definitions.some((def) => checkedOrganisations.value[def.organisation])
 }
 
+// Computed list of terms that pass the current filter. Using a computed
+// property means Vue only re-evaluates when searchTerm / orgOverrides change,
+// and non-matching terms are never rendered into the DOM at all.
+const visibleTerms = computed(() => props.termsData.filter(isTermVisible))
+
 function isDefinitionsVisible(term) {
   if (term.anchor in termOverrides.value) {
     return termOverrides.value[term.anchor]
@@ -185,7 +212,7 @@ function escapeHtml(str) {
 }
 
 function highlightTerm(termName) {
-  const raw = searchTerm.value.trim()
+  const raw = debouncedSearch.value
   if (!raw) return escapeHtml(termName)
 
   // Build the same query-token list used in isTermVisible.
@@ -215,8 +242,11 @@ function highlightTerm(termName) {
 // The definition HTML is produced by our own scraping pipeline (trusted source).
 // We keep v-html but strip any <script> tags as a minimal safety measure.
 // Also ensure external links open in a new tab with noopener noreferrer.
+// Results are memoised: each unique HTML string is only processed once.
+const _safeHtmlCache = new Map()
 function safeHtml(html) {
-  return String(html)
+  if (_safeHtmlCache.has(html)) return _safeHtmlCache.get(html)
+  const result = String(html)
     .replaceAll(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
     .replaceAll(/<a\b([^>]*?)>/gi, (match, attrs) => {
       if (/target\s*=\s*["']?_blank["']?/i.test(attrs)) {
@@ -232,27 +262,20 @@ function safeHtml(html) {
       }
       return `<a${newAttrs}>`
     })
+  _safeHtmlCache.set(html, result)
+  return result
 }
 // ── Back to top button ─────────────────────────────────────────────────────
+// Scroll events come from the DynamicScroller element (via @scroll on the
+// component), not from window, because the list uses its own overflow container.
 
-function handleScroll() {
-  showBackToTop.value = window.scrollY > 300
+function handleScroll(e) {
+  showBackToTop.value = (e.target?.scrollTop ?? 0) > 300
 }
 
 function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'instant'
-  })
-}
-
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
-})
-
-onBeforeUnmount(() => {
-  window.removeEventListener('scroll', handleScroll)
-})</script>
+  scrollerRef.value?.$el.scrollTo({ top: 0, behavior: 'instant' })
+}</script>
 
 <template>
   <div class="glossaries-combined">
@@ -271,7 +294,7 @@ onBeforeUnmount(() => {
           <input v-model="searchTerm" type="text" class="form-control" placeholder="grep terms…"
             aria-label="Search terms" aria-describedby="search-addon" />
           <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button"
-            aria-label="Clear search" @click="searchTerm = ''">&#x2715;</button>
+            aria-label="Clear search" @click="clearSearch">&#x2715;</button>
         </div>
 
         <!-- Stats row -->
@@ -320,51 +343,72 @@ onBeforeUnmount(() => {
         </div>
 
         <!-- Terms list -->
-        <ul class="list-unstyled">
-          <li v-for="term in termsData" :key="term.anchor"
-            :class="['term-item', { 'd-none': !isTermVisible(term), 'mb-5': isDefinitionsVisible(term), 'mb-2 border border-secondary-subtle p-2 rounded term-collapsed': !isDefinitionsVisible(term) }]">
-            <h2 :id="term.anchor" class="h4 term-heading">
-              <span class="term-heading-row">
-                <button type="button" class="term-toggle" @click="toggleTerm(term)">
-                  <!-- eslint-disable-next-line vue/no-v-html -->
-                  <span v-html="highlightTerm(term.term)"></span>
-                </button>
-                <a
-                  :href="`#${term.anchor}`"
-                  class="term-anchor-link"
-                  title="Copy link to this term"
-                  aria-label="Link to this term"
-                  @click.stop
-                >#</a>
-              </span>
-            </h2>
-
-            <ul v-if="isDefinitionsVisible(term)" class="list-unstyled ms-2">
-              <li v-for="(def, defIndex) in term.definitions" :key="defIndex"
-                :class="{ 'd-none': !checkedOrganisations[def.organisation] }" class="mb-3">
-                <div :class="['card', { 'animate-outline': animateCards }]">
-                  <div class="card-header d-flex justify-content-end">
-                    <span class="badge bg-secondary fs-6 fw-normal">
-                      {{ def.organisation }}
+        <ClientOnly>
+          <DynamicScroller
+            ref="scrollerRef"
+            :items="visibleTerms"
+            :min-item-size="54"
+            key-field="anchor"
+            class="terms-scroller"
+            @scroll.passive="handleScroll"
+          >
+            <template #default="{ item: term, active }">
+              <DynamicScrollerItem
+                :item="term"
+                :active="active"
+                :size-dependencies="[isDefinitionsVisible(term), checkedOrganisations]"
+              >
+                <div
+                  :class="['term-item', isDefinitionsVisible(term) ? 'mb-5' : 'mb-2 border border-secondary-subtle p-2 rounded term-collapsed']"
+                >
+                  <h2 :id="term.anchor" class="h4 term-heading">
+                    <span class="term-heading-row">
+                      <button type="button" class="term-toggle" @click="toggleTerm(term)">
+                        <!-- eslint-disable-next-line vue/no-v-html -->
+                        <span v-html="highlightTerm(term.term)"></span>
+                      </button>
+                      <a
+                        :href="`#${term.anchor}`"
+                        class="term-anchor-link"
+                        title="Copy link to this term"
+                        aria-label="Link to this term"
+                        @click.stop
+                      >#</a>
                     </span>
-                  </div>
-                  <div class="card-body">
-                    <!-- eslint-disable-next-line vue/no-v-html -->
-                    <div v-if="def.definition" class="card-text" v-html="safeHtml(def.definition)"></div>
-                    <p v-else class="card-text definition-placeholder">
-                      This is externally referenced and therefor not included here.
-                    </p>
-                  </div>
-                  <div class="card-footer">
-                    <a :href="def.url" target="_blank" rel="noopener noreferrer">
-                      learn more
-                    </a>
-                  </div>
+                  </h2>
+
+                  <ul v-if="isDefinitionsVisible(term)" class="list-unstyled ms-2">
+                    <li v-for="(def, defIndex) in term.definitions" :key="defIndex"
+                      :class="{ 'd-none': !checkedOrganisations[def.organisation] }" class="mb-3">
+                      <div :class="['card', { 'animate-outline': animateCards }]">
+                        <div class="card-header d-flex justify-content-end">
+                          <span class="badge bg-secondary fs-6 fw-normal">
+                            {{ def.organisation }}
+                          </span>
+                        </div>
+                        <div class="card-body">
+                          <!-- eslint-disable-next-line vue/no-v-html -->
+                          <div v-if="def.definition" class="card-text" v-html="safeHtml(def.definition)"></div>
+                          <p v-else class="card-text definition-placeholder">
+                            This is externally referenced and therefor not included here.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <a :href="def.url" target="_blank" rel="noopener noreferrer">
+                            learn more
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-              </li>
-            </ul>
-          </li>
-        </ul>
+              </DynamicScrollerItem>
+            </template>
+          </DynamicScroller>
+          <template #fallback>
+            <p class="text-muted py-3">Loading terms…</p>
+          </template>
+        </ClientOnly>
 
       </div>
     </div>
@@ -448,6 +492,17 @@ mark {
 
 .term-collapsed {
   background-color: rgba(154, 159, 104, 0.12);
+}
+
+/* The DynamicScroller needs an explicit height so it can determine which items
+   are in the viewport. Without this (or page-mode), it falls back to rendering
+   up to 500 items. calc(100dvh - 420px) accounts for the hero + controls above
+   the list; min-height keeps it usable on short/narrow screens. */
+.terms-scroller {
+  height: calc(100dvh - 420px);
+  min-height: 300px;
+  scrollbar-width: thin;
+  scrollbar-gutter: stable;
 }
 
 .back-to-top-btn {
