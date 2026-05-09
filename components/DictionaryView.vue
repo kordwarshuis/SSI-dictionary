@@ -340,7 +340,7 @@ onUnmounted(() => {
               d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
           </svg>
         </span>
-        <input v-model="searchTerm" type="text" class="form-control" placeholder="grep terms…" aria-label="Search terms"
+        <input v-model="searchTerm" type="text" class="form-control" :placeholder="`Search in ${termsData.length} terms in ${organisations.length} sources…`" aria-label="Search terms"
           aria-describedby="search-addon" />
         <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button" aria-label="Clear search"
           @click="clearSearch">&#x2715;</button>
