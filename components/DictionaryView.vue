@@ -55,6 +55,9 @@ const showDefinitions = ref(true)
 // Per-term overrides that differ from the global visibility mode.
 const termOverrides = ref({})
 
+// Controls visibility of back-to-top button
+const showBackToTop = ref(false)
+
 const checkedOrganisations = computed(() => {
   const result = {}
   organisations.value.forEach((org) => {
@@ -230,7 +233,26 @@ function safeHtml(html) {
       return `<a${newAttrs}>`
     })
 }
-</script>
+// ── Back to top button ─────────────────────────────────────────────────────
+
+function handleScroll() {
+  showBackToTop.value = window.scrollY > 300
+}
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll)
+})</script>
 
 <template>
   <div class="glossaries-combined">
@@ -337,6 +359,16 @@ function safeHtml(html) {
 
       </div>
     </div>
+
+    <!-- Back to top button -->
+    <button v-if="showBackToTop" class="back-to-top-btn" @click="scrollToTop" aria-label="Back to top"
+      title="Scroll back to top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up"
+        viewBox="0 0 16 16" aria-hidden="true">
+        <path fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+      </svg>
+    </button>
   </div>
 </template>
 
@@ -387,5 +419,40 @@ mark {
 
 .term-collapsed {
   background-color: rgba(154, 159, 104, 0.12);
+}
+
+.back-to-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--bs-secondary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top-btn:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top-btn:active {
+  transform: translateY(0);
+}
+
+.back-to-top-btn:focus-visible {
+  outline: 2px solid var(--bs-primary);
+  outline-offset: 2px;
 }
 </style>
