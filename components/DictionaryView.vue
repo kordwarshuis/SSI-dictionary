@@ -324,10 +324,19 @@ onBeforeUnmount(() => {
           <li v-for="term in termsData" :key="term.anchor"
             :class="['term-item', { 'd-none': !isTermVisible(term), 'mb-5': isDefinitionsVisible(term), 'mb-2 border border-secondary-subtle p-2 rounded term-collapsed': !isDefinitionsVisible(term) }]">
             <h2 :id="term.anchor" class="h4 term-heading">
-              <button type="button" class="term-toggle" @click="toggleTerm(term)">
-                <!-- eslint-disable-next-line vue/no-v-html -->
-                <span v-html="highlightTerm(term.term)"></span>
-              </button>
+              <span class="term-heading-row">
+                <button type="button" class="term-toggle" @click="toggleTerm(term)">
+                  <!-- eslint-disable-next-line vue/no-v-html -->
+                  <span v-html="highlightTerm(term.term)"></span>
+                </button>
+                <a
+                  :href="`#${term.anchor}`"
+                  class="term-anchor-link"
+                  title="Copy link to this term"
+                  aria-label="Link to this term"
+                  @click.stop
+                >#</a>
+              </span>
             </h2>
 
             <ul v-if="isDefinitionsVisible(term)" class="list-unstyled ms-2">
@@ -415,6 +424,26 @@ mark {
 .term-toggle:focus-visible {
   outline: 2px solid var(--bs-secondary);
   outline-offset: 4px;
+}
+
+.term-heading-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  width: 100%;
+}
+
+.term-anchor-link {
+  flex: 0 0 auto;
+  font-size: 0.95rem;
+  color: var(--bs-secondary);
+  text-decoration: none;
+  line-height: 1;
+}
+
+.term-anchor-link:hover,
+.term-anchor-link:focus-visible {
+  text-decoration: underline;
 }
 
 .term-collapsed {
