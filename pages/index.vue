@@ -12,13 +12,23 @@ const { data: termsData, status, error } = await useFetch('/api/dictionary.json'
   key: 'dictionary',
   default: () => []
 })
+
+function clearHashFromUrl() {
+  if (!import.meta.client) return
+  const { pathname, search } = globalThis.location
+  globalThis.history.replaceState(null, '', `${pathname}${search}`)
+}
 </script>
 
 <template>
   <div>
     <!-- Hero -->
     <header class="ssi-hero text-center py-2">
-      <h1 class="ssi-hero__title">SSI Dictionary</h1>
+      <h1 class="ssi-hero__title">
+        <button type="button" class="ssi-hero__title-button" @click="clearHashFromUrl">
+          SSI Dictionary
+        </button>
+      </h1>
       <!-- <p class="ssi-hero__subtitle">
         Cryptographically-rooted definitions from authoritative Self-Sovereign
         Identity standards bodies — decentralized trust, no single point of
@@ -64,5 +74,23 @@ const { data: termsData, status, error } = await useFetch('/api/dictionary.json'
   color: var(--clr-green);
   font-weight: 700;
   margin-right: 0.4em;
+}
+
+.ssi-hero__title-button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.ssi-hero__title-button:hover {
+  text-decoration: underline;
+}
+
+.ssi-hero__title-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
 }
 </style>
