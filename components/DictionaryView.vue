@@ -83,6 +83,9 @@ const isMounted = ref(false)
 // Ref to the scroller element for scroll-to-top
 const scrollerRef = ref(null)
 
+// Stores the last hash that was successfully scrolled to.
+const lastScrolledHash = ref('')
+
 // Dynamically measured height for the scroller so vue-virtual-scroller always
 // receives a real pixel height regardless of the ancestor flex/block chain.
 const scrollerHeight = ref('400px')
@@ -208,6 +211,11 @@ const visibleTerms = computed(() => props.termsData.filter(isTermVisible))
 const scrollerKey = ref(0)
 watch(visibleTerms, () => { scrollerKey.value++ })
 
+// If the URL contains a hash, retry scrolling after visibleTerms becomes available.
+watch([visibleTerms, isMounted], () => {
+  if (isMounted.value) tryScrollToHash()
+})
+
 function isDefinitionsVisible(term) {
   if (term.anchor in termOverrides.value) {
     return termOverrides.value[term.anchor]
@@ -303,11 +311,20 @@ function scrollToTop() {
 // visibleTerms and delegates to the scroller's own scrollToItem().
 
 function scrollToAnchor(anchor) {
-  if (!scrollerRef.value || !anchor) return
+  if (!scrollerRef.value || !anchor) return false
   const idx = visibleTerms.value.findIndex((t) => t.anchor === anchor)
-  if (idx === -1) return
+  if (idx === -1) return false
   scrollerRef.value.scrollToItem(idx)
   history.replaceState(null, '', `#${anchor}`)
+  return true
+}
+
+function tryScrollToHash() {
+  const hash = window.location.hash.slice(1)
+  if (!hash || lastScrolledHash.value === hash) return
+  if (scrollToAnchor(decodeURIComponent(hash))) {
+    lastScrolledHash.value = hash
+  }
 }
 
 onMounted(() => {
@@ -316,15 +333,16 @@ onMounted(() => {
     nextTick(() => {
       updateScrollerHeight()
       // After the scroller is rendered, honour any hash in the URL.
-      const hash = window.location.hash.slice(1)
-      if (hash) nextTick(() => scrollToAnchor(decodeURIComponent(hash)))
+      if (window.location.hash) nextTick(tryScrollToHash)
     })
   })
   window.addEventListener('resize', updateScrollerHeight)
+  window.addEventListener('hashchange', tryScrollToHash)
 })
 
 onUnmounted(() => {
   window.removeEventListener('resize', updateScrollerHeight)
+  window.removeEventListener('hashchange', tryScrollToHash)
 })</script>
 
 <template>
