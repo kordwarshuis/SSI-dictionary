@@ -83,8 +83,7 @@ const isMounted = ref(false)
 // Ref to the scroller element for scroll-to-top
 const scrollerRef = ref(null)
 
-// Stores the last hash that was successfully scrolled to.
-const lastScrolledHash = ref('')
+let hashScrollRaf = null
 
 // Dynamically measured height for the scroller so vue-virtual-scroller always
 // receives a real pixel height regardless of the ancestor flex/block chain.
@@ -213,8 +212,12 @@ watch(visibleTerms, () => { scrollerKey.value++ })
 
 // If the URL contains a hash, retry scrolling after visibleTerms becomes available.
 watch([visibleTerms, isMounted], () => {
-  if (isMounted.value) tryScrollToHash()
-})
+  if (isMounted.value) nextTick(scheduleHashScroll)
+}, { flush: 'post' })
+
+watch(() => scrollerRef.value, (value) => {
+  if (value) nextTick(scheduleHashScroll)
+}, { flush: 'post' })
 
 function isDefinitionsVisible(term) {
   if (term.anchor in termOverrides.value) {
@@ -319,12 +322,27 @@ function scrollToAnchor(anchor) {
   return true
 }
 
-function tryScrollToHash() {
-  const hash = window.location.hash.slice(1)
-  if (!hash || lastScrolledHash.value === hash) return
-  if (scrollToAnchor(decodeURIComponent(hash))) {
-    lastScrolledHash.value = hash
+function scheduleHashScroll() {
+  if (hashScrollRaf !== null) {
+    cancelAnimationFrame(hashScrollRaf)
+    hashScrollRaf = null
   }
+
+  const hash = globalThis.location.hash.slice(1)
+  if (!hash) return
+
+  const decodedHash = decodeURIComponent(hash)
+  let attempts = 0
+
+  const tryScroll = () => {
+    attempts += 1
+    if (scrollToAnchor(decodedHash)) return
+    if (attempts < 40) {
+      hashScrollRaf = requestAnimationFrame(tryScroll)
+    }
+  }
+
+  hashScrollRaf = requestAnimationFrame(tryScroll)
 }
 
 onMounted(() => {
@@ -333,16 +351,20 @@ onMounted(() => {
     nextTick(() => {
       updateScrollerHeight()
       // After the scroller is rendered, honour any hash in the URL.
-      if (window.location.hash) nextTick(tryScrollToHash)
+      if (globalThis.location.hash) nextTick(scheduleHashScroll)
     })
   })
   window.addEventListener('resize', updateScrollerHeight)
-  window.addEventListener('hashchange', tryScrollToHash)
+  globalThis.addEventListener('hashchange', scheduleHashScroll)
 })
 
 onUnmounted(() => {
   window.removeEventListener('resize', updateScrollerHeight)
-  window.removeEventListener('hashchange', tryScrollToHash)
+  globalThis.removeEventListener('hashchange', scheduleHashScroll)
+  if (hashScrollRaf !== null) {
+    cancelAnimationFrame(hashScrollRaf)
+    hashScrollRaf = null
+  }
 })</script>
 
 <template>
