@@ -15,7 +15,7 @@ echo "Using GENERATED_JSON_GLOSSARIES_DIR=$GENERATED_JSON_GLOSSARIES_DIR"
 
 # node fetchExternalContent/fetchExternalGlossaries/fetchDigitalGovtNzContent/fetchDigitalGovtNzContent.mjs
 
-# node fetchExternalContent/fetchExternalGlossaries/fetchNistContent/fetchNistContent.mjs
+node fetchExternalContent/fetchExternalGlossaries/fetchNistContent/fetchNistContent.mjs
 
 # node fetchExternalContent/fetchExternalGlossaries/fetchWotTermsContent/fetchWotTermsContent.mjs
 
