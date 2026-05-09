@@ -3,6 +3,7 @@ node_modules/
 .output/
 dist/
 public/
+download/
 
 # public/data/ is generated at CI runtime and deployed directly to gh-pages.
 # It is never committed to main.
