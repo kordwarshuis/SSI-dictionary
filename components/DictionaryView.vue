@@ -253,15 +253,6 @@ function safeHtml(html) {
         </div>
 
         <!-- Stats row -->
-        <!-- <div class="d-flex gap-3 mb-3 flex-wrap align-items-center">
-          <span class="stat-pill">
-            nodes&nbsp;<span>{{ termsData.length }}</span>
-          </span>
-          <span class="stat-pill">
-            sources&nbsp;<span>{{ organisations.length }}</span>
-          </span>
-        </div> -->
-
         <hr />
 
         <!-- Source visibility controls -->
@@ -296,7 +287,7 @@ function safeHtml(html) {
 
         <!-- Term visibility toggle -->
         <div class="mb-3 d-flex flex-wrap gap-2 align-items-center term-visibility-toggle">
-          <button type="button" class="btn btn-sm" :class="showDefinitions ? 'btn-secondary' : 'btn-outline-secondary'"
+          <button type="button" class="btn btn-sm ms-1" :class="showDefinitions ? 'btn-secondary' : 'btn-outline-secondary'"
             @click="setAllTermsVisible(true)">
             Terms and definitions visible
           </button>
@@ -309,11 +300,11 @@ function safeHtml(html) {
         <!-- Terms list -->
         <ul class="list-unstyled">
           <li v-for="term in termsData" :key="term.anchor"
-            :class="['term-item', { 'd-none': !isTermVisible(term), 'mb-5': isDefinitionsVisible(term), 'mb-4 border border-secondary-subtle p-2 rounded': !isDefinitionsVisible(term) }]">
+            :class="['term-item', { 'd-none': !isTermVisible(term), 'mb-5': isDefinitionsVisible(term), 'mb-2 border border-secondary-subtle p-2 rounded term-collapsed': !isDefinitionsVisible(term) }]">
             <h2 :id="term.anchor" class="h4 term-heading">
               <button type="button" class="term-toggle" @click="toggleTerm(term)">
                 <!-- eslint-disable-next-line vue/no-v-html -->
-                <span v-html="highlightTerm(term.term)" />
+                <span v-html="highlightTerm(term.term)"></span>
               </button>
             </h2>
 
@@ -328,7 +319,7 @@ function safeHtml(html) {
                   </div>
                   <div class="card-body">
                     <!-- eslint-disable-next-line vue/no-v-html -->
-                    <div v-if="def.definition" class="card-text" v-html="safeHtml(def.definition)" />
+                    <div v-if="def.definition" class="card-text" v-html="safeHtml(def.definition)"></div>
                     <p v-else class="card-text definition-placeholder">
                       This is externally referenced and therefor not included here.
                     </p>
@@ -392,5 +383,9 @@ mark {
 .term-toggle:focus-visible {
   outline: 2px solid var(--bs-secondary);
   outline-offset: 4px;
+}
+
+.term-collapsed {
+  background-color: rgba(154, 159, 104, 0.12);
 }
 </style>
