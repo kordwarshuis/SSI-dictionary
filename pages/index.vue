@@ -26,7 +26,7 @@ function clearHashFromUrl() {
     <header class="ssi-hero text-center py-1">
       <h1 class="ssi-hero__title fs-3 m-0">
         <button type="button" class="ssi-hero__title-button" @click="clearHashFromUrl">
-          SSI Dictionary
+          Self Sovereign Identity (SSI) Dictionary
         </button>
       </h1>
       <!-- <p class="ssi-hero__subtitle">
