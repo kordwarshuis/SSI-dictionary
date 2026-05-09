@@ -83,6 +83,17 @@ const isMounted = ref(false)
 // Ref to the scroller element for scroll-to-top
 const scrollerRef = ref(null)
 
+// Dynamically measured height for the scroller so vue-virtual-scroller always
+// receives a real pixel height regardless of the ancestor flex/block chain.
+const scrollerHeight = ref('400px')
+
+function updateScrollerHeight() {
+  const el = scrollerRef.value?.$el
+  if (!el) return
+  const top = el.getBoundingClientRect().top + window.scrollY
+  scrollerHeight.value = `calc(100dvh - ${Math.round(top)}px)`
+}
+
 const checkedOrganisations = computed(() => {
   const result = {}
   organisations.value.forEach((org) => {
@@ -286,7 +297,15 @@ function scrollToTop() {
 }
 
 onMounted(() => {
-  nextTick(() => { isMounted.value = true })
+  nextTick(() => {
+    isMounted.value = true
+    nextTick(updateScrollerHeight)
+  })
+  window.addEventListener('resize', updateScrollerHeight)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateScrollerHeight)
 })</script>
 
 <template>
@@ -359,12 +378,12 @@ onMounted(() => {
       <!-- Terms list -->
       <ClientOnly>
         <DynamicScroller v-if="isMounted" :key="scrollerKey" ref="scrollerRef" :items="visibleTerms" :min-item-size="54"
-          key-field="anchor" class="terms-scroller" @scroll.passive="handleScroll">
-          <template #default="{ item: term, active }">
-            <DynamicScrollerItem :item="term" :active="active">
-              <div
-                :class="['term-item', isDefinitionsVisible(term) ? '' : 'border border-secondary-subtle p-2 rounded term-collapsed']"
-                :style="{ paddingBottom: '2rem' }">
+            key-field="anchor" class="terms-scroller" :style="{ height: scrollerHeight }" @scroll.passive="handleScroll">
+            <template #default="{ item: term, active }">
+              <DynamicScrollerItem :item="term" :active="active">
+                <div
+                  :class="['term-item', isDefinitionsVisible(term) ? '' : 'border border-secondary-subtle p-2 rounded term-collapsed']"
+                  :style="{ paddingBottom: '2rem' }">
                 <h2 :id="term.anchor" class="h4 term-heading">
                   <span class="term-heading-row">
                     <button type="button" class="term-toggle" @click="toggleTerm(term)">
@@ -522,14 +541,9 @@ mark {
   padding: 0 1rem 0.5rem;
 }
 
-/* The DynamicScroller needs a fixed height + overflow-y: auto so it can
-   measure exactly which items are in the viewport. calc(100dvh - 340px)
-   subtracts the hero + controls above the list. min-height keeps it usable
-   on short screens. The scroller fills most of the viewport so scrolling
-   feels natural. */
+/* The DynamicScroller height is set dynamically via :style binding so
+   vue-virtual-scroller always receives a real pixel height. */
 .terms-scroller {
-  height: calc(100dvh - 340px);
-  min-height: 400px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-gutter: stable;
