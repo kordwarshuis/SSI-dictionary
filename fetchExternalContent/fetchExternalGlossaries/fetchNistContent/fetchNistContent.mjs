@@ -15,7 +15,7 @@ const filename = 'glossary-export.zip';
 const fullPath = path.join(dir, filename); // Use path.join for better compatibility
 const overview = './static/json/overview.json';
 
-const sourceJsonFullPath = dir + '/' + 'glossary-export.json'; ``
+const sourceJsonFullPath = path.join(dir, 'glossary-export.json');
 const filteredJsonFullPath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, 'terms-definitions-nist.json');
 
 // END CONFIG
@@ -24,44 +24,51 @@ const filteredJsonFullPath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR
 
 
 function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
-    try {
-        // Read and parse the overview JSON
-        const overviewData = JSON.parse(fs.readFileSync(overviewPath, 'utf8'));
-        const terms = overviewData.values.slice(1).map(row => row[5]);
-
-        // Read and parse the source JSON, with additional error handling for BOM
-        let sourceJsonRaw = fs.readFileSync(sourceJsonPath, 'utf8');
-        if (sourceJsonRaw.charCodeAt(0) === 0xFEFF) {
-            sourceJsonRaw = sourceJsonRaw.slice(1); // Remove BOM
-        }
-        const sourceJsonData = JSON.parse(sourceJsonRaw);
-
-        // Filter the terms, assign the appropriate 'definition', add 'organisation', rename 'link' to 'url', and add 'anchor'
-        const filteredTerms = sourceJsonData.parentTerms.filter(termObj => terms.includes(termObj.term)).map(termObj => {
-            if (termObj.definitions && termObj.definitions.length > 0 && termObj.definitions[0].text) {
-                termObj.definition = termObj.definitions[0].text;
-            } else {
-                termObj.definition = "Term found but the definition does not exist yet.";
-            }
-            termObj.organisation = "Nist";
-            if (termObj.link) {
-                termObj.url = termObj.link;
-                delete termObj.link;
-            }
-            delete termObj.definitions;
-            termObj.anchor = termObj.term.replace(/[\s-]+/g, ''); // Remove spaces and dashes from 'term' to create 'anchor'
-            return termObj;
-        });
-
-        // Write only the filteredTerms array to the file
-        fs.writeFileSync(filteredJsonPath, JSON.stringify(filteredTerms, null, 4));
-
-        // Clean the JSON file, remove non-printable characters
-        cleanJsonFile(filteredJsonPath, filteredJsonPath);
-
-    } catch (error) {
-        console.error(`An error occurred: ${error.message}`);
+    // Read and parse the source JSON, with additional error handling for BOM
+    let sourceJsonRaw = fs.readFileSync(sourceJsonPath, 'utf8');
+    if (sourceJsonRaw.charCodeAt(0) === 0xFEFF) {
+        sourceJsonRaw = sourceJsonRaw.slice(1); // Remove BOM
     }
+    const sourceJsonData = JSON.parse(sourceJsonRaw);
+
+    // Determine which terms to include: filter by overview if it exists, otherwise use all
+    let termsList = null;
+    if (fs.existsSync(overviewPath)) {
+        const overviewData = JSON.parse(fs.readFileSync(overviewPath, 'utf8'));
+        termsList = overviewData.values.slice(1).map(row => row[5]);
+        console.log(`Nist: Filtering to ${termsList.length} terms from overview.json`);
+    } else {
+        console.log('Nist: overview.json not found — including all terms from glossary-export.json');
+    }
+
+    const candidates = termsList
+        ? sourceJsonData.parentTerms.filter(termObj => termsList.includes(termObj.term))
+        : sourceJsonData.parentTerms;
+
+    // Assign the appropriate 'definition', add 'organisation', rename 'link' to 'url', and add 'anchor'
+    const mappedTerms = candidates.map(termObj => {
+        if (termObj.definitions && termObj.definitions.length > 0 && termObj.definitions[0].text) {
+            termObj.definition = termObj.definitions[0].text;
+        } else {
+            termObj.definition = "Term found but the definition does not exist yet.";
+        }
+        termObj.organisation = "Nist";
+        if (termObj.link) {
+            termObj.url = termObj.link;
+            delete termObj.link;
+        }
+        delete termObj.definitions;
+        termObj.anchor = termObj.term.replace(/[\s-]+/g, ''); // Remove spaces and dashes from 'term' to create 'anchor'
+        return termObj;
+    });
+
+    // Write only the mapped terms array to the file
+    fs.writeFileSync(filteredJsonPath, JSON.stringify(mappedTerms, null, 4));
+
+    // Clean the JSON file, remove non-printable characters
+    cleanJsonFile(filteredJsonPath, filteredJsonPath);
+
+    console.log(`Nist: Wrote ${mappedTerms.length} terms to ${filteredJsonPath}`);
 }
 
 // Main function to run the tasks sequentially
