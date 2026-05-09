@@ -253,14 +253,14 @@ function safeHtml(html) {
         </div>
 
         <!-- Stats row -->
-        <div class="d-flex gap-3 mb-3 flex-wrap align-items-center">
+        <!-- <div class="d-flex gap-3 mb-3 flex-wrap align-items-center">
           <span class="stat-pill">
             nodes&nbsp;<span>{{ termsData.length }}</span>
           </span>
           <span class="stat-pill">
             sources&nbsp;<span>{{ organisations.length }}</span>
           </span>
-        </div>
+        </div> -->
 
         <hr />
 
@@ -309,7 +309,7 @@ function safeHtml(html) {
         <!-- Terms list -->
         <ul class="list-unstyled">
           <li v-for="term in termsData" :key="term.anchor"
-            :class="['term-item', { 'd-none': !isTermVisible(term), 'mb-5': isDefinitionsVisible(term), 'mb-2': !isDefinitionsVisible(term) }]">
+            :class="['term-item', { 'd-none': !isTermVisible(term), 'mb-5': isDefinitionsVisible(term), 'mb-4 border border-secondary-subtle p-2 rounded': !isDefinitionsVisible(term) }]">
             <h2 :id="term.anchor" class="h4 term-heading">
               <button type="button" class="term-toggle" @click="toggleTerm(term)">
                 <!-- eslint-disable-next-line vue/no-v-html -->

@@ -17,13 +17,13 @@ const { data: termsData, status, error } = await useFetch('/api/dictionary.json'
 <template>
   <div>
     <!-- Hero -->
-    <header class="ssi-hero text-center py-5">
+    <header class="ssi-hero text-center py-2">
       <h1 class="ssi-hero__title">SSI Dictionary</h1>
-      <p class="ssi-hero__subtitle">
+      <!-- <p class="ssi-hero__subtitle">
         Cryptographically-rooted definitions from authoritative Self-Sovereign
         Identity standards bodies — decentralized trust, no single point of
         control.
-      </p>
+      </p> -->
       <!-- <div class="ssi-hero__badge-row">
         <span class="ssi-hero__badge">🔐 cryptography</span>
         <span class="ssi-hero__badge">🌐 decentralized trust</span>
