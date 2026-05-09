@@ -28,7 +28,7 @@ const props = defineProps({
 function normalise(str) {
   return String(str)
     .toLowerCase()
-    .replace(/[\s\-_—]/g, '')
+    .replaceAll(/[\s\-_—]/g, '')
 }
 
 // ── State ──────────────────────────────────────────────────────────────────
@@ -48,6 +48,12 @@ const organisations = computed(() => {
 
 // Stores per-org overrides; entries default to true (visible).
 const orgOverrides = ref({})
+
+// Controls whether definitions are shown for all terms by default.
+const showDefinitions = ref(true)
+
+// Per-term overrides that differ from the global visibility mode.
+const termOverrides = ref({})
 
 const checkedOrganisations = computed(() => {
   const result = {}
@@ -107,10 +113,15 @@ function turnAllOff() {
   orgOverrides.value = next
 }
 
+function setAllTermsVisible(nextVisible) {
+  showDefinitions.value = nextVisible
+  termOverrides.value = {}
+}
+
 // ── Tokeniser ──────────────────────────────────────────────────────────────
 // Splits a term name into discrete tokens on any separator character.
 // "self-addressing identifier (SAID)" → ["self", "addressing", "identifier", "SAID"]
-const TOKEN_SEP = /[\s\-_,()\/]+/
+const TOKEN_SEP = /[\s\-_,()/]+/
 
 function tokenise(str) {
   return String(str).split(TOKEN_SEP).filter(Boolean)
@@ -146,14 +157,28 @@ function isTermVisible(term) {
   return term.definitions.some((def) => checkedOrganisations.value[def.organisation])
 }
 
+function isDefinitionsVisible(term) {
+  if (term.anchor in termOverrides.value) {
+    return termOverrides.value[term.anchor]
+  }
+  return showDefinitions.value
+}
+
+function toggleTerm(term) {
+  termOverrides.value = {
+    ...termOverrides.value,
+    [term.anchor]: !isDefinitionsVisible(term)
+  }
+}
+
 // ── Term highlight ───────────────────────────────────────────────────────────
 
 function escapeHtml(str) {
   return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
 }
 
 function highlightTerm(termName) {
@@ -167,7 +192,7 @@ function highlightTerm(termName) {
   }))
 
   // Walk the term name token-by-token, preserving separators.
-  const parts = termName.split(/([ \-_,()\/]+)/)
+  const parts = termName.split(/([ \-_,()/]+)/)
   let result = ''
   for (const part of parts) {
     if (TOKEN_SEP.test(part)) {
@@ -189,8 +214,8 @@ function highlightTerm(termName) {
 // Also ensure external links open in a new tab with noopener noreferrer.
 function safeHtml(html) {
   return String(html)
-    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
-    .replace(/<a\b([^>]*?)>/gi, (match, attrs) => {
+    .replaceAll(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
+    .replaceAll(/<a\b([^>]*?)>/gi, (match, attrs) => {
       if (/target\s*=\s*["']?_blank["']?/i.test(attrs)) {
         return `<a${attrs}>`
       }
@@ -237,31 +262,20 @@ function safeHtml(html) {
           </span>
         </div>
 
-        <!-- Glossary source links -->
-        <!-- <div class="mb-3 source-links small">
-          <strong>// sources:</strong>
-          <span v-for="(url, org) in organisationLinks" :key="org" class="me-3">
-            <a v-if="organisations.includes(org)" :href="url" target="_blank" rel="noopener noreferrer"
-              class="text-decoration-none">
-              {{ org }} ↗
-            </a>
-          </span>
-        </div> -->
+        <hr />
 
-        <!-- Glossary toggle buttons -->
-        <div class="mt-3 mb-0 d-flex gap-2 flex-wrap">
+        <!-- Source visibility controls -->
+        <div class="mb-3 d-flex gap-2 flex-wrap">
           <button type="button" class="btn btn-sm btn-outline-secondary" @click="toggleAllCheckboxes">
-            toggle
+            toggle sources
           </button>
           <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOn">
-            all on
+            all sources on
           </button>
           <button type="button" class="btn btn-sm btn-outline-secondary" @click="turnAllOff">
-            all off
+            all sources off
           </button>
         </div>
-
-        <hr />
 
         <!-- Organisation checkboxes -->
         <div class="d-flex flex-wrap gap-2 mb-2">
@@ -280,17 +294,30 @@ function safeHtml(html) {
 
         <hr />
 
+        <!-- Term visibility toggle -->
+        <div class="mb-3 d-flex flex-wrap gap-2 align-items-center term-visibility-toggle">
+          <button type="button" class="btn btn-sm" :class="showDefinitions ? 'btn-secondary' : 'btn-outline-secondary'"
+            @click="setAllTermsVisible(true)">
+            Terms and definitions visible
+          </button>
+          <button type="button" class="btn btn-sm" :class="!showDefinitions ? 'btn-secondary' : 'btn-outline-secondary'"
+            @click="setAllTermsVisible(false)">
+            Only terms visible
+          </button>
+        </div>
+
         <!-- Terms list -->
         <ul class="list-unstyled">
-          <li v-for="term in termsData" :key="term.anchor" :class="{ 'd-none': !isTermVisible(term) }" class="mb-5">
+          <li v-for="term in termsData" :key="term.anchor"
+            :class="['term-item', { 'd-none': !isTermVisible(term), 'mb-5': isDefinitionsVisible(term), 'mb-2': !isDefinitionsVisible(term) }]">
             <h2 :id="term.anchor" class="h4 term-heading">
-              <a :href="`#${encodeURIComponent(term.anchor)}`">
+              <button type="button" class="term-toggle" @click="toggleTerm(term)">
                 <!-- eslint-disable-next-line vue/no-v-html -->
                 <span v-html="highlightTerm(term.term)" />
-              </a>
+              </button>
             </h2>
 
-            <ul class="list-unstyled ms-2">
+            <ul v-if="isDefinitionsVisible(term)" class="list-unstyled ms-2">
               <li v-for="(def, defIndex) in term.definitions" :key="defIndex"
                 :class="{ 'd-none': !checkedOrganisations[def.organisation] }" class="mb-3">
                 <div :class="['card', { 'animate-outline': animateCards }]">
@@ -337,5 +364,33 @@ mark {
 .clear-btn:hover {
   color: #000;
   background: transparent;
+}
+
+.term-visibility-toggle {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 0.5rem 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.86));
+  backdrop-filter: blur(6px);
+}
+
+.term-toggle {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  color: inherit;
+  font: inherit;
+}
+
+.term-toggle:hover {
+  text-decoration: underline;
+}
+
+.term-toggle:focus-visible {
+  outline: 2px solid var(--bs-secondary);
+  outline-offset: 4px;
 }
 </style>
