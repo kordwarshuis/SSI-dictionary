@@ -327,7 +327,17 @@ function scrollToAnchor(anchor) {
   if (!scrollerRef.value || !anchor) return false
   const idx = visibleTerms.value.findIndex((t) => t.anchor === anchor)
   if (idx === -1) return false
-  scrollerRef.value.scrollToItem(idx)
+
+  // First ask the virtual scroller to render and position the target item.
+  if (typeof scrollerRef.value.scrollToItem === 'function') {
+    scrollerRef.value.scrollToItem(idx)
+  }
+
+  // Success is only declared when the actual target element exists in the DOM.
+  const targetEl = globalThis.document.getElementById(anchor)
+  if (!targetEl) return false
+
+  targetEl.scrollIntoView({ block: 'start' })
   history.replaceState(null, '', `#${anchor}`)
   pendingHashAnchor.value = ''
   return true
@@ -349,7 +359,7 @@ function scheduleHashScroll() {
   const tryScroll = () => {
     attempts += 1
     if (scrollToAnchor(decodedHash)) return
-    if (attempts < 40) {
+    if (attempts < 300) {
       hashScrollRaf = requestAnimationFrame(tryScroll)
     }
   }
