@@ -24,7 +24,7 @@ function clearHashFromUrl() {
   <div>
     <!-- Hero -->
     <header class="ssi-hero text-center py-1">
-      <h1 class="ssi-hero__title fs-3 m-0">
+      <h1 class="ssi-hero__title m-0">
         <button type="button" class="ssi-hero__title-button" @click="clearHashFromUrl">
           Self Sovereign Identity (SSI) Dictionary
         </button>
@@ -92,5 +92,15 @@ function clearHashFromUrl() {
 .ssi-hero__title-button:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 4px;
+}
+
+.ssi-hero__title {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 575.98px) {
+  .ssi-hero__title {
+    font-size: 1.15rem;
+  }
 }
 </style>
