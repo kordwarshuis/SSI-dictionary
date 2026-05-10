@@ -85,6 +85,7 @@ const scrollerRef = ref(null)
 
 let hashScrollRaf = null
 const pendingHashAnchor = ref('')
+const hasHandledCurrentHash = ref(false)
 
 // Dynamically measured height for the scroller so vue-virtual-scroller always
 // receives a real pixel height regardless of the ancestor flex/block chain.
@@ -204,7 +205,11 @@ function isTermVisible(term) {
 // and non-matching terms are never rendered into the DOM at all.
 const visibleTerms = computed(() => {
   const filtered = props.termsData.filter(isTermVisible)
-  const pending = pendingHashAnchor.value
+  const hashFromLocation =
+    import.meta.client && !hasHandledCurrentHash.value
+      ? decodeURIComponent(globalThis.location.hash.slice(1))
+      : ''
+  const pending = pendingHashAnchor.value || hashFromLocation
   if (!pending) return filtered
 
   const idx = filtered.findIndex((t) => t.anchor === pending)
@@ -340,6 +345,7 @@ function scrollToAnchor(anchor) {
   targetEl.scrollIntoView({ block: 'start' })
   history.replaceState(null, '', `#${anchor}`)
   pendingHashAnchor.value = ''
+  hasHandledCurrentHash.value = true
   return true
 }
 
@@ -354,6 +360,7 @@ function scheduleHashScroll() {
 
   const decodedHash = decodeURIComponent(hash)
   pendingHashAnchor.value = decodedHash
+  hasHandledCurrentHash.value = false
   let attempts = 0
 
   const tryScroll = () => {
@@ -407,9 +414,6 @@ onUnmounted(() => {
         <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button" aria-label="Clear search"
           @click="clearSearch">&#x2715;</button>
       </div>
-
-      <!-- Stats row -->
-      <!-- <hr /> -->
 
       <!-- Source visibility controls -->
       <div class="mb-3 text-center">
@@ -606,7 +610,6 @@ mark {
 /* Content sections: same readable text width as the old Bootstrap column,
    now achieved via max-width + padding instead of column constraints. */
 .ssi-content {
-  /* max-width: 900px; */
   margin: 0 auto;
   padding: 0 1.5rem;
 }
