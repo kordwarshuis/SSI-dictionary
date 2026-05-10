@@ -77,6 +77,9 @@ const termOverrides = ref({})
 // Controls visibility of back-to-top button
 const showBackToTop = ref(false)
 
+// Controls whether the filters panel is open on mobile
+const filtersOpen = ref(false)
+
 // Guards DynamicScroller from mounting until the page is laid out.
 const isMounted = ref(false)
 
@@ -415,8 +418,22 @@ onUnmounted(() => {
           @click="clearSearch">&#x2715;</button>
       </div>
 
+      <!-- Hamburger toggle (mobile only) -->
+      <button type="button" class="filters-hamburger btn btn-sm btn-outline-secondary w-100 mb-2"
+        :aria-expanded="filtersOpen" aria-controls="filters-panel"
+        @click="filtersOpen = !filtersOpen">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+        </svg>
+        Filters &amp; Sources
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"
+          :style="{ transform: filtersOpen ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.2s' }">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+        </svg>
+      </button>
+
       <!-- Source visibility controls -->
-      <div class="mb-3 text-center">
+      <div id="filters-panel" class="mb-3 text-center filters-panel" :class="{ 'filters-open': filtersOpen }">
         <button type="button" class="btn btn-sm btn-outline-secondary" @click="toggleAllCheckboxes">
           toggle sources
         </button>
@@ -441,7 +458,7 @@ onUnmounted(() => {
     </div><!-- /.ssi-content -->
 
     <!-- Organisation checkboxes: full-width strip so all sources fit in one row -->
-    <div class="checkboxes-strip p-0">
+    <div class="checkboxes-strip p-0 filters-panel" :class="{ 'filters-open': filtersOpen }">
       <div class="text-center">
         <div v-for="org in organisations" :key="org" class="form-check form-check-inline">
           <input :id="`checkbox-${org}`" class="form-check-input" type="checkbox" :checked="checkedOrganisations[org]"
@@ -666,5 +683,27 @@ mark {
 .back-to-top-btn:focus-visible {
   outline: 2px solid var(--bs-primary);
   outline-offset: 2px;
+}
+
+/* Hamburger button: hidden on desktop, shown on mobile */
+.filters-hamburger {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .filters-hamburger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+  }
+
+  .filters-panel {
+    display: none;
+  }
+
+  .filters-panel.filters-open {
+    display: block;
+  }
 }
 </style>
