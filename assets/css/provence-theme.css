@@ -297,10 +297,10 @@ a:focus {
 
 .mark-highlight,
 mark {
-  background-color: rgba(254, 212, 112, 0.75);
+  background-color: rgb(254, 249, 112);
   color: #6a3f0f;
-  padding: 0 2px;
-  border-radius: 2px;
+  padding: 0 10px;
+  border-radius: 12px;
 }
 
 .animate-outline {
