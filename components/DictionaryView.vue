@@ -84,6 +84,7 @@ const isMounted = ref(false)
 const scrollerRef = ref(null)
 
 let hashScrollRaf = null
+const pendingHashAnchor = ref('')
 
 // Dynamically measured height for the scroller so vue-virtual-scroller always
 // receives a real pixel height regardless of the ancestor flex/block chain.
@@ -201,7 +202,16 @@ function isTermVisible(term) {
 // Computed list of terms that pass the current filter. Using a computed
 // property means Vue only re-evaluates when searchTerm / orgOverrides change,
 // and non-matching terms are never rendered into the DOM at all.
-const visibleTerms = computed(() => props.termsData.filter(isTermVisible))
+const visibleTerms = computed(() => {
+  const filtered = props.termsData.filter(isTermVisible)
+  const pending = pendingHashAnchor.value
+  if (!pending) return filtered
+
+  const idx = filtered.findIndex((t) => t.anchor === pending)
+  if (idx <= 0) return filtered
+
+  return [filtered[idx], ...filtered.slice(0, idx), ...filtered.slice(idx + 1)]
+})
 
 // Incrementing key that forces DynamicScroller to fully remount whenever the
 // visible set changes. DynamicScroller maintains two internal pools during
@@ -319,6 +329,7 @@ function scrollToAnchor(anchor) {
   if (idx === -1) return false
   scrollerRef.value.scrollToItem(idx)
   history.replaceState(null, '', `#${anchor}`)
+  pendingHashAnchor.value = ''
   return true
 }
 
@@ -332,6 +343,7 @@ function scheduleHashScroll() {
   if (!hash) return
 
   const decodedHash = decodeURIComponent(hash)
+  pendingHashAnchor.value = decodedHash
   let attempts = 0
 
   const tryScroll = () => {
