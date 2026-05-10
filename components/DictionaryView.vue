@@ -419,7 +419,7 @@ onUnmounted(() => {
       </div>
 
       <!-- Hamburger toggle (mobile only) -->
-      <button type="button" class="filters-hamburger btn btn-sm btn-outline-secondary w-100 mb-2"
+      <button type="button" class="filters-hamburger btn btn-sm btn-outline-secondary w-100"
         :aria-expanded="filtersOpen" aria-controls="filters-panel"
         @click="filtersOpen = !filtersOpen">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
@@ -475,7 +475,7 @@ onUnmounted(() => {
     </div><!-- /.checkboxes-strip -->
 
     <div class="ssi-content">
-      <hr />
+      <hr class="m-1 mt-2" />
 
       <!-- Terms list -->
       <ClientOnly>
