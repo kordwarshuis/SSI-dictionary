@@ -607,8 +607,8 @@ onUnmounted(() => {
                       <!-- eslint-disable-next-line vue/no-v-html -->
                       <span v-html="highlightTerm(term.term)"></span>
                     </button>
-                    <a :href="`#${term.anchor}`" class="term-anchor-link" title="Copy link to this term"
-                      aria-label="Link to this term" @click.prevent.stop="scrollToAnchor(term.anchor)">#</a>
+                    <!-- <a :href="`#${term.anchor}`" class="term-anchor-link" title="Copy link to this term"
+                      aria-label="Link to this term" @click.prevent.stop="scrollToAnchor(term.anchor)">#</a> -->
                   </span>
                 </h2>
 
