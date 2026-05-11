@@ -17,6 +17,10 @@ const props = defineProps({
     type: Array,
     required: true,
     default: () => []
+  },
+  lastBuiltAt: {
+    type: String,
+    default: null
   }
 })
 
@@ -31,6 +35,21 @@ function normalise(str) {
   return String(str)
     .toLowerCase()
     .replaceAll(/[\s\-_—]/g, '')
+}
+
+function formatLastBuiltAt(value) {
+  if (!value) return ''
+
+  const date = new Date(value)
+  if (Number.isNaN(date.getTime())) return ''
+
+  const year = date.getUTCFullYear()
+  const month = String(date.getUTCMonth() + 1).padStart(2, '0')
+  const day = String(date.getUTCDate()).padStart(2, '0')
+  const hours = String(date.getUTCHours()).padStart(2, '0')
+  const minutes = String(date.getUTCMinutes()).padStart(2, '0')
+
+  return `${year}-${month}-${day} ${hours}:${minutes} UTC`
 }
 
 // ── State ──────────────────────────────────────────────────────────────────
@@ -148,6 +167,12 @@ const organisations = computed(() => {
     term.definitions.forEach((def) => seen.add(def.organisation))
   )
   return Array.from(seen).sort()
+})
+
+const lastBuiltAtLabel = computed(() => formatLastBuiltAt(props.lastBuiltAt))
+const searchPlaceholder = computed(() => {
+  const base = `Search in ${props.termsData.length} terms in ${organisations.value.length} sources`
+  return lastBuiltAtLabel.value ? `${base}, last built ${lastBuiltAtLabel.value}…` : `${base}…`
 })
 
 // Stores per-org overrides; entries default to true (visible).
@@ -502,7 +527,7 @@ onUnmounted(() => {
           :disabled="!canGoToPreviousSearchTerm" @click="goToPreviousSearchTerm">&#x2190;</button>
         <button class="btn btn-outline-secondary history-nav-btn" type="button" aria-label="Next search term"
           :disabled="!canGoToNextSearchTerm" @click="goToNextSearchTerm">&#x2192;</button>
-        <input v-model="searchTerm" type="text" class="form-control" :placeholder="`Search in ${termsData.length} terms in ${organisations.length} sources…`" aria-label="Search terms"
+        <input v-model="searchTerm" type="text" class="form-control" :placeholder="searchPlaceholder" aria-label="Search terms"
           aria-describedby="search-addon" />
         <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button" aria-label="Clear search"
           @click="clearSearch">&#x2715;</button>

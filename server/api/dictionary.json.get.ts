@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from 'fs'
+import { existsSync, readFileSync, statSync } from 'fs'
 import { join } from 'path'
 
 export default defineEventHandler(() => {
@@ -6,5 +6,12 @@ export default defineEventHandler(() => {
   if (!existsSync(filePath)) {
     return []
   }
-  return JSON.parse(readFileSync(filePath, 'utf-8'))
+
+  const termsData = JSON.parse(readFileSync(filePath, 'utf-8'))
+  const { mtime } = statSync(filePath)
+
+  return {
+    termsData,
+    lastBuiltAt: mtime.toISOString()
+  }
 })

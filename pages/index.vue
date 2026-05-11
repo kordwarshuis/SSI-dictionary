@@ -7,11 +7,14 @@
  * during `nuxt generate` (SSG) and also works client-side.
  */
 
-const { data: termsData, status, error } = await useFetch('/api/dictionary.json', {
+const { data: dictionaryPayload, status, error } = await useFetch('/api/dictionary.json', {
   // Cache the response so repeated navigations don't re-fetch
   key: 'dictionary',
-  default: () => []
+  default: () => ({ termsData: [], lastBuiltAt: null })
 })
+
+const termsData = computed(() => dictionaryPayload.value?.termsData ?? [])
+const lastBuiltAt = computed(() => dictionaryPayload.value?.lastBuiltAt ?? null)
 
 function clearHashFromUrl() {
   if (!import.meta.client) return
@@ -64,7 +67,7 @@ function clearHashFromUrl() {
       </div>
 
       <!-- Dictionary -->
-      <DictionaryView v-else :terms-data="termsData" />
+      <DictionaryView v-else :terms-data="termsData" :last-built-at="lastBuiltAt" />
     </div>
   </div>
 </template>
