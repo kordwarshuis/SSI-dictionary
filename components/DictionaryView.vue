@@ -36,16 +36,101 @@ function normalise(str) {
 // ── State ──────────────────────────────────────────────────────────────────
 
 const searchTerm = ref('')
+const searchHistory = ref([])
+const searchHistoryIndex = ref(-1)
+
+const SEARCH_DEBOUNCE_MS = 1000
+const SEARCH_HISTORY_MAX = 50
+const SEARCH_HISTORY_STORAGE_KEY = 'ssi-dictionary-search-history-v1'
 
 // Debounced version of searchTerm used for filtering/highlighting so that
 // the 11k-item computed list only recalculates after the user stops typing.
 const debouncedSearch = ref('')
 let _debounceTimer = null
+let _skipHistoryCommitForTerm = null
+
+const canGoToPreviousSearchTerm = computed(() => searchHistoryIndex.value > 0)
+const canGoToNextSearchTerm = computed(() =>
+  searchHistoryIndex.value > -1 && searchHistoryIndex.value < searchHistory.value.length - 1
+)
+
+function persistSearchHistory() {
+  if (!import.meta.client) return
+  globalThis.localStorage.setItem(
+    SEARCH_HISTORY_STORAGE_KEY,
+    JSON.stringify(searchHistory.value)
+  )
+}
+
+function loadSearchHistory() {
+  if (!import.meta.client) return
+  const raw = globalThis.localStorage.getItem(SEARCH_HISTORY_STORAGE_KEY)
+  if (!raw) return
+
+  try {
+    const parsed = JSON.parse(raw)
+    if (!Array.isArray(parsed)) return
+    const terms = parsed
+      .map((item) => String(item).trim())
+      .filter(Boolean)
+      .slice(-SEARCH_HISTORY_MAX)
+    searchHistory.value = terms
+    searchHistoryIndex.value = terms.length - 1
+  } catch {
+    // Ignore invalid history data from previous formats/manual edits.
+  }
+}
+
+function recordSearchTerm(term) {
+  const trimmed = String(term).trim()
+  if (!trimmed) return
+
+  const nextBase = searchHistory.value.slice(0, searchHistoryIndex.value + 1)
+  if (nextBase[nextBase.length - 1] === trimmed) {
+    searchHistory.value = nextBase
+    searchHistoryIndex.value = nextBase.length - 1
+    persistSearchHistory()
+    return
+  }
+
+  const next = [...nextBase, trimmed].slice(-SEARCH_HISTORY_MAX)
+  searchHistory.value = next
+  searchHistoryIndex.value = next.length - 1
+  persistSearchHistory()
+}
+
+function applyHistoryTerm(term) {
+  clearTimeout(_debounceTimer)
+  _skipHistoryCommitForTerm = String(term).trim()
+  searchTerm.value = term
+  debouncedSearch.value = String(term).trim()
+}
+
+function goToPreviousSearchTerm() {
+  if (!canGoToPreviousSearchTerm.value) return
+  const nextIndex = searchHistoryIndex.value - 1
+  searchHistoryIndex.value = nextIndex
+  applyHistoryTerm(searchHistory.value[nextIndex])
+}
+
+function goToNextSearchTerm() {
+  if (!canGoToNextSearchTerm.value) return
+  const nextIndex = searchHistoryIndex.value + 1
+  searchHistoryIndex.value = nextIndex
+  applyHistoryTerm(searchHistory.value[nextIndex])
+}
+
 watch(searchTerm, (val) => {
   clearTimeout(_debounceTimer)
   _debounceTimer = setTimeout(() => {
-    debouncedSearch.value = val.trim()
-  }, 300)
+    const trimmed = val.trim()
+    debouncedSearch.value = trimmed
+    if (_skipHistoryCommitForTerm !== null && trimmed === _skipHistoryCommitForTerm) {
+      _skipHistoryCommitForTerm = null
+      return
+    }
+    recordSearchTerm(trimmed)
+  }, SEARCH_DEBOUNCE_MS)
 })
 
 function clearSearch() {
@@ -378,6 +463,7 @@ function scheduleHashScroll() {
 }
 
 onMounted(() => {
+  loadSearchHistory()
   nextTick(() => {
     isMounted.value = true
     nextTick(() => {
@@ -412,6 +498,10 @@ onUnmounted(() => {
               d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
           </svg>
         </span>
+        <button class="btn btn-outline-secondary history-nav-btn" type="button" aria-label="Previous search term"
+          :disabled="!canGoToPreviousSearchTerm" @click="goToPreviousSearchTerm">&#x2190;</button>
+        <button class="btn btn-outline-secondary history-nav-btn" type="button" aria-label="Next search term"
+          :disabled="!canGoToNextSearchTerm" @click="goToNextSearchTerm">&#x2192;</button>
         <input v-model="searchTerm" type="text" class="form-control" :placeholder="`Search in ${termsData.length} terms in ${organisations.length} sources…`" aria-label="Search terms"
           aria-describedby="search-addon" />
         <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button" aria-label="Clear search"
@@ -555,6 +645,11 @@ mark {
 .clear-btn {
   border-left: 0;
   color: #6c757d;
+  line-height: 1;
+}
+
+.history-nav-btn {
+  min-width: 2.3rem;
   line-height: 1;
 }
 
