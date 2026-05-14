@@ -594,7 +594,10 @@ onUnmounted(() => {
 
       <!-- Terms list -->
       <ClientOnly>
-        <DynamicScroller v-if="isMounted" :key="scrollerKey" ref="scrollerRef" :items="visibleTerms" :min-item-size="54"
+        <p v-if="isMounted && visibleTerms.length === 0" class="text-muted py-4 text-center">
+          No terms found for &ldquo;{{ debouncedSearch }}&rdquo;.
+        </p>
+        <DynamicScroller v-if="isMounted && visibleTerms.length > 0" :key="scrollerKey" ref="scrollerRef" :items="visibleTerms" :min-item-size="54"
             key-field="anchor" class="terms-scroller" :style="{ height: scrollerHeight }" @scroll.passive="handleScroll">
             <template #default="{ item: term, active }">
               <DynamicScrollerItem :item="term" :active="active">
