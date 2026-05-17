@@ -72,6 +72,9 @@ const canGoToPreviousSearchTerm = computed(() => searchHistoryIndex.value > 0)
 const canGoToNextSearchTerm = computed(() =>
   searchHistoryIndex.value > -1 && searchHistoryIndex.value < searchHistory.value.length - 1
 )
+const canRemoveCurrentSearchTerm = computed(() =>
+  searchHistoryIndex.value > -1 && searchHistoryIndex.value < searchHistory.value.length
+)
 
 function persistSearchHistory() {
   if (!import.meta.client) return
@@ -137,6 +140,25 @@ function goToNextSearchTerm() {
   const nextIndex = searchHistoryIndex.value + 1
   searchHistoryIndex.value = nextIndex
   applyHistoryTerm(searchHistory.value[nextIndex])
+}
+
+function removeCurrentSearchTerm() {
+  if (!canRemoveCurrentSearchTerm.value) return
+
+  const removeAt = searchHistoryIndex.value
+  const nextHistory = searchHistory.value.filter((_, idx) => idx !== removeAt)
+  searchHistory.value = nextHistory
+  persistSearchHistory()
+
+  if (nextHistory.length === 0) {
+    searchHistoryIndex.value = -1
+    clearSearch()
+    return
+  }
+
+  const nextIndex = Math.min(removeAt, nextHistory.length - 1)
+  searchHistoryIndex.value = nextIndex
+  applyHistoryTerm(nextHistory[nextIndex])
 }
 
 watch(searchTerm, (val) => {
@@ -527,6 +549,10 @@ onUnmounted(() => {
           :disabled="!canGoToPreviousSearchTerm" @click="goToPreviousSearchTerm">&#x2190;</button>
         <button class="btn btn-outline-secondary history-nav-btn" type="button" aria-label="Next search term"
           :disabled="!canGoToNextSearchTerm" @click="goToNextSearchTerm">&#x2192;</button>
+        <button class="btn btn-outline-secondary history-remove-btn" type="button"
+          aria-label="Remove current saved search term"
+          title="Remove current saved search term"
+          :disabled="!canRemoveCurrentSearchTerm" @click="removeCurrentSearchTerm">del</button>
         <input v-model="searchTerm" type="text" class="form-control" :placeholder="searchPlaceholder" aria-label="Search terms"
           aria-describedby="search-addon" />
         <button v-if="searchTerm" class="btn btn-outline-secondary clear-btn" type="button" aria-label="Clear search"
@@ -610,8 +636,6 @@ onUnmounted(() => {
                       <!-- eslint-disable-next-line vue/no-v-html -->
                       <span v-html="highlightTerm(term.term)"></span>
                     </button>
-                    <!-- <a :href="`#${term.anchor}`" class="term-anchor-link" title="Copy link to this term"
-                      aria-label="Link to this term" @click.prevent.stop="scrollToAnchor(term.anchor)">#</a> -->
                   </span>
                 </h2>
 
@@ -679,6 +703,13 @@ mark {
 .history-nav-btn {
   min-width: 2.3rem;
   line-height: 1;
+}
+
+.history-remove-btn {
+  min-width: 2.8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .clear-btn:hover {
