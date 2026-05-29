@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f2a43" />
+      <stop offset="1" stop-color="#2b7a78" />
+    </linearGradient>
+    <linearGradient id="bird" x1="18" y1="20" x2="47" y2="47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7f4ea" />
+      <stop offset="1" stop-color="#b8e1d9" />
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)" />
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 26L32 14L49 26V38L32 50L15 38Z" stroke="#8ce0d7" stroke-width="2.4" />
+    <path d="M32 14V50" stroke="#8ce0d7" stroke-width="1.5" opacity="0.9" />
+    <path d="M15 26L32 38L49 26" stroke="#8ce0d7" stroke-width="1.5" opacity="0.9" />
+  </g>
+
+  <path d="M22 38C25 30 31 24 40 22C36 26 35 30 35 34C33 34 31 35 29 37C31 37 34 38 38 41C32 42 27 41 22 38Z" fill="url(#bird)" />
+  <circle cx="36.5" cy="28.5" r="1.7" fill="#12324f" />
+</svg>
