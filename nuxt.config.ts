@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const baseURL = process.env.NUXT_APP_BASE_URL ?? '/SSI-dictionary/'
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
@@ -19,7 +21,7 @@ export default defineNuxtConfig({
   app: {
     // Sub-path used by GitHub Pages project sites:
     // https://kordwarshuis.github.io/SSI-dictionary/
-    baseURL: process.env.NUXT_APP_BASE_URL ?? '/SSI-dictionary/',
+    baseURL,
     head: {
       title: 'SSI Dictionary',
       meta: [
@@ -31,7 +33,11 @@ export default defineNuxtConfig({
             'A searchable dictionary of Self-Sovereign Identity (SSI) terms from multiple authoritative sources.'
         }
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: `${baseURL}favicon.svg` },
+        { rel: 'shortcut icon', href: `${baseURL}favicon.svg` },
+        { rel: 'apple-touch-icon', href: `${baseURL}favicon.svg` }
+      ]
     }
   },
 

@@ -31,6 +31,27 @@ function clearHashFromUrl() {
         <button type="button" class="ssi-hero__title-button" @click="clearHashFromUrl">
           Self Sovereign Identity (SSI) Dictionary
         </button>
+        <a
+          class="ssi-hero__repo-link"
+          href="https://github.com/kordwarshuis/SSI-dictionary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
+            class="ssi-hero__repo-link-icon"
+            viewBox="0 0 16 16"
+            width="12"
+            height="12"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              fill="currentColor"
+              d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21V13.81C3.8 14.29 3.33 12.74 3.33 12.74C2.97 11.84 2.45 11.6 2.45 11.6C1.73 11.11 2.5 11.12 2.5 11.12C3.29 11.18 3.71 11.94 3.71 11.94C4.42 13.14 5.58 12.79 6.04 12.58C6.11 12.07 6.32 11.73 6.55 11.53C4.78 11.33 2.91 10.64 2.91 7.54C2.91 6.66 3.23 5.95 3.74 5.4C3.66 5.2 3.38 4.39 3.82 3.28C3.82 3.28 4.49 3.07 6.01 4.1C6.66 3.92 7.35 3.84 8.04 3.84C8.73 3.84 9.42 3.92 10.07 4.1C11.59 3.07 12.26 3.28 12.26 3.28C12.7 4.39 12.42 5.2 12.34 5.4C12.86 5.95 13.17 6.66 13.17 7.54C13.17 10.65 11.3 11.33 9.52 11.52C9.82 11.78 10.09 12.29 10.09 13.07V15.21C10.09 15.42 10.23 15.67 10.64 15.59C13.82 14.53 16.11 11.54 16.11 8C16.11 3.58 12.53 0 8.11 0H8Z"
+            />
+          </svg>
+          View on GitHub
+        </a>
       </h1>
       <!-- <p class="ssi-hero__subtitle">
         Cryptographically-rooted definitions from authoritative Self-Sovereign
@@ -98,7 +119,38 @@ function clearHashFromUrl() {
 }
 
 .ssi-hero__title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
   font-size: 1.75rem;
+}
+
+.ssi-hero__repo-link {
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: color-mix(in oklab, currentColor 75%, transparent);
+  border-bottom: 1px dashed color-mix(in oklab, currentColor 45%, transparent);
+}
+
+.ssi-hero__repo-link-icon {
+  opacity: 0.9;
+}
+
+.ssi-hero__repo-link:hover {
+  color: currentColor;
+  border-bottom-color: currentColor;
+}
+
+.ssi-hero__repo-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 
 @media (max-width: 575.98px) {
