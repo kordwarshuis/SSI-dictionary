@@ -4442,7 +4442,7 @@
         "link": "executive_agency"
       }
     ],
-    "definition": "Any executive department, military department, government corporation, government controlled corporation, or other establishment in the executive branch of the government (including the Executive Office of the President), or any independent regulatory agency, but does not include: (i) the Government Accountability Office; (ii) the Federal Election Commission; (iii) the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or (iv) government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities.",
+    "definition": "Any executive agency or department, military department, Federal Government corporation, Federal Government-controlled corporation, or other establishment in the Executive Branch of the Federal Government or any independent regulatory agency.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/agency",
     "anchor": "agency"
@@ -14940,21 +14940,6 @@
     "anchor": "CERT"
   },
   {
-    "term": "CERT Coordination Center",
-    "abbrSyn": [
-      {
-        "text": "CERT/CC"
-      },
-      {
-        "text": "CERTCC"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cert_coordination_center",
-    "anchor": "CERTCoordinationCenter"
-  },
-  {
     "term": "CERT/CC",
     "abbrSyn": [
       {
@@ -23274,7 +23259,7 @@
   },
   {
     "term": "critical program (or technology)",
-    "definition": "A program which significantly increases capability, mission effectiveness or extends the expected effective life of an essential system/capability.",
+    "definition": "A program which significantly increases capability, mission effectiveness, or extends the expected effective life of an essential system/capability.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/critical_program_or_technology",
     "anchor": "criticalprogram(ortechnology)"
@@ -25695,19 +25680,6 @@
     "anchor": "cyberresiliency"
   },
   {
-    "term": "Cyber Resiliency and Survivability",
-    "abbrSyn": [
-      {
-        "text": "CRS",
-        "link": "https://csrc.nist.gov/glossary/term/crs"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cyber_resiliency_and_survivability",
-    "anchor": "CyberResiliencyandSurvivability"
-  },
-  {
     "term": "cyber resiliency concept",
     "definition": "A concept related to the problem domain and/or solution set for cyber resiliency. Cyber resiliency concepts are represented in cyber resiliency risk models as well as by cyber resiliency constructs.",
     "organisation": "Nist",
@@ -27957,19 +27929,6 @@
     "anchor": "DefenseIndustrialBase"
   },
   {
-    "term": "Defense Industrial Base Cybersecurity Sharing",
-    "abbrSyn": [
-      {
-        "text": "DIB CS",
-        "link": "https://csrc.nist.gov/glossary/term/dib_cs"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/defense_industrial_base_cybersecurity_sharing",
-    "anchor": "DefenseIndustrialBaseCybersecuritySharing"
-  },
-  {
     "term": "Defense Information System Network",
     "abbrSyn": [
       {
@@ -28732,13 +28691,6 @@
     "anchor": "designatedcipherfunction"
   },
   {
-    "term": "designing for cyber resiliency and survivability",
-    "definition": "Designing systems, missions, and business functions to provide the capability to prepare for, withstand, recover from, and adapt to compromises of cyber resources in order to maximize mission or business operations.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/designing_for_cyber_resiliency_and_survivability",
-    "anchor": "designingforcyberresiliencyandsurvivability"
-  },
-  {
     "term": "Desired State",
     "abbrSyn": [
       {
@@ -29465,19 +29417,6 @@
     "anchor": "DIB"
   },
   {
-    "term": "DIB CS",
-    "abbrSyn": [
-      {
-        "text": "Defense Industrial Base Cybersecurity Sharing",
-        "link": "https://csrc.nist.gov/glossary/term/defense_industrial_base_cybersecurity_sharing"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/dib_cs",
-    "anchor": "DIBCS"
-  },
-  {
     "term": "DICE",
     "abbrSyn": [
       {
@@ -29865,19 +29804,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/digital_policy_management",
     "anchor": "DigitalPolicyManagement"
-  },
-  {
-    "term": "Digital Rights Management",
-    "abbrSyn": [
-      {
-        "text": "DRM",
-        "link": "https://csrc.nist.gov/glossary/term/drm"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/digital_rights_management",
-    "anchor": "DigitalRightsManagement"
   },
   {
     "term": "Digital Security by Design",
@@ -30436,7 +30362,7 @@
   },
   {
     "term": "discussion",
-    "definition": "Statements used to provide additional explanatory information for security controls or security control enhancements.",
+    "definition": "Statements used to provide additional explanatory information for controls, control enhancements, security requirements, or enhanced security requirements.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/discussion",
     "anchor": "discussion"
@@ -30802,18 +30728,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dll",
     "anchor": "DLL"
-  },
-  {
-    "term": "DLO",
-    "abbrSyn": [
-      {
-        "text": "Damage-Limiting Operations"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/dlo",
-    "anchor": "DLO"
   },
   {
     "term": "DLP",
@@ -32198,7 +32112,7 @@
   },
   {
     "term": "dual authorization",
-    "definition": "The system of storage and handling designed to prohibit individual access to certain resources by requiring the presence and actions of at least two authorized persons, each capable of detecting incorrect or unauthorized security procedures with respect to the task being performed.",
+    "definition": "A system of storage and handling that is designed to prohibit individual access to certain resources by requiring the presence and actions of at least two authorized persons, each capable of detecting incorrect or unauthorized security procedures with respect to the task being performed.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dual_authorization",
     "anchor": "dualauthorization"
@@ -37287,7 +37201,7 @@
         "link": "agency"
       }
     ],
-    "definition": "An executive department specified in 5 U.S.C., SEC. 101; a military department specified in 5 U.S.C., SEC. 102; an independent establishment as defined in 5 U.S.C., SEC. 104(1); and a wholly-owned Government corporation fully subject to the provisions of 31 U.S.C., CHAPTER 91.",
+    "definition": "Any executive agency or department, military department, Federal Government corporation, Federal Government-controlled corporation, or other establishment in the Executive Branch of the Federal Government or any independent regulatory agency.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/executive_agency",
     "anchor": "executiveagency"
@@ -41383,13 +41297,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/formal_methods",
     "anchor": "formalmethods"
-  },
-  {
-    "term": "formal verification",
-    "definition": "A systematic process that uses mathematical reasoning and mathematical proofs (i.e., formal methods in mathematics) to verify that the system satisfies its desired properties, behavior, or specification (i.e., the system implementation is a faithful representation of the design).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/formal_verification",
-    "anchor": "formalverification"
   },
   {
     "term": "Format-Preserving Encryption",
@@ -54400,19 +54307,6 @@
     "anchor": "InternetofMedicalThings"
   },
   {
-    "term": "internet of things",
-    "abbrSyn": [
-      {
-        "text": "IoT",
-        "link": "https://csrc.nist.gov/glossary/term/iot"
-      }
-    ],
-    "definition": "As used in this publication, user or industrial devices that are connected to the internet. IoT devices include sensors, controllers, and household appliances.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/internet_of_things",
-    "anchor": "internetofthings"
-  },
-  {
     "term": "Internet Protocol",
     "abbrSyn": [
       {
@@ -55050,7 +54944,7 @@
         "text": "Internet of Things"
       }
     ],
-    "definition": "Term found but the definition does not exist yet.",
+    "definition": "The network of devices that contain the hardware, software, firmware, and actuators which allow the devices to connect, interact, and freely exchange data and information.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/iot",
     "anchor": "IoT"
@@ -63034,19 +62928,6 @@
     "anchor": "ManageabilityEngine"
   },
   {
-    "term": "Managed Detection and Response",
-    "abbrSyn": [
-      {
-        "text": "MDR",
-        "link": "https://csrc.nist.gov/glossary/term/mdr"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/managed_detection_and_response",
-    "anchor": "ManagedDetectionandResponse"
-  },
-  {
     "term": "Managed Devices",
     "definition": "Personal computers, laptops, mobile devices, virtual machines, and infrastructure components require management agents, allowing information technology staff to discover, maintain, and control them. Those with broken or missing agents cannot be seen or managed by agent-based security products.",
     "organisation": "Nist",
@@ -64100,19 +63981,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mdph",
     "anchor": "MDPH"
-  },
-  {
-    "term": "MDR",
-    "abbrSyn": [
-      {
-        "text": "Managed Detection and Response",
-        "link": "https://csrc.nist.gov/glossary/term/managed_detection_and_response"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/mdr",
-    "anchor": "MDR"
   },
   {
     "term": "MDRAP",
@@ -75147,7 +75015,7 @@
   },
   {
     "term": "on behalf of (an agency)",
-    "definition": "A situation that occurs when: (i) a non-executive branch entity uses or operates an information system or maintains or collects information for the purpose of processing, storing, or transmitting Federal information; and (ii) those activities are not incidental to providing a service or product to the government.",
+    "definition": "A situation that occurs when (i) a non-executive branch entity uses or operates an information system or maintains or collects information for the purpose of processing, storing, or transmitting federal information; and (ii) those activities are not incidental to providing a service or product to the Government.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/on_behalf_of",
     "anchor": "onbehalfof(anagency)"
@@ -76613,13 +76481,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/organizational_registration_authority",
     "anchor": "organizationalregistrationauthority(ORA)"
-  },
-  {
-    "term": "organizational system",
-    "definition": "A nonfederal system that processes, stores, or transmits CUI associated with a critical program or high value asset.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/organizational_system",
-    "anchor": "organizationalsystem"
   },
   {
     "term": "Organizational Unit",
@@ -79133,7 +78994,7 @@
         "link": "https://csrc.nist.gov/glossary/term/pra"
       }
     ],
-    "definition": "An architecture that uses technology and procedures to limit the opportunities for an adversary to compromise an organizational system and to achieve a persistent presence in the system.",
+    "definition": "An architecture that uses technology and procedures to limit the opportunities for an adversary to compromise an organizational system and achieve a persistent presence in the system.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/penetration_resistant_architecture",
     "anchor": "penetrationresistantarchitecture"
@@ -81967,7 +81828,7 @@
   },
   {
     "term": "potential impact",
-    "definition": "The loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect, a serious adverse effect, or a severe or catastrophic adverse effect on organizational operations, organizational assets, or individuals.",
+    "definition": "The loss of confidentiality, integrity, or availability could be expected to have (i) a limited adverse effect (FIPS Publication 199 low); (ii) a serious adverse effect (FIPS Publication 199 moderate); or (iii) a severe or catastrophic adverse effect (FIPS Publication 199 high) on organizational operations, organizational assets, or individuals.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/potential_impact",
     "anchor": "potentialimpact"
@@ -94995,7 +94856,7 @@
         "text": "Incident"
       }
     ],
-    "definition": "An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies.",
+    "definition": "An occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_incident",
     "anchor": "securityincident"
@@ -104195,19 +104056,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tactical_edge",
     "anchor": "tacticaledge"
-  },
-  {
-    "term": "tactics, techniques, and procedures (TTP)",
-    "abbrSyn": [
-      {
-        "text": "TTP",
-        "link": "https://csrc.nist.gov/glossary/term/ttp"
-      }
-    ],
-    "definition": "The behavior of an actor. A tactic is the highest-level description of the behavior; techniques provide a more detailed description of the behavior in the context of a tactic; and procedures provide a lower-level, highly detailed description of the behavior in the context of a technique.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/tactics_techniques_and_procedures",
-    "anchor": "tactics,techniques,andprocedures(TTP)"
   },
   {
     "term": "Tag",

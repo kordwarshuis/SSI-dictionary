@@ -13002,18 +13002,6 @@
     ]
   },
   {
-    "term": "CERT Coordination Center",
-    "anchor": "CERTCoordinationCenter",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/cert_coordination_center",
-        "anchor": "CERTCoordinationCenter"
-      }
-    ]
-  },
-  {
     "term": "CERT/CC",
     "anchor": "CERT/CC",
     "definitions": [
@@ -22482,18 +22470,6 @@
     ]
   },
   {
-    "term": "Cyber Resiliency and Survivability",
-    "anchor": "CyberResiliencyandSurvivability",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/cyber_resiliency_and_survivability",
-        "anchor": "CyberResiliencyandSurvivability"
-      }
-    ]
-  },
-  {
     "term": "Cyber Resilient Energy Delivery Consortium",
     "anchor": "CyberResilientEnergyDeliveryConsortium",
     "definitions": [
@@ -23730,18 +23706,6 @@
     ]
   },
   {
-    "term": "DIB CS",
-    "anchor": "DIBCS",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/dib_cs",
-        "anchor": "DIBCS"
-      }
-    ]
-  },
-  {
     "term": "DICE",
     "anchor": "DICE",
     "definitions": [
@@ -24062,18 +24026,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/dll",
         "anchor": "DLL"
-      }
-    ]
-  },
-  {
-    "term": "DLO",
-    "anchor": "DLO",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/dlo",
-        "anchor": "DLO"
       }
     ]
   },
@@ -25746,18 +25698,6 @@
     ]
   },
   {
-    "term": "Defense Industrial Base Cybersecurity Sharing",
-    "anchor": "DefenseIndustrialBaseCybersecuritySharing",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/defense_industrial_base_cybersecurity_sharing",
-        "anchor": "DefenseIndustrialBaseCybersecuritySharing"
-      }
-    ]
-  },
-  {
     "term": "Defense Information System Network",
     "anchor": "DefenseInformationSystemNetwork",
     "definitions": [
@@ -26942,18 +26882,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/digital_policy_management",
         "anchor": "DigitalPolicyManagement"
-      }
-    ]
-  },
-  {
-    "term": "Digital Rights Management",
-    "anchor": "DigitalRightsManagement",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/digital_rights_management",
-        "anchor": "DigitalRightsManagement"
       }
     ]
   },
@@ -48563,7 +48491,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
+        "definition": "The network of devices that contain the hardware, software, firmware, and actuators which allow the devices to connect, interact, and freely exchange data and information.",
         "url": "https://csrc.nist.gov/glossary/term/iot",
         "anchor": "IoT"
       }
@@ -55086,18 +55014,6 @@
     ]
   },
   {
-    "term": "MDR",
-    "anchor": "MDR",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/mdr",
-        "anchor": "MDR"
-      }
-    ]
-  },
-  {
     "term": "MDRAP",
     "anchor": "MDRAP",
     "definitions": [
@@ -56906,18 +56822,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/manageability_engine",
         "anchor": "ManageabilityEngine"
-      }
-    ]
-  },
-  {
-    "term": "Managed Detection and Response",
-    "anchor": "ManagedDetectionandResponse",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/managed_detection_and_response",
-        "anchor": "ManagedDetectionandResponse"
       }
     ]
   },
@@ -101453,7 +101357,7 @@
       },
       {
         "organisation": "Nist",
-        "definition": "Any executive department, military department, government corporation, government controlled corporation, or other establishment in the executive branch of the government (including the Executive Office of the President), or any independent regulatory agency, but does not include: (i) the Government Accountability Office; (ii) the Federal Election Commission; (iii) the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or (iv) government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities.",
+        "definition": "Any executive agency or department, military department, Federal Government corporation, Federal Government-controlled corporation, or other establishment in the Executive Branch of the Federal Government or any independent regulatory agency.",
         "url": "https://csrc.nist.gov/glossary/term/agency",
         "anchor": "agency"
       }
@@ -107855,7 +107759,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "A program which significantly increases capability, mission effectiveness or extends the expected effective life of an essential system/capability.",
+        "definition": "A program which significantly increases capability, mission effectiveness, or extends the expected effective life of an essential system/capability.",
         "url": "https://csrc.nist.gov/glossary/term/critical_program_or_technology",
         "anchor": "criticalprogram(ortechnology)"
       }
@@ -109902,18 +109806,6 @@
     ]
   },
   {
-    "term": "designing for cyber resiliency and survivability",
-    "anchor": "designingforcyberresiliencyandsurvivability",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Designing systems, missions, and business functions to provide the capability to prepare for, withstand, recover from, and adapt to compromises of cyber resources in order to maximize mission or business operations.",
-        "url": "https://csrc.nist.gov/glossary/term/designing_for_cyber_resiliency_and_survivability",
-        "anchor": "designingforcyberresiliencyandsurvivability"
-      }
-    ]
-  },
-  {
     "term": "destroy",
     "anchor": "destroy",
     "definitions": [
@@ -110567,7 +110459,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Statements used to provide additional explanatory information for security controls or security control enhancements.",
+        "definition": "Statements used to provide additional explanatory information for controls, control enhancements, security requirements, or enhanced security requirements.",
         "url": "https://csrc.nist.gov/glossary/term/discussion",
         "anchor": "discussion"
       }
@@ -110807,7 +110699,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "The system of storage and handling designed to prohibit individual access to certain resources by requiring the presence and actions of at least two authorized persons, each capable of detecting incorrect or unauthorized security procedures with respect to the task being performed.",
+        "definition": "A system of storage and handling that is designed to prohibit individual access to certain resources by requiring the presence and actions of at least two authorized persons, each capable of detecting incorrect or unauthorized security procedures with respect to the task being performed.",
         "url": "https://csrc.nist.gov/glossary/term/dual_authorization",
         "anchor": "dualauthorization"
       }
@@ -112175,7 +112067,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "An executive department specified in 5 U.S.C., SEC. 101; a military department specified in 5 U.S.C., SEC. 102; an independent establishment as defined in 5 U.S.C., SEC. 104(1); and a wholly-owned Government corporation fully subject to the provisions of 31 U.S.C., CHAPTER 91.",
+        "definition": "Any executive agency or department, military department, Federal Government corporation, Federal Government-controlled corporation, or other establishment in the Executive Branch of the Federal Government or any independent regulatory agency.",
         "url": "https://csrc.nist.gov/glossary/term/executive_agency",
         "anchor": "executiveagency"
       }
@@ -113078,18 +112970,6 @@
         "definition": "A mathematically rigorous technique for the specification, development, and verification of software systems.",
         "url": "https://csrc.nist.gov/glossary/term/formal_methods",
         "anchor": "formalmethods"
-      }
-    ]
-  },
-  {
-    "term": "formal verification",
-    "anchor": "formalverification",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A systematic process that uses mathematical reasoning and mathematical proofs (i.e., formal methods in mathematics) to verify that the system satisfies its desired properties, behavior, or specification (i.e., the system implementation is a faithful representation of the design).",
-        "url": "https://csrc.nist.gov/glossary/term/formal_verification",
-        "anchor": "formalverification"
       }
     ]
   },
@@ -116102,18 +115982,6 @@
         "definition": "is the organization that oversees the allocation of IP addresses to internet service providers (ISPs).",
         "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
         "anchor": "internetassignednumbersauthority(internetassignednumbersauthority)"
-      }
-    ]
-  },
-  {
-    "term": "internet of things",
-    "anchor": "internetofthings",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "As used in this publication, user or industrial devices that are connected to the internet. IoT devices include sensors, controllers, and household appliances.",
-        "url": "https://csrc.nist.gov/glossary/term/internet_of_things",
-        "anchor": "internetofthings"
       }
     ]
   },
@@ -120551,7 +120419,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "A situation that occurs when: (i) a non-executive branch entity uses or operates an information system or maintains or collects information for the purpose of processing, storing, or transmitting Federal information; and (ii) those activities are not incidental to providing a service or product to the government.",
+        "definition": "A situation that occurs when (i) a non-executive branch entity uses or operates an information system or maintains or collects information for the purpose of processing, storing, or transmitting federal information; and (ii) those activities are not incidental to providing a service or product to the Government.",
         "url": "https://csrc.nist.gov/glossary/term/on_behalf_of",
         "anchor": "onbehalfof(anagency)"
       }
@@ -120950,18 +120818,6 @@
         "definition": "Entity within the public key infrastructure (PKI) that authenticates the identity and the organizational affiliation of the users.",
         "url": "https://csrc.nist.gov/glossary/term/organizational_registration_authority",
         "anchor": "organizationalregistrationauthority(ORA)"
-      }
-    ]
-  },
-  {
-    "term": "organizational system",
-    "anchor": "organizationalsystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A nonfederal system that processes, stores, or transmits CUI associated with a critical program or high value asset.",
-        "url": "https://csrc.nist.gov/glossary/term/organizational_system",
-        "anchor": "organizationalsystem"
       }
     ]
   },
@@ -121679,7 +121535,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "An architecture that uses technology and procedures to limit the opportunities for an adversary to compromise an organizational system and to achieve a persistent presence in the system.",
+        "definition": "An architecture that uses technology and procedures to limit the opportunities for an adversary to compromise an organizational system and achieve a persistent presence in the system.",
         "url": "https://csrc.nist.gov/glossary/term/penetration_resistant_architecture",
         "anchor": "penetrationresistantarchitecture"
       }
@@ -122363,7 +122219,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "The loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect, a serious adverse effect, or a severe or catastrophic adverse effect on organizational operations, organizational assets, or individuals.",
+        "definition": "The loss of confidentiality, integrity, or availability could be expected to have (i) a limited adverse effect (FIPS Publication 199 low); (ii) a serious adverse effect (FIPS Publication 199 moderate); or (iii) a severe or catastrophic adverse effect (FIPS Publication 199 high) on organizational operations, organizational assets, or individuals.",
         "url": "https://csrc.nist.gov/glossary/term/potential_impact",
         "anchor": "potentialimpact"
       }
@@ -126791,7 +126647,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies.",
+        "definition": "An occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies.",
         "url": "https://csrc.nist.gov/glossary/term/security_incident",
         "anchor": "securityincident"
       }
@@ -129698,18 +129554,6 @@
         "definition": "The platforms, sites, and personnel (U. S. military, allied, coalition partners, first responders) operating at lethal risk in a battle space or crisis environment characterized by 1) a dependence on information systems and connectivity for survival and mission success, 2) high threats to the operational readiness of both information systems and connectivity, and 3) users are fully engaged, highly stressed, and dependent on the availability, integrity, and transparency of their information systems.",
         "url": "https://csrc.nist.gov/glossary/term/tactical_edge",
         "anchor": "tacticaledge"
-      }
-    ]
-  },
-  {
-    "term": "tactics, techniques, and procedures (TTP)",
-    "anchor": "tactics,techniques,andprocedures(TTP)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The behavior of an actor. A tactic is the highest-level description of the behavior; techniques provide a more detailed description of the behavior in the context of a tactic; and procedures provide a lower-level, highly detailed description of the behavior in the context of a technique.",
-        "url": "https://csrc.nist.gov/glossary/term/tactics_techniques_and_procedures",
-        "anchor": "tactics,techniques,andprocedures(TTP)"
       }
     ]
   },
