@@ -9360,18 +9360,6 @@
     ]
   },
   {
-    "term": "BGP Monitoring Protocol",
-    "anchor": "BGPMonitoringProtocol",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/bgp_monitoring_protocol",
-        "anchor": "BGPMonitoringProtocol"
-      }
-    ]
-  },
-  {
     "term": "BGP Origin Validation",
     "anchor": "BGPOriginValidation",
     "definitions": [
@@ -9468,30 +9456,6 @@
     ]
   },
   {
-    "term": "BGP-OV",
-    "anchor": "BGPOV",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "BGP Origin Validation specifies a mechanism described in RFC 6811 where a BGP router can verify if a particular prefix was allowed to be announced by the route's originator.",
-        "url": "https://csrc.nist.gov/glossary/term/bgp_ov",
-        "anchor": "BGPOV"
-      }
-    ]
-  },
-  {
-    "term": "BGP-PV",
-    "anchor": "BGPPV",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "BGP Path Validation specifies a mechanism described in RFC 8205 that allows verifying a path an UPDATE traversed by verifying the validity of the signatures over the relevant data.",
-        "url": "https://csrc.nist.gov/glossary/term/bgp_pv",
-        "anchor": "BGPPV"
-      }
-    ]
-  },
-  {
     "term": "BGP-SRx",
     "anchor": "BGPSRx",
     "definitions": [
@@ -9500,18 +9464,6 @@
         "definition": "BGP Secure Routing Extension consisting of multiple software modules that implement Route Origin Validation as well as BGPsec Path Validation.",
         "url": "https://csrc.nist.gov/glossary/term/bgp_srx",
         "anchor": "BGPSRx"
-      }
-    ]
-  },
-  {
-    "term": "BGPSEC-IO",
-    "anchor": "BGPSECIO",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/bgpsec_io",
-        "anchor": "BGPSECIO"
       }
     ]
   },
@@ -9536,30 +9488,6 @@
         "definition": "BGPsec Input-Output (BIO) enables the generation and storage of precomputed reproducible BGPsec traffic for testing purposes.",
         "url": "https://csrc.nist.gov/glossary/term/bgpsec_input_output",
         "anchor": "BGPsecInputOutput"
-      }
-    ]
-  },
-  {
-    "term": "BGPsec Path Validation",
-    "anchor": "BGPsecPathValidation",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/bgpsec_path_validation",
-        "anchor": "BGPsecPathValidation"
-      }
-    ]
-  },
-  {
-    "term": "BGPsec-IO traffic generator",
-    "anchor": "BGPsecIOtrafficgenerator",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/bgpsec_io_traffic_generator",
-        "anchor": "BGPsecIOtrafficgenerator"
       }
     ]
   },
@@ -11946,18 +11874,6 @@
     ]
   },
   {
-    "term": "CA Technologies",
-    "anchor": "CATechnologies",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/ca_technologies",
-        "anchor": "CATechnologies"
-      }
-    ]
-  },
-  {
     "term": "CAA",
     "anchor": "CAA",
     "definitions": [
@@ -11990,18 +11906,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/cad",
         "anchor": "CAD"
-      }
-    ]
-  },
-  {
-    "term": "CAE",
-    "anchor": "CAE",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/cae",
-        "anchor": "CAE"
       }
     ]
   },
@@ -12602,18 +12506,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/ccmp",
         "anchor": "CCMP"
-      }
-    ]
-  },
-  {
-    "term": "CCN",
-    "anchor": "CCN",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/ccn",
-        "anchor": "CCN"
       }
     ]
   },
@@ -18182,18 +18074,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/chosen_plaintext_attack",
         "anchor": "ChosenPlaintextAttack"
-      }
-    ]
-  },
-  {
-    "term": "Cin-Day",
-    "anchor": "CinDay",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/cin_day",
-        "anchor": "CinDay"
       }
     ]
   },
@@ -96890,30 +96770,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/vxlan",
         "anchor": "VXLAN"
-      }
-    ]
-  },
-  {
-    "term": "VXLAN Network Identifier",
-    "anchor": "VXLANNetworkIdentifier",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/vxlan_network_identifier",
-        "anchor": "VXLANNetworkIdentifier"
-      }
-    ]
-  },
-  {
-    "term": "VXLAN Tunnel Endpoint",
-    "anchor": "VXLANTunnelEndpoint",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/vxlan_tunnel_endpoint",
-        "anchor": "VXLANTunnelEndpoint"
       }
     ]
   },

@@ -10383,19 +10383,6 @@
     "anchor": "BGP"
   },
   {
-    "term": "BGP Monitoring Protocol",
-    "abbrSyn": [
-      {
-        "text": "BMP",
-        "link": "https://csrc.nist.gov/glossary/term/bmp"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/bgp_monitoring_protocol",
-    "anchor": "BGPMonitoringProtocol"
-  },
-  {
     "term": "BGP Origin Validation",
     "abbrSyn": [
       {
@@ -10482,36 +10469,6 @@
     "anchor": "BGP4"
   },
   {
-    "term": "BGP-OV",
-    "abbrSyn": [
-      {
-        "text": "BGP Origin Validation",
-        "link": "https://csrc.nist.gov/glossary/term/bgp_origin_validation"
-      }
-    ],
-    "definition": "BGP Origin Validation specifies a mechanism described in RFC 6811 where a BGP router can verify if a particular prefix was allowed to be announced by the route's originator.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/bgp_ov",
-    "anchor": "BGPOV"
-  },
-  {
-    "term": "BGP-PV",
-    "abbrSyn": [
-      {
-        "text": "BGP Path Validation",
-        "link": "https://csrc.nist.gov/glossary/term/bgp_path_validation"
-      },
-      {
-        "text": "BGPsec Path Validation",
-        "link": "https://csrc.nist.gov/glossary/term/bgpsec_path_validation"
-      }
-    ],
-    "definition": "BGP Path Validation specifies a mechanism described in RFC 8205 that allows verifying a path an UPDATE traversed by verifying the validity of the signatures over the relevant data.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/bgp_pv",
-    "anchor": "BGPPV"
-  },
-  {
     "term": "BGPsec",
     "abbrSyn": [
       {
@@ -10544,45 +10501,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/bgpsec_input_output",
     "anchor": "BGPsecInputOutput"
-  },
-  {
-    "term": "BGPsec Path Validation",
-    "abbrSyn": [
-      {
-        "text": "BGP-PV",
-        "link": "https://csrc.nist.gov/glossary/term/bgp_pv"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/bgpsec_path_validation",
-    "anchor": "BGPsecPathValidation"
-  },
-  {
-    "term": "BGPSEC-IO",
-    "abbrSyn": [
-      {
-        "text": "BIO",
-        "link": "https://csrc.nist.gov/glossary/term/bio"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/bgpsec_io",
-    "anchor": "BGPSECIO"
-  },
-  {
-    "term": "BGPsec-IO traffic generator",
-    "abbrSyn": [
-      {
-        "text": "BIO",
-        "link": "https://csrc.nist.gov/glossary/term/bio"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/bgpsec_io_traffic_generator",
-    "anchor": "BGPsecIOtrafficgenerator"
   },
   {
     "term": "BGP-SRx",
@@ -12663,19 +12581,6 @@
     "anchor": "CA"
   },
   {
-    "term": "CA Technologies",
-    "abbrSyn": [
-      {
-        "text": "CA",
-        "link": "https://csrc.nist.gov/glossary/term/ca"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/ca_technologies",
-    "anchor": "CATechnologies"
-  },
-  {
     "term": "CAA",
     "abbrSyn": [
       {
@@ -12738,23 +12643,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cad",
     "anchor": "CAD"
-  },
-  {
-    "term": "CAE",
-    "abbrSyn": [
-      {
-        "text": "Centers of Academic Excellence",
-        "link": "https://csrc.nist.gov/glossary/term/centers_of_academic_excellence"
-      },
-      {
-        "text": "National Centers of Academic Excellence in Cybersecurity",
-        "link": "https://csrc.nist.gov/glossary/term/national_centers_of_academic_excellence_in_cybersecurity"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cae",
-    "anchor": "CAE"
   },
   {
     "term": "CAESAR",
@@ -14123,19 +14011,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ccmp",
     "anchor": "CCMP"
-  },
-  {
-    "term": "CCN",
-    "abbrSyn": [
-      {
-        "text": "Credit Card Number",
-        "link": "https://csrc.nist.gov/glossary/term/credit_card_number"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/ccn",
-    "anchor": "CCN"
   },
   {
     "term": "CCoA",
@@ -16322,19 +16197,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cima",
     "anchor": "CIMA"
-  },
-  {
-    "term": "Cin-Day",
-    "abbrSyn": [
-      {
-        "text": "Cyber Cincinnati-Dayton Cyber Corridor",
-        "link": "https://csrc.nist.gov/glossary/term/cyber_cincinnati_dayton_cyber_corridor"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cin_day",
-    "anchor": "CinDay"
   },
   {
     "term": "CIO",
@@ -113063,32 +112925,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/vxlan",
     "anchor": "VXLAN"
-  },
-  {
-    "term": "VXLAN Network Identifier",
-    "abbrSyn": [
-      {
-        "text": "VNID",
-        "link": "https://csrc.nist.gov/glossary/term/vnid"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/vxlan_network_identifier",
-    "anchor": "VXLANNetworkIdentifier"
-  },
-  {
-    "term": "VXLAN Tunnel Endpoint",
-    "abbrSyn": [
-      {
-        "text": "VTEP",
-        "link": "https://csrc.nist.gov/glossary/term/vtep"
-      }
-    ],
-    "definition": "Term found but the definition does not exist yet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/vxlan_tunnel_endpoint",
-    "anchor": "VXLANTunnelEndpoint"
   },
   {
     "term": "W3C",
