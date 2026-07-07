@@ -17550,18 +17550,6 @@
     ]
   },
   {
-    "term": "Certification Agent",
-    "anchor": "CertificationAgent",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The individual, group, or organization responsible for conducting a security certification.",
-        "url": "https://csrc.nist.gov/glossary/term/certification_agent",
-        "anchor": "CertificationAgent"
-      }
-    ]
-  },
-  {
     "term": "Certification Authority System",
     "anchor": "CertificationAuthoritySystem",
     "definitions": [
@@ -19142,18 +19130,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/common_object_request_broker_architecture",
         "anchor": "CommonObjectRequestBrokerArchitecture"
-      }
-    ]
-  },
-  {
-    "term": "Common Security Control",
-    "anchor": "CommonSecurityControl",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Security control that can be applied to one or more agency information systems and has the following properties: (i) the development, implementation, and assessment of the control can be assigned to a responsible official or organizational element (other than the information system owner); and (ii) the results from the assessment of the control can be used to support the security certification and accreditation processes of an agency information system where that control has been applied.",
-        "url": "https://csrc.nist.gov/glossary/term/common_security_control",
-        "anchor": "CommonSecurityControl"
       }
     ]
   },
@@ -22607,7 +22583,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
+        "definition": "A systematic process for managing exposure to cybersecurity risks throughout the supply chain and developing appropriate response strategies, policies, processes, and procedures.",
         "url": "https://csrc.nist.gov/glossary/term/cybersecurity_supply_chain_risk_management",
         "anchor": "CybersecuritySupplyChainRiskManagement"
       }
@@ -50802,18 +50778,6 @@
     ]
   },
   {
-    "term": "Key Signing Key (KSK)",
-    "anchor": "KeySigningKey(KSK)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An authentication key that corresponds to a private key used to sign one or more other authentication keys for a given zone. Typically, the private key corresponding to a key signing key will sign a zone signing key, which in turn has a corresponding private key that will sign other zone data. See also zone signing key.",
-        "url": "https://csrc.nist.gov/glossary/term/key_signing_key",
-        "anchor": "KeySigningKey(KSK)"
-      }
-    ]
-  },
-  {
     "term": "Key Storage Device",
     "anchor": "KeyStorageDevice",
     "definitions": [
@@ -56483,7 +56447,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Product output that is in a structured format, typically XML, which can be consumed by another program using consistent processing logic.",
+        "definition": "When used with respect to data, means data in a format that can be easily processed by a computer without human intervention while ensuring no semantic meaning is lost.",
         "url": "https://csrc.nist.gov/glossary/term/machine_readable",
         "anchor": "MachineReadable"
       }
@@ -56606,18 +56570,6 @@
         "definition": "A mail client application used by an end user to access a mail server to read, compose, and send email messages. Common MUAs include Microsoft Outlook and Mozilla Thunderbird.",
         "url": "https://csrc.nist.gov/glossary/term/mail_user_agent",
         "anchor": "MailUserAgent(MUA)"
-      }
-    ]
-  },
-  {
-    "term": "Major Information System",
-    "anchor": "MajorInformationSystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An information system that requires special management attention because of its importance to an agency mission; its high development, operating, or maintenance costs; or its significant role in the administration of agency programs, finances, property, or other resources.",
-        "url": "https://csrc.nist.gov/glossary/term/major_information_system",
-        "anchor": "MajorInformationSystem"
       }
     ]
   },
@@ -62150,18 +62102,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/national_security_directive",
         "anchor": "NationalSecurityDirective"
-      }
-    ]
-  },
-  {
-    "term": "National Security Emergency Preparedness Telecommunications Services",
-    "anchor": "NationalSecurityEmergencyPreparednessTelecommunicationsServices",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Telecommunications services that are used to maintain a state of readiness or to respond to and manage any event or crisis (local, national, or international) that causes or could cause injury or harm to the population, damage to or loss of property, or degrade or threaten the national security or emergency preparedness posture of the United States.",
-        "url": "https://csrc.nist.gov/glossary/term/national_security_emergency_preparedness_telecommunications_services",
-        "anchor": "NationalSecurityEmergencyPreparednessTelecommunicationsServices"
       }
     ]
   },
@@ -69149,7 +69089,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
+        "definition": "A privacy risk management sub-process for identifying and evaluating specific privacy risks.",
         "url": "https://csrc.nist.gov/glossary/term/pra",
         "anchor": "PRA"
       }
@@ -73196,18 +73136,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/protection_in_transit",
         "anchor": "ProtectioninTransit"
-      }
-    ]
-  },
-  {
-    "term": "Protective Distribution System",
-    "anchor": "ProtectiveDistributionSystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Wire line or fiber optic system that includes adequate safeguards and/or countermeasures (e.g., acoustic, electric, electromagnetic, and physical) to permit its use for the transmission of unencrypted information.",
-        "url": "https://csrc.nist.gov/glossary/term/protective_distribution_system",
-        "anchor": "ProtectiveDistributionSystem"
       }
     ]
   },
@@ -83286,18 +83214,6 @@
     ]
   },
   {
-    "term": "Scoping Guidance",
-    "anchor": "ScopingGuidance",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Provides organizations with specific technology-related, infrastructure-related, public access-related, scalability-related, common security control-related, and risk-related considerations on the applicability and implementation of individual security controls in the control baseline.",
-        "url": "https://csrc.nist.gov/glossary/term/scoping_guidance",
-        "anchor": "ScopingGuidance"
-      }
-    ]
-  },
-  {
     "term": "Script",
     "anchor": "Script",
     "definitions": [
@@ -92018,18 +91934,6 @@
         "definition": "A defined group of instructions executing apart from other similarly defined groups, but sharing memory and resources of the process to which they belong.",
         "url": "https://csrc.nist.gov/glossary/term/thread",
         "anchor": "Thread"
-      }
-    ]
-  },
-  {
-    "term": "Threat Agent/Source",
-    "anchor": "ThreatAgent/Source",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The intent and method targeted at the intentional exploitation of a vulnerability or a situation and method that may accidentally trigger a vulnerability.",
-        "url": "https://csrc.nist.gov/glossary/term/threat_agent_source",
-        "anchor": "ThreatAgent/Source"
       }
     ]
   },
@@ -108510,6 +108414,18 @@
     ]
   },
   {
+    "term": "cybersecurity supply chain risk management plan",
+    "anchor": "cybersecuritysupplychainriskmanagementplan",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "A formal document that describes the implementations, requirements, constraints, and implications of cybersecurity supply chain risk management (CSCRM) controls selected for an information system or environment of operation that work in collaboration with the CSCRM strategy, policies, and implementation plan to provide a systematic and holistic approach to cybersecurity supply chain risk management across an enterprise. The CSCRM plan may be integrated with the system privacy and security plans into one consolidated document.",
+        "url": "https://csrc.nist.gov/glossary/term/cybersecurity_supply_chain_risk_management_plan",
+        "anchor": "cybersecuritysupplychainriskmanagementplan"
+      }
+    ]
+  },
+  {
     "term": "cyberspace attack",
     "anchor": "cyberspaceattack",
     "definitions": [
@@ -115163,7 +115079,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Formal document that provides an overview of the security requirements for an organization-wide information security program and describes the program management controls and common controls in place or planned for meeting those requirements.",
+        "definition": "Formal document that provides an overview of the security requirements for an organization-wide information security program and describes the program management controls and common controls in place or planned for meeting those requirements. [SP80037] from [OMBA130]",
         "url": "https://csrc.nist.gov/glossary/term/information_security_program_plan",
         "anchor": "informationsecurityprogramplan"
       }
@@ -122382,6 +122298,18 @@
     ]
   },
   {
+    "term": "privacy continuous monitoring program",
+    "anchor": "privacycontinuousmonitoringprogram",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "An agency-wide program that implements the agencys privacy continuous monitoring strategy and maintains ongoing awareness of threats and vulnerabilities that may pose privacy risks; monitors changes to information systems and environments of operation that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of PII; and conducts privacy control assessments to verify the continued effectiveness of all privacy controls selected and implemented at an agency across the agency risk management tiers to ensure continued compliance with applicable privacy requirements and manage privacy risks.",
+        "url": "https://csrc.nist.gov/glossary/term/privacy_continuous_monitoring_program",
+        "anchor": "privacycontinuousmonitoringprogram"
+      }
+    ]
+  },
+  {
     "term": "privacy control",
     "anchor": "privacycontrol",
     "definitions": [
@@ -129263,7 +129191,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Risk that arises through the loss of confidentiality, integrity, or availability of information or systems and that considers impacts to the organization (including assets, mission, functions, image, or reputation), individuals, other organizations, and the Nation. See risk.",
+        "definition": "Risk that arises through the loss of confidentiality, integrity, or availability of information or systems and that considers impacts to the organization (including assets, mission, functions, image, or reputation), individuals, other organizations, and the Nation.",
         "url": "https://csrc.nist.gov/glossary/term/system_related_security_risk",
         "anchor": "systemrelatedsecurityrisk"
       }
@@ -129335,7 +129263,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Process that captures and refines privacy requirements and ensures their integration into information technology component products and information systems through purposeful privacy design or configuration.",
+        "definition": "A specialty engineering discipline of systems engineering. It applies scientific, mathematical, engineering, and measurement concepts, principles, and methods to deliver, consistent with defined constraints and necessary trade-offs, a trustworthy asset protection capability that satisfies stakeholder requirements; is seamlessly integrated into the delivered system; and presents residual risk that is deemed acceptable and manageable to stakeholders.",
         "url": "https://csrc.nist.gov/glossary/term/systems_privacy_engineering",
         "anchor": "systemsprivacyengineering"
       }
