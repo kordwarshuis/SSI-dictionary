@@ -7145,36 +7145,6 @@
     "anchor": "assertionpresentation"
   },
   {
-    "term": "assessment",
-    "abbrSyn": [
-      {
-        "text": "control assessment",
-        "link": "https://csrc.nist.gov/glossary/term/control_assessment"
-      },
-      {
-        "text": "Privacy Control Assessment"
-      },
-      {
-        "text": "risk assessment",
-        "link": "https://csrc.nist.gov/glossary/term/risk_assessment"
-      },
-      {
-        "text": "Risk Assessment"
-      },
-      {
-        "text": "security control assessment",
-        "link": "https://csrc.nist.gov/glossary/term/security_control_assessment"
-      },
-      {
-        "text": "Security Control Assessment"
-      }
-    ],
-    "definition": "The process of identifying risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the Nation, resulting from the operation of an information system. A part of risk management incorporates threat and vulnerability analyses, and considers mitigations provided by security controls planned or in place.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/assessment",
-    "anchor": "assessment"
-  },
-  {
     "term": "Assessment and Authorization",
     "abbrSyn": [
       {
@@ -7342,13 +7312,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/assessor",
     "anchor": "assessor"
-  },
-  {
-    "term": "asset",
-    "definition": "<p>A distinguishable entity that provides a service or capability. Assets are people, physical entities, or information located either within or outside the United States and employed, owned, or operated by domestic,&nbsp;</p><p>foreign, public, or private sector organizations.</p>",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/asset",
-    "anchor": "asset"
   },
   {
     "term": "Asset Framework",

@@ -101922,18 +101922,6 @@
     ]
   },
   {
-    "term": "assessment",
-    "anchor": "assessment",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The process of identifying risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the Nation, resulting from the operation of an information system. A part of risk management incorporates threat and vulnerability analyses, and considers mitigations provided by security controls planned or in place.",
-        "url": "https://csrc.nist.gov/glossary/term/assessment",
-        "anchor": "assessment"
-      }
-    ]
-  },
-  {
     "term": "assessment approach",
     "anchor": "assessmentapproach",
     "definitions": [
@@ -102074,18 +102062,6 @@
         "definition": "The individual, group, or organization responsible for conducting a security or privacy control assessment.",
         "url": "https://csrc.nist.gov/glossary/term/assessor",
         "anchor": "assessor"
-      }
-    ]
-  },
-  {
-    "term": "asset",
-    "anchor": "asset",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "<p>A distinguishable entity that provides a service or capability. Assets are people, physical entities, or information located either within or outside the United States and employed, owned, or operated by domestic,&nbsp;</p><p>foreign, public, or private sector organizations.</p>",
-        "url": "https://csrc.nist.gov/glossary/term/asset",
-        "anchor": "asset"
       }
     ]
   },
