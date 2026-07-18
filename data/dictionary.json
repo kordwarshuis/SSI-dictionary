@@ -8063,7 +8063,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "A statement asserting a property of a subscriber without necessarily containing identity information, independent of format. For example, for the attribute birthday, a reference could be older than 18 or born in December.",
+        "definition": "A statement asserting a property of an entity without necessarily containing identity information, independent of format. For example, for the attribute \"birthday,\" a reference could be \"older than 18\" or \"born in December.\"",
         "url": "https://csrc.nist.gov/glossary/term/attribute_reference",
         "anchor": "AttributeReference"
       }
@@ -100818,18 +100818,6 @@
     ]
   },
   {
-    "term": "active attack",
-    "anchor": "activeattack",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An attack on a secure communication protocol where the attacker transmits data to the claimant, Credential Service Provider (CSP), verifier, or Relying Party (RP). Examples of active attacks include man-in- the middle (MitM), impersonation, and session hijacking. [NIST SP 800-63-3, adapted]",
-        "url": "https://csrc.nist.gov/glossary/term/active_attack",
-        "anchor": "activeattack"
-      }
-    ]
-  },
-  {
     "term": "active content",
     "anchor": "activecontent",
     "definitions": [
@@ -103523,7 +103511,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Process of associating two related elements of information.",
+        "definition": "Assurance of the integrity of an asserted relationship between items of information that is provided by cryptographic means.",
         "url": "https://csrc.nist.gov/glossary/term/binding",
         "anchor": "binding"
       }
@@ -103547,7 +103535,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "1. Measurable physical characteristics or personal behavioral traits used to identify, or verify the claimed identity of, an individual. Facial images, fingerprints, and handwriting samples are all examples of biometrics.",
+        "definition": "A measurable, physical characteristic or personal behavioral trait used to identify, or verify the claimed identity of, an individual. Facial images, fingerprints, and iris image samples are all examples of biometrics.",
         "url": "https://csrc.nist.gov/glossary/term/biometric",
         "anchor": "biometric"
       }
