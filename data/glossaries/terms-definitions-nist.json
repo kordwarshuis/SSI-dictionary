@@ -9226,7 +9226,7 @@
         "link": "information_security_continuous_monitoring"
       }
     ],
-    "definition": "Maintaining ongoing awareness to support organizational risk decisions. See information security continuous monitoring, risk monitoring, and status monitoring",
+    "definition": "Maintaining ongoing awareness of information security, vulnerabilities, and threats to support organizational risk management decisions.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/automated_security_monitoring",
     "anchor": "automatedsecuritymonitoring"
@@ -15011,7 +15011,7 @@
   },
   {
     "term": "certificate-related information",
-    "definition": "Information, such as subscribers postal address, that is not included in a certificate. May be used by a certification authority (CA) managing certificates.",
+    "definition": "Information, such as subscriber's postal address, that is not included in a certificate. May be used by a certification authority (CA) managing certificates.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/certificate_related_information",
     "anchor": "certificaterelatedinformation"
@@ -15091,7 +15091,7 @@
         "link": "https://csrc.nist.gov/glossary/term/cps"
       }
     ],
-    "definition": "A statement of the practices that a certification authority (CA) employs in issuing, suspending, revoking, and renewing certificates and providing access to them, in accordance with specific requirements (i.e., requirements specified in this Certificate Policy, or requirements specified in a contract for services).",
+    "definition": "The entity in a Public-Key Infrastructure (PKI) that is responsible for issuing public- key certificates and exacting compliance to a PKI policy.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/certification_practice_statement",
     "anchor": "certificationpracticestatement(CPS)"
@@ -21196,7 +21196,7 @@
         "text": "Status Monitoring"
       }
     ],
-    "definition": "Maintaining ongoing awareness to support organizational risk decisions. See information security continuous monitoring, risk monitoring, and status monitoring",
+    "definition": "Maintaining ongoing awareness of information security, vulnerabilities, and threats to support organizational risk management decisions.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/continuous_monitoring",
     "anchor": "continuousmonitoring"
