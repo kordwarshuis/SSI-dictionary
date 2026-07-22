@@ -19978,7 +19978,7 @@
         "link": "https://csrc.nist.gov/glossary/term/demilitarize"
       }
     ],
-    "definition": "The process of preparing National Security System equipment for disposal by extracting all CCI, classified, or CRYPTO-marked components for their secure destruction, as well as defacing and disposing of the remaining equipment hulk.",
+    "definition": "The act of eliminating the functional capabilities and/or inherent military design features . Methods and degree range from removal and destruction of critical features to total destruction by cutting, crushing, shredding, melting, burning, etc.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/comsec_demilitarization",
     "anchor": "COMSECdemilitarization"
@@ -26434,7 +26434,7 @@
   },
   {
     "term": "data aggregation",
-    "definition": "Compilation of individual data systems and data that could result in the totality of the information being classified, or classified at a higher level, or of beneficial use to an adversary.",
+    "definition": "Compilation of data that together may provide a holistic view of the data, but may also result in increased risk. The totality of the aggregated data may, for example, be classified, classified at a higher level, result in de-anonymization of entities, disclosure of sensitive (CUI) data, or benefit an adversary. The data may originate from a single source or a variety of multiple sources.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/data_aggregation",
     "anchor": "dataaggregation"
@@ -26454,7 +26454,7 @@
   },
   {
     "term": "data asset",
-    "definition": "1. Any entity that is comprised of data. For example, a database is a data asset that is comprised of data records. A data asset may be a system or application output file, database, document, or web page. A data asset also includes a service that may be provided to access data from an application. For example, a service that returns individual records from a database would be a data asset. Similarly, a web site that returns data in response to specific queries (e.g., www.weather.com) would be a data asset.",
+    "definition": "An information-based resource.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/data_asset",
     "anchor": "dataasset"
@@ -26717,23 +26717,6 @@
     "anchor": "datamining"
   },
   {
-    "term": "data origin authentication",
-    "seeAlso": [
-      {
-        "text": "non-repudiation",
-        "link": "non_repudiation"
-      },
-      {
-        "text": "peer entity authentication service",
-        "link": "peer_entity_authentication_service"
-      }
-    ],
-    "definition": "The corroboration that the source of data received is as claimed. See also non-repudiation and peer entity authentication service",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/data_origin_authentication",
-    "anchor": "dataoriginauthentication"
-  },
-  {
     "term": "data poisoning",
     "definition": "A poisoning attack in which an adversary controls part of the training data.",
     "organisation": "Nist",
@@ -26756,7 +26739,7 @@
   },
   {
     "term": "Data Processing",
-    "definition": "The collective set of data actions (i.e., the complete data life cycle, including, but not limited to collection, retention, logging, generation, transformation, use, disclosure, sharing, transmission, and disposal).",
+    "definition": "The collective set of data actions-that is, the complete data life cycle, including, but not limited to: collection, retention, logging, generation, transformation, use, disclosure, sharing, transmission, and disposal.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/data_processing",
     "anchor": "DataProcessing"
@@ -26867,13 +26850,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/data_transfer_device",
     "anchor": "DataTransferDevice"
-  },
-  {
-    "term": "data transfer solution",
-    "definition": "Interconnect networks or information systems that operate in different security domains and transfer data between them.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/data_transfer_solution",
-    "anchor": "datatransfersolution"
   },
   {
     "term": "data universe",
@@ -27736,7 +27712,7 @@
         "link": "https://csrc.nist.gov/glossary/term/dib"
       }
     ],
-    "definition": "Term found but the definition does not exist yet.",
+    "definition": "The Department of Defense, government, and private sector worldwide industrial complex with capabilities to perform research and development and design, produce, and maintain military weapon systems, subsystems, components, or parts to meet military requirements.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/defense_industrial_base",
     "anchor": "DefenseIndustrialBase"
@@ -27941,19 +27917,6 @@
     "anchor": "DEM"
   },
   {
-    "term": "demilitarize",
-    "abbrSyn": [
-      {
-        "text": "COMSEC demilitarization",
-        "link": "https://csrc.nist.gov/glossary/term/comsec_demilitarization"
-      }
-    ],
-    "definition": "The process of preparing National Security System equipment for disposal by extracting all CCI, classified, or CRYPTO-marked components for their secure destruction, as well as defacing and disposing of the remaining equipment hulk.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/demilitarize",
-    "anchor": "demilitarize"
-  },
-  {
     "term": "DeNB",
     "abbrSyn": [
       {
@@ -28063,26 +28026,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/department_of_defense_directive",
     "anchor": "DepartmentofDefenseDirective"
-  },
-  {
-    "term": "Department of Defense information network operations",
-    "definition": "Operations to design, build, configure, secure, operate, maintain, and sustain Department of Defense networks to create and preserve information assurance on the Department of Defense information networks.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/department_of_defense_information_network_operations",
-    "anchor": "DepartmentofDefenseinformationnetworkoperations"
-  },
-  {
-    "term": "Department of Defense information networks (DODIN)",
-    "abbrSyn": [
-      {
-        "text": "DoDIN",
-        "link": "https://csrc.nist.gov/glossary/term/dodin"
-      }
-    ],
-    "definition": "The globally interconnected, end-to-end set of information capabilities, and associated processes for collecting, processing, storing, disseminating, and managing information on-demand to warfighters, policy makers, and support personnel, including owned and leased communications and computing systems and services, software (including applications), data, security services, other associated services, and national security systems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/department_of_defense_information_networks",
-    "anchor": "DepartmentofDefenseinformationnetworks(DODIN)"
   },
   {
     "term": "Department of Defense Instruction",
@@ -30011,25 +29954,6 @@
     "anchor": "DirectToConsumer"
   },
   {
-    "term": "dirty word list",
-    "abbrSyn": [
-      {
-        "text": "blacklist",
-        "link": "https://csrc.nist.gov/glossary/term/blacklist"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "clean word list",
-        "link": "clean_word_list"
-      }
-    ],
-    "definition": "A list of discrete entities that have been previously determined to be associated with malicious activity.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/dirty_word_list",
-    "anchor": "dirtywordlist"
-  },
-  {
     "term": "DIS",
     "abbrSyn": [
       {
@@ -30234,13 +30158,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/disn",
     "anchor": "DISN"
-  },
-  {
-    "term": "disruption",
-    "definition": "An unplanned event that causes the general system or major application to be inoperable for an unacceptable length of time (e.g., minor or extended power outage, extended unavailable network, or equipment or facility damage or destruction).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/disruption",
-    "anchor": "disruption"
   },
   {
     "term": "distinguishable information",
@@ -30863,13 +30780,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dod_discovery_metadata_standard",
     "anchor": "DoDDiscoveryMetadataStandard"
-  },
-  {
-    "term": "DoD information",
-    "definition": "Any information that has not been cleared for public release in accordance with Department of Defense (DoD) Directive 5230.09, Clearance of DoD Information for Public Release, and that has been collected, developed, received, transmitted, used, or stored by DoD, or by a non-DoD entity in support of an official DoD activity.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/dod_information",
-    "anchor": "DoDinformation"
   },
   {
     "term": "DoD Information Assurance Certification and Accreditation Process",
@@ -33846,25 +33756,6 @@
     "anchor": "ElectronicIndustriesAlliance"
   },
   {
-    "term": "electronic key management system (EKMS)",
-    "abbrSyn": [
-      {
-        "text": "EKMS",
-        "link": "https://csrc.nist.gov/glossary/term/ekms"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "key management infrastructure (KMI)",
-        "link": "key_management_infrastructure"
-      }
-    ],
-    "definition": "An interoperable collection of systems that automate the planning, ordering, generating, distributing, storing, filling, using, and destroying of electronic key and management of other types of COMSEC material. See key management infrastructure (KMI).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/electronic_key_management_system",
-    "anchor": "electronickeymanagementsystem(EKMS)"
-  },
-  {
     "term": "Electronic Mail",
     "abbrSyn": [
       {
@@ -33970,20 +33861,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/electronic_serial_number",
     "anchor": "ElectronicSerialNumber(ESN)"
-  },
-  {
-    "term": "electronic signature",
-    "note": "(C.F.D.)",
-    "seeAlso": [
-      {
-        "text": "digital signature",
-        "link": "digital_signature"
-      }
-    ],
-    "definition": "See digital signature. Rationale: Deprecated Term: Given that there is no current consensus on its definition, it is recommended that \"digital signature\" be used instead, if that context is what is intended.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/electronic_signature",
-    "anchor": "electronicsignature"
   },
   {
     "term": "electronic/digital file transfer",
@@ -34657,13 +34534,6 @@
     "anchor": "encryption"
   },
   {
-    "term": "encryption algorithm",
-    "definition": "Set of mathematically expressed rules for rendering data unintelligible by executing a series of conversions controlled by a key.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/encryption_algorithm",
-    "anchor": "encryptionalgorithm"
-  },
-  {
     "term": "encryption certificate",
     "seeAlso": [
       {
@@ -35106,31 +34976,6 @@
     "anchor": "ensemblelearning"
   },
   {
-    "term": "enterprise",
-    "abbrSyn": [
-      {
-        "text": "organization",
-        "link": "https://csrc.nist.gov/glossary/term/organization"
-      },
-      {
-        "text": "Organization"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "organization",
-        "link": "organization"
-      },
-      {
-        "text": "Organization"
-      }
-    ],
-    "definition": "An entity of any size, complexity, or position within a larger organizational structure (e.g., a federal agency or company).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/enterprise",
-    "anchor": "enterprise"
-  },
-  {
     "term": "enterprise architecture (EA)",
     "abbrSyn": [
       {
@@ -35155,19 +35000,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/enterprise_compliance_profile",
     "anchor": "EnterpriseComplianceProfile"
-  },
-  {
-    "term": "enterprise cross domain services (ECDS)",
-    "abbrSyn": [
-      {
-        "text": "ECDS",
-        "link": "https://csrc.nist.gov/glossary/term/ecds"
-      }
-    ],
-    "definition": "A cross domain solution provided as a system across an enterprise infrastructure, fully integrated to provide the ability to access or transfer information between two or more security domains.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/enterprise_cross_domain_services",
-    "anchor": "enterprisecrossdomainservices(ECDS)"
   },
   {
     "term": "enterprise cross domain services (ECDS) provider",
@@ -35359,13 +35191,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/enterprise_subsystem",
     "anchor": "EnterpriseSubsystem"
-  },
-  {
-    "term": "enterprise-hosted cross domain solutions",
-    "definition": "A point-to-point cross domain solution (CDS) that is managed by an enterprise cross domain service (ECDS) provider that may be available to additional users within the enterprise with little or no modifications.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/enterprise_hosted_cross_domain_solutions",
-    "anchor": "enterprisehostedcrossdomainsolutions"
   },
   {
     "term": "Enterprise-Level CSRR",
@@ -36991,35 +36816,6 @@
     "anchor": "eXecuteInPlace"
   },
   {
-    "term": "executive agency",
-    "abbrSyn": [
-      {
-        "text": "agency",
-        "link": "https://csrc.nist.gov/glossary/term/agency"
-      },
-      {
-        "text": "Agency"
-      },
-      {
-        "text": "federal agency",
-        "link": "https://csrc.nist.gov/glossary/term/federal_agency"
-      },
-      {
-        "text": "Federal Agency"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "agency",
-        "link": "agency"
-      }
-    ],
-    "definition": "Any executive agency or department, military department, Federal Government corporation, Federal Government-controlled corporation, or other establishment in the Executive Branch of the Federal Government or any independent regulatory agency.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/executive_agency",
-    "anchor": "executiveagency"
-  },
-  {
     "term": "Executive Office of the President",
     "abbrSyn": [
       {
@@ -37175,19 +36971,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/exploit_prediction_scoring_system",
     "anchor": "ExploitPredictionScoringSystem"
-  },
-  {
-    "term": "exploitable channel",
-    "seeAlso": [
-      {
-        "text": "covert channel",
-        "link": "covert_channel"
-      }
-    ],
-    "definition": "Channel that allows the violation of the security policy governing an information system and is usable or detectable by subjects external to the trusted computing base. See covert channel.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/exploitable_channel",
-    "anchor": "exploitablechannel"
   },
   {
     "term": "Exposure",
