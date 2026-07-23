@@ -37692,40 +37692,6 @@
     "anchor": "failsafe"
   },
   {
-    "term": "fail secure",
-    "seeAlso": [
-      {
-        "text": "fail safe",
-        "link": "fail_safe"
-      },
-      {
-        "text": "fail soft",
-        "link": "fail_soft"
-      }
-    ],
-    "definition": "A mode of termination of system functions that prevents loss of secure state when a failure occurs or is detected in the system (but the failure still might cause damage to some system resource or system entity). See fail safe and fail soft for comparison.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/fail_secure",
-    "anchor": "failsecure"
-  },
-  {
-    "term": "fail soft",
-    "seeAlso": [
-      {
-        "text": "fail safe",
-        "link": "fail_safe"
-      },
-      {
-        "text": "fail secure",
-        "link": "fail_secure"
-      }
-    ],
-    "definition": "Selective termination of affected, non-essential system functions when a failure occurs or is detected in the system. See fail safe and fail secure for comparison.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/fail_soft",
-    "anchor": "failsoft"
-  },
-  {
     "term": "Fail to Known State",
     "definition": "Upon a disruption event that causes the system to fail, it fails to a pre-determined state. Failure in a known safe state helps to prevent systems from failing to a state that may cause injury to individuals or destruction to property. Preserving manufacturing system state information facilitates system restart and return to the operational mode of organizations with less disruption of mission/business processes.",
     "organisation": "Nist",
@@ -37861,13 +37827,6 @@
     "anchor": "falseacceptrate(FAR)"
   },
   {
-    "term": "false acceptance",
-    "definition": "When a biometric system incorrectly identifies a biometric subject or incorrectly authenticates a biometric subject against a claimed identity.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/false_acceptance",
-    "anchor": "falseacceptance"
-  },
-  {
     "term": "False Match Rate (FMR)",
     "abbrSyn": [
       {
@@ -37919,13 +37878,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/false_reject_rate",
     "anchor": "falserejectrate(FRR)"
-  },
-  {
-    "term": "false rejection",
-    "definition": "The failure of a biometric system to identify a biometric subject or to verify the legitimate claimed identity of a biometric subject.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/false_rejection",
-    "anchor": "falserejection"
   },
   {
     "term": "FAM",
@@ -38926,13 +38878,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/federal_information_security",
     "anchor": "FederalInformationSecurity"
-  },
-  {
-    "term": "federal information system",
-    "definition": "An information system used or operated by an executive agency, by a contractor of an executive agency, or by another organization on behalf of an executive agency.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/federal_information_system",
-    "anchor": "federalinformationsystem"
   },
   {
     "term": "Federal Information System Controls Audit Manual",
@@ -40874,13 +40819,6 @@
     "anchor": "FormFactor"
   },
   {
-    "term": "formal access approval",
-    "definition": "A formalization of the security determination for authorizing access to a specific type of classified or controlled unclassified information (CUI) categories or subcategories based on specified access requirements, a determination of the individuals security eligibility, and a determination that the individuals official duties require the individual be provided access to the information. Note: Providing access to, or transferring, CUI is based on Lawful Government Purpose unless such access is further restricted by law, regulation, or government wide policy.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/formal_access_approval",
-    "anchor": "formalaccessapproval"
-  },
-  {
     "term": "formal method",
     "definition": "Software engineering method used to specify, develop, and verify the software through application of a rigorous mathematically based notation and language.",
     "organisation": "Nist",
@@ -41575,19 +41513,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/full_tunneling",
     "anchor": "FullTunneling"
-  },
-  {
-    "term": "full/depot maintenance (COMSEC)",
-    "seeAlso": [
-      {
-        "text": "limited maintenance",
-        "link": "limited_maintenance"
-      }
-    ],
-    "definition": "Complete diagnostic repair, modification, and overhaul of COMSEC equipment, including repair of defective assemblies by piece part replacement. See limited maintenance.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/full_depot_maintenance",
-    "anchor": "full/depotmaintenance(COMSEC)"
   },
   {
     "term": "full-entropy bitstring",

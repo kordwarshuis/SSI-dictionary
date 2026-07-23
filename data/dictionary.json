@@ -111930,30 +111930,6 @@
     ]
   },
   {
-    "term": "fail secure",
-    "anchor": "failsecure",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A mode of termination of system functions that prevents loss of secure state when a failure occurs or is detected in the system (but the failure still might cause damage to some system resource or system entity). See fail safe and fail soft for comparison.",
-        "url": "https://csrc.nist.gov/glossary/term/fail_secure",
-        "anchor": "failsecure"
-      }
-    ]
-  },
-  {
-    "term": "fail soft",
-    "anchor": "failsoft",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Selective termination of affected, non-essential system functions when a failure occurs or is detected in the system. See fail safe and fail secure for comparison.",
-        "url": "https://csrc.nist.gov/glossary/term/fail_soft",
-        "anchor": "failsoft"
-      }
-    ]
-  },
-  {
     "term": "failover",
     "anchor": "failover",
     "definitions": [
@@ -112002,18 +111978,6 @@
     ]
   },
   {
-    "term": "false acceptance",
-    "anchor": "falseacceptance",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "When a biometric system incorrectly identifies a biometric subject or incorrectly authenticates a biometric subject against a claimed identity.",
-        "url": "https://csrc.nist.gov/glossary/term/false_acceptance",
-        "anchor": "falseacceptance"
-      }
-    ]
-  },
-  {
     "term": "false reject rate (FRR)",
     "anchor": "falserejectrate(FRR)",
     "definitions": [
@@ -112022,18 +111986,6 @@
         "definition": "Proportion of verification transactions with truthful claims of identity that are incorrectly denied.",
         "url": "https://csrc.nist.gov/glossary/term/false_reject_rate",
         "anchor": "falserejectrate(FRR)"
-      }
-    ]
-  },
-  {
-    "term": "false rejection",
-    "anchor": "falserejection",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The failure of a biometric system to identify a biometric subject or to verify the legitimate claimed identity of a biometric subject.",
-        "url": "https://csrc.nist.gov/glossary/term/false_rejection",
-        "anchor": "falserejection"
       }
     ]
   },
@@ -112106,18 +112058,6 @@
         "definition": "A standard for adoption and use by Federal agencies that has been developed within the Information Technology Laboratory and published by the National Institute of Standards and Technology, a part of the U.S. Department of Commerce. A FIPS covers some topic in information technology in order to achieve a common level of quality or some level of interoperability.",
         "url": "https://csrc.nist.gov/glossary/term/federal_information_processing",
         "anchor": "federalinformationprocessing"
-      }
-    ]
-  },
-  {
-    "term": "federal information system",
-    "anchor": "federalinformationsystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An information system used or operated by an executive agency, by a contractor of an executive agency, or by another organization on behalf of an executive agency.",
-        "url": "https://csrc.nist.gov/glossary/term/federal_information_system",
-        "anchor": "federalinformationsystem"
       }
     ]
   },
@@ -112482,18 +112422,6 @@
     ]
   },
   {
-    "term": "formal access approval",
-    "anchor": "formalaccessapproval",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A formalization of the security determination for authorizing access to a specific type of classified or controlled unclassified information (CUI) categories or subcategories based on specified access requirements, a determination of the individuals security eligibility, and a determination that the individuals official duties require the individual be provided access to the information. Note: Providing access to, or transferring, CUI is based on Lawful Government Purpose unless such access is further restricted by law, regulation, or government wide policy.",
-        "url": "https://csrc.nist.gov/glossary/term/formal_access_approval",
-        "anchor": "formalaccessapproval"
-      }
-    ]
-  },
-  {
     "term": "formal method",
     "anchor": "formalmethod",
     "definitions": [
@@ -112646,18 +112574,6 @@
         "definition": "A bitstring with ideal randomness (i.e., the amount of entropy per bit is equal to 1). This publication proves that a bitstring satisfying a certain definition of <em>full entropy</em> has an entropy rate of at least&nbsp;<span class=\"math-tex\">\\(1-\\)</span>, where&nbsp;<span class=\"math-tex\">\\(\\)</span>&nbsp;is at most&nbsp;<span class=\"math-tex\">\\(2^{-32}\\)</span>.",
         "url": "https://csrc.nist.gov/glossary/term/full_entropy_bitstring",
         "anchor": "fullentropybitstring"
-      }
-    ]
-  },
-  {
-    "term": "full/depot maintenance (COMSEC)",
-    "anchor": "full/depotmaintenance(COMSEC)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Complete diagnostic repair, modification, and overhaul of COMSEC equipment, including repair of defective assemblies by piece part replacement. See limited maintenance.",
-        "url": "https://csrc.nist.gov/glossary/term/full_depot_maintenance",
-        "anchor": "full/depotmaintenance(COMSEC)"
       }
     ]
   },
