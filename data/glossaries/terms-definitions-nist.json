@@ -38068,7 +38068,7 @@
         "link": "https://csrc.nist.gov/glossary/term/ft"
       }
     ],
-    "definition": "A property of a system that allows proper operation even if components fail.",
+    "definition": "The ability of a system to continue to run when one or more component(s) of the system fails.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/fault_tolerance",
     "anchor": "Faulttolerance"
@@ -41136,7 +41136,7 @@
         "link": "https://csrc.nist.gov/glossary/term/foss"
       }
     ],
-    "definition": "Term found but the definition does not exist yet.",
+    "definition": "Software that is liberally licensed to grant users the right to use, copy, study, change, and improve its design through the availability of its source code. In the context of free and open source software, free refers to the freedom to copy and reuse the software. FOSS is an inclusive term that covers both free software and open source software.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/free_and_open_source_software",
     "anchor": "FreeandOpenSourceSoftware"
@@ -43532,29 +43532,6 @@
     "anchor": "Graphics,Windowing,andEventsSubsystem"
   },
   {
-    "term": "gray box testing",
-    "abbrSyn": [
-      {
-        "text": "focused testing",
-        "link": "https://csrc.nist.gov/glossary/term/focused_testing"
-      },
-      {
-        "text": "Focused Testing"
-      }
-    ],
-    "definition": "A test methodology that assumes some knowledge of the internal structure and implementation detail of the assessment object.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/gray_box_testing",
-    "anchor": "grayboxtesting"
-  },
-  {
-    "term": "gray market",
-    "definition": "Distribution channels which, while legal, are unofficial, unauthorized, or unintended by the original manufacturer.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/gray_market",
-    "anchor": "graymarket"
-  },
-  {
     "term": "graylist",
     "definition": "A list of discrete entities that have not yet been established as benign or malicious; more information is needed to move graylist items onto a whitelist or a blacklist.",
     "organisation": "Nist",
@@ -44029,19 +44006,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/gtsm",
     "anchor": "GTSM"
-  },
-  {
-    "term": "guard (system)",
-    "seeAlso": [
-      {
-        "text": "transfer cross domain solution",
-        "link": "transfer_cross_domain_solution"
-      }
-    ],
-    "definition": "A mechanism limiting the exchange of information between information systems or subsystems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/guard",
-    "anchor": "guard(system)"
   },
   {
     "term": "Guest operating system",
@@ -45520,26 +45484,6 @@
     "anchor": "HierarchicalSignatureScheme"
   },
   {
-    "term": "High Assurance Internet Protocol Encryptor (HAIPE)",
-    "abbrSyn": [
-      {
-        "text": "HAIPE",
-        "link": "https://csrc.nist.gov/glossary/term/haipe"
-      }
-    ],
-    "definition": "Device that provides networking, traffic protection, and management features that provide information assurance (IA) services in an IPv4/IPv6 network.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/high_assurance_internet_protocol_encryptor",
-    "anchor": "HighAssuranceInternetProtocolEncryptor(HAIPE)"
-  },
-  {
-    "term": "High Assurance Internet Protocol Encryptor Interoperability Specification (HAIPE-IS)",
-    "definition": "Suite of documents containing the traffic protection, networking, and interoperability functional requirements necessary to ensure the interoperability of HAIPE compliant devices. This policy applies to HAIPE-IS Version 3.0.2 and all subsequent HAIPE-IS versions.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/high_assurance_internet_protocol_encryptor_interoperability_specification",
-    "anchor": "HighAssuranceInternetProtocolEncryptorInteroperabilitySpecification(HAIPEIS)"
-  },
-  {
     "term": "High Availability",
     "abbrSyn": [
       {
@@ -45564,13 +45508,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/high_frequency",
     "anchor": "HighFrequency"
-  },
-  {
-    "term": "high impact",
-    "definition": "The loss of confidentiality, integrity, or availability could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, or individuals.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/high_impact",
-    "anchor": "highimpact"
   },
   {
     "term": "High Performance Computing Modernization Program",
@@ -45689,19 +45626,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/high_performance_file_system",
     "anchor": "HighPerformanceFileSystem"
-  },
-  {
-    "term": "high-power transmitter",
-    "seeAlso": [
-      {
-        "text": "low-power transmitter",
-        "link": "low_power_transmitter"
-      }
-    ],
-    "definition": "For the purposes of determining separation between RED equipment/lines and RF transmitters, high-power is that which exceeds 100 m Watt (20dBm) emitted isotropic radiated power (EIRP). See low-power transmitter.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/high_power_transmitter",
-    "anchor": "highpowertransmitter"
   },
   {
     "term": "High-Value Asset",
@@ -46910,7 +46834,7 @@
         "text": "System-Specific Security Control"
       }
     ],
-    "definition": "A security control or privacy control that is implemented in an information system in part as a common control and in part as a system-specific control. See Common Control and System-Specific Security Control.",
+    "definition": "A security or privacy control that is implemented for a system in part as a common control and in part as a system- specific control.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/hybrid_control",
     "anchor": "hybridcontrol"
@@ -49814,57 +49738,6 @@
     "anchor": "IncentiveMechanism"
   },
   {
-    "term": "incident",
-    "abbrSyn": [
-      {
-        "text": "computer security incident"
-      },
-      {
-        "text": "Computer Security Incident",
-        "link": "https://csrc.nist.gov/glossary/term/computer_security_incident"
-      },
-      {
-        "text": "cyber incident",
-        "link": "https://csrc.nist.gov/glossary/term/cyber_incident"
-      },
-      {
-        "text": "cybersecurity incident"
-      },
-      {
-        "text": "cyberspace incident"
-      },
-      {
-        "text": "security incident",
-        "link": "https://csrc.nist.gov/glossary/term/security_incident"
-      },
-      {
-        "text": "Security Incident"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "cyber incident",
-        "link": "cyber_incident"
-      },
-      {
-        "text": "event",
-        "link": "event"
-      },
-      {
-        "text": "intrusion",
-        "link": "intrusion"
-      },
-      {
-        "text": "security-relevant event",
-        "link": "security_relevant_event"
-      }
-    ],
-    "definition": "An occurrence that actually or imminently jeopardizes, without lawful authority, the integrity, confidentiality, or availability of information or an information system; or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/incident",
-    "anchor": "incident"
-  },
-  {
     "term": "incident handling",
     "abbrSyn": [
       {
@@ -50118,19 +49991,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/indications_and_warnings",
     "anchor": "IndicationsandWarnings"
-  },
-  {
-    "term": "indicator",
-    "seeAlso": [
-      {
-        "text": "precursor",
-        "link": "precursor"
-      }
-    ],
-    "definition": "Recognized action, specific, generalized, or theoretical, that an adversary might be expected to take in preparation for an attack.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/indicator",
-    "anchor": "indicator"
   },
   {
     "term": "Indicator of Compromise",
@@ -50497,29 +50357,6 @@
     "anchor": "InformationAssessmentMethodology"
   },
   {
-    "term": "information assurance (IA)",
-    "abbrSyn": [
-      {
-        "text": "IA",
-        "link": "https://csrc.nist.gov/glossary/term/ia"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "information systems security (INFOSEC)",
-        "link": "information_systems_security"
-      },
-      {
-        "text": "virtual private network (VPN)",
-        "link": "virtual_private_network"
-      }
-    ],
-    "definition": "Measures that protect and defend information and information systems by ensuring their availability, integrity, authentication, confidentiality, and non-repudiation. These measures include providing for restoration of information systems by incorporating protection, detection, and reaction capabilities.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/information_assurance",
-    "anchor": "informationassurance(IA)"
-  },
-  {
     "term": "information assurance (IA) professional",
     "note": "(C.F.D.)",
     "definition": "Individual who works IA issues and has real world experience plus appropriate IA training and education commensurate with their level of IA responsibility. Note: DoDI 8500.01 has transitioned from the term information assurance (IA) to the term cybersecurity. This could potentially impact IA related terms. Rationale: Term is self-describing and generic.",
@@ -50669,13 +50506,6 @@
     "anchor": "InformationDesignAssuranceRedTeam"
   },
   {
-    "term": "information domain",
-    "definition": "A three-part concept for information sharing, independent of, and across information systems and security domains that 1) identifies information sharing participants as individual members, 2) contains shared information objects, and 3) provides a security policy that identifies the roles and privileges of the members and the protections required for the information objects.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/information_domain",
-    "anchor": "informationdomain"
-  },
-  {
     "term": "information environment",
     "definition": "The aggregate of individuals, organizations, and systems that collect, process, disseminate, or act on information.",
     "organisation": "Nist",
@@ -50758,19 +50588,6 @@
     "anchor": "informationobject"
   },
   {
-    "term": "information operations (IO)",
-    "abbrSyn": [
-      {
-        "text": "IO",
-        "link": "https://csrc.nist.gov/glossary/term/io"
-      }
-    ],
-    "definition": "The integrated employment, during military operations, of information-related capabilities in concert with other lines of operation to influence, disrupt, corrupt, or usurp the decision-making of adversaries and potential adversaries while protecting our own. Also called IO.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/information_operations",
-    "anchor": "informationoperations(IO)"
-  },
-  {
     "term": "information owner",
     "seeAlso": [
       {
@@ -50811,36 +50628,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/information_resources",
     "anchor": "informationresources"
-  },
-  {
-    "term": "information resources management (IRM)",
-    "abbrSyn": [
-      {
-        "text": "IRM",
-        "link": "https://csrc.nist.gov/glossary/term/irm"
-      }
-    ],
-    "definition": "The planning, budgeting, organizing, directing, training, controlling, and management activities associated with the burden, collection, creation, use, and dissemination of information by agencies.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/information_resources_management",
-    "anchor": "informationresourcesmanagement(IRM)"
-  },
-  {
-    "term": "information security",
-    "abbrSyn": [
-      {
-        "text": "INFOSEC",
-        "link": "https://csrc.nist.gov/glossary/term/infosec"
-      },
-      {
-        "text": "IS",
-        "link": "https://csrc.nist.gov/glossary/term/is"
-      }
-    ],
-    "definition": "<p>Protecting information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction in order to provide</p><p style=\"margin-left:.25in;\">(A) integrity, which means guarding against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity;</p><p style=\"margin-left:.25in;\">(B) confidentiality, which means preserving authorized restrictions on access and disclosure, including means for protecting personal privacy and proprietary information; and</p><p style=\"margin-left:.25in;\">(C) availability, which means ensuring timely and reliable access to and use of information.</p>",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/information_security",
-    "anchor": "informationsecurity"
   },
   {
     "term": "Information Security and Privacy Advisory Board",
@@ -51406,31 +51193,6 @@
     "anchor": "informationsystemssecurity(INFOSEC)"
   },
   {
-    "term": "information systems security (INFOSEC) boundary",
-    "definition": "An imaginary definable perimeter encompassing all the critical functions in an INFOSEC product and separating them from all other functions within the product. Note: INFOSEC Boundary is in terms of a product assessment; not to be confused with authorization boundary.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/information_systems_security_boundary",
-    "anchor": "informationsystemssecurity(INFOSEC)boundary"
-  },
-  {
-    "term": "information systems security manager (ISSM)",
-    "abbrSyn": [
-      {
-        "text": "ISSM",
-        "link": "https://csrc.nist.gov/glossary/term/issm"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "information assurance manager"
-      }
-    ],
-    "definition": "Individual responsible for the information assurance of a program, organization, system, or enclave.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/information_systems_security_manager",
-    "anchor": "informationsystemssecuritymanager(ISSM)"
-  },
-  {
     "term": "Information Systems Security Program Manager",
     "abbrSyn": [
       {
@@ -51521,13 +51283,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/information_type",
     "anchor": "informationtype"
-  },
-  {
-    "term": "information value",
-    "definition": "A qualitative measure of the importance of the information based upon factors such as the level of robustness of the information assurance (IA) controls allocated to the protection of information based upon: mission criticality, the sensitivity (e.g., classification and compartmentalization) of the information, releasability to other countries, perishability/longevity of the information (e.g., short life data versus long life intelligence source data), and potential impact of loss of confidentiality and integrity and/or availability of the information.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/information_value",
-    "anchor": "informationvalue"
   },
   {
     "term": "informational label",
@@ -52740,19 +52495,6 @@
     "anchor": "IntelVTx"
   },
   {
-    "term": "intellectual property",
-    "abbrSyn": [
-      {
-        "text": "IP",
-        "link": "https://csrc.nist.gov/glossary/term/ip"
-      }
-    ],
-    "definition": "Creations of the mind such as musical, literary, and artistic works; inventions; and symbols, names, images, and designs used in commerce, including copyrights, trademarks, patents, and related rights. Under intellectual property law, the holder of one of these abstract properties has certain exclusive rights to the creative work, commercial symbol, or invention by which it is covered.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/intellectual_property",
-    "anchor": "intellectualproperty"
-  },
-  {
     "term": "intelligence",
     "abbrSyn": [
       {
@@ -52784,19 +52526,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/intelligence_advanced_research_projects_activity",
     "anchor": "IntelligenceAdvancedResearchProjectsActivity"
-  },
-  {
-    "term": "intelligence community (IC)",
-    "abbrSyn": [
-      {
-        "text": "IC",
-        "link": "https://csrc.nist.gov/glossary/term/ic"
-      }
-    ],
-    "definition": "Intelligence Community and elements of the Intelligence Community refers to: (1) The Office of the Director of National Intelligence; (2) The Central Intelligence Agency; (3) The National Security Agency; (4) The Defense Intelligence Agency; (5) The National Geospatial-Intelligence Agency; (6) The National Reconnaissance Office; (7) The other offices within the Department of Defense for the collection of specialized national foreign intelligence through reconnaissance programs; (8) The intelligence and counterintelligence elements of the Army, the Navy, the Air Force, and the Marine Corps; (9) The intelligence elements of the Federal Bureau of Investigation; (10) The Office of National Security Intelligence of the Drug Enforcement Administration; (11) The Office of Intelligence and Counterintelligence of the Department of Energy; (12) The Bureau of Intelligence and Research of the Department of State; (13) The Office of Intelligence and Analysis of the Department of the Treasury; (14) The Office of Intelligence and Analysis of the Department of Homeland Security; (15) The intelligence and counterintelligence elements of the Coast Guard; and (16) Such other elements of any department or agency as may be designated by the President, or designated jointly by the Director and the head of the department or agency concerned, as an element of the Intelligence Community.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/intelligence_community",
-    "anchor": "intelligencecommunity(IC)"
   },
   {
     "term": "Intelligence Community Directive",
