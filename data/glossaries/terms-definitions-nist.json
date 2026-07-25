@@ -48709,7 +48709,7 @@
         "link": "attribute_based_access_control"
       }
     ],
-    "definition": "Programs, processes, technologies, and personnel used to create trusted digital identity representations of individuals and non-person entities (NPEs), bind those identities to credentials that may serve as a proxy for the individual or NPE in access transactions, and leverage the credentials to provide authorized access to an agencys resources. See also attribute-based access control (ABAC).",
+    "definition": "Programs, processes, technologies, and personnel used to create trusted digital identity representations of individuals and non-person entities (NPEs), bind those identities to credentials that may serve as a proxy for the individual or NPE in access transactions, and leverage the credentials to provide authorized access to an agency's resources.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/identity_credential_and_access_management",
     "anchor": "Identity,Credential,andAccessManagement(ICAM)"
@@ -50912,7 +50912,7 @@
         "link": "https://csrc.nist.gov/glossary/term/ise"
       }
     ],
-    "definition": "1. An approach that facilitates the sharing of terrorism and homeland security information.",
+    "definition": "The people, projects, systems, and agencies that enable responsible information sharing across the national security enterprise, sharing that includes information on terrorism, homeland security, and countering weapons of mass destruction.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/information_sharing_environment",
     "anchor": "informationsharingenvironment(ISE)"
@@ -51882,13 +51882,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/integrated_adaptive_cyber_defense",
     "anchor": "IntegratedAdaptiveCyberDefense"
-  },
-  {
-    "term": "integrated CCI (controlled cryptographic items) component",
-    "definition": "A CCI component that is designed to be incorporated into an otherwise unclassified communication or information processing equipment or system to form a CCI equipment or CCI system. Note: The integrated CCI component cannot perform any function by itself. It obtains power from the host equipment. An integrated CCI component may take a variety of forms (see paragraph 8 of the basic Instruction regarding the terminology for CCI component).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/integrated_cci_component",
-    "anchor": "integratedCCI(controlledcryptographicitems)component"
   },
   {
     "term": "integrated circuit",
@@ -53935,28 +53928,6 @@
     "anchor": "INTRUP"
   },
   {
-    "term": "intrusion",
-    "abbrSyn": [
-      {
-        "text": "penetration",
-        "link": "https://csrc.nist.gov/glossary/term/penetration"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "cyber incident",
-        "link": "cyber_incident"
-      },
-      {
-        "text": "cyberspace incident"
-      }
-    ],
-    "definition": "A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/intrusion",
-    "anchor": "intrusion"
-  },
-  {
     "term": "intrusion detection",
     "definition": "The process of monitoring the events occurring in a computer system or network and analyzing them for signs of possible incidents.",
     "organisation": "Nist",
@@ -54015,13 +53986,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/invalidate",
     "anchor": "Invalidate"
-  },
-  {
-    "term": "inventory",
-    "definition": "(b) A listing of each item of material charged to a COMSEC account.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/inventory",
-    "anchor": "inventory"
   },
   {
     "term": "Inventory management",
@@ -54298,19 +54262,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ip_payload_compression_protocol",
     "anchor": "IPPayloadCompressionProtocol"
-  },
-  {
-    "term": "IP Security",
-    "abbrSyn": [
-      {
-        "text": "IPsec",
-        "link": "https://csrc.nist.gov/glossary/term/ipsec"
-      }
-    ],
-    "definition": "Provide(s) interoperable, high quality, cryptographically-based security for IPv4 and IPv6. The set of security services offered includes access control, connectionless integrity, data origin authentication, detection and rejection of replays (a form of partial sequence integrity), confidentiality (via encryption), and limited traffic flow confidentiality.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/ip_security",
-    "anchor": "IPSecurity"
   },
   {
     "term": "IPA",
@@ -55431,13 +55382,6 @@
     "anchor": "IT"
   },
   {
-    "term": "IT security awareness and training program",
-    "definition": "Explains proper rules of behavior for the use of agency information systems and information. The program communicates information technology (IT) security policies and procedures that need to be followed. (i.e., NSTISSD 501, NIST SP 800-50)",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/it_security_awareness_and_training_program",
-    "anchor": "ITsecurityawarenessandtrainingprogram"
-  },
-  {
     "term": "IT security objective",
     "abbrSyn": [
       {
@@ -55857,13 +55801,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/jailbreak",
     "anchor": "jailbreak"
-  },
-  {
-    "term": "jamming",
-    "definition": "A deliberate communications disruption meant to degrade the operational performance of the RF subsystem. Jamming is achieved by interjecting electromagnetic waves on the same frequency that the reader to tag uses for communication.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/jamming",
-    "anchor": "jamming"
   },
   {
     "term": "Java API for XML Registries",
@@ -78192,7 +78129,7 @@
         "link": "https://csrc.nist.gov/glossary/term/intrusion"
       }
     ],
-    "definition": "A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so.",
+    "definition": "Unauthorized access to a Federal Government or critical infrastructure network, information system, or application.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/penetration",
     "anchor": "penetration"
