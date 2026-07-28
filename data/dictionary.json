@@ -49920,42 +49920,6 @@
     ]
   },
   {
-    "term": "KMI operating account (KOA)",
-    "anchor": "KMIoperatingaccount(KOA)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A key management infrastructure (KMI) business relationship that is established 1) to manage the set of user devices that are under the control of a specific KMI customer organization; and 2) to control the distribution of KMI products to those devices.",
-        "url": "https://csrc.nist.gov/glossary/term/kmi_operating_account",
-        "anchor": "KMIoperatingaccount(KOA)"
-      }
-    ]
-  },
-  {
-    "term": "KMI protected channel (KPC)",
-    "anchor": "KMIprotectedchannel(KPC)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A key management infrastructure (KMI) Communication Channel that provides 1) Information Integrity Service; 2) either Data Origin Authentication Service or Peer Entity Authentication Service, as is appropriate to the mode of communications; and 3) optionally, Information Confidentiality Service.",
-        "url": "https://csrc.nist.gov/glossary/term/kmi_protected_channel",
-        "anchor": "KMIprotectedchannel(KPC)"
-      }
-    ]
-  },
-  {
-    "term": "KMI-aware device",
-    "anchor": "KMIawaredevice",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A user device that has a user identity for which the registration has significance across the entire key management infrastructure (KMI) (i.e., the identitys registration data is maintained in a database at the primary services node (PRSN) level of the system, rather than only at an MGC) and for which a product can be generated and wrapped by a product source node (PSN) for distribution to the specific device.",
-        "url": "https://csrc.nist.gov/glossary/term/kmi_aware_device",
-        "anchor": "KMIawaredevice"
-      }
-    ]
-  },
-  {
     "term": "KMID",
     "anchor": "KMID",
     "definitions": [
@@ -50048,42 +50012,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/koa",
         "anchor": "KOA"
-      }
-    ]
-  },
-  {
-    "term": "KOA agent",
-    "anchor": "KOAagent",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A user identity that is designated by a key management infrastructure operating account (KOA) manager to access primary services node (PRSN) product delivery enclaves for the purpose of retrieving wrapped products that have been ordered for user devices that are assigned to that KOA.",
-        "url": "https://csrc.nist.gov/glossary/term/koa_agent",
-        "anchor": "KOAagent"
-      }
-    ]
-  },
-  {
-    "term": "KOA manager (KOAM)",
-    "anchor": "KOAmanager(KOAM)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An external operational management role that is responsible for the operation of a key management infrastructure operating account (KOA) that includes all distribution of KMI key and products from the management client (MGC) to the end cryptographic units (ECUs) and fill devices, and management and accountability of all electronic and physical key, and physical COMSEC materials from receipt and/or production to destruction or transfer to another KOA. (Similar to an electronic key management system (EKMS) Manager or COMSEC Account Manager)",
-        "url": "https://csrc.nist.gov/glossary/term/koa_manager",
-        "anchor": "KOAmanager(KOAM)"
-      }
-    ]
-  },
-  {
-    "term": "KOA registration manager",
-    "anchor": "KOAregistrationmanager",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The individual responsible for performing activities related to registering key management infrastructure operating accounts (KOAs).",
-        "url": "https://csrc.nist.gov/glossary/term/koa_registration_manager",
-        "anchor": "KOAregistrationmanager"
       }
     ]
   },
@@ -52739,7 +52667,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "time delay in processing voice packets.",
+        "definition": "The delay in processing or in availability.",
         "url": "https://csrc.nist.gov/glossary/term/latency",
         "anchor": "Latency"
       }
@@ -57203,7 +57131,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
+        "definition": "Provides interoperable cryptographically- based security for Ethernet. The set of security services offered includes access control, connectionless integrity, data origin authentication, detection and rejection of replays (a form of partial sequence integrity) and confidentiality (via encryption).",
         "url": "https://csrc.nist.gov/glossary/term/media_access_control_security",
         "anchor": "MediaAccessControlSecurity"
       }
@@ -57323,7 +57251,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "A type of intra-agency, interagency, or National Guard agreement between two or more parties, which includes specific terms that are agreed to, and a commitment by at least one party to engage in action. It includes either a commitment of resources or binds a party to a specific action.",
+        "definition": "Used to document agreements and execute or deliver support with or without reimbursement between any two or more parties. When a support agreement involves reimbursement, an MOA can be used to further detail terms and conditions in addition to the FS Form 7600A.",
         "url": "https://csrc.nist.gov/glossary/term/memorandum_of_understanding_or_agreement",
         "anchor": "MemorandumofUnderstandingorAgreement"
       }
@@ -60566,18 +60494,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/nsa",
         "anchor": "NSA"
-      }
-    ]
-  },
-  {
-    "term": "NSA-approved commercial solution",
-    "anchor": "NSAapprovedcommercialsolution",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The combination of multiple commercial-off-the-shelf (COTS) information assurance (IA) products in a layered configuration that satisfies the security requirements of an operational use case, when properly implemented in accordance with NSA-approved requirements and standards.",
-        "url": "https://csrc.nist.gov/glossary/term/nsa_approved_commercial_solution",
-        "anchor": "NSAapprovedcommercialsolution"
       }
     ]
   },
@@ -115710,18 +115626,6 @@
     ]
   },
   {
-    "term": "key encryption key (KEK)",
-    "anchor": "keyencryptionkey(KEK)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A key that encrypts other key (typically traffic encryption keys (TEKs)) for transmission or storage.",
-        "url": "https://csrc.nist.gov/glossary/term/key_encrypting_key",
-        "anchor": "keyencryptionkey(KEK)"
-      }
-    ]
-  },
-  {
     "term": "key escrow",
     "anchor": "keyescrow",
     "definitions": [
@@ -115934,18 +115838,6 @@
         "definition": "Any activity/organization that performs key management related functionality and has been assigned an electronic key management system (EKMS) ID.",
         "url": "https://csrc.nist.gov/glossary/term/key_management_entity",
         "anchor": "keymanagemententity(KME)"
-      }
-    ]
-  },
-  {
-    "term": "key management infrastructure (KMI)",
-    "anchor": "keymanagementinfrastructure(KMI)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The framework and services that provide the generation, production, storage, protection, distribution, control, tracking, and destruction for all cryptographic keying material, symmetric keys as well as public keys and public key certificates.",
-        "url": "https://csrc.nist.gov/glossary/term/key_management_infrastructure",
-        "anchor": "keymanagementinfrastructure(KMI)"
       }
     ]
   },
@@ -116358,18 +116250,6 @@
     ]
   },
   {
-    "term": "label",
-    "anchor": "label",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The means used to associate a set of security attributes with a specific information object as part of the data structure for that object.",
-        "url": "https://csrc.nist.gov/glossary/term/label",
-        "anchor": "label"
-      }
-    ]
-  },
-  {
     "term": "label flipping",
     "anchor": "labelflipping",
     "definitions": [
@@ -116390,18 +116270,6 @@
         "definition": "A capability with which an attacker does not control the labels of training samples in supervised learning.",
         "url": "https://csrc.nist.gov/glossary/term/label_limit",
         "anchor": "labellimit"
-      }
-    ]
-  },
-  {
-    "term": "labeled security protections",
-    "anchor": "labeledsecurityprotections",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Access control protection features of a system that use security labels to make access control decisions.",
-        "url": "https://csrc.nist.gov/glossary/term/labeled_security_protections",
-        "anchor": "labeledsecurityprotections"
       }
     ]
   },
@@ -116450,30 +116318,6 @@
         "definition": "A large language model (LLM) is a language model consisting of a neural network with many parameters (typically billions of weights or more), trained on large quantities of unlabeled text using self-supervised learning or semi-supervised learning.",
         "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
         "anchor": "largelanguagemodel(largelanguagemodel)"
-      }
-    ]
-  },
-  {
-    "term": "lawful government purpose",
-    "anchor": "lawfulgovernmentpurpose",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Any activity, function, operation, or other circumstance the Government authorizes; also the standard to apply when determining whether individuals, organizations, or groups of users may receive or access controlled unclassified information (CUI) that is not subject to a limited dissemination control authorized by the CUI Executive Agent.",
-        "url": "https://csrc.nist.gov/glossary/term/lawful_government_purpose",
-        "anchor": "lawfulgovernmentpurpose"
-      }
-    ]
-  },
-  {
-    "term": "layered COTS product solutions",
-    "anchor": "layeredCOTSproductsolutions",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Commercial information assurance (IA) and IA-enabled information technology (IT) components used in layered solutions approved by the National Security Agency (NSA) to protect information carried on national security systems (NSSs). See commercial solutions for classified.",
-        "url": "https://csrc.nist.gov/glossary/term/layered_cots_product_solutions",
-        "anchor": "layeredCOTSproductsolutions"
       }
     ]
   },
@@ -116862,30 +116706,6 @@
     ]
   },
   {
-    "term": "line conduction",
-    "anchor": "lineconduction",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Unintentional signals or noise induced or conducted on a telecommunications or information system signal, power, control, indicator, or other external interface line.",
-        "url": "https://csrc.nist.gov/glossary/term/line_conduction",
-        "anchor": "lineconduction"
-      }
-    ]
-  },
-  {
-    "term": "line of business",
-    "anchor": "lineofbusiness",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The following Office of Management and Budget (OMB)-defined process areas common to virtually all federal agencies: Case Management, Financial Management, Grants Management, Human Resources Management, Federal Health Architecture, Information Systems Security, Budget Formulation and Execution, Geospatial, and information technology (IT) Infrastructure.",
-        "url": "https://csrc.nist.gov/glossary/term/line_of_business",
-        "anchor": "lineofbusiness"
-      }
-    ]
-  },
-  {
     "term": "linear temporal logic",
     "anchor": "lineartemporallogic",
     "definitions": [
@@ -116894,18 +116714,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/linear_temporal_logic",
         "anchor": "lineartemporallogic"
-      }
-    ]
-  },
-  {
-    "term": "link encryption",
-    "anchor": "linkencryption",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Encryption of information between nodes of a communications system.",
-        "url": "https://csrc.nist.gov/glossary/term/link_encryption",
-        "anchor": "linkencryption"
       }
     ]
   },
@@ -117006,18 +116814,6 @@
     ]
   },
   {
-    "term": "local COMSEC management software (LCMS)",
-    "anchor": "localCOMSECmanagementsoftware(LCMS)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Application-level software on the local management device (LMD) that provides for the management of key, physical COMSEC materials, non-cryptographic services, and communications. Through a graphical interface, the LCMS automates the functions of the COMSEC Account Manager, including accounting, auditing, distribution, ordering, and production. Programs and systems that have specialized key management requirements have software shell programs (known as user applications software (UAS)) that run on the LMD with the LCMS software to provide custom functionality.",
-        "url": "https://csrc.nist.gov/glossary/term/local_comsec_management_software",
-        "anchor": "localCOMSECmanagementsoftware(LCMS)"
-      }
-    ]
-  },
-  {
     "term": "local access",
     "anchor": "localaccess",
     "definitions": [
@@ -117050,18 +116846,6 @@
         "definition": "A user to whom COMSEC material has been issued a hand receipt. Known in EKMS and KMI as a Local Element.",
         "url": "https://csrc.nist.gov/glossary/term/local_element",
         "anchor": "localelement"
-      }
-    ]
-  },
-  {
-    "term": "local management device (LMD)",
-    "anchor": "localmanagementdevice(LMD)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The component in electronic key management system (EKMS) that provides electronic management of key and other COMSEC material and serves as an interface to the Key Processor. (It is composed of a user-supplied personal computer, an operating system, LCMS and user application software (UAS), as required).",
-        "url": "https://csrc.nist.gov/glossary/term/local_management_device",
-        "anchor": "localmanagementdevice(LMD)"
       }
     ]
   },
@@ -117114,30 +116898,6 @@
     ]
   },
   {
-    "term": "logical access control system",
-    "anchor": "logicalaccesscontrolsystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An automated system that controls an individuals ability to access one or more computer system resources such as a workstation, network, application, or database. A logical access control system requires validation of an individuals identity through some mechanism such as a PIN, card, biometric, or other token. It has the capability to assign different access privileges to different persons depending on their roles and responsibilities in an organization.",
-        "url": "https://csrc.nist.gov/glossary/term/logical_access_control_system",
-        "anchor": "logicalaccesscontrolsystem"
-      }
-    ]
-  },
-  {
-    "term": "logical perimeter",
-    "anchor": "logicalperimeter",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A conceptual perimeter that extends to all intended users of the system, both directly and indirectly connected, who receive output from the system without a reliable human review by an appropriate authority. The location of such a review is commonly referred to as an air gap.",
-        "url": "https://csrc.nist.gov/glossary/term/logical_perimeter",
-        "anchor": "logicalperimeter"
-      }
-    ]
-  },
-  {
     "term": "login",
     "anchor": "login",
     "definitions": [
@@ -117162,18 +116922,6 @@
     ]
   },
   {
-    "term": "long title",
-    "anchor": "longtitle",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The descriptive title of a COMSEC item.",
-        "url": "https://csrc.nist.gov/glossary/term/long_title",
-        "anchor": "longtitle"
-      }
-    ]
-  },
-  {
     "term": "low impact",
     "anchor": "lowimpact",
     "definitions": [
@@ -117182,66 +116930,6 @@
         "definition": "The loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals.",
         "url": "https://csrc.nist.gov/glossary/term/low_impact",
         "anchor": "lowimpact"
-      }
-    ]
-  },
-  {
-    "term": "low probability of detection (LPD)",
-    "anchor": "lowprobabilityofdetection(LPD)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Result of measures used to hide or disguise intentional electromagnetic transmissions.",
-        "url": "https://csrc.nist.gov/glossary/term/low_probability_of_detection",
-        "anchor": "lowprobabilityofdetection(LPD)"
-      }
-    ]
-  },
-  {
-    "term": "low probability of intercept (LPI)",
-    "anchor": "lowprobabilityofintercept(LPI)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Result of measures used to resist attempts by adversaries to analyze the parameters of a transmission to determine if it is a signal of interest.",
-        "url": "https://csrc.nist.gov/glossary/term/low_probability_of_intercept",
-        "anchor": "lowprobabilityofintercept(LPI)"
-      }
-    ]
-  },
-  {
-    "term": "low probability of positioning",
-    "anchor": "lowprobabilityofpositioning",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Result of measures used to resist attempts by adversaries to determine the location of a particular transmitter.",
-        "url": "https://csrc.nist.gov/glossary/term/low_probability_of_positioning",
-        "anchor": "lowprobabilityofpositioning"
-      }
-    ]
-  },
-  {
-    "term": "low-impact system",
-    "anchor": "lowimpactsystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An information system in which all three security objectives (i.e., confidentiality, integrity, and availability) are assigned a FIPS 199 potential impact value of low.",
-        "url": "https://csrc.nist.gov/glossary/term/low_impact_system",
-        "anchor": "lowimpactsystem"
-      }
-    ]
-  },
-  {
-    "term": "low-power transmitter",
-    "anchor": "lowpowertransmitter",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "For the purposes of determining separation between RED equipment/lines and radio frequency (RF) transmitters, low-power is that which is less than or equal to 100 m Watt (20 dBm) effective isotropic radiated power (EIRP). Examples of low-power transmitters are wireless devices for local communications that do not need a Federal Communications Commission (FCC) license, such as some IEEE 802.11X network access points, and portable (but not cellular) telephones.",
-        "url": "https://csrc.nist.gov/glossary/term/low_power_transmitter",
-        "anchor": "lowpowertransmitter"
       }
     ]
   },
@@ -117366,30 +117054,6 @@
     ]
   },
   {
-    "term": "magnetic remanence",
-    "anchor": "magneticremanence",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Magnetic representation of residual information remaining on a magnetic medium after the medium has been cleared. See clearing.",
-        "url": "https://csrc.nist.gov/glossary/term/magnetic_remanence",
-        "anchor": "magneticremanence"
-      }
-    ]
-  },
-  {
-    "term": "maintenance key",
-    "anchor": "maintenancekey",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Key intended only for off-the-air, in-shop use. Maintenance key may not be used to protect classified or sensitive U.S. Government information. Also known as bench test key.",
-        "url": "https://csrc.nist.gov/glossary/term/maintenance_key",
-        "anchor": "maintenancekey"
-      }
-    ]
-  },
-  {
     "term": "major application",
     "anchor": "majorapplication",
     "definitions": [
@@ -117410,18 +117074,6 @@
         "definition": "An inter-level judgment conflict resolution algorithm where the judgment that occurs most frequently is taken as the result. If more than one judgment occurs the greatest number of times, then the weakest such judgment is the result.",
         "url": "https://csrc.nist.gov/glossary/term/majority_judgment_algorithm",
         "anchor": "majorityjudgmentalgorithm"
-      }
-    ]
-  },
-  {
-    "term": "malicious cyber activity",
-    "anchor": "maliciouscyberactivity",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Activities, other than those authorized by or in accordance with U.S. law, that seek to compromise or impair the confidentiality, integrity, or availability of computers, information or communications systems, networks, physical or virtual infrastructure controlled by computers or information systems, or information resident thereon.",
-        "url": "https://csrc.nist.gov/glossary/term/malicious_cyber_activity",
-        "anchor": "maliciouscyberactivity"
       }
     ]
   },
@@ -117458,30 +117110,6 @@
         "definition": "An interface within an information system that provides boundary protection capability using automated mechanisms or devices.",
         "url": "https://csrc.nist.gov/glossary/term/managed_interface",
         "anchor": "managedinterface"
-      }
-    ]
-  },
-  {
-    "term": "management client (MGC)",
-    "anchor": "managementclient(MGC)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A configuration of a client node that enables a key management infrastructure (KMI) external operational manager to manage KMI products and services by either 1) accessing a PRSN or 2) exercising locally-provided capabilities. A management client (MGC) consists of a client platform and an advanced key processor (AKP).",
-        "url": "https://csrc.nist.gov/glossary/term/management_client",
-        "anchor": "managementclient(MGC)"
-      }
-    ]
-  },
-  {
-    "term": "management controls",
-    "anchor": "managementcontrols",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The security controls (i.e., safeguards or countermeasures) for an information system that focus on the management of risk and the management of information system security.",
-        "url": "https://csrc.nist.gov/glossary/term/management_controls",
-        "anchor": "managementcontrols"
       }
     ]
   },
@@ -117534,18 +117162,6 @@
     ]
   },
   {
-    "term": "mandatory modification (MAN)",
-    "anchor": "mandatorymodification(MAN)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A change to a COMSEC end-item, which the National Security Agency (NSA) requires to be completed and reported by a specified date. See optional modification.",
-        "url": "https://csrc.nist.gov/glossary/term/mandatory_modification",
-        "anchor": "mandatorymodification(MAN)"
-      }
-    ]
-  },
-  {
     "term": "manipulative communications deception",
     "anchor": "manipulativecommunicationsdeception",
     "definitions": [
@@ -117558,30 +117174,6 @@
     ]
   },
   {
-    "term": "manual cryptosystem",
-    "anchor": "manualcryptosystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Cryptosystem in which the cryptographic processes are performed without the use of crypto-equipment or auto-manual devices.",
-        "url": "https://csrc.nist.gov/glossary/term/manual_cryptosystem",
-        "anchor": "manualcryptosystem"
-      }
-    ]
-  },
-  {
-    "term": "manual remote rekeying",
-    "anchor": "manualremoterekeying",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Synonymous with manual remote rekeying.",
-        "url": "https://csrc.nist.gov/glossary/term/manual_remote_rekeying",
-        "anchor": "manualremoterekeying"
-      }
-    ]
-  },
-  {
     "term": "margin",
     "anchor": "margin",
     "definitions": [
@@ -117590,30 +117182,6 @@
         "definition": "The margin allocated during design based on assessments of uncertainty and unknowns. This margin is often consumed as the design matures.",
         "url": "https://csrc.nist.gov/glossary/term/margin",
         "anchor": "margin"
-      }
-    ]
-  },
-  {
-    "term": "marking",
-    "anchor": "marking",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The means used to associate a set of security attributes with objects in a human-readable form, to enable organizational process-based enforcement of information security policies.",
-        "url": "https://csrc.nist.gov/glossary/term/marking",
-        "anchor": "marking"
-      }
-    ]
-  },
-  {
-    "term": "masquerading",
-    "anchor": "masquerading",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A type of threat action whereby an unauthorized entity gains access to a system or performs a malicious act by illegitimately posing as an authorized entity.",
-        "url": "https://csrc.nist.gov/glossary/term/masquerading",
-        "anchor": "masquerading"
       }
     ]
   },
@@ -118122,18 +117690,6 @@
     ]
   },
   {
-    "term": "mission-critical element",
-    "anchor": "missioncriticalelement",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A system component or subsystem that delivers mission critical functionality to a system or that may, by virtue of system design, introduce vulnerability to mission critical functions. Note: Mission-critical element is often denoted as \"critical component\".",
-        "url": "https://csrc.nist.gov/glossary/term/mission_critical_element",
-        "anchor": "missioncriticalelement"
-      }
-    ]
-  },
-  {
     "term": "mission-critical functionality",
     "anchor": "missioncriticalfunctionality",
     "definitions": [
@@ -118170,18 +117726,6 @@
     ]
   },
   {
-    "term": "misuse of Controlled Unclassified Information (CUI)",
-    "anchor": "misuseofControlledUnclassifiedInformation(CUI)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Any situation where controlled unclassified information (CUI) is used in a manner inconsistent with the policy contained in Executive Order 13556, 32 Code of Federal Regulations (CFR), the CUI Registry, additional issuances from the CUI Executive Agent, or any of the laws, regulations, and Government-wide policies that establish the designation of CUI categories and subcategories. This may include intentional violations or unintentional errors in safeguarding or disseminating CUI.",
-        "url": "https://csrc.nist.gov/glossary/term/misuse_of_controlled_unclassified_information",
-        "anchor": "misuseofControlledUnclassifiedInformation(CUI)"
-      }
-    ]
-  },
-  {
     "term": "mitigation",
     "anchor": "mitigation",
     "definitions": [
@@ -118206,30 +117750,6 @@
     ]
   },
   {
-    "term": "mobile code",
-    "anchor": "mobilecode",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Executable code that is normally transferred from its source to another computer system for execution. This transfer is often through the network (e.g., JavaScript embedded in a web page) but may transfer through physical media as well.",
-        "url": "https://csrc.nist.gov/glossary/term/mobile_code",
-        "anchor": "mobilecode"
-      }
-    ]
-  },
-  {
-    "term": "mobile code risk categories",
-    "anchor": "mobilecoderiskcategories",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Categories of risk associated with mobile code technology based on functionality, level of access to workstation, server, and remote system services and resources, and the resulting threat to information systems.",
-        "url": "https://csrc.nist.gov/glossary/term/mobile_code_risk_categories",
-        "anchor": "mobilecoderiskcategories"
-      }
-    ]
-  },
-  {
     "term": "mobile code technologies",
     "anchor": "mobilecodetechnologies",
     "definitions": [
@@ -118250,18 +117770,6 @@
         "definition": "In the context of mobile apps, deep linking consists of using a uniform resource identifier (URI) that links to a specific location within a mobile app rather than simply launching the app. Deferred deep linking allows users to deep link to content even if the app is not already installed. Depending on the mobile device platform, the URI required to trigger the app may be different.",
         "url": "https://glossary.trustoverip.org",
         "anchor": "mobiledeeplink(mobiledeeplinks,mobiledeeplinking,mobiledeeplink)"
-      }
-    ]
-  },
-  {
-    "term": "mobile device",
-    "anchor": "mobiledevice",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A portable computing device that has a small form factor such that it can easily be carried by a single individual; is designed to operate without a physical connection (e.g., wirelessly transmit or receive information); possesses local, non-removable, or removable data storage; and includes a self-contained power source. Mobile devices may also include voice communication capabilities, on-board sensors that allow the devices to capture information, or built-in features that synchronize local data with remote locations. Examples include smartphones, tablets, and e-readers.",
-        "url": "https://csrc.nist.gov/glossary/term/mobile_device",
-        "anchor": "mobiledevice"
       }
     ]
   },
@@ -118362,30 +117870,6 @@
     ]
   },
   {
-    "term": "moderate-impact system",
-    "anchor": "moderateimpactsystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An information system in which at least one security objective (i.e., confidentiality, integrity, or availability) is assigned a FIPS 199 potential impact value of moderate, and no security objective is assigned a FIPS 199 potential impact value of high.",
-        "url": "https://csrc.nist.gov/glossary/term/moderate_impact_system",
-        "anchor": "moderateimpactsystem"
-      }
-    ]
-  },
-  {
-    "term": "modern key",
-    "anchor": "modernkey",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A collective name for asymmetric key such as secure data network system (SDNS) FIREFLY key and message signature key. It does not include the public key infrastructure (PKI) system or keys.",
-        "url": "https://csrc.nist.gov/glossary/term/modern_key",
-        "anchor": "modernkey"
-      }
-    ]
-  },
-  {
     "term": "module",
     "anchor": "module",
     "definitions": [
@@ -118470,18 +117954,6 @@
     ]
   },
   {
-    "term": "multi-level cross domain solution",
-    "anchor": "multilevelcrossdomainsolution",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A type of cross domain solution (CDS) that uses trusted labeling to store data at different classifications and allows users to access the data based upon their security domain and credentials.",
-        "url": "https://csrc.nist.gov/glossary/term/multi_level_cross_domain_solution",
-        "anchor": "multilevelcrossdomainsolution"
-      }
-    ]
-  },
-  {
     "term": "multi-level security (MLS)",
     "anchor": "multilevelsecurity(MLS)",
     "definitions": [
@@ -118490,18 +117962,6 @@
         "definition": "Concept of processing information with different classifications and categories that simultaneously permits access by users with different security clearances and denies access to users who lack authorization.",
         "url": "https://csrc.nist.gov/glossary/term/multi_level_security",
         "anchor": "multilevelsecurity(MLS)"
-      }
-    ]
-  },
-  {
-    "term": "multi-level solution",
-    "anchor": "multilevelsolution",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Store data in multiple security domains at varied security levels and allow users to access the data at an appropriate security level.",
-        "url": "https://csrc.nist.gov/glossary/term/multi_level_solution",
-        "anchor": "multilevelsolution"
       }
     ]
   },
@@ -118538,18 +117998,6 @@
         "definition": "A variant of multi-party computation where multiple parties must act in concert to meet a control requirement without revealing each others data. All parties are privy to the output of the control, but no party learns anything about the others.",
         "url": "https://glossary.trustoverip.org",
         "anchor": "multipartycontrol(multipartycontrol)"
-      }
-    ]
-  },
-  {
-    "term": "multi-releasable",
-    "anchor": "multireleasable",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A characteristic of an information domain where access control mechanisms enforce policy-based release of information to authorized users within the information domain.",
-        "url": "https://csrc.nist.gov/glossary/term/multi_releasable",
-        "anchor": "multireleasable"
       }
     ]
   },
@@ -118602,18 +118050,6 @@
     ]
   },
   {
-    "term": "multilevel device",
-    "anchor": "multileveldevice",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Equipment trusted to properly maintain and separate data of different security domains.",
-        "url": "https://csrc.nist.gov/glossary/term/multilevel_device",
-        "anchor": "multileveldevice"
-      }
-    ]
-  },
-  {
     "term": "multimodal models",
     "anchor": "multimodalmodels",
     "definitions": [
@@ -118634,18 +118070,6 @@
         "definition": "The propagation phenomenon that results in signals reaching the receiving antenna by two or more paths. When two or more signals arrive simultaneously, wave interference results. The received signal fades if the wave interference is time varying or if one of the terminals is in motion.",
         "url": "https://csrc.nist.gov/glossary/term/multipath",
         "anchor": "multipath"
-      }
-    ]
-  },
-  {
-    "term": "multiple security levels (MSL)",
-    "anchor": "multiplesecuritylevels(MSL)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Capability of an information system that is trusted to contain, and maintain separation between, resources (particularly stored data) of different security domains.",
-        "url": "https://csrc.nist.gov/glossary/term/multiple_security_levels",
-        "anchor": "multiplesecuritylevels(MSL)"
       }
     ]
   },
@@ -125867,7 +125291,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "The means used to associate a set of security attributes with a specific information object as part of the data structure for that object.",
+        "definition": "Identifier that is attached to a set of data elements.",
         "url": "https://csrc.nist.gov/glossary/term/security_label",
         "anchor": "securitylabel"
       }
