@@ -67386,19 +67386,6 @@
     "anchor": "NationalCOMSECAdvisoryMemorandum"
   },
   {
-    "term": "National COMSEC Incident Reporting System (NCIRS)",
-    "abbrSyn": [
-      {
-        "text": "NCIRS",
-        "link": "https://csrc.nist.gov/glossary/term/ncirs"
-      }
-    ],
-    "definition": "System established by the National Security Agency (NSA) as a means of ensuring that all reported incidents are evaluated so that actions can be taken to minimize any adverse impact on national security. The NCIRS is comprised of the organizations within the NSS community (NSA, heads of Department or Agency, material controlling authorities, and product resource managers) responsible for the reporting and evaluation of COMSEC incidents.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/national_comsec_incident_reporting_system",
-    "anchor": "NationalCOMSECIncidentReportingSystem(NCIRS)"
-  },
-  {
     "term": "National COMSEC Information Memorandum",
     "abbrSyn": [
       {
@@ -67575,7 +67562,7 @@
         "link": "https://csrc.nist.gov/glossary/term/nef"
       }
     ],
-    "definition": "Term found but the definition does not exist yet.",
+    "definition": "The select functions that are necessary to lead and sustain the United States during a catastrophic emergency and that, therefore, must be supported through COOP, COG, and ECG capabilities.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/national_essential_functions",
     "anchor": "NationalEssentialFunctions"
@@ -67696,32 +67683,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/national_industrial_security_program_operating_manual",
     "anchor": "NationalIndustrialSecurityProgramOperatingManual"
-  },
-  {
-    "term": "National Information Assurance Partnership (NIAP)",
-    "abbrSyn": [
-      {
-        "text": "NIAP",
-        "link": "https://csrc.nist.gov/glossary/term/niap"
-      }
-    ],
-    "definition": "A U.S. Government initiative established to promote the use of evaluated information systems products and champion the development and use of national and international standards for information technology security. NIAP was originally established as collaboration between the National Institute of Standards and Technology (NIST) and the National Security Agency (NSA) in fulfilling their respective responsibilities under P.L. 100-235 (Computer Security Act of 1987). NIST officially withdrew from the partnership in 2007 but NSA continues to manage and operate the program. The key operational component of NIAP is the Common Criteria Evaluation and Validation Scheme (CCEVS) which is the only U.S. Government- sponsored and endorsed program for conducting internationally-recognized security evaluations of commercial off-the-shelf (COTS) information assurance (IA) and IA-enabled information technology products. NIAP employs the CCEVS to provide government oversight or validation to U.S. Common Criteria (CC) evaluations to ensure correct conformance to the International Common Criteria for IT Security Evaluation (ISO/IEC 15408).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/national_information_assurance_partnership",
-    "anchor": "NationalInformationAssurancePartnership(NIAP)"
-  },
-  {
-    "term": "national information infrastructure (NII)",
-    "abbrSyn": [
-      {
-        "text": "NII",
-        "link": "https://csrc.nist.gov/glossary/term/nii"
-      }
-    ],
-    "definition": "Nationwide interconnection of communications networks, computers, databases, and consumer electronics that make vast amounts of information available to users. It includes both public and private networks, the internet, the public switched network, and cable, wireless, and satellite communications.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/national_information_infrastructure",
-    "anchor": "nationalinformationinfrastructure(NII)"
   },
   {
     "term": "National Infrastructure Advisory Council",
@@ -68010,29 +67971,6 @@
     "anchor": "NationalSecurityDirective"
   },
   {
-    "term": "national security information (NSI)",
-    "abbrSyn": [
-      {
-        "text": "classified national security information",
-        "link": "https://csrc.nist.gov/glossary/term/classified_national_security_information"
-      },
-      {
-        "text": "NSI",
-        "link": "https://csrc.nist.gov/glossary/term/nsi"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "classified information",
-        "link": "classified_information"
-      }
-    ],
-    "definition": "Information that has been determined pursuant to Executive Order 12958 as amended by Executive Order 13292, or any predecessor order, or by the Atomic Energy Act of 1954, as amended, to require protection against unauthorized disclosure and is marked to indicate its classified status.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/national_security_information",
-    "anchor": "nationalsecurityinformation(NSI)"
-  },
-  {
     "term": "National Security Presidential Directive",
     "abbrSyn": [
       {
@@ -68044,19 +67982,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/national_security_presidential_directive",
     "anchor": "NationalSecurityPresidentialDirective"
-  },
-  {
-    "term": "national security system (NSS)",
-    "abbrSyn": [
-      {
-        "text": "NSS",
-        "link": "https://csrc.nist.gov/glossary/term/nss"
-      }
-    ],
-    "definition": "(A) Any information system (including any telecommunications system) used or operated by an agency or by a contractor of an agency, or other organization on behalf of an agency (i) the function, operation, or use of which (I) involves intelligence activities; (II) involves cryptologic activities related to national security; (III) involves command and control of military forces; (IV) involves equipment that is an integral part of a weapon or weapons system; or (V) subject to subparagraph (B), is critical to the direct fulfillment of military or intelligence missions; or (ii) is protected at all times by procedures established for information that have been specifically authorized under criteria established by an Executive Order or an Act of Congress to be kept classified in the interest of national defense or foreign policy. (B) Subparagraph (A) (i) (V) does not include a system that is to be used for routine administrative and business applications (including payroll, finance, logistics, and personnel management applications).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/national_security_system",
-    "anchor": "nationalsecuritysystem(NSS)"
   },
   {
     "term": "National Security Telecommunications Advisory Committee",
@@ -68278,19 +68203,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/national_voluntary_laboratory_accreditation_program",
     "anchor": "NationalVoluntaryLaboratoryAccreditationProgram"
-  },
-  {
-    "term": "National Vulnerability Database",
-    "abbrSyn": [
-      {
-        "text": "NVD",
-        "link": "https://csrc.nist.gov/glossary/term/nvd"
-      }
-    ],
-    "definition": "The U.S. Government repository of standards-based vulnerability management data, enabling automation of vulnerability management, security measurement, and compliance (e.g., FISMA).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/national_vulnerability_database",
-    "anchor": "NationalVulnerabilityDatabase"
   },
   {
     "term": "National White Collar Crime Center",
@@ -68814,13 +68726,6 @@
     "anchor": "needsassessment"
   },
   {
-    "term": "need-to-know",
-    "definition": "A determination within the executive branch in accordance with directives issued pursuant to this order that a prospective recipient requires access to specific classified information in order to perform or assist in a lawful and authorized governmental function.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/need_to_know",
-    "anchor": "needtoknow"
-  },
-  {
     "term": "NEF",
     "abbrSyn": [
       {
@@ -69247,13 +69152,6 @@
     "anchor": "NetworkDataManagementProtocol"
   },
   {
-    "term": "network defense",
-    "definition": "Programs, activities, and the use of tools necessary to facilitate them (including those governed by NSPD-54/HSPD-23 and NSD-42) conducted on a computer, network, or information or communications system by the owner or with the consent of the owner and, as appropriate, the users for the primary purpose of protecting (1) that computer, network, or system; (2) data stored on, processed on, or transiting that computer, network, or system; or (3) physical and virtual infrastructure controlled by that computer, network, or system. Network defense does not involve or require accessing or conducting activities on computers, networks, or information or communications systems without authorization from the owners or exceeding access authorized by the owners.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/network_defense",
-    "anchor": "networkdefense"
-  },
-  {
     "term": "Network Discovery",
     "definition": "The process of discovering active and responding hosts on a network, identifying weaknesses, and learning how the network operates.",
     "organisation": "Nist",
@@ -69472,20 +69370,6 @@
     "anchor": "NetworkLayerSecurity"
   },
   {
-    "term": "network map",
-    "definition": "A representation of the internal network topologies and components down to the host/device level to include but not limited to: connection, sub-network, enclave, and host information.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/network_map",
-    "anchor": "networkmap"
-  },
-  {
-    "term": "network mapping",
-    "definition": "A process that discovers, collects, and displays the physical and logical information required to produce a network map.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/network_mapping",
-    "anchor": "networkmapping"
-  },
-  {
     "term": "Network of Things",
     "abbrSyn": [
       {
@@ -69519,13 +69403,6 @@
     "anchor": "NetworkPolicyServer"
   },
   {
-    "term": "network resilience",
-    "definition": "A computing infrastructure that provides continuous business operation (i.e., highly resistant to disruption and able to operate in a degraded mode if damaged), rapid recovery if failure does occur, and the ability to scale to meet rapid or unpredictable demands.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/network_resilience",
-    "anchor": "networkresilience"
-  },
-  {
     "term": "Network Service Provider",
     "abbrSyn": [
       {
@@ -69553,7 +69430,7 @@
         "link": "https://csrc.nist.gov/glossary/term/ntp"
       }
     ],
-    "definition": "Term found but the definition does not exist yet.",
+    "definition": "Used in networks of all types and sizes for time synchronization of servers, workstations, and other networked equipment.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/network_time_protocol",
     "anchor": "NetworkTimeProtocol"
@@ -70150,13 +70027,6 @@
     "anchor": "NICE"
   },
   {
-    "term": "niche cross domain solution (CDS)",
-    "definition": "Cross domain solution that may (1) serve a specific narrow purpose, or (2) be built on very specialized hardware, or (3) be used in a special access program, and not appropriate for broader deployment.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/niche_cross_domain_solution",
-    "anchor": "nichecrossdomainsolution(CDS)"
-  },
-  {
     "term": "NID",
     "abbrSyn": [
       {
@@ -70692,25 +70562,6 @@
     "anchor": "NokNokAuthenticationServer"
   },
   {
-    "term": "no-lone zone (NLZ)",
-    "abbrSyn": [
-      {
-        "text": "NLZ",
-        "link": "https://csrc.nist.gov/glossary/term/nlz"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "two-person integrity",
-        "link": "two_person_integrity"
-      }
-    ],
-    "definition": "An area, room, or space that, when staffed, must be occupied by two or more appropriately cleared individuals who remain within sight of each other. See two-person integrity (TPI).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/no_lone_zone",
-    "anchor": "nolonezone(NLZ)"
-  },
-  {
     "term": "nominal frequency",
     "definition": "An ideal frequency with zero uncertainty. The nominal frequency is the frequency labeled on an oscillators output. For this reason, it is sometimes called the nameplate frequency. For example, an oscillator whose nameplate or label reads 5 MHz has a nominal frequency of 5 MHz. The difference between the nominal frequency and the actual output frequency of the oscillator is the frequency offset.",
     "organisation": "Nist",
@@ -70993,19 +70844,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/non_owner",
     "anchor": "NonOwner"
-  },
-  {
-    "term": "non-person entity (NPE)",
-    "abbrSyn": [
-      {
-        "text": "NPE",
-        "link": "https://csrc.nist.gov/glossary/term/npe"
-      }
-    ],
-    "definition": "An entity with a digital identity that acts in cyberspace, but is not a human actor. This can include organizations, hardware devices, software applications, and information artifacts.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/non_person_entity",
-    "anchor": "nonpersonentity(NPE)"
   },
   {
     "term": "Non-Public Personal Information",
@@ -71755,13 +71593,6 @@
     "anchor": "NSS"
   },
   {
-    "term": "NSS baselines",
-    "definition": "The combination of NIST SP 800-53 baselines (represented by an X) and the additional NIST SP 800-53 security controls required for National Security System (NSS) (represented by a +) that are applicable to NSS.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/nss_baselines",
-    "anchor": "NSSbaselines"
-  },
-  {
     "term": "NSTAC",
     "abbrSyn": [
       {
@@ -72156,13 +71987,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/nuc",
     "anchor": "NUC"
-  },
-  {
-    "term": "Nuclear Command and Control Information Assurance Material (NCCIM)",
-    "definition": "Information Assurance materials necessary to assure release of a nuclear weapon at the direction of the President and to secure against the unauthorized use of a nuclear weapon.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/nuclear_command_and_control_information_assurance_material",
-    "anchor": "NuclearCommandandControlInformationAssuranceMaterial(NCCIM)"
   },
   {
     "term": "Nuclear Energy Agency",
@@ -74392,13 +74216,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/open_source_software",
     "anchor": "OpenSourceSoftware"
-  },
-  {
-    "term": "open storage",
-    "definition": "1. Any storage of classified national security information outside of approved containers. This includes classified information that is resident on information systems media and outside of an approved storage container, regardless of whether or not that media is in use (i.e., unattended operations). Open storage of classified cryptographic material and equipment must be done within an approved COMSEC facility, vault, or secure room when authorized personnel are not present.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/open_storage",
-    "anchor": "openstorage"
   },
   {
     "term": "Open Supervised Device Protocol",
