@@ -72358,31 +72358,6 @@
     "anchor": "OBDII"
   },
   {
-    "term": "object",
-    "abbrSyn": [
-      {
-        "text": "Object, Assessment",
-        "link": "https://csrc.nist.gov/glossary/term/object_assessment"
-      },
-      {
-        "text": "Resource"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "subject",
-        "link": "subject"
-      },
-      {
-        "text": "Subject"
-      }
-    ],
-    "definition": "An entity to be protected from unauthorized use.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/object",
-    "anchor": "object"
-  },
-  {
     "term": "object attribute",
     "abbrSyn": [
       {
@@ -72445,14 +72420,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/object_naming_service",
     "anchor": "ObjectNamingService"
-  },
-  {
-    "term": "object reuse",
-    "note": "(C.F.D.)",
-    "definition": "Reassignment and reuse of a storage medium containing one or more objects after ensuring no residual data remains on the storage medium. Rationale: Term has been replaced by the term residual information protection.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/object_reuse",
-    "anchor": "objectreuse"
   },
   {
     "term": "Object, Assessment",
@@ -72944,19 +72911,6 @@
     "anchor": "OffChain"
   },
   {
-    "term": "offensive cyberspace operations (OCO)",
-    "abbrSyn": [
-      {
-        "text": "OCO",
-        "link": "https://csrc.nist.gov/glossary/term/oco"
-      }
-    ],
-    "definition": "Cyberspace operations intended to project power by the application of force in or through cyberspace.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/offensive_cyberspace_operations",
-    "anchor": "offensivecyberspaceoperations(OCO)"
-  },
-  {
     "term": "Office for Civil Rights",
     "abbrSyn": [
       {
@@ -73177,13 +73131,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/official_identifier_cpe_name",
     "anchor": "OfficialIdentifierCPEName"
-  },
-  {
-    "term": "official information",
-    "definition": "All information of any kind, however stored, that is in the custody and control of the Department/Agency (D/A), relates to information in the custody and control of the D/A, or was acquired by D/A employees, or former employees, as part of their official duties or because of their official status within the D/A while such individuals were employed by or served on behalf of the D/A.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/official_information",
-    "anchor": "officialinformation"
   },
   {
     "term": "off-line cryptosystem",
@@ -73775,20 +73722,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/one_to_one",
     "anchor": "Onetoone"
-  },
-  {
-    "term": "one-way hash algorithm",
-    "definition": "Hash algorithms which map arbitrarily long inputs into a fixed-size output such that it is very difficult (computationally infeasible) to find two different hash inputs that produce the same output. Such algorithms are an essential part of the process of producing fixed-size digital signatures that can both authenticate the signer and provide for data integrity checking (detection of input modification after signature).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/one_way_hash_algorithm",
-    "anchor": "onewayhashalgorithm"
-  },
-  {
-    "term": "one-way transfer device",
-    "definition": "A hardware or software mechanism that only permits data to move in one direction and does not allow the flow of data in the opposite direction.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/one_way_transfer_device",
-    "anchor": "onewaytransferdevice"
   },
   {
     "term": "ongoing assessment and authorization",
@@ -74538,13 +74471,6 @@
     "anchor": "operationalenvironment"
   },
   {
-    "term": "operational key",
-    "definition": "Key intended for use over-the-air for protection of operational information or for the production or secure electrical transmission of key streams.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/operational_key",
-    "anchor": "operationalkey"
-  },
-  {
     "term": "operational margin",
     "abbrSyn": [
       {
@@ -74570,13 +74496,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/operational_phase",
     "anchor": "Operationalphase"
-  },
-  {
-    "term": "operational resilience",
-    "definition": "The ability of systems to resist, absorb, and recover from, or adapt to an adverse occurrence during operation that may cause harm, destruction, or loss of the ability to perform mission-related functions.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/operational_resilience",
-    "anchor": "operationalresilience"
   },
   {
     "term": "Operational Risk",
@@ -74619,13 +74538,6 @@
     "anchor": "OperationalTest"
   },
   {
-    "term": "operational waiver",
-    "definition": "Authority for continued use of unmodified COMSEC end-items pending the completion of a mandatory modification.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/operational_waiver",
-    "anchor": "operationalwaiver"
-  },
-  {
     "term": "Operationalization",
     "definition": "Putting MUD implementations into operational service in a manner that is both practical and effective.",
     "organisation": "Nist",
@@ -74646,19 +74558,6 @@
     "anchor": "OperationallyCriticalThreat,Asset,andVulnerabilityEvaluation"
   },
   {
-    "term": "operations code (OPCODE)",
-    "abbrSyn": [
-      {
-        "text": "OPCODE",
-        "link": "https://csrc.nist.gov/glossary/term/opcode"
-      }
-    ],
-    "definition": "Code composed largely of words and phrases suitable for general communications use.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/operations_code",
-    "anchor": "operationscode(OPCODE)"
-  },
-  {
     "term": "Operations Level Agreement",
     "abbrSyn": [
       {
@@ -74670,19 +74569,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/operations_level_agreement",
     "anchor": "OperationsLevelAgreement"
-  },
-  {
-    "term": "operations security (OPSEC)",
-    "abbrSyn": [
-      {
-        "text": "OPSEC",
-        "link": "https://csrc.nist.gov/glossary/term/opsec"
-      }
-    ],
-    "definition": "Systematic and proven process by which potential adversaries can be denied information about capabilities and intentions by identifying, controlling, and protecting generally unclassified evidence of the planning and execution of sensitive activities. The process involves five steps: identification of critical information, analysis of threats, analysis of vulnerabilities, assessment of risks, and application of appropriate countermeasures.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/operations_security",
-    "anchor": "operationssecurity(OPSEC)"
   },
   {
     "term": "operator",
@@ -74791,19 +74677,6 @@
     "anchor": "OptionROM"
   },
   {
-    "term": "optional modification",
-    "seeAlso": [
-      {
-        "text": "mandatory modification (MAN)",
-        "link": "mandatory_modification"
-      }
-    ],
-    "definition": "National Security Agency (NSA)-approved modification not required for universal implementation by all holders of a COMSEC end-item. This class of modification requires all of the engineering/doctrinal control of mandatory modification but is usually not related to security, safety, TEMPEST, or reliability. See mandatory modification (MAN).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/optional_modification",
-    "anchor": "optionalmodification"
-  },
-  {
     "term": "ORA",
     "abbrSyn": [
       {
@@ -74861,19 +74734,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/orcon",
     "anchor": "ORCON"
-  },
-  {
-    "term": "ordering privilege manager (OPM)",
-    "abbrSyn": [
-      {
-        "text": "OPM",
-        "link": "https://csrc.nist.gov/glossary/term/opm"
-      }
-    ],
-    "definition": "The key management entity (KME) authorized to designate other KME as a short title assignment requester (STAR) or ordering privilege manager (OPM).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/ordering_privilege_manager",
-    "anchor": "orderingprivilegemanager(OPM)"
   },
   {
     "term": "Organisation for Economic Co-operation and Development",
@@ -74952,25 +74812,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/organizational_information_security_continuous_monitoring",
     "anchor": "OrganizationalInformationSecurityContinuousMonitoring"
-  },
-  {
-    "term": "organizational registration authority (ORA)",
-    "abbrSyn": [
-      {
-        "text": "ORA",
-        "link": "https://csrc.nist.gov/glossary/term/ora"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "accredit",
-        "link": "accredit"
-      }
-    ],
-    "definition": "Entity within the public key infrastructure (PKI) that authenticates the identity and the organizational affiliation of the users.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/organizational_registration_authority",
-    "anchor": "organizationalregistrationauthority(ORA)"
   },
   {
     "term": "Organizational Unit",
@@ -75608,13 +75449,6 @@
     "anchor": "Outputspace"
   },
   {
-    "term": "outside(r) threat",
-    "definition": "An unauthorized entity outside the security domain that has the potential to harm an information system through destruction, disclosure, modification of data, and/or denial of service.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/outsider_threat",
-    "anchor": "outside(r)threat"
-  },
-  {
     "term": "OV",
     "abbrSyn": [
       {
@@ -75688,25 +75522,6 @@
     "anchor": "OvertheAir"
   },
   {
-    "term": "overlay",
-    "abbrSyn": [
-      {
-        "text": "Security Control Overlay",
-        "link": "https://csrc.nist.gov/glossary/term/security_control_overlay"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "Enhanced Overlay",
-        "link": "enhanced_overlay"
-      }
-    ],
-    "definition": "A specification of security controls, control enhancements, supplemental guidance, and other supporting information employed during the tailoring process, that is intended to complement (and further refine) security control baselines. The overlay specification may be more stringent or less stringent than the original security control baseline specification and can be applied to multiple information systems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/overlay",
-    "anchor": "overlay"
-  },
-  {
     "term": "Overlay network",
     "definition": "A software-defined networking component included in most orchestrators that can be used to isolate communication between applications that share the same physical network.",
     "organisation": "Nist",
@@ -75714,63 +75529,11 @@
     "anchor": "Overlaynetwork"
   },
   {
-    "term": "overt channel",
-    "seeAlso": [
-      {
-        "text": "covert channel",
-        "link": "covert_channel"
-      }
-    ],
-    "definition": "Communications path within a computer system or network designed for the authorized transfer of data. See covert channel.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/overt_channel",
-    "anchor": "overtchannel"
-  },
-  {
     "term": "Overt Testing",
     "definition": "Security testing performed with the knowledge and consent of the organizations IT staff.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/overt_testing",
     "anchor": "OvertTesting"
-  },
-  {
-    "term": "over-the-air key distribution (OTAD)",
-    "abbrSyn": [
-      {
-        "text": "OTAD",
-        "link": "https://csrc.nist.gov/glossary/term/otad"
-      }
-    ],
-    "definition": "Providing electronic key via over-the-air rekeying, over-the-air key transfer, or cooperative key generation.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/over_the_air_key_distribution",
-    "anchor": "overtheairkeydistribution(OTAD)"
-  },
-  {
-    "term": "over-the-air key transfer (OTAT)",
-    "abbrSyn": [
-      {
-        "text": "OTAT",
-        "link": "https://csrc.nist.gov/glossary/term/otat"
-      }
-    ],
-    "definition": "Electronically distributing key without changing traffic encryption key used on the secured communications path over which the transfer is accomplished.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/over_the_air_key_transfer",
-    "anchor": "overtheairkeytransfer(OTAT)"
-  },
-  {
-    "term": "over-the-air rekeying (OTAR)",
-    "abbrSyn": [
-      {
-        "text": "OTAR",
-        "link": "https://csrc.nist.gov/glossary/term/otar"
-      }
-    ],
-    "definition": "Changing traffic encryption key or transmission security key in remote cryptographic equipment by sending new key directly to the remote cryptographic equipment over the communications path it secures.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/over_the_air_rekeying",
-    "anchor": "overtheairrekeying(OTAR)"
   },
   {
     "term": "overwrite",
@@ -81515,13 +81278,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/private_key_private_signature_key",
     "anchor": "Privatekey/privatesignaturekey"
-  },
-  {
-    "term": "privilege",
-    "definition": "The authorized behavior of a subject.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/privilege",
-    "anchor": "privilege"
   },
   {
     "term": "Privilege Attribute Certificate",
