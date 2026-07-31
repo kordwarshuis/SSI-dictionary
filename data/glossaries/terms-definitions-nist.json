@@ -76406,13 +76406,6 @@
     "anchor": "PassiveTag"
   },
   {
-    "term": "passive wiretapping",
-    "definition": "The monitoring or recording of data that attempts only to observe a communication flow and gain knowledge of the data it contains, but does not alter or otherwise affect that flow.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/passive_wiretapping",
-    "anchor": "passivewiretapping"
-  },
-  {
     "term": "Passphrase",
     "definition": "A password that consists of a sequence of words or other text that a claimant uses to authenticate their identity. A passphrase is similar to a password in usage but is generally longer for added security.",
     "organisation": "Nist",
@@ -76486,13 +76479,6 @@
     "anchor": "PAT"
   },
   {
-    "term": "patch",
-    "definition": "A software component that, when installed, directly modifies files or device settings related to a different software component without changing the version number or release details for the related software component.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/patch",
-    "anchor": "patch"
-  },
-  {
     "term": "Patch and Update Management Program",
     "abbrSyn": [
       {
@@ -76511,13 +76497,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/patch_level",
     "anchor": "patchlevel"
-  },
-  {
-    "term": "patch management",
-    "definition": "The systematic notification, identification, deployment, installation, and verification of operating system and application software code revisions. These revisions are known as patches, hot fixes, and service packs.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/patch_management",
-    "anchor": "patchmanagement"
   },
   {
     "term": "patch set",
@@ -77134,13 +77113,6 @@
     "anchor": "pedigree"
   },
   {
-    "term": "peer entity authentication",
-    "definition": "The process of verifying that a peer entity in an association is as claimed.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/peer_entity_authentication",
-    "anchor": "peerentityauthentication"
-  },
-  {
     "term": "peer entity authentication service",
     "seeAlso": [
       {
@@ -77283,19 +77255,6 @@
     "anchor": "PERA"
   },
   {
-    "term": "per-call key",
-    "seeAlso": [
-      {
-        "text": "cooperative key generation (CKG)",
-        "link": "cooperative_key_generation"
-      }
-    ],
-    "definition": "Unique traffic encryption key generated automatically by certain secure telecommunications systems to secure single voice or data transmissions. See cooperative key generation (CKG).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/per_call_key",
-    "anchor": "percallkey"
-  },
-  {
     "term": "Perceived Target Value",
     "definition": "measures the likelihood of attack using the misuse vulnerability in an environment relative to vulnerable systems in other environments.",
     "organisation": "Nist",
@@ -77329,19 +77288,6 @@
     "anchor": "PerformanceImprovementCouncil"
   },
   {
-    "term": "performance reference model (PRM)",
-    "abbrSyn": [
-      {
-        "text": "PRM",
-        "link": "https://csrc.nist.gov/glossary/term/prm"
-      }
-    ],
-    "definition": "Framework for performance measurement providing common output measurements throughout the Federal Government. It allows agencies to better manage the business of government at a strategic level by providing a means for using an agencys enterprise architecture (EA) to measure the success of information systems investments and their impact on strategic outcomes.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/performance_reference_model",
-    "anchor": "performancereferencemodel(PRM)"
-  },
-  {
     "term": "perimeter",
     "note": "(C.F.D.)",
     "definition": "1. Encompasses all those components of the system that are to be accredited by the DAA, and excludes separately accredited systems to which the system is connected.",
@@ -77362,13 +77308,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/periodic_template_test",
     "anchor": "PeriodicTemplateTest"
-  },
-  {
-    "term": "periods processing",
-    "definition": "2. A method of sequential operation of an information system (IS) that provides the capability to process information at various levels of sensitivity at distinctly different times.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/periods_processing",
-    "anchor": "periodsprocessing"
   },
   {
     "term": "Peripheral Component Interconnect",
@@ -77395,13 +77334,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/peripheral_component_interconnect_express",
     "anchor": "PeripheralComponentInterconnectExpress"
-  },
-  {
-    "term": "perishable data",
-    "definition": "Information whose value can decrease substantially during a specified time. A significant decrease in value occurs when the operational circumstances change to the extent that the information is no longer useful.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/perishable_data",
-    "anchor": "perishabledata"
   },
   {
     "term": "Permalock",
@@ -77478,13 +77410,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/person_in_the_middle",
     "anchor": "PersonintheMiddle"
-  },
-  {
-    "term": "persona",
-    "definition": "2. In military cyberspace operations, an abstraction of logical cyberspace with digital representations of individuals or entities in cyberspace, used to enable analysis and targeting. May be associated with a single or multiple entities.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/persona",
-    "anchor": "persona"
   },
   {
     "term": "Personal accountability",
@@ -77586,19 +77511,6 @@
     "anchor": "PersonalHealthRecords"
   },
   {
-    "term": "personal identification number (PIN)",
-    "abbrSyn": [
-      {
-        "text": "PIN",
-        "link": "https://csrc.nist.gov/glossary/term/pin"
-      }
-    ],
-    "definition": "A numeric secret that a cardholder memorizes and uses as part of authenticating their identity.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/personal_identification_number",
-    "anchor": "personalidentificationnumber(PIN)"
-  },
-  {
     "term": "Personal Identification Verification",
     "abbrSyn": [
       {
@@ -77610,33 +77522,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/personal_identification_verification",
     "anchor": "PersonalIdentificationVerification"
-  },
-  {
-    "term": "personal identity verification (PIV)",
-    "abbrSyn": [
-      {
-        "text": "PIV",
-        "link": "https://csrc.nist.gov/glossary/term/piv"
-      }
-    ],
-    "definition": "A physical artifact (e.g., identity card, smart card) issued to a government individual that contains stored identity credentials (e.g., photograph, cryptographic keys, digitized fingerprint representation) so that the claimed identity of the cardholder can be verified against the stored credentials by another person (human readable and verifiable) or an automated process (computer readable and verifiable). PIV requirements are defined in FIPS PUB 201.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/personal_identity_verification",
-    "anchor": "personalidentityverification(PIV)"
-  },
-  {
-    "term": "personal identity verification (PIV) authorization",
-    "definition": "The official management decision to authorize operation of a PIV Card Issuer after determining that the Issuers reliability has satisfactorily been established through appropriate assessment and certification processes.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/personal_identity_verification_authorization",
-    "anchor": "personalidentityverification(PIV)authorization"
-  },
-  {
-    "term": "personal identity verification (PIV) authorizing official",
-    "definition": "An individual who can act on behalf of an agency to authorize the issuance of a credential to an applicant.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/personal_identity_verification_authorizing_official",
-    "anchor": "personalidentityverification(PIV)authorizingofficial"
   },
   {
     "term": "personal identity verification (PIV) card",
@@ -78180,19 +78065,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/physical_partitioning",
     "anchor": "Physicalpartitioning"
-  },
-  {
-    "term": "physically protected space (PPS)",
-    "abbrSyn": [
-      {
-        "text": "PPS",
-        "link": "https://csrc.nist.gov/glossary/term/pps"
-      }
-    ],
-    "definition": "A space inside one physically protected perimeter. Separate areas of equal protection may be considered part of the same PPS if the communication links between them are provided sufficient physical protection.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/physically_protected_space",
-    "anchor": "physicallyprotectedspace(PPS)"
   },
   {
     "term": "Physical-security compromise",
@@ -78810,7 +78682,7 @@
   },
   {
     "term": "plan of action and milestones",
-    "definition": "A document that identifies tasks that need to be accomplished. It details resources required to accomplish the elements of the plan, milestones for meeting the tasks, and the scheduled completion dates for the milestones.",
+    "definition": "A tool that identifies tasks that need to be accomplished. It details resources required to accomplish the elements of the plan, any milestones in meeting the tasks, and scheduled completion dates for the milestones.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/plan_of_action_and_milestones",
     "anchor": "planofactionandmilestones"
@@ -78975,20 +78847,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/platform_information_technology",
     "anchor": "PlatformInformationTechnology"
-  },
-  {
-    "term": "platform IT (PIT)",
-    "definition": "Information technology (IT), both hardware and software, that is physically part of, dedicated to, or essential in real time to the mission performance of special purpose systems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/platform_it",
-    "anchor": "platformIT(PIT)"
-  },
-  {
-    "term": "platform IT (PIT) system",
-    "definition": "A collection of PIT within an identified boundary under the control of a single authority and security policy. The systems may be structured by physical proximity or by function, independent of location.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/platform_it_system",
-    "anchor": "platformIT(PIT)system"
   },
   {
     "term": "Platform Key",
@@ -79659,19 +79517,6 @@
     "anchor": "PolicyandChargingRulesFunction"
   },
   {
-    "term": "policy based access control (PBAC)",
-    "abbrSyn": [
-      {
-        "text": "PBAC",
-        "link": "https://csrc.nist.gov/glossary/term/pbac"
-      }
-    ],
-    "definition": "A strategy for managing user access to one or more systems, where the business roles of users is combined with policies to determine what access privileges users of each role should have. Theoretical privileges are compared to actual privileges, and differences are automatically applied. For example, a role may be defined for a manager. Specific types of accounts on the single sign-on server, Web server, and database management system may be attached to this role. Appropriate users are then attached to this role.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/policy_based_access_control",
-    "anchor": "policybasedaccesscontrol(PBAC)"
-  },
-  {
     "term": "Policy Engine",
     "abbrSyn": [
       {
@@ -79763,13 +79608,6 @@
     "anchor": "PortAddressTranslation"
   },
   {
-    "term": "port scan",
-    "definition": "A technique that sends client requests to a range of service port addresses on a host.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/port_scan",
-    "anchor": "portscan"
-  },
-  {
     "term": "Port Scanner",
     "definition": "A program that can remotely determine which ports on a system are open (e.g., whether systems allow connections through those ports).",
     "organisation": "Nist",
@@ -79814,19 +79652,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/portable_document_format",
     "anchor": "PortableDocumentFormat"
-  },
-  {
-    "term": "portable electronic device (PED)",
-    "abbrSyn": [
-      {
-        "text": "PED",
-        "link": "https://csrc.nist.gov/glossary/term/ped"
-      }
-    ],
-    "definition": "Electronic devices having the capability to store, record, and/or transmit text, images/video, or audio data. Examples of such devices include, but are not limited to: pagers, laptops, cellular telephones, radios, compact disc and cassette players/recorders, portable digital assistant, audio devices, watches with input capability, and reminder recorders.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/portable_electronic_device",
-    "anchor": "portableelectronicdevice(PED)"
   },
   {
     "term": "Portable Network Graphics",
@@ -79936,19 +79761,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/positioning_navigation_and_timing",
     "anchor": "positioning,navigation,andtiming"
-  },
-  {
-    "term": "positive control material",
-    "abbrSyn": [
-      {
-        "text": "PCM",
-        "link": "https://csrc.nist.gov/glossary/term/pcm"
-      }
-    ],
-    "definition": "Generic term referring to a sealed authenticator system, permissive action link, coded switch system, positive enable system, or nuclear command and control documents, material, or devices.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/positive_control_material",
-    "anchor": "positivecontrolmaterial"
   },
   {
     "term": "Positron Emission Tomography",
@@ -80078,13 +79890,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/potential_efforts_on_threat_events",
     "anchor": "PotentialEffortsonThreatEvents"
-  },
-  {
-    "term": "potential impact",
-    "definition": "The loss of confidentiality, integrity, or availability could be expected to have (i) a limited adverse effect (FIPS Publication 199 low); (ii) a serious adverse effect (FIPS Publication 199 moderate); or (iii) a severe or catastrophic adverse effect (FIPS Publication 199 high) on organizational operations, organizational assets, or individuals.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/potential_impact",
-    "anchor": "potentialimpact"
   },
   {
     "term": "Potentially Harmful Application",
@@ -80760,19 +80565,6 @@
     "anchor": "PrimaryMissionEssentialFunctions"
   },
   {
-    "term": "primary services node (PRSN)",
-    "abbrSyn": [
-      {
-        "text": "PRSN",
-        "link": "https://csrc.nist.gov/glossary/term/prsn"
-      }
-    ],
-    "definition": "A Key Management Infrastructure (KMI) core node that provides the users central point of access to KMI products, services, and information.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/primary_services_node",
-    "anchor": "primaryservicesnode(PRSN)"
-  },
-  {
     "term": "Primary system",
     "definition": "An FCKMS module that is currently active. Contrast with Backup (system).",
     "organisation": "Nist",
@@ -80825,25 +80617,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/principal_accrediting_authority",
     "anchor": "principalaccreditingauthority(PAA)"
-  },
-  {
-    "term": "principal authorizing official (PAO)",
-    "abbrSyn": [
-      {
-        "text": "PAO",
-        "link": "https://csrc.nist.gov/glossary/term/pao"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "principal accrediting authority (PAA)",
-        "link": "principal_accrediting_authority"
-      }
-    ],
-    "definition": "A senior (federal) official or executive with the authority to oversee and establish guidance for the strategic implementation of cybersecurity and risk management within their mission areas (i.e., the warfighting mission area (WMA), business mission area (BMA), enterprise information environment mission area (EIEMA), and DoD portion of the intelligence mission area (DIMA) as defined in DoDI 8115.02).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/principal_authorizing_official",
-    "anchor": "principalauthorizingofficial(PAO)"
   },
   {
     "term": "Printed Circuit Board",
@@ -80947,7 +80720,7 @@
         "link": "https://csrc.nist.gov/glossary/term/pcm"
       }
     ],
-    "definition": "Term found but the definition does not exist yet.",
+    "definition": "Maintaining ongoing awareness of privacy risks and assessing privacy controls at a frequency sufficient to ensure compliance with applicable privacy requirements and to manage privacy risks.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/privacy_continuous_monitoring",
     "anchor": "PrivacyContinuousMonitoring"
@@ -80973,7 +80746,7 @@
         "text": "Assessment"
       }
     ],
-    "definition": "See Security Control Assessment.",
+    "definition": "The assessment of privacy controls to determine whether the controls are implemented correctly, operating as intended, and sufficient to ensure compliance with applicable privacy requirements and manage privacy risks. Note: A privacy control assessment is both an assessment and a formal document detailing the process and the outcome of the assessment.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/privacy_control_assessment",
     "anchor": "privacycontrolassessment"
@@ -81043,19 +80816,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/privacy_event",
     "anchor": "PrivacyEvent"
-  },
-  {
-    "term": "privacy impact assessment (PIA)",
-    "abbrSyn": [
-      {
-        "text": "PIA",
-        "link": "https://csrc.nist.gov/glossary/term/pia"
-      }
-    ],
-    "definition": "A method of analyzing how personal information is collected, used, shared, and maintained. PIAs are used to identify and mitigate privacy risks throughout the development life cycle of a program or system. They also help ensure that handling information conforms to legal, regulatory, and policy requirements regarding privacy.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/privacy_impact_assessment",
-    "anchor": "privacyimpactassessment(PIA)"
   },
   {
     "term": "privacy information",
@@ -81134,7 +80894,7 @@
         "link": "information_security_program_plan"
       }
     ],
-    "definition": "A formal document that provides an overview of an agencys privacy program, including a description of the structure of the privacy program, the resources dedicated to the privacy program, the role of the Senior Agency Official for Privacy and other privacy officials and staff, the strategic goals and objectives of the privacy program, and the program management controls and common controls in place or planned for meeting applicable privacy requirements and managing privacy risks.",
+    "definition": "A formal document that provides an overview of an agency's privacy program, including a description of the structure of the privacy program, the resources dedicated to the privacy program, the role of the Senior Agency Official for Privacy and other privacy officials and staff, the strategic goals and objectives of the privacy program, and the program management controls and common controls in place or planned for meeting applicable privacy requirements and managing privacy risks.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/privacy_program_plan",
     "anchor": "privacyprogramplan"
@@ -81253,13 +81013,6 @@
     "anchor": "Privatecloud"
   },
   {
-    "term": "private key",
-    "definition": "The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt data.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/private_key",
-    "anchor": "privatekey"
-  },
-  {
     "term": "Private Key Infrastructure",
     "abbrSyn": [
       {
@@ -81371,30 +81124,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/privileged_network_account",
     "anchor": "privilegednetworkaccount"
-  },
-  {
-    "term": "privileged process",
-    "definition": "A computer process that is authorized (and, therefore, trusted) to perform security-relevant functions that ordinary processes are not authorized to perform.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/privileged_process",
-    "anchor": "privilegedprocess"
-  },
-  {
-    "term": "privileged user",
-    "abbrSyn": [
-      {
-        "text": "root user",
-        "link": "https://csrc.nist.gov/glossary/term/root_user"
-      },
-      {
-        "text": "superuser",
-        "link": "https://csrc.nist.gov/glossary/term/superuser"
-      }
-    ],
-    "definition": "A user who is authorized (and, therefore, trusted) to perform security-relevant functions that ordinary users are not authorized to perform.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/privileged_user",
-    "anchor": "privilegeduser"
   },
   {
     "term": "PRM",
@@ -81576,13 +81305,6 @@
     "anchor": "ProcessHazardAnalysis"
   },
   {
-    "term": "process hijacking",
-    "definition": "A process checkpoint and migration technique that uses dynamic program re-writing techniques to add a checkpointing capability to a running program. Process hijacking makes it possible to checkpoint and migrate proprietary applications that cannot be re-linked with a checkpoint library allowing dynamic hand off of an ordinary running process to a distributed resource management system (e.g., the ability to trick or bypass the firewall allowing the server component to take over processes and gain rights for accessing the internet).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/process_hijacking",
-    "anchor": "processhijacking"
-  },
-  {
     "term": "Process ID",
     "abbrSyn": [
       {
@@ -81755,19 +81477,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/product_security_incident_response_team",
     "anchor": "ProductSecurityIncidentResponseTeam"
-  },
-  {
-    "term": "product source node (PSN)",
-    "abbrSyn": [
-      {
-        "text": "PSN",
-        "link": "https://csrc.nist.gov/glossary/term/psn"
-      }
-    ],
-    "definition": "The Key Management Infrastructure core node that provides central generation of cryptographic key material.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/product_source_node",
-    "anchor": "productsourcenode(PSN)"
   },
   {
     "term": "Profile augmentations",
@@ -82136,26 +81845,6 @@
     "anchor": "ProprietaryIdentifierExtension"
   },
   {
-    "term": "proprietary information (PROPIN)",
-    "abbrSyn": [
-      {
-        "text": "PROPIN",
-        "link": "https://csrc.nist.gov/glossary/term/propin"
-      }
-    ],
-    "definition": "Material and information relating to or associated with a company's products, business, or activities, including but not limited to financial information; data or statements; trade secrets; product research and development; existing and future product designs and performance specifications; marketing plans or techniques; schematics; client lists; computer programs; processes; and know- how that has been clearly identified and properly marked by the company as proprietary information, trade secrets, or company confidential information. The information must have been developed by the company and not be available to the Government or to the public without restriction from another source.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/proprietary_information",
-    "anchor": "proprietaryinformation(PROPIN)"
-  },
-  {
-    "term": "proscribed information",
-    "definition": "<FOCI> Top Secret (TS) information, COMSEC information excluding controlled cryptographic items when unkeyed and utilized with unclassified keys, restricted data (RD), special access program (SAP) information, or sensitive compartmented information (SCI).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/proscribed_information",
-    "anchor": "proscribedinformation"
-  },
-  {
     "term": "ProSe",
     "abbrSyn": [
       {
@@ -82280,19 +81969,6 @@
     "anchor": "ProtectedAccessCredential"
   },
   {
-    "term": "protected distribution system (PDS)",
-    "abbrSyn": [
-      {
-        "text": "PDS",
-        "link": "https://csrc.nist.gov/glossary/term/pds"
-      }
-    ],
-    "definition": "Wire line or fiber optic system that includes adequate safeguards and/or countermeasures (e.g., acoustic, electric, electromagnetic, and physical) to permit its use for the transmission of unencrypted information through an area of lesser classification or control.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/protected_distribution_system",
-    "anchor": "protecteddistributionsystem(PDS)"
-  },
-  {
     "term": "Protected EAP",
     "abbrSyn": [
       {
@@ -82399,40 +82075,6 @@
     "anchor": "protectionneeds"
   },
   {
-    "term": "protection philosophy",
-    "definition": "Informal description of the overall design of an information system delineating each of the protection mechanisms employed. Combination of formal and informal techniques, appropriate to the evaluation class, used to show the mechanisms are adequate to enforce the security policy.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/protection_philosophy",
-    "anchor": "protectionphilosophy"
-  },
-  {
-    "term": "protection profile",
-    "abbrSyn": [
-      {
-        "text": "PP",
-        "link": "https://csrc.nist.gov/glossary/term/pp"
-      }
-    ],
-    "definition": "A minimal, baseline set of requirements targeted at mitigating well defined and described threats. The term Protection Profile refers to NSA/NIAP requirements for a technology and does not imply or require the use of Common Criteria as the process for evaluating a product. Protection Profiles may be created by Technical Communities and will include: - a set of technology-specific threats derived from operational knowledge and technical expertise; - a set of core functional requirements necessary to mitigate those threats and establish a basic level of security for a particular technology; and, - a collection of assurance activities tailored to the technology and functional requirements that are transparent, and produce achievable, repeatable, and testable results scoped such that they can be completed within a reasonable timeframe.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/protection_profile",
-    "anchor": "protectionprofile"
-  },
-  {
-    "term": "protective packaging",
-    "definition": "Packaging techniques for COMSEC material that discourage penetration, reveal a penetration has occurred or was attempted, or inhibit viewing or copying of keying material prior to the time it is exposed for use.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/protective_packaging",
-    "anchor": "protectivepackaging"
-  },
-  {
-    "term": "protective technologies",
-    "definition": "Special tamper-evident features and materials employed for the purpose of detecting, tampering and deterring attempts to compromise, modify, penetrate, extract, or substitute information processing equipment and keying material.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/protective_technologies",
-    "anchor": "protectivetechnologies"
-  },
-  {
     "term": "Protect-P (Function)",
     "definition": "Develop and implement appropriate data processing safeguards.",
     "organisation": "Nist",
@@ -82499,13 +82141,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/proxy",
     "anchor": "proxy"
-  },
-  {
-    "term": "proxy agent",
-    "definition": "A software application running on a firewall or on a dedicated proxy server that is capable of filtering a protocol and routing it between the interfaces of the device.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/proxy_agent",
-    "anchor": "proxyagent"
   },
   {
     "term": "Proxy Auto Config",
@@ -82994,13 +82629,6 @@
     "anchor": "PublicInformation"
   },
   {
-    "term": "public key",
-    "definition": "A cryptographic key that is used with an asymmetric (public key) cryptographic algorithm and is associated with a private key. The public key is associated with an owner and may be made public. In the case of digital signatures, the public key is used to verify a digital signature that was generated using the corresponding private key.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/public_key",
-    "anchor": "publickey"
-  },
-  {
     "term": "public key certificate",
     "abbrSyn": [
       {
@@ -83084,32 +82712,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/public_key_cryptography_standard_1",
     "anchor": "PublicKeyCryptographyStandard1"
-  },
-  {
-    "term": "public key enabling (PKE)",
-    "abbrSyn": [
-      {
-        "text": "PKE",
-        "link": "https://csrc.nist.gov/glossary/term/pke"
-      }
-    ],
-    "definition": "The incorporation of the use of certificates for security services such as authentication, confidentiality, data integrity, and non-repudiation.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/public_key_enabling",
-    "anchor": "publickeyenabling(PKE)"
-  },
-  {
-    "term": "public key infrastructure (PKI)",
-    "abbrSyn": [
-      {
-        "text": "PKI",
-        "link": "https://csrc.nist.gov/glossary/term/pki"
-      }
-    ],
-    "definition": "A support service to the PIV system that provides the cryptographic keys needed to perform digital signature-based identity verification and to protect communications and the storage of sensitive verification system data within identity cards and the verification system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/public_key_infrastructure",
-    "anchor": "publickeyinfrastructure(PKI)"
   },
   {
     "term": "Public Key Infrastructure X.509Certificate Management Protocol",
@@ -83245,19 +82847,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/public_safety_organization",
     "anchor": "PublicSafetyOrganization"
-  },
-  {
-    "term": "public seed",
-    "seeAlso": [
-      {
-        "text": "salt",
-        "link": "salt"
-      }
-    ],
-    "definition": "A starting value for a pseudorandom number generator. The value produced by the random number generator may be made public. The public seed is often called a salt.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/public_seed",
-    "anchor": "publicseed"
   },
   {
     "term": "Public Use File",
@@ -83721,13 +83310,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/qrom",
     "anchor": "QROM"
-  },
-  {
-    "term": "quadrant",
-    "definition": "Short name referring to technology that provides tamper-resistant protection to cryptographic equipment.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/quadrant",
-    "anchor": "quadrant"
   },
   {
     "term": "quadratic twist",
@@ -84499,24 +84081,6 @@
     "anchor": "randomnumbergeneration"
   },
   {
-    "term": "random number generator (RNG)",
-    "abbrSyn": [
-      {
-        "text": "RNG",
-        "link": "https://csrc.nist.gov/glossary/term/rng"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "Random bit generator (RBG)"
-      }
-    ],
-    "definition": "A process that is invoked to generate a random sequence of values (usually a sequence of bits) or an individual random value.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/random_number_generator",
-    "anchor": "randomnumbergenerator(RNG)"
-  },
-  {
     "term": "random oracle model",
     "abbrSyn": [
       {
@@ -85082,13 +84646,6 @@
     "anchor": "RealTimeClock"
   },
   {
-    "term": "real time reaction",
-    "definition": "Immediate response to a penetration attempt that is detected and diagnosed in time to prevent access.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/real_time_reaction",
-    "anchor": "realtimereaction"
-  },
-  {
     "term": "Really Simple Syndication",
     "abbrSyn": [
       {
@@ -85335,13 +84892,6 @@
     "anchor": "RecoveryPointObjective"
   },
   {
-    "term": "recovery procedures",
-    "definition": "Actions necessary to restore data files of an information system and computational capability after a system failure.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/recovery_procedures",
-    "anchor": "recoveryprocedures"
-  },
-  {
     "term": "Recovery Time Objective",
     "abbrSyn": [
       {
@@ -85353,33 +84903,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/recovery_time_objective",
     "anchor": "RecoveryTimeObjective"
-  },
-  {
-    "term": "RED",
-    "seeAlso": [
-      {
-        "text": "BLACK",
-        "link": "black"
-      }
-    ],
-    "definition": "Information or messages that contain sensitive or classified information that is not encrypted. See also BLACK.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/red",
-    "anchor": "RED"
-  },
-  {
-    "term": "RED data",
-    "definition": "Date that is not protected by encryption. Also known as unencrypted data.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/red_data",
-    "anchor": "REDdata"
-  },
-  {
-    "term": "RED equipment",
-    "definition": "A term applied to equipment that processes unencrypted national security information that requires protection during electrical/electronic processing.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/red_equipment",
-    "anchor": "REDequipment"
   },
   {
     "term": "Red Hat Enterprise Linux",
@@ -85408,30 +84931,6 @@
     "anchor": "RedHatPackageManager"
   },
   {
-    "term": "RED key",
-    "seeAlso": [
-      {
-        "text": "BLACK data",
-        "link": "black_data"
-      },
-      {
-        "text": "encrypted key",
-        "link": "encrypted_key"
-      }
-    ],
-    "definition": "Key that has not been encrypted in a system approved by NSA for key encryption or encrypted key in the presence of its associated key encryption key (KEK) or transfer key encryption key (TrKEK). Encrypted key in the same fill device as its associated KEK or TrKEK is considered unencrypted. (RED key is also known as unencrypted key). Such key is classified at the level of the data it is designed to protect. See BLACK data and encrypted key.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/red_key",
-    "anchor": "REDkey"
-  },
-  {
-    "term": "RED line",
-    "definition": "An optical fiber or a metallic wire that carries a RED signal or that originates/terminates in a RED equipment or system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/red_line",
-    "anchor": "REDline"
-  },
-  {
     "term": "RED optical fiber line",
     "definition": "An optical fiber that carries RED signal or that originates/terminates in RED equipment or system.",
     "organisation": "Nist",
@@ -85444,13 +84943,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/red_signal",
     "anchor": "REDsignal"
-  },
-  {
-    "term": "Red Team",
-    "definition": "A group of people authorized and organized to emulate a potential adversarys attack or exploitation capabilities against an enterprises security posture. The Red Teams objective is to improve enterprise cybersecurity by demonstrating the impacts of successful attacks and by demonstrating what works for the defenders (i.e., the Blue Team) in an operational environment. Also known as Cyber Red Team.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/red_team",
-    "anchor": "RedTeam"
   },
   {
     "term": "red team exercise",
@@ -85472,20 +84964,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/red_teaming",
     "anchor": "redteaming"
-  },
-  {
-    "term": "RED wireline",
-    "definition": "A metallic wire that carries a RED signal or that originates/terminates in a RED equipment or system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/red_wireline",
-    "anchor": "REDwireline"
-  },
-  {
-    "term": "RED/BLACK concept",
-    "definition": "Separation of electrical and electronic circuits, components, equipment, and systems that handle national security information (RED), in electrical form, from those that handle non-national security information (BLACK) in the same form.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/red_black_concept",
-    "anchor": "RED/BLACKconcept"
   },
   {
     "term": "redaction",
