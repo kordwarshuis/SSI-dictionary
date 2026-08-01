@@ -85211,25 +85211,6 @@
     "anchor": "Registrar"
   },
   {
-    "term": "registration",
-    "abbrSyn": [
-      {
-        "text": "enrollment"
-      },
-      {
-        "text": "Enrollment",
-        "link": "https://csrc.nist.gov/glossary/term/enrollment"
-      },
-      {
-        "text": "Identity Registration"
-      }
-    ],
-    "definition": "The process of making a persons identity known to the PIV system, associating a unique identifier with that identity, and collecting and recording the persons relevant attributes into the system. In some other NIST documents, such as [NIST SP 800-63A], identity registration is referred to as enrollment.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/registration",
-    "anchor": "registration"
-  },
-  {
     "term": "Registration agent",
     "definition": "An FCKMS role that is responsible for registering new entities and perhaps other selected information.",
     "organisation": "Nist",
@@ -85242,19 +85223,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/registration_authority_ra",
     "anchor": "Registrationauthority(RA)"
-  },
-  {
-    "term": "registration authority (RA)",
-    "abbrSyn": [
-      {
-        "text": "RA",
-        "link": "https://csrc.nist.gov/glossary/term/ra"
-      }
-    ],
-    "definition": "1. An entity authorized by the certification authority system (CAS) to collect, verify, and submit information provided by potential Subscribers which is to be entered into public key certificates. The term RA refers to hardware, software, and individuals that collectively perform this function.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/registration_authority",
-    "anchor": "registrationauthority(RA)"
   },
   {
     "term": "Registry",
@@ -85442,13 +85410,6 @@
     "anchor": "releaseofunverifiedplaintext"
   },
   {
-    "term": "release prefix",
-    "definition": "Prefix appended to the short title of U.S.-produced keying material to indicate its foreign releasability. \"A\" designates material that is releasable to specific allied nations and \"U.S.\" designates material intended exclusively for U.S. use.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/release_prefix",
-    "anchor": "releaseprefix"
-  },
-  {
     "term": "Releasing Unverified Plaintext",
     "abbrSyn": [
       {
@@ -85500,47 +85461,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/reliable_datagram_sockets",
     "anchor": "ReliableDatagramSockets"
-  },
-  {
-    "term": "relying party",
-    "abbrSyn": [
-      {
-        "text": "RP",
-        "link": "https://csrc.nist.gov/glossary/term/rp"
-      },
-      {
-        "text": "RPC",
-        "link": "https://csrc.nist.gov/glossary/term/rpc"
-      }
-    ],
-    "definition": "An entity that relies upon the subscribers credentials, typically to process a transaction or grant access to information or a system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/relying_party",
-    "anchor": "relyingparty"
-  },
-  {
-    "term": "remanence",
-    "seeAlso": [
-      {
-        "text": "clearing",
-        "link": "clearing"
-      },
-      {
-        "text": "magnetic remanence",
-        "link": "magnetic_remanence"
-      }
-    ],
-    "definition": "Residual information remaining on storage media after clearing. See magnetic remanence and clearing.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/remanence",
-    "anchor": "remanence"
-  },
-  {
-    "term": "remediation",
-    "definition": "The neutralization or elimination of a vulnerability or the likelihood of its exploitation.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/remediation",
-    "anchor": "remediation"
   },
   {
     "term": "Remote Access Server",
@@ -85661,23 +85581,6 @@
     "anchor": "RemoteProcedureCall"
   },
   {
-    "term": "remote rekeying",
-    "seeAlso": [
-      {
-        "text": "automatic remote rekeying",
-        "link": "automatic_remote_rekeying"
-      },
-      {
-        "text": "manual remote rekeying",
-        "link": "manual_remote_rekeying"
-      }
-    ],
-    "definition": "Procedure by which a distant crypto-equipment is rekeyed electrically. See automatic remote rekeying and manual remote rekeying.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/remote_rekeying",
-    "anchor": "remoterekeying"
-  },
-  {
     "term": "Remote Shell",
     "abbrSyn": [
       {
@@ -85728,19 +85631,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/remotely_triggered_black_holing",
     "anchor": "RemotelyTriggeredBlackHoling"
-  },
-  {
-    "term": "removable media",
-    "seeAlso": [
-      {
-        "text": "portable storage device",
-        "link": "portable_storage_device"
-      }
-    ],
-    "definition": "Portable data storage medium that can be added to or removed from a computing device or network. Note: Examples include, but are not limited to: optical discs (CD, DVD, Blu-ray); external / removable hard drives; external / removable Solid State Disk (SSD) drives; magnetic / optical tapes; flash memory devices (USB, eSATA, Flash Drive, Thumb Drive); flash memory cards (Secure Digital, CompactFlash, Memory Stick, MMC, xD); and other external / removable disks (floppy, Zip, Jaz, Bernoulli, UMD). See also portable storage device.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/removable_media",
-    "anchor": "removablemedia"
   },
   {
     "term": "removable media device",
@@ -85974,19 +85864,6 @@
     "anchor": "RseauxIPEuropensNetworkCoordinationCentre"
   },
   {
-    "term": "reserve keying material",
-    "seeAlso": [
-      {
-        "text": "contingency key",
-        "link": "contingency_key"
-      }
-    ],
-    "definition": "Key held to satisfy unplanned needs. See contingency key.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/reserve_keying_material",
-    "anchor": "reservekeyingmaterial"
-  },
-  {
     "term": "Reserved for Future Use",
     "abbrSyn": [
       {
@@ -86000,46 +85877,11 @@
     "anchor": "ReservedforFutureUse"
   },
   {
-    "term": "resident alien",
-    "definition": "A citizen of a foreign nation, legally residing in the United States on a permanent basis, who is not yet a naturalized citizen of the United States.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/resident_alien",
-    "anchor": "residentalien"
-  },
-  {
     "term": "residual information protection",
     "definition": "Ensur(ing) that any data contained in a resource is not available when the resource is de-allocated from one object and reallocated to a different object.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/residual_information_protection",
     "anchor": "residualinformationprotection"
-  },
-  {
-    "term": "residual risk",
-    "seeAlso": [
-      {
-        "text": "Acceptable Risk",
-        "link": "acceptable_risk"
-      },
-      {
-        "text": "Minimum Level of Protection",
-        "link": "minimum_level_of_protection"
-      },
-      {
-        "text": "Total Risk",
-        "link": "total_risk"
-      }
-    ],
-    "definition": "Portion of risk remaining after controls/countermeasures have been applied.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/residual_risk",
-    "anchor": "residualrisk"
-  },
-  {
-    "term": "residue",
-    "definition": "Data left in storage after information processing operations are complete, but before degaussing or overwriting has taken place.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/residue",
-    "anchor": "residue"
   },
   {
     "term": "Resilience Management Model",
@@ -86350,13 +86192,6 @@
     "anchor": "ResponseRateLimiting"
   },
   {
-    "term": "responsibility to provide",
-    "definition": "An information distribution approach whereby relevant essential information is made readily available and discoverable to the broadest possible pool of potential users.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/responsibility_to_provide",
-    "anchor": "responsibilitytoprovide"
-  },
-  {
     "term": "REST",
     "abbrSyn": [
       {
@@ -86543,13 +86378,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/review_techniques",
     "anchor": "ReviewTechniques"
-  },
-  {
-    "term": "revocation",
-    "definition": "The process of permanently ending the binding between a certificate and the identity asserted in the certificate from a specified time forward.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/revocation",
-    "anchor": "revocation"
   },
   {
     "term": "Revoked Key Notification",
@@ -87175,19 +87003,6 @@
     "anchor": "RiskManagementCouncilorCommittee"
   },
   {
-    "term": "risk management framework (RMF)",
-    "abbrSyn": [
-      {
-        "text": "RMF",
-        "link": "https://csrc.nist.gov/glossary/term/rmf"
-      }
-    ],
-    "definition": "A disciplined and structured process that integrates information security and risk management activities into the system development life cycle.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/risk_management_framework",
-    "anchor": "riskmanagementframework(RMF)"
-  },
-  {
     "term": "Risk Management Framework (RMF) step",
     "definition": "A reference to one of the 6 steps in the Risk Management Framework process defined in SP 800-37.",
     "organisation": "Nist",
@@ -87222,13 +87037,6 @@
     "anchor": "riskmanagementstrategy"
   },
   {
-    "term": "risk mitigation",
-    "definition": "Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended from the risk management process.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/risk_mitigation",
-    "anchor": "riskmitigation"
-  },
-  {
     "term": "risk model",
     "definition": "A key component of a risk assessment methodology (in addition to assessment approach and analysis approach) that defines key terms and assessable risk factors.",
     "organisation": "Nist",
@@ -87255,22 +87063,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/risk_reserve",
     "anchor": "RiskReserve"
-  },
-  {
-    "term": "risk response",
-    "seeAlso": [
-      {
-        "text": "Course of Action",
-        "link": "course_of_action"
-      },
-      {
-        "text": "course of action (risk response)"
-      }
-    ],
-    "definition": "Intentional and informed decision and actions to accept, avoid, mitigate, share, or transfer an identified risk.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/risk_response",
-    "anchor": "riskresponse"
   },
   {
     "term": "Risk Response Measure",
@@ -87683,13 +87475,6 @@
     "anchor": "RobustSecurityNetworkInformationElement"
   },
   {
-    "term": "robustness",
-    "definition": "The ability of an information assurance (IA) entity to operate correctly and reliably across a wide range of operational conditions, and to fail gracefully outside of that operational range.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/robustness",
-    "anchor": "robustness"
-  },
-  {
     "term": "ROC",
     "abbrSyn": [
       {
@@ -87736,13 +87521,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/roi",
     "anchor": "ROI"
-  },
-  {
-    "term": "role",
-    "definition": "A job function or employment position to which people or other system entities may be assigned in a system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/role",
-    "anchor": "role"
   },
   {
     "term": "role-based access control (RBAC)",
@@ -87928,13 +87706,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/root_user",
     "anchor": "rootuser"
-  },
-  {
-    "term": "rootkit",
-    "definition": "A set of tools used by an attacker after gaining root-level access to a host to conceal the attackers activities on the host and permit the attacker to maintain root-level access to the host through covert means.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/rootkit",
-    "anchor": "rootkit"
   },
   {
     "term": "roots of trust",
@@ -88957,13 +88728,6 @@
     "anchor": "RulesofEngagement(ROE)"
   },
   {
-    "term": "ruleset",
-    "definition": "A table of instructions used by a controlled interface to determine what data is allowable and how the data is handled between interconnected systems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/ruleset",
-    "anchor": "ruleset"
-  },
-  {
     "term": "Run",
     "definition": "An uninterrupted sequence of like bits (i.e., either all zeroes or all ones).",
     "organisation": "Nist",
@@ -89548,25 +89312,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sanitization_technique",
     "anchor": "sanitizationtechnique"
-  },
-  {
-    "term": "sanitize",
-    "abbrSyn": [
-      {
-        "text": "sanitization",
-        "link": "https://csrc.nist.gov/glossary/term/sanitization"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "media sanitization",
-        "link": "media_sanitization"
-      }
-    ],
-    "definition": "Actions taken to render data written on media unrecoverable by ordinary and  for some forms of sanitization  extraordinary means.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/sanitize",
-    "anchor": "sanitize"
   },
   {
     "term": "SANS",
@@ -90157,13 +89902,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/scatternet",
     "anchor": "Scatternet"
-  },
-  {
-    "term": "scavenging",
-    "definition": "Searching through object residue to acquire data.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/scavenging",
-    "anchor": "scavenging"
   },
   {
     "term": "SCBA",
@@ -91050,7 +90788,7 @@
   },
   {
     "term": "Secure channel",
-    "definition": "A path for transferring data between two entities or components that ensures confidentiality, integrity and replay protection, as well as mutual authentication between the entities or components. The secure channel may be provided using cryptographic, physical or procedural methods, or a combination thereof.",
+    "definition": "A MACsec security relationship used to provide security guarantees for frames transmitted from one member of a Connectivity Association (CA) to the others. An SC is supported by a sequence of Secure Associations (SAs) thus allowing the periodic use of fresh keys without terminating the relationship.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/secure_channel",
     "anchor": "Securechannel"
@@ -91061,13 +90799,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/secure_communication_protocol",
     "anchor": "securecommunicationprotocol"
-  },
-  {
-    "term": "secure communications",
-    "definition": "Telecommunications deriving security through use of National Security Agency (NSA)-approved products and/or protected distribution systems (PDSs).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/secure_communications",
-    "anchor": "securecommunications"
   },
   {
     "term": "Secure Communications Interoperability Protocol",
@@ -91081,13 +90812,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/secure_communications_interoperability_protocol",
     "anchor": "SecureCommunicationsInteroperabilityProtocol"
-  },
-  {
-    "term": "secure communications interoperability protocol (SCIP) product",
-    "definition": "National Security Agency (NSA) certified secure voice and data encryption devices that provide interoperability with both national and foreign wired and wireless products.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/secure_communications_interoperability_protocol_product",
-    "anchor": "securecommunicationsinteroperabilityprotocol(SCIP)product"
   },
   {
     "term": "Secure Computing",
@@ -91615,13 +91339,6 @@
     "anchor": "SecureSoftwareDevelopmentFramework"
   },
   {
-    "term": "secure state",
-    "definition": "Condition in which no subject can access any object in an unauthorized manner.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/secure_state",
-    "anchor": "securestate"
-  },
-  {
     "term": "Secure Telephone Unit",
     "abbrSyn": [
       {
@@ -91766,19 +91483,6 @@
     "anchor": "securelyresilient"
   },
   {
-    "term": "security",
-    "abbrSyn": [
-      {
-        "text": "SEC",
-        "link": "https://csrc.nist.gov/glossary/term/sec"
-      }
-    ],
-    "definition": "A condition that results from the establishment and maintenance of protective measures that enable an organization to perform its mission or critical functions despite risks posed by threats to its use of systems. Protective measures may involve a combination of deterrence, avoidance, prevention, detection, recovery, and correction that should form part of the organizations risk management approach.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security",
-    "anchor": "security"
-  },
-  {
     "term": "Security and Privacy Profile",
     "abbrSyn": [
       {
@@ -91831,19 +91535,6 @@
     "anchor": "securityarchitecture"
   },
   {
-    "term": "security assertion markup language (SAML)",
-    "abbrSyn": [
-      {
-        "text": "SAML",
-        "link": "https://csrc.nist.gov/glossary/term/saml"
-      }
-    ],
-    "definition": "A protocol consisting of XML-based request and response message formats for exchanging security information, expressed in the form of assertions about subjects, between on-line business partners.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_assertion_markup_language",
-    "anchor": "securityassertionmarkuplanguage(SAML)"
-  },
-  {
     "term": "Security Assertion Markup Language Single Sign-On",
     "abbrSyn": [
       {
@@ -91888,19 +91579,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_assessment_and_authorization",
     "anchor": "SecurityAssessmentandAuthorization"
-  },
-  {
-    "term": "security assessment report (SAR)",
-    "abbrSyn": [
-      {
-        "text": "SAR",
-        "link": "https://csrc.nist.gov/glossary/term/sar"
-      }
-    ],
-    "definition": "Provides a disciplined and structured approach for documenting the findings of the assessor and the recommendations for correcting any identified vulnerabilities in the security controls.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_assessment_report",
-    "anchor": "securityassessmentreport(SAR)"
   },
   {
     "term": "Security Association (SA)",
@@ -91967,13 +91645,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_audit_trail",
     "anchor": "SecurityAuditTrail"
-  },
-  {
-    "term": "security auditor",
-    "definition": "A trusted role that is responsible for auditing the security of certification authority systems (CASs) and registration authorities (RAs), including reviewing, maintaining, and archiving audit logs and performing or overseeing internal audits of CASs and RAs.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_auditor",
-    "anchor": "securityauditor"
   },
   {
     "term": "Security Authorization",
@@ -92062,19 +91733,6 @@
     "anchor": "SecurityAutomationDomain"
   },
   {
-    "term": "security banner",
-    "abbrSyn": [
-      {
-        "text": "consent banner",
-        "link": "https://csrc.nist.gov/glossary/term/consent_banner"
-      }
-    ],
-    "definition": "See security banner (also known as notice and consent banners)",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_banner",
-    "anchor": "securitybanner"
-  },
-  {
     "term": "Security Capability",
     "abbrSyn": [
       {
@@ -92117,41 +91775,6 @@
     "anchor": "securitycategorization"
   },
   {
-    "term": "security category",
-    "abbrSyn": [
-      {
-        "text": "SC",
-        "link": "https://csrc.nist.gov/glossary/term/sc"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "security categorization",
-        "link": "security_categorization"
-      },
-      {
-        "text": "Security Categorization"
-      }
-    ],
-    "definition": "A number associated with the security strength of a post-quantum cryptographic algorithm, as specified by NIST.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_category",
-    "anchor": "securitycategory"
-  },
-  {
-    "term": "security concept of operations (Security CONOP)",
-    "abbrSyn": [
-      {
-        "text": "concept of operations",
-        "link": "https://csrc.nist.gov/glossary/term/concept_of_operations"
-      }
-    ],
-    "definition": "Verbal and graphic statement, in broad outline, of an organizations assumptions or intent in regard to an operation or series of operations of new, modified, or existing organizational systems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_concept_of_operations",
-    "anchor": "securityconceptofoperations(SecurityCONOP)"
-  },
-  {
     "term": "security configuration management (SecCM)",
     "definition": "The management and control of configurations for an information system to enable security and facilitate the management of risk.",
     "organisation": "Nist",
@@ -92190,19 +91813,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_content_automation_program",
     "anchor": "SecurityContentAutomationProgram"
-  },
-  {
-    "term": "security content automation protocol (SCAP)",
-    "abbrSyn": [
-      {
-        "text": "SCAP",
-        "link": "https://csrc.nist.gov/glossary/term/scap"
-      }
-    ],
-    "definition": "A suite of specifications that standardize the format and nomenclature by which software flaw and security configuration information is communicated, both to machines and humans. Note: There are six individual specifications incorporated into SCAP: CVE (common vulnerabilities and exposures); CCE (common configuration enumeration); CPE (common platform enumeration); CVSS (common vulnerability scoring system); OVAL (open vulnerability assessment language); and XCCDF (eXtensible configuration checklist description format).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_content_automation_protocol",
-    "anchor": "securitycontentautomationprotocol(SCAP)"
   },
   {
     "term": "Security Content Automation Protocol Validation Tool",
@@ -92414,31 +92024,6 @@
     "anchor": "SecurityDevelopmentLifecycle"
   },
   {
-    "term": "security domain",
-    "abbrSyn": [
-      {
-        "text": "domain",
-        "link": "https://csrc.nist.gov/glossary/term/domain"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "Domain"
-      }
-    ],
-    "definition": "A set of elements, data, resources, and functions that share a commonality in combinations of (1) roles supported, (2) rules governing their use, and (3) protection needs.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_domain",
-    "anchor": "securitydomain"
-  },
-  {
-    "term": "security engineering",
-    "definition": "An interdisciplinary approach and means to enable the realization of secure systems. It focuses on defining customer needs, security protection requirements, and required functionality early in the systems development lifecycle, documenting requirements, and then proceeding with design, synthesis, and system validation while considering the complete problem.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_engineering",
-    "anchor": "securityengineering"
-  },
-  {
     "term": "Security Event Management",
     "abbrSyn": [
       {
@@ -92479,19 +92064,6 @@
     "anchor": "SecurityExpertsGroup"
   },
   {
-    "term": "security fault analysis (SFA)",
-    "abbrSyn": [
-      {
-        "text": "SFA",
-        "link": "https://csrc.nist.gov/glossary/term/sfa"
-      }
-    ],
-    "definition": "An assessment usually performed on information system hardware, to determine the security properties of a device when hardware fault is encountered.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_fault_analysis",
-    "anchor": "securityfaultanalysis(SFA)"
-  },
-  {
     "term": "Security Fault Injection Test",
     "definition": "Involves data perturbation (i.e., alteration of the type of data the execution environment components pass to the application, or that the applications components pass to one another). Fault injection can reveal the effects of security defects on the behavior of the components themselves and on the application as a whole.",
     "organisation": "Nist",
@@ -92510,13 +92082,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_features_users_guide",
     "anchor": "SecurityFeaturesUsersGuide"
-  },
-  {
-    "term": "security filter",
-    "definition": "A secure subsystem of an information system that enforces security policy on the data passing through it.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_filter",
-    "anchor": "securityfilter"
   },
   {
     "term": "security function",
@@ -92564,19 +92129,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_group_tag",
     "anchor": "SecurityGroupTag"
-  },
-  {
-    "term": "security impact analysis",
-    "abbrSyn": [
-      {
-        "text": "SIA",
-        "link": "https://csrc.nist.gov/glossary/term/sia"
-      }
-    ],
-    "definition": "The analysis conducted by an organizational official to determine the extent to which changes to the information system have affected the security state of the system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_impact_analysis",
-    "anchor": "securityimpactanalysis"
   },
   {
     "term": "security incident",
@@ -92681,29 +92233,6 @@
     "anchor": "securityinspection"
   },
   {
-    "term": "security kernel",
-    "definition": "Hardware, firmware, and software elements of a trusted computing base implementing the reference monitor concept. Security kernel must mediate all accesses, be protected from modification, and be verifiable as correct.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_kernel",
-    "anchor": "securitykernel"
-  },
-  {
-    "term": "security label",
-    "abbrSyn": [
-      {
-        "text": "label",
-        "link": "https://csrc.nist.gov/glossary/term/label"
-      },
-      {
-        "text": "Label"
-      }
-    ],
-    "definition": "Identifier that is attached to a set of data elements.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_label",
-    "anchor": "securitylabel"
-  },
-  {
     "term": "Security life of data",
     "definition": "The time period during which the security of the data needs to be protected (e.g., its confidentiality, integrity or availability).",
     "organisation": "Nist",
@@ -92745,19 +92274,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_measure",
     "anchor": "SecurityMeasure"
-  },
-  {
-    "term": "security mechanism",
-    "abbrSyn": [
-      {
-        "text": "mechanism",
-        "link": "https://csrc.nist.gov/glossary/term/mechanism"
-      }
-    ],
-    "definition": "A process or system that is used to produce a particular result.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_mechanism",
-    "anchor": "securitymechanism"
   },
   {
     "term": "Security Mode Command",
@@ -92845,22 +92361,6 @@
     "anchor": "SecurityParametersIndex(SPI)"
   },
   {
-    "term": "security perimeter",
-    "abbrSyn": [
-      {
-        "text": "accreditation boundary",
-        "link": "https://csrc.nist.gov/glossary/term/accreditation_boundary"
-      },
-      {
-        "text": "Accreditation Boundary"
-      }
-    ],
-    "definition": "Identifies the information resources covered by an accreditation decision, as distinguished from separately accredited information resources that are interconnected or with which information is exchanged via messaging.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_perimeter",
-    "anchor": "securityperimeter"
-  },
-  {
     "term": "Security Policy Database (SPD)",
     "abbrSyn": [
       {
@@ -92894,19 +92394,6 @@
     "anchor": "SecurityPolicyTemplates"
   },
   {
-    "term": "security posture",
-    "abbrSyn": [
-      {
-        "text": "Security Status",
-        "link": "https://csrc.nist.gov/glossary/term/security_status"
-      }
-    ],
-    "definition": "The security status of an enterprises networks, information, and systems based on information security resources (e.g., people, hardware, software, policies) and capabilities in place to manage the defense of the enterprise and to react as the situation changes.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_posture",
-    "anchor": "securityposture"
-  },
-  {
     "term": "security program plan",
     "definition": "Formal document that provides an overview of the security requirements for an organization-wide information security program and describes the program management security controls and common security controls in place or planned for meeting those requirements.",
     "organisation": "Nist",
@@ -92921,13 +92408,6 @@
     "anchor": "Securityproperties"
   },
   {
-    "term": "security protocol",
-    "definition": "An abstract or concrete protocol that performs security-related functions.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_protocol",
-    "anchor": "securityprotocol"
-  },
-  {
     "term": "Security Protocol and Data Model",
     "abbrSyn": [
       {
@@ -92939,23 +92419,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_protocol_and_data_model",
     "anchor": "SecurityProtocolandDataModel"
-  },
-  {
-    "term": "security range",
-    "seeAlso": [
-      {
-        "text": "system high",
-        "link": "system_high"
-      },
-      {
-        "text": "system low",
-        "link": "system_low"
-      }
-    ],
-    "definition": "Highest and lowest security levels that are permitted in or on an information system, system component, subsystem, or network. See system high and system low.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_range",
-    "anchor": "securityrange"
   },
   {
     "term": "Security Reference Architecture",
@@ -92985,39 +92448,6 @@
     "anchor": "securityrequirement"
   },
   {
-    "term": "security requirements baseline",
-    "definition": "Description of the minimum requirements necessary for an information system to maintain an acceptable level of risk.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_requirements_baseline",
-    "anchor": "securityrequirementsbaseline"
-  },
-  {
-    "term": "security requirements guide (SRG)",
-    "abbrSyn": [
-      {
-        "text": "SRG",
-        "link": "https://csrc.nist.gov/glossary/term/srg"
-      }
-    ],
-    "definition": "Compilation of control correlation identifiers (CCIs) grouped in more applicable, specific technology areas at various levels of technology and product specificity. Contains all requirements that have been flagged as applicable from the parent level regardless if they are selected on a Department of Defense (DoD) baseline or not.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_requirements_guide",
-    "anchor": "securityrequirementsguide(SRG)"
-  },
-  {
-    "term": "security requirements traceability matrix (SRTM)",
-    "abbrSyn": [
-      {
-        "text": "SRTM",
-        "link": "https://csrc.nist.gov/glossary/term/srtm"
-      }
-    ],
-    "definition": "Matrix documenting the systems agreed upon security requirements derived from all sources, the security features implementation details and schedule, and the resources required for assessment.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_requirements_traceability_matrix",
-    "anchor": "securityrequirementstraceabilitymatrix(SRTM)"
-  },
-  {
     "term": "security risk",
     "definition": "The effect of uncertainty on objectives pertaining to asset loss and the associated consequences.",
     "organisation": "Nist",
@@ -93036,20 +92466,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_risk_assessment",
     "anchor": "SecurityRiskAssessment"
-  },
-  {
-    "term": "security safeguards",
-    "definition": "Protective measures and controls prescribed to meet the security requirements specified for an information system. Safeguards may include security features, management constraints, personnel security, and security of physical structures, areas, and devices.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_safeguards",
-    "anchor": "securitysafeguards"
-  },
-  {
-    "term": "security service",
-    "definition": "A security capability or function provided by an entity.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_service",
-    "anchor": "securityservice"
   },
   {
     "term": "security solution",
@@ -93084,41 +92500,6 @@
     "anchor": "SecurityStatus"
   },
   {
-    "term": "security strength",
-    "abbrSyn": [
-      {
-        "text": "Bits of security"
-      }
-    ],
-    "definition": "A number associated with the amount of work (i.e., the number of operations) that is required to break a cryptographic algorithm or system. In this Recommendation, the security strength is specified in bits and is a specific value from the set {80, 112, 128, 192, 256}. Note that a security strength of 80 bits is no longer considered sufficiently secure.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_strength",
-    "anchor": "securitystrength"
-  },
-  {
-    "term": "security target",
-    "definition": "An implementation-dependent statement of security needs for a specific identified target of evaluation (TOE).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_target",
-    "anchor": "securitytarget"
-  },
-  {
-    "term": "security technical implementation guide (STIG)",
-    "abbrSyn": [
-      {
-        "text": "STIG",
-        "link": "https://csrc.nist.gov/glossary/term/stig"
-      },
-      {
-        "text": "STIGs"
-      }
-    ],
-    "definition": "Based on Department of Defense (DoD) policy and security controls. Implementation guide geared to a specific product and version. Contains all requirements that have been flagged as applicable for the product which have been selected on a DoD baseline.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_technical_implementation_guide",
-    "anchor": "securitytechnicalimplementationguide(STIG)"
-  },
-  {
     "term": "Security Technical Implementation Guideline",
     "abbrSyn": [
       {
@@ -93130,19 +92511,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_technical_implementation_guideline",
     "anchor": "SecurityTechnicalImplementationGuideline"
-  },
-  {
-    "term": "security test and evaluation (ST&E)",
-    "abbrSyn": [
-      {
-        "text": "ST&E",
-        "link": "https://csrc.nist.gov/glossary/term/stande"
-      }
-    ],
-    "definition": "Examination and analysis of the safeguards required to protect an information system, as they have been applied in an operational environment, to determine the security posture of that system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/security_test_and_evaluation",
-    "anchor": "securitytestandevaluation(ST&E)"
   },
   {
     "term": "Security testing",
@@ -94916,7 +94284,7 @@
         "link": "https://csrc.nist.gov/glossary/term/security_industry_association"
       }
     ],
-    "definition": "The analysis conducted by an organizational official to determine the extent to which changes to the information system have affected the security state of the system.",
+    "definition": "The analysis conducted by an organizational official to determine the extent to which a change to an information system has affected the security state of that system.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sia",
     "anchor": "SIA"
@@ -105807,13 +105175,6 @@
     "anchor": "TSEC"
   },
   {
-    "term": "TSEC nomenclature",
-    "definition": "The NSA system for identifying the type and purpose of certain items of COMSEC material.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/tsec_nomenclature",
-    "anchor": "TSECnomenclature"
-  },
-  {
     "term": "TSF",
     "abbrSyn": [
       {
@@ -106386,20 +105747,6 @@
     "anchor": "U.S.GovernmentFederalRadionavigationPlan"
   },
   {
-    "term": "U.S. national interests",
-    "definition": "Matters of vital interest to the United States to include national security, public safety, national economic security, the safe and reliable functioning of critical infrastructure, and the availability of key resources.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/us_national_interests",
-    "anchor": "U.S.nationalinterests"
-  },
-  {
-    "term": "U.S. person",
-    "definition": "U.S. person means a person (as defined in 22 CFR 120.14) who is a lawful permanent resident as defined by 8 U.S.C. 1101(a) (20) or who is a protected individual as defined by 8 U.S.C. 1324b(a) (3). It also means any corporation, business association, partnership, society, trust, or any other entity, organization or group that is incorporated to do business in the United States. It also includes any governmental (federal, state or local) entity. It does not include any foreign person as defined in 22 CFR 120.16.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/us_person",
-    "anchor": "U.S.person"
-  },
-  {
     "term": "U.S. Securities and Exchange Commission",
     "abbrSyn": [
       {
@@ -106424,20 +105771,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/u_s_c_",
     "anchor": "U.S.C."
-  },
-  {
-    "term": "U.S.-controlled facility",
-    "definition": "A base or building, access to which is physically controlled by U.S. citizens or resident aliens who are authorized U.S. Government or U.S. Government contractor employees.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/us_controlled_facility",
-    "anchor": "U.S.controlledfacility"
-  },
-  {
-    "term": "U.S.-controlled space",
-    "definition": "A space (e.g., room or floor) within a facility other than a U.S.-controlled facility, access to which is physically controlled by U.S. citizens or resident aliens who are authorized U.S. Government or U.S. Government contractor employees. Keys or combinations to locks controlling entrance to the U.S.-controlled space must be under the exclusive control of U.S. citizens or resident aliens who are U.S. Government or U.S. Government contractor employees.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/us_controlled_space",
-    "anchor": "U.S.controlledspace"
   },
   {
     "term": "U1",
@@ -108351,13 +107684,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/user_execute_never",
     "anchor": "UserExecuteNever"
-  },
-  {
-    "term": "user ID",
-    "definition": "Unique symbol or character string used by an information system to identify a specific user.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/user_id",
-    "anchor": "userID"
   },
   {
     "term": "User interface",
@@ -112404,9 +111730,6 @@
     "term": "WPA2",
     "abbrSyn": [
       {
-        "text": "Wi-Fi Protected Access - 2"
-      },
-      {
         "text": "Wi-Fi Protected Access 2",
         "link": "https://csrc.nist.gov/glossary/term/wi_fi_protected_access_2"
       },
@@ -112415,6 +111738,9 @@
       },
       {
         "text": "Wi-Fi Protected Access version 2"
+      },
+      {
+        "text": "Wi-Fi Protected Access-2"
       }
     ],
     "definition": "Term found but the definition does not exist yet.",
