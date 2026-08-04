@@ -92803,19 +92803,6 @@
     "anchor": "SelfdualKey"
   },
   {
-    "term": "self-encrypting devices / self-encrypting drives (SED)",
-    "abbrSyn": [
-      {
-        "text": "SED",
-        "link": "https://csrc.nist.gov/glossary/term/sed"
-      }
-    ],
-    "definition": "Data storage device with built-in cryptographic processing that may be utilized to encrypt and decrypt the stored data, occurring within the device and without dependence on a connected information system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/self_encrypting_devices___self_encrypting_drives",
-    "anchor": "selfencryptingdevices/selfencryptingdrives(SED)"
-  },
-  {
     "term": "self-protection",
     "definition": "The protection provided by an entity to ensure its own correct behavior and function despite adversity.",
     "organisation": "Nist",
@@ -93115,32 +93102,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sensitive_but_unclassified",
     "anchor": "SensitiveButUnclassified"
-  },
-  {
-    "term": "sensitive compartmented information (SCI)",
-    "abbrSyn": [
-      {
-        "text": "SCI",
-        "link": "https://csrc.nist.gov/glossary/term/sci"
-      }
-    ],
-    "definition": "Classified information concerning or derived from intelligence sources, methods, or analytical processes, which is required to be handled within formal access control systems established by the Director of National Intelligence.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/sensitive_compartmented_information",
-    "anchor": "sensitivecompartmentedinformation(SCI)"
-  },
-  {
-    "term": "Sensitive Compartmented Information Facility (SCIF)",
-    "abbrSyn": [
-      {
-        "text": "SCIF",
-        "link": "https://csrc.nist.gov/glossary/term/scif"
-      }
-    ],
-    "definition": "An area, room, group of rooms, buildings, or installation certified and accredited as meeting Director of National Intelligence security standards for the processing, storage, and/or discussion of sensitive compartmented information (SCI).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/sensitive_compartmented_information_facility",
-    "anchor": "SensitiveCompartmentedInformationFacility(SCIF)"
   },
   {
     "term": "sensitive information",
@@ -94132,13 +94093,6 @@
     "anchor": "SharedSituationalAwareness"
   },
   {
-    "term": "shielded enclosure",
-    "definition": "Room or container designed to attenuate electromagnetic radiation, acoustic signals, or emanations.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/shielded_enclosure",
-    "anchor": "shieldedenclosure"
-  },
-  {
     "term": "Short Integer Solution",
     "abbrSyn": [
       {
@@ -94183,13 +94137,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/short_term_key",
     "anchor": "ShortTermKey"
-  },
-  {
-    "term": "short title",
-    "definition": "Identifying combination of letters and numbers assigned to certain COMSEC materials to facilitate handling, accounting, and controlling (e.g., KAM-211, KG-175). Each item of accountable COMSEC material is assigned a short title to facilitate handling, accounting and control.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/short_title",
-    "anchor": "shorttitle"
   },
   {
     "term": "short title assignment requester (STAR)",
@@ -94533,23 +94480,6 @@
     "anchor": "Signatory"
   },
   {
-    "term": "signature",
-    "seeAlso": [
-      {
-        "text": "attack signature",
-        "link": "attack_signature"
-      },
-      {
-        "text": "digital signature",
-        "link": "digital_signature"
-      }
-    ],
-    "definition": "A recognizable, distinguishing pattern associated with an attack, such as a binary string in a virus or a particular set of keystrokes used to gain unauthorized access to a system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/signature",
-    "anchor": "signature"
-  },
-  {
     "term": "Signature and Verification Operations Parallelizing Manager",
     "abbrSyn": [
       {
@@ -94574,13 +94504,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/signature_block_header",
     "anchor": "SignatureBlockHeader"
-  },
-  {
-    "term": "signature certificate",
-    "definition": "A public key certificate that contains a public key intended for verifying digital signatures rather than authenticating, encrypting data or performing any other cryptographic functions.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/signature_certificate",
-    "anchor": "signaturecertificate"
   },
   {
     "term": "Signature generation",
@@ -94651,13 +94574,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/signed_response",
     "anchor": "SignedResponse"
-  },
-  {
-    "term": "significant consequences",
-    "definition": "Loss of life, significant responsive actions against the United States, significant damage to property, serious adverse U.S. foreign policy consequences, or serious economic impact on the United States.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/significant_consequences",
-    "anchor": "significantconsequences"
   },
   {
     "term": "significant cybersecurity or privacy responsibilities",
@@ -95081,19 +94997,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/site_recovery_manager",
     "anchor": "SiteRecoveryManager"
-  },
-  {
-    "term": "situational awareness",
-    "abbrSyn": [
-      {
-        "text": "SA",
-        "link": "https://csrc.nist.gov/glossary/term/sa"
-      }
-    ],
-    "definition": "Perception of elements in the system and/or environment and a comprehension of their meaning, which could include a projection of the future status of perceived elements and the uncertainty associated with that status.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/situational_awareness",
-    "anchor": "situationalawareness"
   },
   {
     "term": "SIVP",
@@ -96018,32 +95921,6 @@
     "anchor": "Softfork"
   },
   {
-    "term": "software",
-    "abbrSyn": [
-      {
-        "text": "firmware",
-        "link": "https://csrc.nist.gov/glossary/term/firmware"
-      },
-      {
-        "text": "hardware",
-        "link": "https://csrc.nist.gov/glossary/term/hardware"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "hardware",
-        "link": "hardware"
-      },
-      {
-        "text": "Hardware"
-      }
-    ],
-    "definition": "See hardware and software.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/software",
-    "anchor": "software"
-  },
-  {
     "term": "Software and Supply Chain Assurance",
     "abbrSyn": [
       {
@@ -96098,19 +95975,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/software_asset_management",
     "anchor": "SoftwareAssetManagement"
-  },
-  {
-    "term": "software assurance (SwA)",
-    "abbrSyn": [
-      {
-        "text": "SwA",
-        "link": "https://csrc.nist.gov/glossary/term/swa"
-      }
-    ],
-    "definition": "1. The level of confidence that software functions as intended and is free of vulnerabilities, either intentionally or unintentionally designed or inserted as part of the software throughout the lifecycle.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/software_assurance",
-    "anchor": "softwareassurance(SwA)"
   },
   {
     "term": "Software Assurance Automation Protocol",
@@ -96329,13 +96193,6 @@
     "anchor": "SoftwareIdentification"
   },
   {
-    "term": "software identification (SWID) tag",
-    "definition": "A set of structured data elements containing authoritative identification information about a software component.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/software_identification_tag",
-    "anchor": "softwareidentification(SWID)tag"
-  },
-  {
     "term": "Software Inventory Message and Attributes",
     "abbrSyn": [
       {
@@ -96406,13 +96263,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/software_supply_chain",
     "anchor": "softwaresupplychain"
-  },
-  {
-    "term": "software system test and evaluation process",
-    "definition": "Process that plans, develops, and documents the qualitative/quantitative demonstration of the fulfillment of all baseline functional performance, operational, and interface requirements.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/software_system_test_and_evaluation_process",
-    "anchor": "softwaresystemtestandevaluationprocess"
   },
   {
     "term": "Software-Defined Data Center",
@@ -96791,13 +96641,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/space_structures",
     "anchor": "spacestructures"
-  },
-  {
-    "term": "spam",
-    "definition": "Electronic junk mail or the abuse of electronic messaging systems to indiscriminately send unsolicited bulk messages.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/spam",
-    "anchor": "spam"
   },
   {
     "term": "SPAN",
