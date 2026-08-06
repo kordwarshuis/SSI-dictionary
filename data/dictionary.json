@@ -78701,7 +78701,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Individual responsible for the installation and maintenance of an information system, providing effective information system utilization, adequate security parameters, and sound implementation of established Information Assurance policy and procedures.",
+        "definition": "Individual responsible for the installation and maintenance of an information system, providing effective information system utilization, adequate security parameters, and sound implementation of established CS policy and procedures.",
         "url": "https://csrc.nist.gov/glossary/term/sa",
         "anchor": "SA"
       }
@@ -120719,7 +120719,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Person or organization having responsibility for the development, procurement, integration, modification, operation and maintenance, and/or final disposition of an information system.",
+        "definition": "Note: Examples of systems or devices are workstations, guards, firewalls, routers, web server, database server, and other infrastructure components.",
         "url": "https://csrc.nist.gov/glossary/term/program_manager",
         "anchor": "programmanager"
       }
@@ -124638,18 +124638,6 @@
     ]
   },
   {
-    "term": "special access program facility",
-    "anchor": "specialaccessprogramfacility",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A specific physical space that has been formally accredited in writing by the cognizant program security officer (PSO) that satisfies the criteria for generating, safeguarding, handling, discussing, and storing classified or unclassified program information, hardware, and materials.",
-        "url": "https://csrc.nist.gov/glossary/term/special_access_program_facility",
-        "anchor": "specialaccessprogramfacility"
-      }
-    ]
-  },
-  {
     "term": "special category",
     "anchor": "specialcategory",
     "definitions": [
@@ -124710,18 +124698,6 @@
     ]
   },
   {
-    "term": "spillage",
-    "anchor": "spillage",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Security incident that occurs whenever classified data is spilled either onto an unclassified information system or to an information system with a lower level of classification or different security category. Rationale: Spillage encompasses this term.",
-        "url": "https://csrc.nist.gov/glossary/term/spillage",
-        "anchor": "spillage"
-      }
-    ]
-  },
-  {
     "term": "split knowledge",
     "anchor": "splitknowledge",
     "definitions": [
@@ -124754,30 +124730,6 @@
         "definition": "Submits a Derived PIV Credential request on behalf of the applicant.",
         "url": "https://csrc.nist.gov/glossary/term/sponsor",
         "anchor": "sponsor"
-      }
-    ]
-  },
-  {
-    "term": "spoofing",
-    "anchor": "spoofing",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Two classes of spoofing include (1)&nbsp;<em>measurement spoofing</em>: introduces signal or signal delay that cause the target receiver to produce incorrect measurements of time of arrival or frequency of arrival or their rates of change; and (2) <i>data spoofing</i>: introduces incorrect digital data to the target receiver for its use in processing of signals and the calculation of PNT.",
-        "url": "https://csrc.nist.gov/glossary/term/spoofing",
-        "anchor": "spoofing"
-      }
-    ]
-  },
-  {
-    "term": "spread spectrum",
-    "anchor": "spreadspectrum",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Telecommunications techniques in which a signal is transmitted in a bandwidth considerably greater than the frequency content of the original information. Frequency hopping, direct sequence spreading, time scrambling, and combinations of these techniques are forms of spread spectrum.",
-        "url": "https://csrc.nist.gov/glossary/term/spread_spectrum",
-        "anchor": "spreadspectrum"
       }
     ]
   },
@@ -124986,18 +124938,6 @@
     ]
   },
   {
-    "term": "steganography",
-    "anchor": "steganography",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The art, science, and practice of communicating in a way that hides the existence of the communication.",
-        "url": "https://csrc.nist.gov/glossary/term/steganography",
-        "anchor": "steganography"
-      }
-    ]
-  },
-  {
     "term": "stream (streams, stream)",
     "anchor": "stream(streams,stream)",
     "definitions": [
@@ -125030,18 +124970,6 @@
         "definition": "Criterion expressing the minimum efforts assumed necessary to defeat the specified security behavior of an implemented security function by directly attacking its underlying security mechanisms.",
         "url": "https://csrc.nist.gov/glossary/term/strength_of_function",
         "anchor": "strengthoffunction"
-      }
-    ]
-  },
-  {
-    "term": "strength of mechanism (SoM)",
-    "anchor": "strengthofmechanism(SoM)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A scale for measuring the relative strength of a security mechanism.",
-        "url": "https://csrc.nist.gov/glossary/term/strength_of_mechanism",
-        "anchor": "strengthofmechanism(SoM)"
       }
     ]
   },
@@ -125118,18 +125046,6 @@
     ]
   },
   {
-    "term": "subassembly",
-    "anchor": "subassembly",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Two or more parts that form a portion of an assembly or a unit replaceable as a whole, but having a part or parts that are individually replaceable.",
-        "url": "https://csrc.nist.gov/glossary/term/subassembly",
-        "anchor": "subassembly"
-      }
-    ]
-  },
-  {
     "term": "subject",
     "anchor": "subject",
     "definitions": [
@@ -125162,18 +125078,6 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/subjectaltname",
         "anchor": "subjectAltName"
-      }
-    ]
-  },
-  {
-    "term": "subordinate certificate authority",
-    "anchor": "subordinatecertificateauthority",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "In a hierarchical public key infrastructure (PKI), a certificate authority (CA) whose certificate signing key is certified by another CA, and whose activities are constrained by that other CA. See superior certification authority.",
-        "url": "https://csrc.nist.gov/glossary/term/subordinate_certificate_authority",
-        "anchor": "subordinatecertificateauthority"
       }
     ]
   },
@@ -125258,18 +125162,6 @@
         "definition": "A query that sums a derived quantity from each row in a dataset with a particular property.",
         "url": "https://csrc.nist.gov/glossary/term/summation_query",
         "anchor": "summationquery"
-      }
-    ]
-  },
-  {
-    "term": "superencryption",
-    "anchor": "superencryption",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "2. An encryption operation for which the plaintext input to be transformed is the ciphertext output of a previous encryption operation.",
-        "url": "https://csrc.nist.gov/glossary/term/superencryption",
-        "anchor": "superencryption"
       }
     ]
   },
@@ -125370,18 +125262,6 @@
     ]
   },
   {
-    "term": "supply chain",
-    "anchor": "supplychain",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Linked set of resources and processes between and among multiple levels of organizations, each of which is an acquirer, that begins with the sourcing of products and services and extends through their life cycle.",
-        "url": "https://csrc.nist.gov/glossary/term/supply_chain",
-        "anchor": "supplychain"
-      }
-    ]
-  },
-  {
     "term": "supply chain assurance",
     "anchor": "supplychainassurance",
     "definitions": [
@@ -125394,18 +125274,6 @@
     ]
   },
   {
-    "term": "supply chain attack",
-    "anchor": "supplychainattack",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Attacks that allow the adversary to utilize implants or other vulnerabilities inserted prior to installation in order to infiltrate data, or manipulate information technology hardware, software, operating systems, peripherals (information technology products) or services at any point during the life cycle.",
-        "url": "https://csrc.nist.gov/glossary/term/supply_chain_attack",
-        "anchor": "supplychainattack"
-      }
-    ]
-  },
-  {
     "term": "supply chain element",
     "anchor": "supplychainelement",
     "definitions": [
@@ -125414,18 +125282,6 @@
         "definition": "Organizations, entities, or tools employed for the research and development, design, manufacturing, acquisition, delivery, integration, operations and maintenance, and/or disposal of systems and system components.",
         "url": "https://csrc.nist.gov/glossary/term/supply_chain_element",
         "anchor": "supplychainelement"
-      }
-    ]
-  },
-  {
-    "term": "supply chain risk",
-    "anchor": "supplychainrisk",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The risk that an adversary may sabotage, maliciously introduce unwanted function, or otherwise subvert the design, integrity, manufacturing, production, distribution, installation, operation, or maintenance of an item of supply or a system so as to surveil, deny, disrupt, or otherwise degrade the function, use, or operation of a system (Ref: The Ike Skelton National Defense Authorization Act for Fiscal Year 2011).",
-        "url": "https://csrc.nist.gov/glossary/term/supply_chain_risk",
-        "anchor": "supplychainrisk"
       }
     ]
   },
@@ -125454,18 +125310,6 @@
     ]
   },
   {
-    "term": "supply chain risk management (SCRM)",
-    "anchor": "supplychainriskmanagement(SCRM)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A systematic process for managing supply chain risk by identifying susceptibilities, vulnerabilities, and threats throughout the supply chain and developing mitigation strategies to combat those threats whether presented by the supplier, the supplies product and its subcomponents, or the supply chain (e.g., initial production, packaging, handling, storage, transport, mission operation, and disposal).",
-        "url": "https://csrc.nist.gov/glossary/term/supply_chain_risk_management",
-        "anchor": "supplychainriskmanagement(SCRM)"
-      }
-    ]
-  },
-  {
     "term": "supporting system (supporting systems, supporting-system)",
     "anchor": "supportingsystem(supportingsystems,supportingsystem)",
     "definitions": [
@@ -125486,18 +125330,6 @@
         "definition": "A concept relationship style that identifies how one concept can or does help achieve another concept.",
         "url": "https://csrc.nist.gov/glossary/term/supportive_relationship_mapping",
         "anchor": "supportiverelationshipmapping"
-      }
-    ]
-  },
-  {
-    "term": "suppression measure",
-    "anchor": "suppressionmeasure",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Action, procedure, modification, or device that reduces the level of, or inhibits the generation of, compromising emanations in an information system.",
-        "url": "https://csrc.nist.gov/glossary/term/suppression_measure",
-        "anchor": "suppressionmeasure"
       }
     ]
   },
@@ -125526,18 +125358,6 @@
     ]
   },
   {
-    "term": "suspension",
-    "anchor": "suspension",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The process of changing the status of a valid certificate to suspended (i.e., temporarily invalid).",
-        "url": "https://csrc.nist.gov/glossary/term/suspension",
-        "anchor": "suspension"
-      }
-    ]
-  },
-  {
     "term": "syllabary",
     "anchor": "syllabary",
     "definitions": [
@@ -125558,18 +125378,6 @@
         "definition": "Encryption algorithms using the same secret key for encryption and decryption.",
         "url": "https://csrc.nist.gov/glossary/term/symmetric_encryption_algorithm",
         "anchor": "symmetricencryptionalgorithm"
-      }
-    ]
-  },
-  {
-    "term": "symmetric key",
-    "anchor": "symmetrickey",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A cryptographic key that is used to perform both the cryptographic operation and its inverse (e.g., to encrypt, decrypt, create a message authentication code, or verify a message authentication code).",
-        "url": "https://csrc.nist.gov/glossary/term/symmetric_key",
-        "anchor": "symmetrickey"
       }
     ]
   },
@@ -125606,18 +125414,6 @@
         "definition": "The process of setting two or more clocks to the same time.",
         "url": "https://csrc.nist.gov/glossary/term/synchronization",
         "anchor": "synchronization"
-      }
-    ]
-  },
-  {
-    "term": "synchronous crypto-operation",
-    "anchor": "synchronouscryptooperation",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Method of on-line cryptographic operation in which cryptographic equipment and associated terminals have timing systems to keep them in step.",
-        "url": "https://csrc.nist.gov/glossary/term/synchronous_crypto_operation",
-        "anchor": "synchronouscryptooperation"
       }
     ]
   },
@@ -125682,18 +125478,6 @@
     ]
   },
   {
-    "term": "system administrator (SA)",
-    "anchor": "systemadministrator(SA)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Individual responsible for the installation and maintenance of an information system, providing effective information system utilization, adequate security parameters, and sound implementation of established Information Assurance policy and procedures.",
-        "url": "https://csrc.nist.gov/glossary/term/system_administrator",
-        "anchor": "systemadministrator(SA)"
-      }
-    ]
-  },
-  {
     "term": "system boundary",
     "anchor": "systemboundary",
     "definitions": [
@@ -125754,30 +125538,6 @@
     ]
   },
   {
-    "term": "system high mode",
-    "anchor": "systemhighmode",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Information systems security mode of operation wherein each user, with direct or indirect access to the information system, its peripherals, remote terminals, or remote hosts, has all of the following: 1) valid security clearance for all information within an information system; 2) formal access approval and signed nondisclosure agreements for all the information stored and/or processed (including all compartments, sub compartments and/or special access programs); and 3) valid need-to- know for some of the information contained within the information system. Rationale: system high, along with other related terms, has been listed for deletion.",
-        "url": "https://csrc.nist.gov/glossary/term/system_high_mode",
-        "anchor": "systemhighmode"
-      }
-    ]
-  },
-  {
-    "term": "system indicator",
-    "anchor": "systemindicator",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Symbol or group of symbols in an off-line encrypted message identifying the specific cryptosystem or key used in the encryption.",
-        "url": "https://csrc.nist.gov/glossary/term/system_indicator",
-        "anchor": "systemindicator"
-      }
-    ]
-  },
-  {
     "term": "system integrity",
     "anchor": "systemintegrity",
     "definitions": [
@@ -125810,18 +125570,6 @@
         "definition": "Period that begins when a system is conceived and ends when the system is no longer available for use.",
         "url": "https://csrc.nist.gov/glossary/term/system_life_cycle",
         "anchor": "systemlifecycle"
-      }
-    ]
-  },
-  {
-    "term": "system low",
-    "anchor": "systemlow",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Lowest security level supported by an information system.",
-        "url": "https://csrc.nist.gov/glossary/term/system_low",
-        "anchor": "systemlow"
       }
     ]
   },
@@ -125894,18 +125642,6 @@
         "definition": "The system or device whose name appears as the subject in a certificate.",
         "url": "https://csrc.nist.gov/glossary/term/system_or_device_certificate",
         "anchor": "systemordevicecertificate"
-      }
-    ]
-  },
-  {
-    "term": "system owner",
-    "anchor": "systemowner",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Person or organization having responsibility for the development, procurement, integration, modification, operation, and maintenance, and/or final disposition of an information system.",
-        "url": "https://csrc.nist.gov/glossary/term/system_owner",
-        "anchor": "systemowner"
       }
     ]
   },
@@ -126042,18 +125778,6 @@
     ]
   },
   {
-    "term": "system-specific security control",
-    "anchor": "systemspecificsecuritycontrol",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A security control for an information system that has not been designated as a common security control or the portion of a hybrid control that is to be implemented within an information system.",
-        "url": "https://csrc.nist.gov/glossary/term/system_specific_security_control",
-        "anchor": "systemspecificsecuritycontrol"
-      }
-    ]
-  },
-  {
     "term": "systemic bias",
     "anchor": "systemicbias",
     "definitions": [
@@ -126150,30 +125874,6 @@
     ]
   },
   {
-    "term": "tactical data",
-    "anchor": "tacticaldata",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Information that requires protection from disclosure and modification for a limited duration as determined by the originator or information owner.",
-        "url": "https://csrc.nist.gov/glossary/term/tactical_data",
-        "anchor": "tacticaldata"
-      }
-    ]
-  },
-  {
-    "term": "tactical edge",
-    "anchor": "tacticaledge",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The platforms, sites, and personnel (U. S. military, allied, coalition partners, first responders) operating at lethal risk in a battle space or crisis environment characterized by 1) a dependence on information systems and connectivity for survival and mission success, 2) high threats to the operational readiness of both information systems and connectivity, and 3) users are fully engaged, highly stressed, and dependent on the availability, integrity, and transparency of their information systems.",
-        "url": "https://csrc.nist.gov/glossary/term/tactical_edge",
-        "anchor": "tacticaledge"
-      }
-    ]
-  },
-  {
     "term": "tailored control baseline",
     "anchor": "tailoredcontrolbaseline",
     "definitions": [
@@ -126182,18 +125882,6 @@
         "definition": "A set of controls resulting from the application of tailoring guidance to a control baseline. See tailoring.",
         "url": "https://csrc.nist.gov/glossary/term/tailored_control_baseline",
         "anchor": "tailoredcontrolbaseline"
-      }
-    ]
-  },
-  {
-    "term": "tailoring",
-    "anchor": "tailoring",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The process by which xALs and specified controls are modified by considering impacts on privacy, usability, and customer experience of the user population; considering specific threats to the organization; identifying and designating common controls; scoping considerations on the applicability and implementation of specified controls; selecting any compensating controls; assigning specific values to organization-defined security control parameters; supplementing xAL controls with additional controls or control enhancements; and specifying additional information for control implementation.",
-        "url": "https://csrc.nist.gov/glossary/term/tailoring",
-        "anchor": "tailoring"
       }
     ]
   },
@@ -126246,30 +125934,6 @@
     ]
   },
   {
-    "term": "tampering",
-    "anchor": "tampering",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An intentional but unauthorized act resulting in the modification of a system, components of systems, its intended behavior, or data.",
-        "url": "https://csrc.nist.gov/glossary/term/tampering",
-        "anchor": "tampering"
-      }
-    ]
-  },
-  {
-    "term": "target of evaluation (TOE)",
-    "anchor": "targetofevaluation(TOE)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "In accordance with Common Criteria, an information system, part of a system or product, and all associated documentation, that is the subject of a security evaluation.",
-        "url": "https://csrc.nist.gov/glossary/term/target_of_evaluation",
-        "anchor": "targetofevaluation(TOE)"
-      }
-    ]
-  },
-  {
     "term": "targeted poisoning attack",
     "anchor": "targetedpoisoningattack",
     "definitions": [
@@ -126306,18 +125970,6 @@
     ]
   },
   {
-    "term": "technical community (TC)",
-    "anchor": "technicalcommunity(TC)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Government/Industry/Academia partnerships formed around major technology areas to act like a standards body for the purpose of creating and maintaining Protection Profiles.",
-        "url": "https://csrc.nist.gov/glossary/term/technical_community",
-        "anchor": "technicalcommunity(TC)"
-      }
-    ]
-  },
-  {
     "term": "technical profile",
     "anchor": "technicalprofile",
     "definitions": [
@@ -126326,18 +125978,6 @@
         "definition": "A fully conformant subset of functionality of a protocol or standard. Technical profiles are used to enhance interoperability.",
         "url": "https://csrc.nist.gov/glossary/term/technical_profile",
         "anchor": "technicalprofile"
-      }
-    ]
-  },
-  {
-    "term": "technical reference model (TRM)",
-    "anchor": "technicalreferencemodel(TRM)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A component-driven, technical framework that categorizes the standards and technologies to support and enable the delivery of service components and capabilities.",
-        "url": "https://csrc.nist.gov/glossary/term/technical_reference_model",
-        "anchor": "technicalreferencemodel(TRM)"
       }
     ]
   },
@@ -126378,18 +126018,6 @@
     ]
   },
   {
-    "term": "technical security material",
-    "anchor": "technicalsecuritymaterial",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Equipment, components, devices, and associated documentation or other media which pertain to cryptography, or to the security of telecommunications and information systems.",
-        "url": "https://csrc.nist.gov/glossary/term/technical_security_material",
-        "anchor": "technicalsecuritymaterial"
-      }
-    ]
-  },
-  {
     "term": "technical specification (technical specifications, technical-specification)",
     "anchor": "technicalspecification(technicalspecifications,technicalspecification)",
     "definitions": [
@@ -126402,18 +126030,6 @@
     ]
   },
   {
-    "term": "technical surveillance countermeasures (TSCM)",
-    "anchor": "technicalsurveillancecountermeasures(TSCM)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Techniques to detect, neutralize, and exploit technical surveillance technologies and hazards that permit the unauthorized access to or removal of information.",
-        "url": "https://csrc.nist.gov/glossary/term/technical_surveillance_countermeasures",
-        "anchor": "technicalsurveillancecountermeasures(TSCM)"
-      }
-    ]
-  },
-  {
     "term": "technical trust (technical-trust)",
     "anchor": "technicaltrust(technicaltrust)",
     "definitions": [
@@ -126422,18 +126038,6 @@
         "definition": "A level of assurance in a trust relationship that can be achieved only via technical means such as hardware, software, network protocols, and cryptography.Cryptographic trust is a specialized type of technical trust.",
         "url": "https://glossary.trustoverip.org",
         "anchor": "technicaltrust(technicaltrust)"
-      }
-    ]
-  },
-  {
-    "term": "technical vulnerability information",
-    "anchor": "technicalvulnerabilityinformation",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Detailed description of a weakness to include the implementable steps (such as code) necessary to exploit that weakness.",
-        "url": "https://csrc.nist.gov/glossary/term/technical_vulnerability_information",
-        "anchor": "technicalvulnerabilityinformation"
       }
     ]
   },
