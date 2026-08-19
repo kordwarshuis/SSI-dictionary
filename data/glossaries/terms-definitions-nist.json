@@ -102471,20 +102471,6 @@
     "anchor": "Tier0(centralfacility)(COMSEC)"
   },
   {
-    "term": "Tier 1/common tier 1 (CT1) (COMSEC)",
-    "definition": "The composite of the electronic key management system (EKMS) Common Tier 1 (CT1) systems that is a tool used by the military service central offices of record (CORs) to support their accounts and by the Civil Agency CORs requesting CT1 support. The CT1 also provides generation and distribution of many types of traditional keying material for large nets. The CT1 consists of two Primary Tier 1 sites, one Extension Tier 1 site, and other Physical Material Handling Segments (PMHS) at several service sites providing the following services: a. Common military traditional electronic keying material generation and distribution facilities. b. Common keying material ordering interface for all types of keying material required by military accounts. c. Registration Authority for U.S. military accounts. d. Ordering Privilege Manager for U.S. military accounts. e. Management for the militarys COMSEC vaults, depots, and logistics system facilities.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/tier_1_common_tier_1",
-    "anchor": "Tier1/commontier1(CT1)(COMSEC)"
-  },
-  {
-    "term": "Tier 2 (COMSEC)",
-    "definition": "The layer of the electronic key management system (EKMS) comprising COMSEC accounts and subaccounts managing keying material and other COMSEC material. Automated EKMS Tier 2s consist of a Service- or Agency-provided Local Management Device (LMD) running the Local COMSEC Management Software (LCMS), a Key Processor (KP), and a secure terminal equipment (STE) or other secure communication device(s).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/tier_2",
-    "anchor": "Tier2(COMSEC)"
-  },
-  {
     "term": "Tier 3 (COMSEC)",
     "definition": "The lowest tier or layer of electronic key management system (EKMS) architecture comprising hand-receipt holders who use an electronic fill device (e.g., the Data Transfer Device (DTD), Secure DTD2000 System (SDS), Simple Key Loader (SKL)) and all other means to issue key to End Cryptographic Units (ECUs). Tier 3 elements receive keying material from Tier 2 activities by means of electronic fill devices or in canisters (for physical keying material).",
     "organisation": "Nist",
@@ -103325,26 +103311,6 @@
     "anchor": "tradeoffanalysis"
   },
   {
-    "term": "traditional key",
-    "definition": "Term used to reference symmetric key wherein both ends of a link or all parties in a cryptonet have the same exact key. 256-bit advanced encryption standard (AES), high assurance internet protocol encryptor (HAIPE) pre-placed, and authenticated pre-placed key are examples of traditional key.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/traditional_key",
-    "anchor": "traditionalkey"
-  },
-  {
-    "term": "traffic encryption key (TEK)",
-    "abbrSyn": [
-      {
-        "text": "TEK",
-        "link": "https://csrc.nist.gov/glossary/term/tek"
-      }
-    ],
-    "definition": "Key used to encrypt plain text or to superencrypt previously encrypted text and/or to decrypt cipher text.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/traffic_encryption_key",
-    "anchor": "trafficencryptionkey(TEK)"
-  },
-  {
     "term": "Traffic Filter",
     "definition": "An entry in an access control list that is installed on the router or switch to enforce access controls on the network.",
     "organisation": "Nist",
@@ -103357,19 +103323,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/traffic_flow_confidentiality_tfc_padding",
     "anchor": "TrafficFlowConfidentiality(TFC)Padding"
-  },
-  {
-    "term": "traffic flow security (TFS)",
-    "abbrSyn": [
-      {
-        "text": "TFS",
-        "link": "https://csrc.nist.gov/glossary/term/tfs"
-      }
-    ],
-    "definition": "Techniques to counter Traffic Analysis.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/traffic_flow_security",
-    "anchor": "trafficflowsecurity(TFS)"
   },
   {
     "term": "Traffic Light Protocol",
@@ -103396,13 +103349,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/traffic_management_shell",
     "anchor": "TrafficManagementShell"
-  },
-  {
-    "term": "traffic padding",
-    "definition": "The generation of spurious instances of communication, spurious data units, and/or spurious data within data units. Note: May be used to disguise the amount of real data units being sent.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/traffic_padding",
-    "anchor": "trafficpadding"
   },
   {
     "term": "Traffic Selector for the Initiator",
@@ -103466,13 +103412,6 @@
     "anchor": "trainingstage"
   },
   {
-    "term": "tranquility",
-    "definition": "Property whereby the security level of an object cannot change while the object is being processed by an information system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/tranquility",
-    "anchor": "tranquility"
-  },
-  {
     "term": "Transaction",
     "abbrSyn": [
       {
@@ -103517,39 +103456,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/transec",
     "anchor": "TRANSEC"
-  },
-  {
-    "term": "transfer cross domain solution",
-    "seeAlso": [
-      {
-        "text": "guard (system)",
-        "link": "guard"
-      }
-    ],
-    "definition": "A type of cross domain solution (CDS) that facilitates the movement of data between information systems operating in different security domains.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/transfer_cross_domain_solution",
-    "anchor": "transfercrossdomainsolution"
-  },
-  {
-    "term": "transfer key encryption key (TrKEK)",
-    "abbrSyn": [
-      {
-        "text": "TrKEK",
-        "link": "https://csrc.nist.gov/glossary/term/trkek"
-      }
-    ],
-    "definition": "A key used to move key from a Key Processor to a data transfer device (DTD)/secure DTD2000 system (SDS)/simple key loader (SKL).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/transfer_key_encryption_key",
-    "anchor": "transferkeyencryptionkey(TrKEK)"
-  },
-  {
-    "term": "transfer of accountability",
-    "definition": "The process of transferring accountability for COMSEC material from the COMSEC account of the shipping organization to the COMSEC account of the receiving organization.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/transfer_of_accountability",
-    "anchor": "transferofaccountability"
   },
   {
     "term": "transformation",
@@ -103623,19 +103529,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/transmission_control_protocol_transport_layer_security",
     "anchor": "TransmissionControlProtocolTransportLayerSecurity"
-  },
-  {
-    "term": "transmission security",
-    "abbrSyn": [
-      {
-        "text": "TRANSEC",
-        "link": "https://csrc.nist.gov/glossary/term/transec"
-      }
-    ],
-    "definition": "Measures (security controls) applied to transmissions in order to prevent interception, disruption of reception, communications deception, and/or derivation of intelligence by analysis of transmission characteristics such as signal parameters or message externals. Note: TRANSEC is that field of COMSEC which deals with the security of communication transmissions, rather than that of the information being communicated.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/transmission_security",
-    "anchor": "transmissionsecurity"
   },
   {
     "term": "Transmitter Address",
@@ -103799,19 +103692,6 @@
     "anchor": "TransportationSecurityAdministration"
   },
   {
-    "term": "trap door",
-    "seeAlso": [
-      {
-        "text": "backdoor",
-        "link": "backdoor"
-      }
-    ],
-    "definition": "1. A means of reading cryptographically protected information by the use of private knowledge of weaknesses in the cryptographic algorithm used to protect the data. See backdoor.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/trap_door",
-    "anchor": "trapdoor"
-  },
-  {
     "term": "TRB",
     "abbrSyn": [
       {
@@ -103823,13 +103703,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/trb",
     "anchor": "TRB"
-  },
-  {
-    "term": "trigger",
-    "definition": "1) <insider threat> A set of logic statements to be applied to a data stream that produces an alert when an anomalous incident or behavior occurs",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/trigger",
-    "anchor": "trigger"
   },
   {
     "term": "Triple Data Encryption Algorithm",

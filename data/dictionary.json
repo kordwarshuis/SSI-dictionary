@@ -91710,30 +91710,6 @@
     ]
   },
   {
-    "term": "Tier 1/common tier 1 (CT1) (COMSEC)",
-    "anchor": "Tier1/commontier1(CT1)(COMSEC)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The composite of the electronic key management system (EKMS) Common Tier 1 (CT1) systems that is a tool used by the military service central offices of record (CORs) to support their accounts and by the Civil Agency CORs requesting CT1 support. The CT1 also provides generation and distribution of many types of traditional keying material for large nets. The CT1 consists of two Primary Tier 1 sites, one Extension Tier 1 site, and other Physical Material Handling Segments (PMHS) at several service sites providing the following services: a. Common military traditional electronic keying material generation and distribution facilities. b. Common keying material ordering interface for all types of keying material required by military accounts. c. Registration Authority for U.S. military accounts. d. Ordering Privilege Manager for U.S. military accounts. e. Management for the militarys COMSEC vaults, depots, and logistics system facilities.",
-        "url": "https://csrc.nist.gov/glossary/term/tier_1_common_tier_1",
-        "anchor": "Tier1/commontier1(CT1)(COMSEC)"
-      }
-    ]
-  },
-  {
-    "term": "Tier 2 (COMSEC)",
-    "anchor": "Tier2(COMSEC)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The layer of the electronic key management system (EKMS) comprising COMSEC accounts and subaccounts managing keying material and other COMSEC material. Automated EKMS Tier 2s consist of a Service- or Agency-provided Local Management Device (LMD) running the Local COMSEC Management Software (LCMS), a Key Processor (KP), and a secure terminal equipment (STE) or other secure communication device(s).",
-        "url": "https://csrc.nist.gov/glossary/term/tier_2",
-        "anchor": "Tier2(COMSEC)"
-      }
-    ]
-  },
-  {
     "term": "Tier 3 (COMSEC)",
     "anchor": "Tier3(COMSEC)",
     "definitions": [
@@ -126486,54 +126462,6 @@
     ]
   },
   {
-    "term": "traditional key",
-    "anchor": "traditionalkey",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term used to reference symmetric key wherein both ends of a link or all parties in a cryptonet have the same exact key. 256-bit advanced encryption standard (AES), high assurance internet protocol encryptor (HAIPE) pre-placed, and authenticated pre-placed key are examples of traditional key.",
-        "url": "https://csrc.nist.gov/glossary/term/traditional_key",
-        "anchor": "traditionalkey"
-      }
-    ]
-  },
-  {
-    "term": "traffic encryption key (TEK)",
-    "anchor": "trafficencryptionkey(TEK)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Key used to encrypt plain text or to superencrypt previously encrypted text and/or to decrypt cipher text.",
-        "url": "https://csrc.nist.gov/glossary/term/traffic_encryption_key",
-        "anchor": "trafficencryptionkey(TEK)"
-      }
-    ]
-  },
-  {
-    "term": "traffic flow security (TFS)",
-    "anchor": "trafficflowsecurity(TFS)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Techniques to counter Traffic Analysis.",
-        "url": "https://csrc.nist.gov/glossary/term/traffic_flow_security",
-        "anchor": "trafficflowsecurity(TFS)"
-      }
-    ]
-  },
-  {
-    "term": "traffic padding",
-    "anchor": "trafficpadding",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The generation of spurious instances of communication, spurious data units, and/or spurious data within data units. Note: May be used to disguise the amount of real data units being sent.",
-        "url": "https://csrc.nist.gov/glossary/term/traffic_padding",
-        "anchor": "trafficpadding"
-      }
-    ]
-  },
-  {
     "term": "training data control",
     "anchor": "trainingdatacontrol",
     "definitions": [
@@ -126578,18 +126506,6 @@
         "definition": "The stage of a machine learning pipeline in which a model learns parameters that minimize its error against an objective function based on training data.",
         "url": "https://csrc.nist.gov/glossary/term/training_stage",
         "anchor": "trainingstage"
-      }
-    ]
-  },
-  {
-    "term": "tranquility",
-    "anchor": "tranquility",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Property whereby the security level of an object cannot change while the object is being processed by an information system.",
-        "url": "https://csrc.nist.gov/glossary/term/tranquility",
-        "anchor": "tranquility"
       }
     ]
   },
@@ -126654,42 +126570,6 @@
     ]
   },
   {
-    "term": "transfer cross domain solution",
-    "anchor": "transfercrossdomainsolution",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A type of cross domain solution (CDS) that facilitates the movement of data between information systems operating in different security domains.",
-        "url": "https://csrc.nist.gov/glossary/term/transfer_cross_domain_solution",
-        "anchor": "transfercrossdomainsolution"
-      }
-    ]
-  },
-  {
-    "term": "transfer key encryption key (TrKEK)",
-    "anchor": "transferkeyencryptionkey(TrKEK)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A key used to move key from a Key Processor to a data transfer device (DTD)/secure DTD2000 system (SDS)/simple key loader (SKL).",
-        "url": "https://csrc.nist.gov/glossary/term/transfer_key_encryption_key",
-        "anchor": "transferkeyencryptionkey(TrKEK)"
-      }
-    ]
-  },
-  {
-    "term": "transfer of accountability",
-    "anchor": "transferofaccountability",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The process of transferring accountability for COMSEC material from the COMSEC account of the shipping organization to the COMSEC account of the receiving organization.",
-        "url": "https://csrc.nist.gov/glossary/term/transfer_of_accountability",
-        "anchor": "transferofaccountability"
-      }
-    ]
-  },
-  {
     "term": "transferable (transferable, transferable)",
     "anchor": "transferable(transferable,transferable)",
     "definitions": [
@@ -126750,18 +126630,6 @@
     ]
   },
   {
-    "term": "transmission security",
-    "anchor": "transmissionsecurity",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Measures (security controls) applied to transmissions in order to prevent interception, disruption of reception, communications deception, and/or derivation of intelligence by analysis of transmission characteristics such as signal parameters or message externals. Note: TRANSEC is that field of COMSEC which deals with the security of communication transmissions, rather than that of the information being communicated.",
-        "url": "https://csrc.nist.gov/glossary/term/transmission_security",
-        "anchor": "transmissionsecurity"
-      }
-    ]
-  },
-  {
     "term": "transparency",
     "anchor": "transparency",
     "definitions": [
@@ -126786,18 +126654,6 @@
     ]
   },
   {
-    "term": "trap door",
-    "anchor": "trapdoor",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "1. A means of reading cryptographically protected information by the use of private knowledge of weaknesses in the cryptographic algorithm used to protect the data. See backdoor.",
-        "url": "https://csrc.nist.gov/glossary/term/trap_door",
-        "anchor": "trapdoor"
-      }
-    ]
-  },
-  {
     "term": "tribal knowledge (tribal-knowledge)",
     "anchor": "tribalknowledge(tribalknowledge)",
     "definitions": [
@@ -126806,18 +126662,6 @@
         "definition": "Knowledge that is known within an in-group of people but unknown outside of it. A tribe, in this sense, is a group of people that share such a common knowledge.",
         "url": "https://glossary.trustoverip.org",
         "anchor": "tribalknowledge(tribalknowledge)"
-      }
-    ]
-  },
-  {
-    "term": "trigger",
-    "anchor": "trigger",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "1) <insider threat> A set of logic statements to be applied to a data stream that produces an alert when an anomalous incident or behavior occurs",
-        "url": "https://csrc.nist.gov/glossary/term/trigger",
-        "anchor": "trigger"
       }
     ]
   },
