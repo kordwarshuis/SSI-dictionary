@@ -104046,19 +104046,6 @@
     "anchor": "Trusted"
   },
   {
-    "term": "trusted agent (TA)",
-    "abbrSyn": [
-      {
-        "text": "TA",
-        "link": "https://csrc.nist.gov/glossary/term/ta"
-      }
-    ],
-    "definition": "1. An individual explicitly aligned with one or more registration authority (RA) officers who has been delegated the authority to perform a portion of the RA functions. A trusted agent (TA) does not have privileged access to certification authority system (CAS) components to authorize certificate issuance, certificate revocation, or key recovery.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/trusted_agent",
-    "anchor": "trustedagent(TA)"
-  },
-  {
     "term": "Trusted Application",
     "abbrSyn": [
       {
@@ -104111,13 +104098,6 @@
     "anchor": "trustedcertificate"
   },
   {
-    "term": "trusted channel",
-    "definition": "A protected communication link established between the cryptographic module and a sender or receiver (including another cryptographic module) to securely communicate and verify the validity of plaintext CSPs, keys, authentication data, and other sensitive data. Also called a secure channel.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/trusted_channel",
-    "anchor": "trustedchannel"
-  },
-  {
     "term": "Trusted compute pool",
     "abbrSyn": [
       {
@@ -104131,13 +104111,6 @@
     "anchor": "Trustedcomputepool"
   },
   {
-    "term": "trusted computer system",
-    "definition": "A system that has the necessary security functions and assurance that the security policy will be enforced and that can process a range of information sensitivities (i.e. classified, controlled unclassified information (CUI), or unclassified public information) simultaneously.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/trusted_computer_system",
-    "anchor": "trustedcomputersystem"
-  },
-  {
     "term": "Trusted Computer System Evaluation Criteria",
     "abbrSyn": [
       {
@@ -104149,19 +104122,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/trusted_computer_system_evaluation_criteria",
     "anchor": "TrustedComputerSystemEvaluationCriteria"
-  },
-  {
-    "term": "trusted computing base (TCB)",
-    "abbrSyn": [
-      {
-        "text": "TCB",
-        "link": "https://csrc.nist.gov/glossary/term/tcb"
-      }
-    ],
-    "definition": "Totality of protection mechanisms within a computer system, including hardware, firmware, and software, the combination responsible for enforcing a security policy.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/trusted_computing_base",
-    "anchor": "trustedcomputingbase(TCB)"
   },
   {
     "term": "Trusted Computing Group",
@@ -104234,13 +104194,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/trusted_firmware_a",
     "anchor": "TrustedFirmwareA"
-  },
-  {
-    "term": "trusted foundry",
-    "definition": "Facility that produces integrated circuits with a higher level of integrity assurance.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/trusted_foundry",
-    "anchor": "trustedfoundry"
   },
   {
     "term": "Trusted Identities Group",

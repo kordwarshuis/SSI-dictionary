@@ -127188,18 +127188,6 @@
     ]
   },
   {
-    "term": "trusted agent (TA)",
-    "anchor": "trustedagent(TA)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "1. An individual explicitly aligned with one or more registration authority (RA) officers who has been delegated the authority to perform a portion of the RA functions. A trusted agent (TA) does not have privileged access to certification authority system (CAS) components to authorize certificate issuance, certificate revocation, or key recovery.",
-        "url": "https://csrc.nist.gov/glossary/term/trusted_agent",
-        "anchor": "trustedagent(TA)"
-      }
-    ]
-  },
-  {
     "term": "trusted certificate",
     "anchor": "trustedcertificate",
     "definitions": [
@@ -127208,42 +127196,6 @@
         "definition": "A certificate that is trusted by the relying party on the basis of secure and authenticated delivery. The public keys included in trusted certificates are used to start certification paths. Also known as a trust anchor.",
         "url": "https://csrc.nist.gov/glossary/term/trusted_certificate",
         "anchor": "trustedcertificate"
-      }
-    ]
-  },
-  {
-    "term": "trusted channel",
-    "anchor": "trustedchannel",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A protected communication link established between the cryptographic module and a sender or receiver (including another cryptographic module) to securely communicate and verify the validity of plaintext CSPs, keys, authentication data, and other sensitive data. Also called a secure channel.",
-        "url": "https://csrc.nist.gov/glossary/term/trusted_channel",
-        "anchor": "trustedchannel"
-      }
-    ]
-  },
-  {
-    "term": "trusted computer system",
-    "anchor": "trustedcomputersystem",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A system that has the necessary security functions and assurance that the security policy will be enforced and that can process a range of information sensitivities (i.e. classified, controlled unclassified information (CUI), or unclassified public information) simultaneously.",
-        "url": "https://csrc.nist.gov/glossary/term/trusted_computer_system",
-        "anchor": "trustedcomputersystem"
-      }
-    ]
-  },
-  {
-    "term": "trusted computing base (TCB)",
-    "anchor": "trustedcomputingbase(TCB)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Totality of protection mechanisms within a computer system, including hardware, firmware, and software, the combination responsible for enforcing a security policy.",
-        "url": "https://csrc.nist.gov/glossary/term/trusted_computing_base",
-        "anchor": "trustedcomputingbase(TCB)"
       }
     ]
   },
@@ -127280,18 +127232,6 @@
         "definition": "Protected hardware/software/firmware security system. The controller may protect its key generation, key storage, and event signing infrastructure by running it inside a trusted execution environment (TEE).",
         "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
         "anchor": "trustedexecutionenvironment(trustedexecutionenvironment)"
-      }
-    ]
-  },
-  {
-    "term": "trusted foundry",
-    "anchor": "trustedfoundry",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Facility that produces integrated circuits with a higher level of integrity assurance.",
-        "url": "https://csrc.nist.gov/glossary/term/trusted_foundry",
-        "anchor": "trustedfoundry"
       }
     ]
   },
