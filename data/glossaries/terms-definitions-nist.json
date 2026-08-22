@@ -17343,13 +17343,6 @@
     "anchor": "code"
   },
   {
-    "term": "code analysis",
-    "definition": "The act of reverse-engineering the malicious program to understand the code that implements the software behavior. For example, when looking at compiled programs, the process involves using a disassembler, a debugger, and perhaps a decompiler to examine the programs low-level assembly or byte-code instructions. A disassembler converts the instructions from their binary form into the human-readable assembly form. A decompiler attempts to recreate the original source code of the program. A debugger allows the analyst to step through the code, interacting with it, and observing the effects of its instructions to understand its purpose.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/code_analysis",
-    "anchor": "codeanalysis"
-  },
-  {
     "term": "Code Division Multiple Access (CDMA)",
     "abbrSyn": [
       {
@@ -17406,13 +17399,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/code_vocabulary",
     "anchor": "codevocabulary"
-  },
-  {
-    "term": "codebook",
-    "definition": "Document containing plain text and code equivalents in a systematic arrangement, or a technique of machine encryption using a word substitution technique or algorithm that encrypts data in blocks of a specified length.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/codebook",
-    "anchor": "codebook"
   },
   {
     "term": "Codec",
@@ -17518,13 +17504,6 @@
     "anchor": "CognitivebasedApproachtoSystemSecurityAssessment"
   },
   {
-    "term": "cognizant security officer/authority",
-    "definition": "An entity charged with responsibility for physical, technical, personnel, and information security affecting that organization.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cognizant_security_officer_authority",
-    "anchor": "cognizantsecurityofficer/authority"
-  },
-  {
     "term": "COI",
     "abbrSyn": [
       {
@@ -17595,13 +17574,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/collateral_damage_potential",
     "anchor": "CollateralDamagePotential"
-  },
-  {
-    "term": "collateral information",
-    "definition": "National security information (including intelligence information) classified Top Secret, Secret, or Confidential that is not in the Sensitive Compartmented Information (SCI) or Special Access Program (SAP) category.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/collateral_information",
-    "anchor": "collateralinformation"
   },
   {
     "term": "Collecting and Communicating Audit Trails",
@@ -17814,19 +17786,6 @@
     "anchor": "CommaSeparatedValue"
   },
   {
-    "term": "commercial COMSEC evaluation program (CCEP)",
-    "abbrSyn": [
-      {
-        "text": "CCEP",
-        "link": "https://csrc.nist.gov/glossary/term/ccep"
-      }
-    ],
-    "definition": "Relationship between National Security Agency (NSA) and industry, in which NSA provides the COMSEC expertise (i.e., standards, algorithms, evaluations, and guidance) and industry provides design, development, and production capabilities to produce a NSA-approved product. Products developed under the CCEP may include modules, subsystems, equipment, systems, and ancillary devices.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/commercial_comsec_evaluation_program",
-    "anchor": "commercialCOMSECevaluationprogram(CCEP)"
-  },
-  {
     "term": "Commercial Remote Sensing Regulatory Affairs",
     "abbrSyn": [
       {
@@ -17857,19 +17816,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/commercial_solutions_for_classified",
     "anchor": "commercialsolutionsforclassified(CSfC)"
-  },
-  {
-    "term": "commercial-off-the-shelf (COTS)",
-    "abbrSyn": [
-      {
-        "text": "COTS",
-        "link": "https://csrc.nist.gov/glossary/term/cots"
-      }
-    ],
-    "definition": "Software and hardware that already exists and is available from commercial sources. It is also referred to as off-the-shelf.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/commercial_off_the_shelf",
-    "anchor": "commercialofftheshelf(COTS)"
   },
   {
     "term": "Commit-Chain",
@@ -17988,19 +17934,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/commodity_service",
     "anchor": "commodityservice"
-  },
-  {
-    "term": "common access card (CAC)",
-    "abbrSyn": [
-      {
-        "text": "CAC",
-        "link": "https://csrc.nist.gov/glossary/term/cac"
-      }
-    ],
-    "definition": "Standard identification/smart card issued by the Department of Defense (DoD) that has an embedded integrated chip storing public key infrastructure (PKI) certificates.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/common_access_card",
-    "anchor": "commonaccesscard(CAC)"
   },
   {
     "term": "Common Attack Pattern Enumeration and Classification",
@@ -18258,13 +18191,6 @@
     "anchor": "commonsecureconfiguration"
   },
   {
-    "term": "common services provider (CSP)",
-    "definition": "A federal organization that provides National Security System-Public Key Infrastructure (NSS-PKI) support to other federal organizations, academia and industrial partners requiring classified NSS-PKI support but without their own self-managed infrastructures.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/common_services_provider",
-    "anchor": "commonservicesprovider(CSP)"
-  },
-  {
     "term": "Common Tier 1",
     "abbrSyn": [
       {
@@ -18276,32 +18202,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/common_tier_1",
     "anchor": "CommonTier1"
-  },
-  {
-    "term": "common user application software (CUAS)",
-    "abbrSyn": [
-      {
-        "text": "CUAS",
-        "link": "https://csrc.nist.gov/glossary/term/cuas"
-      }
-    ],
-    "definition": "User application software developed to run on top of the local COMSEC management software (LCMS) on the local management device/key processor (LMD/KP).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/common_user_application_software",
-    "anchor": "commonuserapplicationsoftware(CUAS)"
-  },
-  {
-    "term": "common vulnerabilities and exposures (CVE)",
-    "abbrSyn": [
-      {
-        "text": "CVE",
-        "link": "https://csrc.nist.gov/glossary/term/cve"
-      }
-    ],
-    "definition": "A&nbsp;list of entries-each containing an identification number, a description, and at least one public reference-for publicly known CS vulnerabilities.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/common_vulnerabilities_and_exposures",
-    "anchor": "commonvulnerabilitiesandexposures(CVE)"
   },
   {
     "term": "Common Vulnerabilities and Exposures identifiers",
@@ -18502,19 +18402,6 @@
     "anchor": "CommunityEnterpriseOperatingSystem"
   },
   {
-    "term": "community of interest (COI)",
-    "abbrSyn": [
-      {
-        "text": "COI",
-        "link": "https://csrc.nist.gov/glossary/term/coi"
-      }
-    ],
-    "definition": "A collaborative group of users (working at the appropriate security level or levels) who exchange information in pursuit of their shared goals, interests, missions, or business processes, and must have a shared vocabulary for the information exchanged. The group exchanges information within and between systems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/community_of_interest",
-    "anchor": "communityofinterest(COI)"
-  },
-  {
     "term": "Community of Practice",
     "abbrSyn": [
       {
@@ -18526,13 +18413,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/community_of_practice",
     "anchor": "CommunityofPractice"
-  },
-  {
-    "term": "community risk",
-    "definition": "Probability that a particular vulnerability will be exploited within an interacting population and adversely impact some members of that population.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/community_risk",
-    "anchor": "communityrisk"
   },
   {
     "term": "Compact Disc Read-Only Memory",
@@ -18589,13 +18469,6 @@
     "anchor": "Comparison"
   },
   {
-    "term": "compartmentalization",
-    "definition": "A nonhierarchical grouping of information used to control access to data more finely than with hierarchical security classification alone.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/compartmentalization",
-    "anchor": "compartmentalization"
-  },
-  {
     "term": "Compatible security domains",
     "definition": "Two Security Domains are compatible if they can exchange a key and its metadata without violating (or altering) either domains FCKMS security policy.",
     "organisation": "Nist",
@@ -18635,13 +18508,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/competency_area",
     "anchor": "competencyarea"
-  },
-  {
-    "term": "competent security official",
-    "definition": "Any cognizant security authority or person designated by the cognizant security authority.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/competent_security_official",
-    "anchor": "competentsecurityofficial"
   },
   {
     "term": "Competition for Authenticated Encryption: Security, Applicability, and Robustness",
@@ -18805,31 +18671,11 @@
     "anchor": "Compromiserecovery"
   },
   {
-    "term": "compromised key list (CKL)",
-    "abbrSyn": [
-      {
-        "text": "CKL",
-        "link": "https://csrc.nist.gov/glossary/term/ckl"
-      }
-    ],
-    "definition": "The set of Key Material Identification Numbers (KMIDs) of all keys in a universal that have been reported compromised. Cryptographic devices will not establish a secure connection with equipment whose KMID is on the CKL.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/compromised_key_list",
-    "anchor": "compromisedkeylist(CKL)"
-  },
-  {
     "term": "Compromised state",
     "definition": "A lifecycle state for a key that is known or suspected of being known by an unauthorized entity.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/compromised_state",
     "anchor": "Compromisedstate"
-  },
-  {
-    "term": "compromising emanations",
-    "definition": "Unintentional signals that, if intercepted and analyzed, would disclose the information transmitted, received, handled, or otherwise processed by telecommunications or information systems equipment.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/compromising_emanations",
-    "anchor": "compromisingemanations"
   },
   {
     "term": "COMPUSEC",
@@ -19346,37 +19192,6 @@
     "anchor": "COMSECaccount"
   },
   {
-    "term": "COMSEC account audit",
-    "definition": "Inventory and reconciliation of the holdings, records, and procedures of a COMSEC account ensuring all accountable COMSEC material is properly handled and safeguarded. An audit must include an administrative review of procedures, a 100% sighting of all TOP SECRET keying material marked CRYPTO (both physical and electronic) to include hand receipt holders, and a random sampling of all other applicable material (including other keying material, classified and unclassified COMSEC equipment on hand in the account, and on hand receipt).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_account_audit",
-    "anchor": "COMSECaccountaudit"
-  },
-  {
-    "term": "COMSEC account manager",
-    "abbrSyn": [
-      {
-        "text": "COMSEC custodian",
-        "link": "https://csrc.nist.gov/glossary/term/comsec_custodian"
-      },
-      {
-        "text": "COMSEC manager",
-        "link": "https://csrc.nist.gov/glossary/term/comsec_manager"
-      }
-    ],
-    "definition": "An individual designated by proper authority to be responsible for the receipt, transfer, accountability, safeguarding, and destruction of COMSEC material assigned to a COMSEC account. This applies to both primary accounts and subaccounts. The equivalent key management infrastructure (KMI) position is the KMI operating account (KOA) manager.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_account_manager",
-    "anchor": "COMSECaccountmanager"
-  },
-  {
-    "term": "COMSEC aids",
-    "definition": "All COMSEC material other than equipment or devices, which assist in securing telecommunications and is required in the production, operation, and maintenance of COMSEC systems and their components. Some examples are: COMSEC keying material, and supporting documentation, such as operating and maintenance manuals.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_aids",
-    "anchor": "COMSECaids"
-  },
-  {
     "term": "COMSEC assembly",
     "note": "(C.F.D.)",
     "seeAlso": [
@@ -19455,7 +19270,7 @@
         "link": "https://csrc.nist.gov/glossary/term/demilitarize"
       }
     ],
-    "definition": "The act of eliminating the functional capabilities and/or inherent military design features . Methods and degree range from removal and destruction of critical features to total destruction by cutting, crushing, shredding, melting, burning, etc.",
+    "definition": "The act of eliminating the functional capabilities and/or inherent military design features [from DoD personal property]. Methods and degree range from removal and destruction of critical features to total destruction by cutting, crushing, shredding, melting, burning, etc. Note: Demilitarization is required to prevent property from being used for its originally intended purpose and to prevent the release of inherent design information that could be used against the United States. Demilitarization applies to material in both serviceable and unserviceable condition.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/comsec_demilitarization",
     "anchor": "COMSECdemilitarization"
@@ -19475,32 +19290,11 @@
     "anchor": "COMSECelement"
   },
   {
-    "term": "COMSEC emergency",
-    "definition": "A tactical operational situation, as perceived by the responsible person/officer in charge, in which the alternative to strict compliance with procedural restrictions affecting use of a COMSEC equipment would be plain text communication.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_emergency",
-    "anchor": "COMSECemergency"
-  },
-  {
-    "term": "COMSEC end-item",
-    "definition": "Equipment or combination of components ready for use in a COMSEC application.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_end_item",
-    "anchor": "COMSECenditem"
-  },
-  {
     "term": "COMSEC equipment",
     "definition": "Equipment designed to provide security to telecommunications by converting information to a form unintelligible to an unauthorized interceptor and, subsequently, by reconverting such information to its original form for authorized recipients; also, equipment designed specifically to aid in, or as an essential element of, the conversion process. COMSEC equipment includes cryptographic-equipment, crypto-ancillary equipment, cryptographic production equipment, and authentication equipment.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/comsec_equipment",
     "anchor": "COMSECequipment"
-  },
-  {
-    "term": "COMSEC facility",
-    "definition": "The space used for generating, storing, repairing, or using COMSEC material. The COMSEC material may be in either physical or electronic form. Unless otherwise noted, the term \"COMSEC facility\" refers to all types of COMSEC facilities, including telecommunications facilities, and includes platforms such as ships, aircraft, and vehicles.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_facility",
-    "anchor": "COMSECfacility"
   },
   {
     "term": "COMSEC incident",
@@ -19521,13 +19315,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/comsec_incident_monitoring_activity",
     "anchor": "COMSECIncidentMonitoringActivity"
-  },
-  {
-    "term": "COMSEC insecurity",
-    "definition": "A COMSEC incident that has been investigated, evaluated, and determined to jeopardize the security of COMSEC material or the secure transmission of information.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_insecurity",
-    "anchor": "COMSECinsecurity"
   },
   {
     "term": "COMSEC manager",
@@ -19604,13 +19391,6 @@
     "anchor": "COMSECmodule"
   },
   {
-    "term": "COMSEC monitoring",
-    "definition": "The act of listening to, copying, or recording transmissions of one's own official telecommunications to provide material for analysis in order to determine the degree of security being provided to those transmissions.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_monitoring",
-    "anchor": "COMSECmonitoring"
-  },
-  {
     "term": "COMSEC profile",
     "note": "(C.F.D.)",
     "definition": "Statement of COMSEC measures and materials used to protect a given operation, system, or organization. Rationale: No known reference for this term.",
@@ -19630,13 +19410,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/comsec_service_authority",
     "anchor": "COMSECserviceauthority"
-  },
-  {
-    "term": "COMSEC software",
-    "definition": "Includes all types of COMSEC material, except key, in electronic or physical form. This includes all classifications of unencrypted software, and all associated data used to design, create, program, or run that software. It also, includes all types of source/executable/object code and associated files that implement, execute, embody, contain, or describe cryptographic mechanisms, functions, capabilities, or requirements. COMSEC software also includes transmission security (TRANSEC) software and may include any software used for purposes of providing confidentiality, integrity, authentication, authorization, or availability services to information in electronic form.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/comsec_software",
-    "anchor": "COMSECsoftware"
   },
   {
     "term": "COMSEC survey",
@@ -19874,13 +19647,6 @@
     "anchor": "Configurable"
   },
   {
-    "term": "configuration",
-    "definition": "A collection of an item's descriptive and governing characteristics, which can be expressed in functional terms - i.e., what performance the item is expected to achieve - and in physical terms - i.e., what the item should look like and consist of when it is built. Represents the requirements, design, and implementation that define a particular version of a system or system component.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/configuration",
-    "anchor": "configuration"
-  },
-  {
     "term": "configuration baseline",
     "abbrSyn": [
       {
@@ -19891,26 +19657,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/configuration_baseline",
     "anchor": "configurationbaseline"
-  },
-  {
-    "term": "configuration control",
-    "definition": "Process for controlling modifications to hardware, firmware, software, and documentation to protect the information system against improper modifications before, during, and after system implementation.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/configuration_control",
-    "anchor": "configurationcontrol"
-  },
-  {
-    "term": "configuration control board (CCB)",
-    "abbrSyn": [
-      {
-        "text": "CCB",
-        "link": "https://csrc.nist.gov/glossary/term/ccb"
-      }
-    ],
-    "definition": "A group of qualified people with responsibility for the process of regulating and approving changes to hardware, firmware, software, and documentation throughout the development and operational life cycle of an information system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/configuration_control_board",
-    "anchor": "configurationcontrolboard(CCB)"
   },
   {
     "term": "Configuration Control Review Board",
@@ -19924,19 +19670,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/configuration_control_review_board",
     "anchor": "ConfigurationControlReviewBoard"
-  },
-  {
-    "term": "configuration item",
-    "abbrSyn": [
-      {
-        "text": "CI",
-        "link": "https://csrc.nist.gov/glossary/term/ci"
-      }
-    ],
-    "definition": "An aggregation of information system components that is designated for configuration management and treated as a single entity in the configuration management process.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/configuration_item",
-    "anchor": "configurationitem"
   },
   {
     "term": "configuration management",
@@ -19983,13 +19716,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/configuration_payload",
     "anchor": "ConfigurationPayload"
-  },
-  {
-    "term": "configuration settings",
-    "definition": "The set of parameters that can be changed in hardware, software, or firmware that affect the security posture and/or functionality of the information system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/configuration_settings",
-    "anchor": "configurationsettings"
   },
   {
     "term": "Configuration Settings Management",
@@ -20416,13 +20142,6 @@
     "anchor": "Contentproducer"
   },
   {
-    "term": "content signing certificate",
-    "definition": "A certificate issued for the purpose of digitally signing information (content) to confirm the author and guarantee that the content has not been altered or corrupted since it was signed by use of a cryptographic hash.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/content_signing_certificate",
-    "anchor": "contentsigningcertificate"
-  },
-  {
     "term": "Content Type",
     "definition": "The form of the checklist content in terms of the degree of automation and standardization. Examples include Prose, Automated, and SCAP Content.",
     "organisation": "Nist",
@@ -20458,38 +20177,6 @@
     "anchor": "ContextofUse"
   },
   {
-    "term": "contingency key",
-    "seeAlso": [
-      {
-        "text": "reserve keying material",
-        "link": "reserve_keying_material"
-      }
-    ],
-    "definition": "Key held for use under specific operational conditions or in support of specific contingency plans.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/contingency_key",
-    "anchor": "contingencykey"
-  },
-  {
-    "term": "contingency plan",
-    "abbrSyn": [
-      {
-        "text": "disaster recovery plan (DRP)",
-        "link": "https://csrc.nist.gov/glossary/term/disaster_recovery_plan"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "disaster recovery plan (DRP)",
-        "link": "disaster_recovery_plan"
-      }
-    ],
-    "definition": "2. A written plan for recovering one or more information systems at an alternate facility in response to a major hardware or software failure or destruction of facilities.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/contingency_plan",
-    "anchor": "contingencyplan"
-  },
-  {
     "term": "Contingency Planning",
     "abbrSyn": [
       {
@@ -20511,19 +20198,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/continuity",
     "anchor": "continuity"
-  },
-  {
-    "term": "continuity of government (COG)",
-    "abbrSyn": [
-      {
-        "text": "COG",
-        "link": "https://csrc.nist.gov/glossary/term/cog"
-      }
-    ],
-    "definition": "A coordinated effort within the Federal Government's executive branch to ensure that national essential functions continue to be performed during a catastrophic emergency.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/continuity_of_government",
-    "anchor": "continuityofgovernment(COG)"
   },
   {
     "term": "Continuity of Operations",
@@ -20640,45 +20314,6 @@
     "anchor": "continuousintegrationandcontinuousdeployment"
   },
   {
-    "term": "continuous monitoring",
-    "abbrSyn": [
-      {
-        "text": "automated security monitoring",
-        "link": "https://csrc.nist.gov/glossary/term/automated_security_monitoring"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "automated monitoring",
-        "link": "automated_monitoring"
-      },
-      {
-        "text": "information security continuous monitoring"
-      },
-      {
-        "text": "Information Security Continuous Monitoring"
-      },
-      {
-        "text": "risk monitoring",
-        "link": "risk_monitoring"
-      },
-      {
-        "text": "Risk Monitoring"
-      },
-      {
-        "text": "status monitoring",
-        "link": "status_monitoring"
-      },
-      {
-        "text": "Status Monitoring"
-      }
-    ],
-    "definition": "Maintaining ongoing awareness of information security, vulnerabilities, and threats to support organizational risk management decisions.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/continuous_monitoring",
-    "anchor": "continuousmonitoring"
-  },
-  {
     "term": "Continuous Monitoring as a Service",
     "abbrSyn": [
       {
@@ -20772,19 +20407,6 @@
     "anchor": "ControlandStatus"
   },
   {
-    "term": "control assessment",
-    "abbrSyn": [
-      {
-        "text": "assessment",
-        "link": "https://csrc.nist.gov/glossary/term/assessment"
-      }
-    ],
-    "definition": "An evidence-based evaluation and judgement on the nature, characteristics, quality, effectiveness, intent, impact, or capabilities of an item, organization, group, policy, activity, or person. Note: Assessments are generally informational in nature and used to support decision making and to inform formal inspections or audits. Assessments may consider information garnered from past audits, inspections, risk analyses, incident reports, intelligence collection, and other related activities, but are considered separate from these activities.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/control_assessment",
-    "anchor": "controlassessment"
-  },
-  {
     "term": "control assessment report",
     "definition": "Documentation of the results of security and privacy control assessments, including information based on assessor findings and recommendations for correcting deficiencies in the implemented controls.",
     "organisation": "Nist",
@@ -20833,19 +20455,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/control_cell",
     "anchor": "ControlCell"
-  },
-  {
-    "term": "control correlation identifier (CCI)",
-    "abbrSyn": [
-      {
-        "text": "CCI",
-        "link": "https://csrc.nist.gov/glossary/term/cci"
-      }
-    ],
-    "definition": "Decomposition of a National Institute of Standards and Technology (NIST) control into a single, actionable, measurable statement.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/control_correlation_identifier",
-    "anchor": "controlcorrelationidentifier(CCI)"
   },
   {
     "term": "control designation",
@@ -20954,13 +20563,6 @@
     "anchor": "controlled"
   },
   {
-    "term": "controlled access area",
-    "definition": "The complete building or facility area under direct physical control within which unauthorized persons are denied unrestricted access and are either escorted by authorized personnel or are under continuous physical or electronic surveillance.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/controlled_access_area",
-    "anchor": "controlledaccessarea"
-  },
-  {
     "term": "Controlled Access Program Coordination Office",
     "abbrSyn": [
       {
@@ -20988,19 +20590,6 @@
     "anchor": "controlledarea"
   },
   {
-    "term": "controlled cryptographic item (CCI)",
-    "abbrSyn": [
-      {
-        "text": "CCI",
-        "link": "https://csrc.nist.gov/glossary/term/cci"
-      }
-    ],
-    "definition": "Secure telecommunications or information system, or associated cryptographic component, that is unclassified and handled through the COMSEC material control system (CMCS), an equivalent material control system, or a combination of the two that provides accountability and visibility. Such items are marked Controlled Cryptographic Item, or, where space is limited, CCI.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/controlled_cryptographic_item",
-    "anchor": "controlledcryptographicitem(CCI)"
-  },
-  {
     "term": "controlled cryptographic item (CCI) assembly",
     "abbrSyn": [
       {
@@ -21018,32 +20607,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/controlled_cryptographic_item_assembly",
     "anchor": "controlledcryptographicitem(CCI)assembly"
-  },
-  {
-    "term": "controlled cryptographic item (CCI) component",
-    "abbrSyn": [
-      {
-        "text": "controlled cryptographic item (CCI) assembly",
-        "link": "https://csrc.nist.gov/glossary/term/controlled_cryptographic_item_assembly"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "controlled cryptographic item (CCI) assembly",
-        "link": "controlled_cryptographic_item_assembly"
-      }
-    ],
-    "definition": "A device approved by the National Security Agency (NSA) as a controlled cryptographic item, that embodies a cryptographic logic or other cryptographic design, and performs the entire COMSEC function, but is dependent upon the host equipment to operate.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/controlled_cryptographic_item_component",
-    "anchor": "controlledcryptographicitem(CCI)component"
-  },
-  {
-    "term": "controlled cryptographic item (CCI) equipment",
-    "definition": "A telecommunications or information handling equipment that embodies a CCI component or CCI assembly and performs the entire COMSEC function without dependence on host equipment to operate.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/controlled_cryptographic_item_equipment",
-    "anchor": "controlledcryptographicitem(CCI)equipment"
   },
   {
     "term": "controlled interface",
@@ -21073,33 +20636,6 @@
     "anchor": "controlledspace"
   },
   {
-    "term": "controlled unclassified information (CUI)",
-    "abbrSyn": [
-      {
-        "text": "CUI",
-        "link": "https://csrc.nist.gov/glossary/term/cui"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "classified information",
-        "link": "classified_information"
-      },
-      {
-        "text": "sensitive information",
-        "link": "sensitive_information"
-      },
-      {
-        "text": "unclassified",
-        "link": "unclassified"
-      }
-    ],
-    "definition": "Information that law, regulation, or government-wide policy requires to have safeguarding or disseminating controls, excluding information that is classified under Executive Order 13526, Classified National Security Information, December 29, 2009, or any predecessor or successor order, or the Atomic Energy Act of 1954, as amended.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/controlled_unclassified_information",
-    "anchor": "controlledunclassifiedinformation(CUI)"
-  },
-  {
     "term": "Controlled Variable",
     "definition": "The variable that the control system attempts to keep at the set point value. The set point may be constant or variable.",
     "organisation": "Nist",
@@ -21125,23 +20661,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/controller_area_network",
     "anchor": "ControllerAreaNetwork"
-  },
-  {
-    "term": "controlling authority (CONAUTH)",
-    "abbrSyn": [
-      {
-        "text": "CA",
-        "link": "https://csrc.nist.gov/glossary/term/ca"
-      },
-      {
-        "text": "CONAUTH",
-        "link": "https://csrc.nist.gov/glossary/term/conauth"
-      }
-    ],
-    "definition": "The official responsible for directing the operation of a cryptonet using traditional key and for managing the operational use and control of keying material assigned to the cryptonet.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/controlling_authority",
-    "anchor": "controllingauthority(CONAUTH)"
   },
   {
     "term": "controlling domain",
@@ -21236,25 +20755,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/coop",
     "anchor": "COOP"
-  },
-  {
-    "term": "cooperative key generation (CKG)",
-    "abbrSyn": [
-      {
-        "text": "CKG",
-        "link": "https://csrc.nist.gov/glossary/term/ckg"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "per-call key",
-        "link": "per_call_key"
-      }
-    ],
-    "definition": "Electronically exchanging functions of locally generated, random components, from which both terminals of a secure circuit construct traffic encryption key or key encryption key for use on that circuit. See per-call key.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cooperative_key_generation",
-    "anchor": "cooperativekeygeneration(CKG)"
   },
   {
     "term": "cooperative remote rekeying",
@@ -21693,13 +21193,6 @@
     "anchor": "counterfeit"
   },
   {
-    "term": "counterintelligence",
-    "definition": "Information gathered and activities conducted to identify, deceive, exploit, disrupt, or protect against espionage, other intelligence activities, sabotage, or assassinations conducted for or on behalf of foreign powers, organizations, or persons, or their agents, or international terrorist organizations or activities.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/counterintelligence",
-    "anchor": "counterintelligence"
-  },
-  {
     "term": "countermeasures",
     "abbrSyn": [
       {
@@ -21725,13 +21218,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/counting_query",
     "anchor": "countingquery"
-  },
-  {
-    "term": "courier",
-    "definition": "A duly authorized and trustworthy individual who has been officially designated to transport/carry material, and if the material is classified, is cleared to the level of material being transported.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/courier",
-    "anchor": "courier"
   },
   {
     "term": "Course of Action",
@@ -21783,38 +21269,6 @@
     "anchor": "CoverCoding"
   },
   {
-    "term": "covert channel",
-    "seeAlso": [
-      {
-        "text": "covert storage channel",
-        "link": "covert_storage_channel"
-      },
-      {
-        "text": "covert timing channel",
-        "link": "covert_timing_channel"
-      },
-      {
-        "text": "exploitable channel",
-        "link": "exploitable_channel"
-      },
-      {
-        "text": "overt channel",
-        "link": "overt_channel"
-      }
-    ],
-    "definition": "An unintended or unauthorized intra-system channel that enables two cooperating entities to transfer information in a way that violates the system's security policy but does not exceed the entities' access authorizations.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/covert_channel",
-    "anchor": "covertchannel"
-  },
-  {
-    "term": "covert channel analysis",
-    "definition": "Analysis of the ability of an insider to exfiltrate data based on the design of a security device.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/covert_channel_analysis",
-    "anchor": "covertchannelanalysis"
-  },
-  {
     "term": "covert storage channel",
     "seeAlso": [
       {
@@ -21833,19 +21287,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/covert_testing",
     "anchor": "CovertTesting"
-  },
-  {
-    "term": "covert timing channel",
-    "seeAlso": [
-      {
-        "text": "covert channel",
-        "link": "covert_channel"
-      }
-    ],
-    "definition": "Covert channel in which one process signals information to another process by modulating its own use of system resources (e.g., central processing unit time) in such a way that this manipulation affects the real response time observed by the second process.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/covert_timing_channel",
-    "anchor": "coverttimingchannel"
   },
   {
     "term": "COW",
@@ -22272,13 +21713,6 @@
     "anchor": "CREDC"
   },
   {
-    "term": "credential",
-    "definition": "Evidence attesting to ones right to credit or authority. In this Standard, it is the PIV Card or derived PIV credential associated with an individual that authoritatively binds an identity (and, optionally, additional attributes) to that individual.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/credential",
-    "anchor": "credential"
-  },
-  {
     "term": "Credential Management",
     "definition": "To manage the life cycle of entity credentials used for authentication.",
     "organisation": "Nist",
@@ -22461,13 +21895,6 @@
     "anchor": "criticalAIsystem"
   },
   {
-    "term": "critical component",
-    "definition": "A component which is or contains information and communications technology (ICT), including hardware, software, and firmware, whether custom, commercial, or otherwise developed, and which delivers or protects mission critical functionality of a system or which, because of the systems design, may introduce vulnerability to the mission critical functions of an applicable system.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/critical_component",
-    "anchor": "criticalcomponent"
-  },
-  {
     "term": "critical infrastructure",
     "abbrSyn": [
       {
@@ -22599,13 +22026,6 @@
     "anchor": "criticality"
   },
   {
-    "term": "criticality analysis",
-    "definition": "An end-to-end functional decomposition performed by systems engineers to identify mission critical functions and components. Includes identification of system missions, decomposition into the functions to perform those missions, and traceability to the hardware, software, and firmware components that implement those functions. Criticality is assessed in terms of the impact of function or component failure on the ability of the component to complete the system missions(s).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/criticality_analysis",
-    "anchor": "criticalityanalysis"
-  },
-  {
     "term": "criticality level",
     "abbrSyn": [
       {
@@ -22674,31 +22094,11 @@
     "anchor": "CrossAgencyPriority"
   },
   {
-    "term": "cross domain",
-    "abbrSyn": [
-      {
-        "text": "CD",
-        "link": "https://csrc.nist.gov/glossary/term/cd"
-      }
-    ],
-    "definition": "The act of manually and/or automatically accessing and/or transferring information between different security domains.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cross_domain",
-    "anchor": "crossdomain"
-  },
-  {
     "term": "cross domain baseline list",
     "definition": "A list managed by the unified cross domain services management office (UCDSMO) that identifies CDSs that are available for deployment within the Department of Defense (DoD) and intelligence community (IC).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cross_domain_baseline_list",
     "anchor": "crossdomainbaselinelist"
-  },
-  {
-    "term": "cross domain capabilities",
-    "definition": "The set of functions that enable the transfer of information between security domains in accordance with the policies of the security domains involved.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cross_domain_capabilities",
-    "anchor": "crossdomaincapabilities"
   },
   {
     "term": "cross domain enabled",
@@ -22968,13 +22368,6 @@
     "anchor": "CryptographicAccelerator"
   },
   {
-    "term": "cryptographic alarm",
-    "definition": "Circuit or device that detects failures or aberrations in the logic or operation of cryptographic equipment. Crypto-alarm may inhibit transmission or may provide a visible and/or audible alarm.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cryptographic_alarm",
-    "anchor": "cryptographicalarm"
-  },
-  {
     "term": "Cryptographic algorithm",
     "definition": "1. A well-defined computational procedure that takes variable inputs, including a cryptographic key, and produces an output.",
     "organisation": "Nist",
@@ -23153,17 +22546,10 @@
         "link": "https://csrc.nist.gov/glossary/term/cik"
       }
     ],
-    "definition": "Device or electronic key used to unlock the secure mode of cryptographic equipment.",
+    "definition": "A device or electronic key used to unlock the secure mode of cryptographic equipment.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cryptographic_ignition_key",
     "anchor": "CryptographicIgnitionKey"
-  },
-  {
-    "term": "cryptographic incident",
-    "definition": "Any uninvestigated or unevaluated equipment malfunction or operator or COMSEC Account Manager error that has the potential to jeopardize the cryptographic security of a machine, off-line manual cryptosystem OR any investigated or evaluated occurrence that has been determined as not jeopardizing the cryptographic security of a cryptosystem.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cryptographic_incident",
-    "anchor": "cryptographicincident"
   },
   {
     "term": "cryptographic initialization",
@@ -23345,13 +22731,6 @@
     "anchor": "Cryptographicprimitive"
   },
   {
-    "term": "cryptographic product",
-    "definition": "A cryptographic key (public, private, or shared) or public key certificate, used for encryption, decryption, digital signature, or signature verification; and other items, such as compromised key lists (CKL) and certificate revocation lists (CRL), obtained by trusted means from the same source which validate the authenticity of keys or certificates. Protected software which generates or regenerates keys or certificates may also be considered a cryptographic product.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cryptographic_product",
-    "anchor": "cryptographicproduct"
-  },
-  {
     "term": "cryptographic randomization",
     "definition": "Function that randomly determines the transmit state of a cryptographic logic.",
     "organisation": "Nist",
@@ -23472,13 +22851,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cryptology",
     "anchor": "cryptology"
-  },
-  {
-    "term": "cryptonet evaluation report",
-    "definition": "A free form message from the electronic key management system (EKMS) Tier 1 that includes the Controlling Authoritys ID and Name, Keying Material Information, Description/Cryptonet Name, Remarks, and Authorized User Information.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cryptonet_evaluation_report",
-    "anchor": "cryptonetevaluationreport"
   },
   {
     "term": "Cryptoperiod",
@@ -24427,25 +23799,11 @@
     "anchor": "CUIcategories"
   },
   {
-    "term": "CUI Executive Agent",
-    "definition": "The National Archives and Records Administration (NARA), which implements the executive branch-wide CUI Program and oversees federal agency actions to comply with Executive Order 13556. NARA has delegated this authority to the Director of the Information Security Oversight Office (ISOO).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cui_executive_agent",
-    "anchor": "CUIExecutiveAgent"
-  },
-  {
     "term": "CUI program",
     "definition": "The executive branch-wide program to standardize CUI handling by all federal agencies. The program includes the rules, organization, and procedures for CUI, established by Executive Order 13556, 32 CFR Part 2002, and the CUI Registry.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cui_program",
     "anchor": "CUIprogram"
-  },
-  {
-    "term": "CUI registry",
-    "definition": "The online repository for all information, guidance, policy, and requirements on handling CUI, including everything issued by the CUI Executive Agent other than 32 CFR Part 2002. Among other information, the CUI Registry identifies all approved CUI categories, provides general descriptions for each, identifies the basis for controls, establishes markings, and includes guidance on handling procedures.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cui_registry",
-    "anchor": "CUIregistry"
   },
   {
     "term": "Cumulative Sums Forward Test",
@@ -24896,7 +24254,7 @@
         "link": "https://csrc.nist.gov/glossary/term/cirt"
       }
     ],
-    "definition": "Group of individuals usually consisting of security analysts organized to develop, recommend, and coordinate immediate mitigation actions for containment, eradication, and recovery resulting from CS incidents.",
+    "definition": "Group of individuals usually consisting of security analysts organized to develop, recommend, and coordinate immediate mitigation actions for containment, eradication, and recovery resulting from CS incidents. Note: Also called a \"Computer Incident Response Team,\" \"Computer Security Incident Response Team (CSIRT),\" or a \"CIRC (Computer Incident Response Center or a Computer Incident Response Capability)\".",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cyber_incident_response_team",
     "anchor": "CyberIncidentResponseTeam"
@@ -25461,23 +24819,6 @@
     "anchor": "cyberspaceattack"
   },
   {
-    "term": "cyberspace operations (CO)",
-    "abbrSyn": [
-      {
-        "text": "CO",
-        "link": "https://csrc.nist.gov/glossary/term/co"
-      },
-      {
-        "text": "computer network operations (CNO)",
-        "link": "https://csrc.nist.gov/glossary/term/computer_network_operations"
-      }
-    ],
-    "definition": "The employment of cyberspace capabilities where the primary purpose is to achieve objectives in or through cyberspace.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/cyberspace_operations",
-    "anchor": "cyberspaceoperations(CO)"
-  },
-  {
     "term": "CybOX",
     "abbrSyn": [
       {
@@ -25910,13 +25251,6 @@
     "anchor": "DataActions"
   },
   {
-    "term": "data aggregation",
-    "definition": "Compilation of data that together may provide a holistic view of the data, but may also result in increased risk. The totality of the aggregated data may, for example, be classified, classified at a higher level, result in de-anonymization of entities, disclosure of sensitive (CUI) data, or benefit an adversary. The data may originate from a single source or a variety of multiple sources.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/data_aggregation",
-    "anchor": "dataaggregation"
-  },
-  {
     "term": "Data and Information Reference Model",
     "abbrSyn": [
       {
@@ -25928,13 +25262,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/data_and_information_reference_model",
     "anchor": "DataandInformationReferenceModel"
-  },
-  {
-    "term": "data asset",
-    "definition": "An information-based resource.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/data_asset",
-    "anchor": "dataasset"
   },
   {
     "term": "Data Block (Block)",
@@ -26076,13 +25403,6 @@
     "anchor": "dataflowcontrol"
   },
   {
-    "term": "data governance",
-    "definition": "A set of processes that ensures that data assets are formally managed throughout the enterprise. A data governance model establishes authority and management and decision making parameters related to the data produced or managed by the enterprise.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/data_governance",
-    "anchor": "datagovernance"
-  },
-  {
     "term": "Data Group",
     "abbrSyn": [
       {
@@ -26165,19 +25485,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/data_loss",
     "anchor": "dataloss"
-  },
-  {
-    "term": "data loss prevention",
-    "abbrSyn": [
-      {
-        "text": "DLP",
-        "link": "https://csrc.nist.gov/glossary/term/dlp"
-      }
-    ],
-    "definition": "A systems ability to identify, monitor, and protect data in use (e.g. endpoint actions), data in motion (e.g. network actions), and data at rest (e.g. data storage) through deep packet content inspection, contextual security analysis of transaction (attributes of originator, data object, medium, timing, recipient/destination, etc.), within a centralized management framework. Data loss prevention capabilities are designed to detect and prevent the unauthorized use and transmission of NSS information.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/data_loss_prevention",
-    "anchor": "datalossprevention"
   },
   {
     "term": "Data Management Officer",
@@ -26307,13 +25614,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/data_spillage",
     "anchor": "dataspillage"
-  },
-  {
-    "term": "data tag",
-    "definition": "A non-hierarchical keyword or term assigned to a piece of information which helps describe an item and allows it to be found or processed automatically.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/data_tag",
-    "anchor": "datatag"
   },
   {
     "term": "Data Transfer Device",
@@ -27034,13 +26334,6 @@
     "anchor": "decode"
   },
   {
-    "term": "decrypt",
-    "definition": "A generic term encompassing decoding and deciphering.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/decrypt",
-    "anchor": "decrypt"
-  },
-  {
     "term": "Decryption",
     "definition": "The process of transforming ciphertext into plaintext.",
     "organisation": "Nist",
@@ -27252,32 +26545,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/defense_in_depth",
     "anchor": "defenseindepth"
-  },
-  {
-    "term": "defensive cyberspace operation response action (DCO-RA)",
-    "abbrSyn": [
-      {
-        "text": "DCO-RA",
-        "link": "https://csrc.nist.gov/glossary/term/dco_ra"
-      }
-    ],
-    "definition": "Deliberate, authorized defensive measures or activities taken outside of the defended network to protect and defend Department of Defense (DoD) cyberspace capabilities or other designated systems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/defensive_cyberspace_operation_response_action",
-    "anchor": "defensivecyberspaceoperationresponseaction(DCORA)"
-  },
-  {
-    "term": "defensive cyberspace operations (DCO)",
-    "abbrSyn": [
-      {
-        "text": "DCO",
-        "link": "https://csrc.nist.gov/glossary/term/dco"
-      }
-    ],
-    "definition": "Passive and active cyberspace operations intended to preserve the ability to utilize friendly cyberspace capabilities and protect data, networks, net-centric capabilities, and other designated systems.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/defensive_cyberspace_operations",
-    "anchor": "defensivecyberspaceoperations(DCO)"
   },
   {
     "term": "Defensive Design",
@@ -28228,13 +27495,6 @@
     "anchor": "DeviceCybersecurityCapabilityCoreBaseline"
   },
   {
-    "term": "device distribution profile",
-    "definition": "An approval-based access control list (ACL) for a specific product that 1) names the user devices in a specific KMI operating account (KOA) to which primary services nodes (PRSNs) distribute the product and 2) states conditions of distribution for each device.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/device_distribution_profile",
-    "anchor": "devicedistributionprofile"
-  },
-  {
     "term": "Device Identifier",
     "definition": "A context-unique valuea value unique within a specific contextthat is associated with a device (for example, a string consisting of a network address).",
     "organisation": "Nist",
@@ -28280,13 +27540,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/device_onboarder",
     "anchor": "deviceonboarder"
-  },
-  {
-    "term": "device registration manager",
-    "definition": "The management role that is responsible for performing activities related to registering users that are devices.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/device_registration_manager",
-    "anchor": "deviceregistrationmanager"
   },
   {
     "term": "Device Role",
@@ -28947,19 +28200,6 @@
     "anchor": "DigitalFingerprint"
   },
   {
-    "term": "digital forensics",
-    "abbrSyn": [
-      {
-        "text": "computer forensics",
-        "link": "https://csrc.nist.gov/glossary/term/computer_forensics"
-      }
-    ],
-    "definition": "In its strictest connotation, the application of computer science and investigative procedures involving the examination of digital evidence - following proper search authority, chain of custody, validation with mathematics, use of validated tools, repeatability, reporting, and possibly expert testimony.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/digital_forensics",
-    "anchor": "digitalforensics"
-  },
-  {
     "term": "digital identity",
     "abbrSyn": [
       {
@@ -29237,13 +28477,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dimm",
     "anchor": "DIMM"
-  },
-  {
-    "term": "direct BLACK wireline",
-    "definition": "A BLACK metallic wireline that directly leaves the inspectable space in a continuous electrical path with no signal interruption or isolation. Continuous wirelines may be patched or spliced. Examples of wirelines that directly leave the inspectable space are analog telephone lines, commercial television cables, and alarm lines. Wirelines that do not leave the inspectable space are wirelines that pass through a digital switch or converter that reestablishes the signal level or reformats the signaling. Examples of BLACK wirelines that do not directly leave the inspectable space are telephone lines that connect to digital telephone switches, Ethernet lines that connect to digital network routers and alarm lines that connect to an alarm panel.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/direct_black_wireline",
-    "anchor": "directBLACKwireline"
   },
   {
     "term": "Direct Current",
@@ -29642,19 +28875,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/distinguishable_information",
     "anchor": "distinguishableinformation"
-  },
-  {
-    "term": "distinguished name (DN)",
-    "abbrSyn": [
-      {
-        "text": "DN",
-        "link": "https://csrc.nist.gov/glossary/term/dn"
-      }
-    ],
-    "definition": "An identifier that uniquely represents an object in the X.500 directory information tree.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/distinguished_name",
-    "anchor": "distinguishedname(DN)"
   },
   {
     "term": "distinguishing identifier",
@@ -33180,13 +32400,6 @@
     "anchor": "ElectronicCountermeasures"
   },
   {
-    "term": "electronic credentials",
-    "definition": "Digital documents used in authentication that bind an identity or an attribute to a subscriber's authenticator.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/electronic_credentials",
-    "anchor": "electroniccredentials"
-  },
-  {
     "term": "Electronic Data Interchange",
     "abbrSyn": [
       {
@@ -33205,19 +32418,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/electronic_evidence",
     "anchor": "ElectronicEvidence"
-  },
-  {
-    "term": "electronic fill device (EFD)",
-    "abbrSyn": [
-      {
-        "text": "EFD",
-        "link": "https://csrc.nist.gov/glossary/term/efd"
-      }
-    ],
-    "definition": "A COMSEC item used to transfer or store key in electronic form or to insert key into cryptographic equipment.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/electronic_fill_device",
-    "anchor": "electronicfilldevice(EFD)"
   },
   {
     "term": "Electronic Industries Alliance",
@@ -33593,19 +32793,6 @@
     "anchor": "emergence"
   },
   {
-    "term": "emergency action plan (EAP)",
-    "abbrSyn": [
-      {
-        "text": "EAP",
-        "link": "https://csrc.nist.gov/glossary/term/eap"
-      }
-    ],
-    "definition": "A plan developed to prevent loss of national intelligence; protect personnel, facilities, and communications; and recover operations damaged by terrorist attack, natural disaster, or similar events.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/emergency_action_plan",
-    "anchor": "emergencyactionplan(EAP)"
-  },
-  {
     "term": "Emergency Medical Services",
     "abbrSyn": [
       {
@@ -33689,25 +32876,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/emi",
     "anchor": "EMI"
-  },
-  {
-    "term": "emission security (EMSEC)",
-    "abbrSyn": [
-      {
-        "text": "EMSEC",
-        "link": "https://csrc.nist.gov/glossary/term/emsec"
-      }
-    ],
-    "seeAlso": [
-      {
-        "text": "TEMPEST",
-        "link": "tempest"
-      }
-    ],
-    "definition": "The component of communications security that results from all measures taken to deny unauthorized persons information of value that might be derived from intercept and analysis of compromising emanations from cryptoequipment and information systems. See TEMPEST.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/emission_security",
-    "anchor": "emissionsecurity(EMSEC)"
   },
   {
     "term": "Emissions Security",
@@ -33905,20 +33073,6 @@
     "anchor": "encipher"
   },
   {
-    "term": "enclave",
-    "definition": "A set of system resources that operate in the same security domain and that share the protection of a single, common, continuous security perimeter.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/enclave",
-    "anchor": "enclave"
-  },
-  {
-    "term": "enclave boundary",
-    "definition": "Point at which an enclaves internal network service layer connects to an external networks service layer, i.e., to another enclave or to a wide area network (WAN).",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/enclave_boundary",
-    "anchor": "enclaveboundary"
-  },
-  {
     "term": "Enclave Page Cache",
     "abbrSyn": [
       {
@@ -33932,13 +33086,6 @@
     "anchor": "EnclavePageCache"
   },
   {
-    "term": "encode",
-    "definition": "Use a system of symbols to represent information, which might originally have some other representation. Example: Morse code.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/encode",
-    "anchor": "encode"
-  },
-  {
     "term": "Encoded Message",
     "abbrSyn": [
       {
@@ -33950,19 +33097,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/encoded_message",
     "anchor": "EncodedMessage"
-  },
-  {
-    "term": "encrypt",
-    "abbrSyn": [
-      {
-        "text": "encipher",
-        "link": "https://csrc.nist.gov/glossary/term/encipher"
-      }
-    ],
-    "definition": "Cryptographically transform data to produce cipher text.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/encrypt",
-    "anchor": "encrypt"
   },
   {
     "term": "Encrypted Diversifier",
@@ -34011,19 +33145,6 @@
     "anchor": "encryption"
   },
   {
-    "term": "encryption certificate",
-    "seeAlso": [
-      {
-        "text": "certificate",
-        "link": "certificate"
-      }
-    ],
-    "definition": "A certificate containing a public key that can encrypt or decrypt electronic messages, files, documents, or data transmissions, or establish or exchange a session key for these same purposes. Key management sometimes refers to the process of storing protecting and escrowing the private component of the key pair associated with the encryption certificate.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/encryption_certificate",
-    "anchor": "encryptioncertificate"
-  },
-  {
     "term": "encryption key",
     "definition": "A cryptographic key that is used with a PKE in order to encrypt plaintexts into ciphertexts. The encryption key can be made public.",
     "organisation": "Nist",
@@ -34042,19 +33163,6 @@
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/encryption_root",
     "anchor": "EncryptionRoot"
-  },
-  {
-    "term": "end cryptographic unit (ECU)",
-    "abbrSyn": [
-      {
-        "text": "ECU",
-        "link": "https://csrc.nist.gov/glossary/term/ecu"
-      }
-    ],
-    "definition": "Device that 1) performs cryptographic functions, 2) typically is part of a larger system for which the device provides security services, and 3) from the viewpoint of a supporting security infrastructure (e.g., a key management system) is the lowest level of identifiable component with which a management transaction can be conducted.",
-    "organisation": "Nist",
-    "url": "https://csrc.nist.gov/glossary/term/end_cryptographic_unit",
-    "anchor": "endcryptographicunit(ECU)"
   },
   {
     "term": "End of File",
