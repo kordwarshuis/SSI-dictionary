@@ -109428,30 +109428,6 @@
     ]
   },
   {
-    "term": "enterprise architecture (EA)",
-    "anchor": "enterprisearchitecture(EA)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The description of an enterprises entire set of information systems: how they are configured, how they are integrated, how they interface to the external environment at the enterprises boundary, how they are operated to support the enterprise mission, and how they contribute to the enterprises overall security posture.",
-        "url": "https://csrc.nist.gov/glossary/term/enterprise_architecture",
-        "anchor": "enterprisearchitecture(EA)"
-      }
-    ]
-  },
-  {
-    "term": "enterprise cross domain services (ECDS) provider",
-    "anchor": "enterprisecrossdomainservices(ECDS)provider",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An organization that establishes, manages and maintains the overall infrastructure and security posture offering automated capabilities to users and applications within an enterprise environment for information sharing across and among security domains.",
-        "url": "https://csrc.nist.gov/glossary/term/enterprise_cross_domain_services_provider",
-        "anchor": "enterprisecrossdomainservices(ECDS)provider"
-      }
-    ]
-  },
-  {
     "term": "enterprise data vault (enterprise data vaults, enterprise-data-vault)",
     "anchor": "enterprisedatavault(enterprisedatavaults,enterprisedatavault)",
     "definitions": [
@@ -109484,30 +109460,6 @@
         "definition": "The process of identifying, prioritizing, acquiring, installing, and verifying the installation of patches, updates, and upgrades throughout an organization.",
         "url": "https://csrc.nist.gov/glossary/term/enterprise_patch_management",
         "anchor": "enterprisepatchmanagement"
-      }
-    ]
-  },
-  {
-    "term": "enterprise risk management",
-    "anchor": "enterpriseriskmanagement",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The methods and processes used by an enterprise to manage risks to its mission and to establish the trust necessary for the enterprise to support shared missions. It involves the identification of mission dependencies on enterprise capabilities, the identification and prioritization of risks due to defined threats, the implementation of countermeasures to provide both a static risk posture and an effective dynamic response to active threats; and it assesses enterprise performance against threats and adjusts countermeasures as necessary.",
-        "url": "https://csrc.nist.gov/glossary/term/enterprise_risk_management",
-        "anchor": "enterpriseriskmanagement"
-      }
-    ]
-  },
-  {
-    "term": "enterprise service",
-    "anchor": "enterpriseservice",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A set of one or more computer applications and middleware systems hosted on computer hardware that provides standard information systems capabilities to end users and hosted mission applications and services.",
-        "url": "https://csrc.nist.gov/glossary/term/enterprise_service",
-        "anchor": "enterpriseservice"
       }
     ]
   },
@@ -110040,30 +109992,6 @@
     ]
   },
   {
-    "term": "failure access",
-    "anchor": "failureaccess",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Type of incident in which unauthorized access to data results from hardware or software failure.",
-        "url": "https://csrc.nist.gov/glossary/term/failure_access",
-        "anchor": "failureaccess"
-      }
-    ]
-  },
-  {
-    "term": "failure control",
-    "anchor": "failurecontrol",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Methodology used to detect imminent hardware or software failure and provide fail safe or fail soft recovery.",
-        "url": "https://csrc.nist.gov/glossary/term/failure_control",
-        "anchor": "failurecontrol"
-      }
-    ]
-  },
-  {
     "term": "false accept rate (FAR)",
     "anchor": "falseacceptrate(FAR)",
     "definitions": [
@@ -110072,18 +110000,6 @@
         "definition": "Proportion of verification transactions with wrongful claims of identity that are incorrectly confirmed.",
         "url": "https://csrc.nist.gov/glossary/term/false_accept_rate",
         "anchor": "falseacceptrate(FAR)"
-      }
-    ]
-  },
-  {
-    "term": "false reject rate (FRR)",
-    "anchor": "falserejectrate(FRR)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Proportion of verification transactions with truthful claims of identity that are incorrectly denied.",
-        "url": "https://csrc.nist.gov/glossary/term/false_reject_rate",
-        "anchor": "falserejectrate(FRR)"
       }
     ]
   },
@@ -110132,18 +110048,6 @@
         "definition": "A set of aligned activities across the Federal Government, including identifying and engaging stakeholders, mediating, communicating, and other planning to support vulnerability disclosure.",
         "url": "https://csrc.nist.gov/glossary/term/federal_coordination",
         "anchor": "federalcoordination"
-      }
-    ]
-  },
-  {
-    "term": "federal enterprise architecture (FEA)",
-    "anchor": "federalenterprisearchitecture(FEA)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A business-based framework for governmentwide improvement developed by the Office of Management and Budget that is intended to facilitate efforts to transform the federal government to one that is citizen-centered, results-oriented, and market-based.",
-        "url": "https://csrc.nist.gov/glossary/term/federal_enterprise_architecture",
-        "anchor": "federalenterprisearchitecture(FEA)"
       }
     ]
   },
@@ -110292,18 +110196,6 @@
     ]
   },
   {
-    "term": "file protection",
-    "anchor": "fileprotection",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Aggregate of processes and procedures designed to inhibit unauthorized access, contamination, elimination, modification, or destruction of a file or any of its contents.",
-        "url": "https://csrc.nist.gov/glossary/term/file_protection",
-        "anchor": "fileprotection"
-      }
-    ]
-  },
-  {
     "term": "file sharing services",
     "anchor": "filesharingservices",
     "definitions": [
@@ -110312,18 +110204,6 @@
         "definition": "Services that include but are not limited to information sharing and access to information via web-based file sharing or storage.",
         "url": "https://csrc.nist.gov/glossary/term/file_sharing_services",
         "anchor": "filesharingservices"
-      }
-    ]
-  },
-  {
-    "term": "fill device",
-    "anchor": "filldevice",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A COMSEC item used to transfer or store key in electronic form or to insert key into cryptographic equipment. The Common Fill Devices are the KYK-13, and KYK-15. Electronic fill devices include, but are not limited to, the DTD, SKL, SDS, and RASKI.",
-        "url": "https://csrc.nist.gov/glossary/term/fill_device",
-        "anchor": "filldevice"
       }
     ]
   },
@@ -110396,18 +110276,6 @@
         "definition": "A straightforward ranking of risks in descending order from most impactful to least. Risk managers tally the total risk response costs until funding is exhausted.",
         "url": "https://csrc.nist.gov/glossary/term/fiscal_optimization",
         "anchor": "fiscaloptimization"
-      }
-    ]
-  },
-  {
-    "term": "fixed COMSEC facility",
-    "anchor": "fixedCOMSECfacility",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "COMSEC facility located in an immobile structure or aboard a ship.",
-        "url": "https://csrc.nist.gov/glossary/term/fixed_comsec_facility",
-        "anchor": "fixedCOMSECfacility"
       }
     ]
   },
