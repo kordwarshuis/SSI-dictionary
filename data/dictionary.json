@@ -47058,18 +47058,6 @@
     ]
   },
   {
-    "term": "Intermediate Certification Authority (CA)",
-    "anchor": "IntermediateCertificationAuthority(CA)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A CA that is signed by a superior CA (e.g., a Root CA or another Intermediate CA) and signs CAs (e.g., another Intermediate or Subordinate CA). The Intermediate CA exists in the middle of a trust chain between the Trust Anchor, or Root, and the subscriber certificate issuing Subordinate CAs.",
-        "url": "https://csrc.nist.gov/glossary/term/intermediate_certification_authority",
-        "anchor": "IntermediateCertificationAuthority(CA)"
-      }
-    ]
-  },
-  {
     "term": "Intermediate Link Key",
     "anchor": "IntermediateLinkKey",
     "definitions": [
@@ -110304,18 +110292,6 @@
     ]
   },
   {
-    "term": "focused observation",
-    "anchor": "focusedobservation",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The act of directed (focused) attention to a party or parties alleged to have violated Department/Agency (D/A) acceptable use' policies and agreements for NSS. The alleged violation may be caused by the aggregation of triggers indicating anomalous activity on a National Security System (NSS). The violation thresholds are arrived at by trigger events that meet established thresholds of anomalous activity or the observed violation of 'acceptable use' policies.",
-        "url": "https://csrc.nist.gov/glossary/term/focused_observation",
-        "anchor": "focusedobservation"
-      }
-    ]
-  },
-  {
     "term": "focused testing",
     "anchor": "focusedtesting",
     "definitions": [
@@ -110384,18 +110360,6 @@
         "definition": "A (ciphertext, tag) pair produced by an adversary who is not knowledgeable of the secret key and yet is accepted as valid by the verified decryption procedure.",
         "url": "https://csrc.nist.gov/glossary/term/forgery",
         "anchor": "forgery"
-      }
-    ]
-  },
-  {
-    "term": "formal method",
-    "anchor": "formalmethod",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Software engineering method used to specify, develop, and verify the software through application of a rigorous mathematically based notation and language.",
-        "url": "https://csrc.nist.gov/glossary/term/formal_method",
-        "anchor": "formalmethod"
       }
     ]
   },
@@ -110484,18 +110448,6 @@
     ]
   },
   {
-    "term": "frequency hopping",
-    "anchor": "frequencyhopping",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Repeated switching of frequencies during radio transmission according to a specified algorithm, to minimize unauthorized interception or jamming of telecommunications.",
-        "url": "https://csrc.nist.gov/glossary/term/frequency_hopping",
-        "anchor": "frequencyhopping"
-      }
-    ]
-  },
-  {
     "term": "frequency offset",
     "anchor": "frequencyoffset",
     "definitions": [
@@ -110568,18 +110520,6 @@
     ]
   },
   {
-    "term": "functional testing",
-    "anchor": "functionaltesting",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Segment of quality assurance testing in which advertised security mechanisms of an information system are tested against a specification.",
-        "url": "https://csrc.nist.gov/glossary/term/functional_testing",
-        "anchor": "functionaltesting"
-      }
-    ]
-  },
-  {
     "term": "gRPC",
     "anchor": "gRPC",
     "definitions": [
@@ -110628,18 +110568,6 @@
     ]
   },
   {
-    "term": "gateway",
-    "anchor": "gateway",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An intermediate system (interface, relay) that attaches to two (or more) computer networks that have similar functions but dissimilar implementations and that enables either one-way or two-way communication between the networks.",
-        "url": "https://csrc.nist.gov/glossary/term/gateway",
-        "anchor": "gateway"
-      }
-    ]
-  },
-  {
     "term": "gateway (gateways, gateway)",
     "anchor": "gateway(gateways,gateway)",
     "definitions": [
@@ -110660,18 +110588,6 @@
         "definition": "An abstract model of the necessary and sufficient properties that must be achieved by any mechanism that enforces a constraint.",
         "url": "https://csrc.nist.gov/glossary/term/general_reference_monitor_concept",
         "anchor": "generalreferencemonitorconcept"
-      }
-    ]
-  },
-  {
-    "term": "general support system (GSS)",
-    "anchor": "generalsupportsystem(GSS)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "An interconnected set of information resources under the same direct management control that shares common functionality. It normally includes hardware, software, information, data, applications, communications, and people.",
-        "url": "https://csrc.nist.gov/glossary/term/general_support_system",
-        "anchor": "generalsupportsystem(GSS)"
       }
     ]
   },
@@ -110952,18 +110868,6 @@
     ]
   },
   {
-    "term": "graylist",
-    "anchor": "graylist",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A list of discrete entities that have not yet been established as benign or malicious; more information is needed to move graylist items onto a whitelist or a blacklist.",
-        "url": "https://csrc.nist.gov/glossary/term/graylist",
-        "anchor": "graylist"
-      }
-    ]
-  },
-  {
     "term": "group authenticator",
     "anchor": "groupauthenticator",
     "definitions": [
@@ -111060,18 +110964,6 @@
     ]
   },
   {
-    "term": "hand receipt",
-    "anchor": "handreceipt",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A document used to record temporary transfer of COMSEC material from a COMSEC Account Manager to a user or maintenance facility and acceptance by the recipient of the responsibility for the proper storage, control, and accountability of the COMSEC material.",
-        "url": "https://csrc.nist.gov/glossary/term/hand_receipt",
-        "anchor": "handreceipt"
-      }
-    ]
-  },
-  {
     "term": "hand receipt holder",
     "anchor": "handreceiptholder",
     "definitions": [
@@ -111092,30 +110984,6 @@
         "definition": "Protocol dialogue between two systems for identifying and authenticating themselves to each other, or for synchronizing their operations with each other.",
         "url": "https://csrc.nist.gov/glossary/term/handshake",
         "anchor": "handshake"
-      }
-    ]
-  },
-  {
-    "term": "hard copy key",
-    "anchor": "hardcopykey",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Physical keying material, such as printed key lists, punched or printed key tapes, or programmable, read-only memories (PROMs).",
-        "url": "https://csrc.nist.gov/glossary/term/hard_copy_key",
-        "anchor": "hardcopykey"
-      }
-    ]
-  },
-  {
-    "term": "hardware",
-    "anchor": "hardware",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "See hardware and software.",
-        "url": "https://csrc.nist.gov/glossary/term/hardware",
-        "anchor": "hardware"
       }
     ]
   },
@@ -111317,7 +111185,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "An information system in which at least one security objective (i.e., confidentiality, integrity, or availability) is assigned a FIPS 199 potential impact value of high.",
+        "definition": "An information system in which at least one security objective (i.e., confidentiality, integrity, or availability) is assigned a FIPS 199 potential impact value of high. Note: For National Security Systems, CNSSI No. 1253 assigns one impact value (low, moderate, or high) for each of the three security objectives (confidentiality, integrity, and availability), rather than using the FIPS 200 high water mark across security objectives.",
         "url": "https://csrc.nist.gov/glossary/term/high_impact_system",
         "anchor": "highimpactsystem"
       }
@@ -111536,18 +111404,6 @@
         "definition": "Information that can be processed by a human but that is not intended to be machine-readable.",
         "url": "https://glossary.trustoverip.org",
         "anchor": "humanreadable(humanreadability,humanreadable)"
-      }
-    ]
-  },
-  {
-    "term": "hybrid control",
-    "anchor": "hybridcontrol",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A security or privacy control that is implemented for a system in part as a common control and in part as a system- specific control.",
-        "url": "https://csrc.nist.gov/glossary/term/hybrid_control",
-        "anchor": "hybridcontrol"
       }
     ]
   },
@@ -111912,18 +111768,6 @@
     ]
   },
   {
-    "term": "identity certificate",
-    "anchor": "identitycertificate",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A certificate that provides authentication of the identity claimed. Within the National Security System (NSS) public key infrastructure (PKI), identity certificates may be used only for authentication or may be used for both authentication and digital signatures.",
-        "url": "https://csrc.nist.gov/glossary/term/identity_certificate",
-        "anchor": "identitycertificate"
-      }
-    ]
-  },
-  {
     "term": "identity controller (identity-controller)",
     "anchor": "identitycontroller(identitycontroller)",
     "definitions": [
@@ -112044,18 +111888,6 @@
     ]
   },
   {
-    "term": "identity-based access control",
-    "anchor": "identitybasedaccesscontrol",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Access control based on the identity of the user (typically relayed as a characteristic of the process acting on behalf of that user) where access authorizations to specific objects are assigned based on user identity.",
-        "url": "https://csrc.nist.gov/glossary/term/identity_based_access_control",
-        "anchor": "identitybasedaccesscontrol"
-      }
-    ]
-  },
-  {
     "term": "igamc",
     "anchor": "igamc",
     "definitions": [
@@ -112100,18 +111932,6 @@
         "definition": "In the context of cybersecurity, impersonation is when an attacker pretends to be another person in order to commit fraud or some other digital crime.",
         "url": "https://glossary.trustoverip.org",
         "anchor": "impersonation(impersonate,impersonates,impersonated,impersonation)"
-      }
-    ]
-  },
-  {
-    "term": "implant",
-    "anchor": "implant",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Electronic device or electronic equipment modification designed to gain unauthorized interception of information-bearing emanations.",
-        "url": "https://csrc.nist.gov/glossary/term/implant",
-        "anchor": "implant"
       }
     ]
   },
@@ -112184,30 +112004,6 @@
         "definition": "If a reason, idea, opinion, etc. is inconsistent, different parts of it do not agree, or it does not agree with something else. Data inconsistency occurs when similar data is kept in different formats in more than one file. When this happens, it is important to match the data between files.",
         "url": "https://trustoverip.github.io/ctwg-general-glossary/index.html",
         "anchor": "inconsistency(inconsistency)"
-      }
-    ]
-  },
-  {
-    "term": "independent validation authority (IVA)",
-    "anchor": "independentvalidationauthority(IVA)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Entity that reviews the soundness of independent tests and system compliance with all stated security controls and risk mitigation actions. IVAs will be designated by the authorizing official as needed.",
-        "url": "https://csrc.nist.gov/glossary/term/independent_validation_authority",
-        "anchor": "independentvalidationauthority(IVA)"
-      }
-    ]
-  },
-  {
-    "term": "independent verification & validation (IV&V)",
-    "anchor": "independentverification&validation(IV&V)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "A comprehensive review, analysis, and testing, (software and/or hardware) performed by an objective third party to confirm (i.e., verify) that the requirements are correctly defined, and to confirm (i.e., validate) that the system correctly implements the required functionality and security requirements.",
-        "url": "https://csrc.nist.gov/glossary/term/independent_verification_and_validation",
-        "anchor": "independentverification&validation(IV&V)"
       }
     ]
   },
@@ -112296,18 +112092,6 @@
     ]
   },
   {
-    "term": "information and communications technology (ICT)",
-    "anchor": "informationandcommunicationstechnology(ICT)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Encompasses the capture, storage, retrieval, processing, display, representation, presentation, organization, management, security, transfer, and interchange of data and information.",
-        "url": "https://csrc.nist.gov/glossary/term/information_and_communications_technology",
-        "anchor": "informationandcommunicationstechnology(ICT)"
-      }
-    ]
-  },
-  {
     "term": "information assurance (IA) professional",
     "anchor": "informationassurance(IA)professional",
     "definitions": [
@@ -112388,18 +112172,6 @@
         "definition": "A document specifying protection requirements and responsibilities for information being exchanged outside of system authorization boundaries. Similar to the interconnection security agreement but does not include technical details associated with an interconnection.",
         "url": "https://csrc.nist.gov/glossary/term/information_exchange_agreement",
         "anchor": "informationexchangeagreement"
-      }
-    ]
-  },
-  {
-    "term": "information flow control",
-    "anchor": "informationflowcontrol",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Procedure to ensure that information transfers within a system do not violate the security policy.",
-        "url": "https://csrc.nist.gov/glossary/term/information_flow_control",
-        "anchor": "informationflowcontrol"
       }
     ]
   },
@@ -112604,18 +112376,6 @@
         "definition": "The risk to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the Nation due to the potential for unauthorized access, use, disclosure, disruption, modification, or destruction of information and/or information systems. See risk.",
         "url": "https://csrc.nist.gov/glossary/term/information_security_risk",
         "anchor": "informationsecurityrisk"
-      }
-    ]
-  },
-  {
-    "term": "information sharing environment (ISE)",
-    "anchor": "informationsharingenvironment(ISE)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "The people, projects, systems, and agencies that enable responsible information sharing across the national security enterprise, sharing that includes information on terrorism, homeland security, and countering weapons of mass destruction.",
-        "url": "https://csrc.nist.gov/glossary/term/information_sharing_environment",
-        "anchor": "informationsharingenvironment(ISE)"
       }
     ]
   },
@@ -112908,18 +112668,6 @@
     ]
   },
   {
-    "term": "inspectable space",
-    "anchor": "inspectablespace",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Three dimensional space surrounding equipment that processes classified and/or sensitive information within which TEMPEST exploitation is not considered practical or where legal authority to identify and remove a potential TEMPEST exploitation exists. Synonymous with zone of control.",
-        "url": "https://csrc.nist.gov/glossary/term/inspectable_space",
-        "anchor": "inspectablespace"
-      }
-    ]
-  },
-  {
     "term": "integrated circuit",
     "anchor": "integratedcircuit",
     "definitions": [
@@ -112976,30 +112724,6 @@
         "definition": "In the AML context, an AI system being forced to misperform against its intended objectives, producing outputs or predictions that align with the attackers objective.",
         "url": "https://csrc.nist.gov/glossary/term/integrity_violation",
         "anchor": "integrityviolation"
-      }
-    ]
-  },
-  {
-    "term": "intelligence",
-    "anchor": "intelligence",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "In intelligence collection, a phrase that indicates that in the satisfaction of intelligence requirements, all collection, processing, exploitation, and reporting systems and resources are identified for possible use and those most capable are tasked.",
-        "url": "https://csrc.nist.gov/glossary/term/intelligence",
-        "anchor": "intelligence"
-      }
-    ]
-  },
-  {
-    "term": "intelligence activities",
-    "anchor": "intelligenceactivities",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "All activities that agencies within the Intelligence Community are authorized to conduct pursuant to Executive Order (E.O.) 12333, United States Intelligence Activities.",
-        "url": "https://csrc.nist.gov/glossary/term/intelligence_activities",
-        "anchor": "intelligenceactivities"
       }
     ]
   },
@@ -113100,18 +112824,6 @@
     ]
   },
   {
-    "term": "interim authorization to test (IATT)",
-    "anchor": "interimauthorizationtotest(IATT)",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Temporary authorization to test an information system in a specified operational information environment within the timeframe and under the conditions or constraints enumerated in the written authorization.",
-        "url": "https://csrc.nist.gov/glossary/term/interim_authorization_to_test",
-        "anchor": "interimauthorizationtotest(IATT)"
-      }
-    ]
-  },
-  {
     "term": "intermediary system (intermediary systems, intermediary, intermediaries, intermediary-system)",
     "anchor": "intermediarysystem(intermediarysystems,intermediary,intermediaries,intermediarysystem)",
     "definitions": [
@@ -113168,18 +112880,6 @@
         "definition": "A network in which the establishment, maintenance, and provisioning of security controls are under the direct control of organizational employees or contractors or in which the cryptographic encapsulation or similar security technology implemented between organization-controlled endpoints provides the same effect (with regard to confidentiality and integrity). An internal network is typically organization-owned yet may be organization-controlled while not being organization-owned.",
         "url": "https://csrc.nist.gov/glossary/term/internal_network",
         "anchor": "internalnetwork"
-      }
-    ]
-  },
-  {
-    "term": "internal security controls",
-    "anchor": "internalsecuritycontrols",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Hardware, firmware, or software features within an information system that restrict access to resources to only authorized subjects.",
-        "url": "https://csrc.nist.gov/glossary/term/internal_security_controls",
-        "anchor": "internalsecuritycontrols"
       }
     ]
   },
