@@ -1,6 +1,7 @@
 import cleanJsonFile from '../../../modules-js-node/cleanJson.mjs';
 import downloadFile from '../../../modules-js-node/downloadFile.mjs';
 import unzipFile from '../../../modules-js-node/unzipFile.mjs';
+import { stripHtmlFromTerm } from '../../../modules-js-universal/stripHtmlFromTerm.mjs';
 import path from 'path';
 import fs from 'fs';
 import { config as configDotEnv } from 'dotenv';
@@ -47,6 +48,7 @@ function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
 
     // Assign the appropriate 'definition', add 'organisation', rename 'link' to 'url', and add 'anchor'
     const mappedTerms = candidates.map(termObj => {
+        termObj.term = stripHtmlFromTerm(termObj.term);
         if (termObj.definitions && termObj.definitions.length > 0 && termObj.definitions[0].text) {
             termObj.definition = termObj.definitions[0].text;
         } else {
@@ -60,7 +62,7 @@ function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
         delete termObj.definitions;
         termObj.anchor = termObj.term.replace(/[\s-]+/g, ''); // Remove spaces and dashes from 'term' to create 'anchor'
         return termObj;
-    });
+    }).filter(termObj => termObj.term);
 
     // Write only the mapped terms array to the file
     fs.writeFileSync(filteredJsonPath, JSON.stringify(mappedTerms, null, 4));

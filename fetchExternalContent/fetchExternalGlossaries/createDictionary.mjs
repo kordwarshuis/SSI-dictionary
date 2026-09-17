@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
 import { ensureDirectoryExists } from '../../modules-js-node/ensureDir.mjs';
+import { stripHtmlFromTerm } from '../../modules-js-universal/stripHtmlFromTerm.mjs';
 
 dotenv.config();
 
@@ -38,23 +39,26 @@ fs.readdir(directoryPathInput, (err, files) => {
             }
 
             jsonData.forEach(entry => {
+                const term = stripHtmlFromTerm(entry.term);
                 // Skip the entry if the 'term' is an empty string
-                if (entry.term === "") {
+                if (!term) {
                     return;
                 }
 
-                if (!termsMap[entry.term]) {
-                    termsMap[entry.term] = {
-                        term: entry.term,
-                        anchor: entry.anchor,
+                const anchor = stripHtmlFromTerm(entry.anchor || term).replace(/[\s-]+/g, '');
+
+                if (!termsMap[term]) {
+                    termsMap[term] = {
+                        term,
+                        anchor,
                         definitions: []
                     };
                 }
-                termsMap[entry.term].definitions.push({
+                termsMap[term].definitions.push({
                     organisation: entry.organisation,
                     definition: entry.definition,
                     url: entry.url,
-                    anchor: entry.anchor
+                    anchor
                 });
             });
 
