@@ -34,18 +34,18 @@
     "anchor": ".csv"
   },
   {
-    "term": "[<i>T</i>]<sub>2</sub>",
+    "term": "[T]_2",
     "definition": "A binary representation for the integer <i>T</i> (using an agreed-upon length and bit order).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/bracket_t_sub_2",
-    "anchor": "[<i>T</i>]<sub>2</sub>"
+    "anchor": "[T]_2"
   },
   {
-    "term": "{<i>X</i>}",
+    "term": "{X}",
     "definition": "Used to indicate that data X is an optional input to the key derivation function.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/brace_x",
-    "anchor": "{<i>X</i>}"
+    "anchor": "{X}"
   },
   {
     "term": "+",
@@ -55,182 +55,182 @@
     "anchor": "+"
   },
   {
-    "term": "<em>(n, d)</em>",
+    "term": "(n, d)",
     "definition": "RSA private key in the basic format.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/parenths_n_d",
-    "anchor": "<em>(n,d)</em>"
+    "anchor": "(n,d)"
   },
   {
-    "term": "<em>(n, e)</em>",
+    "term": "(n, e)",
     "definition": "RSA public key.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/parenths_n_e",
-    "anchor": "<em>(n,e)</em>"
+    "anchor": "(n,e)"
   },
   {
-    "term": "<em>(n, e, d, p, q, dP, dQ, qInv)</em>",
+    "term": "(n, e, d, p, q, dP, dQ, qInv)",
     "definition": "RSA private key in the Chinese Remainder Theorem (CRT) format.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/parenths_n_etc",
-    "anchor": "<em>(n,e,d,p,q,dP,dQ,qInv)</em>"
+    "anchor": "(n,e,d,p,q,dP,dQ,qInv)"
   },
   {
-    "term": "<em>(p, q, d)</em>",
+    "term": "(p, q, d)",
     "definition": "RSA private key in the prime-factor format.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/parenths_p_q_d",
-    "anchor": "<em>(p,q,d)</em>"
+    "anchor": "(p,q,d)"
   },
   {
-    "term": "<em>(r, s)</em>",
+    "term": "(r, s)",
     "definition": "Digital signature for DSA or ECDSA.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/parenths_r_s",
-    "anchor": "<em>(r,s)</em>"
+    "anchor": "(r,s)"
   },
   {
-    "term": "<em>[a, b]</em>",
+    "term": "[a, b]",
     "definition": "The set of integers x, such that a  x  b.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/bracket_a_b",
-    "anchor": "<em>[a,b]</em>"
+    "anchor": "[a,b]"
   },
   {
-    "term": "<em>[x]m</em>",
+    "term": "[x]m",
     "definition": "The binary representation of the non-negative integer x, in m bits, where x<2m.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/bracket_x_m",
-    "anchor": "<em>[x]m</em>"
+    "anchor": "[x]m"
   },
   {
-    "term": "<em>[x]s</em>",
+    "term": "[x]s",
     "definition": "The binary representation of the non-negative integer x, in s bits, where x<2s.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/bracket_x_sub_s",
-    "anchor": "<em>[x]s</em>"
+    "anchor": "[x]s"
   },
   {
-    "term": "<em>{a1, ...ai}</em>",
+    "term": "{a1, ...ai}",
     "definition": "The internal state of the DRBG at a point in time. The types and number of the ai values depends on the specific DRBG mechanism.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/brace_ai",
-    "anchor": "<em>{a1,...ai}</em>"
+    "anchor": "{a1,...ai}"
   },
   {
-    "term": "<em>{x, y}</em>",
+    "term": "{x, y}",
     "definition": "A set containing the integers x and y.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/brace_x_y",
-    "anchor": "<em>{x,y}</em>"
+    "anchor": "{x,y}"
   },
   {
-    "term": "<em>|x|</em>",
+    "term": "|x|",
     "definition": "The length of a bit string <i>X&nbsp;</i>in bits.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/absolute_x",
-    "anchor": "<em>|x|</em>"
+    "anchor": "|x|"
   },
   {
-    "term": "<em><strong>leftmost (V, a)</strong></em>",
+    "term": "leftmost (V, a)",
     "definition": "The leftmost a bits of V.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/leftmost",
-    "anchor": "<em><strong>leftmost(V,a)</strong></em>"
+    "anchor": "leftmost(V,a)"
   },
   {
-    "term": "<em><strong>len (a)</strong></em>",
+    "term": "len (a)",
     "definition": "The length in bits of string a.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/len_a",
-    "anchor": "<em><strong>len(a)</strong></em>"
+    "anchor": "len(a)"
   },
   {
-    "term": "<em><strong>min (a, b)</strong></em>",
+    "term": "min (a, b)",
     "definition": "The minimum of a and b.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/min_a_b",
-    "anchor": "<em><strong>min(a,b)</strong></em>"
+    "anchor": "min(a,b)"
   },
   {
-    "term": "<em><strong>rightmost (V, a)</strong></em>",
+    "term": "rightmost (V, a)",
     "definition": "The rightmost a bits of V.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/rightmost_bits",
-    "anchor": "<em><strong>rightmost(V,a)</strong></em>"
+    "anchor": "rightmost(V,a)"
   },
   {
-    "term": "<em><strong>select (V, a, b)</strong></em>",
+    "term": "select (V, a, b)",
     "definition": "A substring of string V consisting of bit a through bit b.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/select_v_a_b",
-    "anchor": "<em><strong>select(V,a,b)</strong></em>"
+    "anchor": "select(V,a,b)"
   },
   {
-    "term": "<em><strong>X  Y</strong></em>",
+    "term": "X  Y",
     "definition": "The product of two blocks, X and Y, regarded as elements of a certain binary Galois field.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_y_block_product",
-    "anchor": "<em><strong>XY</strong></em>"
+    "anchor": "XY"
   },
   {
-    "term": "<em><strong>xmodn</strong></em>",
+    "term": "xmodn",
     "definition": "The unique remainder r (where 0 r  n-1) when integer x is divided by n. For example, 23 mod 7 = 2.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/xmodn",
-    "anchor": "<em><strong>xmodn</strong></em>"
+    "anchor": "xmodn"
   },
   {
-    "term": "<em>2m(obs);22m(obs)</em>",
+    "term": "2m(obs);22m(obs)",
     "definition": "A measure of how well the observed values match the expected value. See Sections 2.11 and 3.11.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/matchobserved",
-    "anchor": "<em>2m(obs);22m(obs)</em>"
+    "anchor": "2m(obs);22m(obs)"
   },
   {
-    "term": "<em>0s</em>",
+    "term": "0s",
     "definition": "For a positive integer s, 0s is the string that consists of s consecutive 0 bits.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/0_power_s",
-    "anchor": "<em>0s</em>"
+    "anchor": "0s"
   },
   {
-    "term": "<em>0x</em>",
+    "term": "0x",
     "definition": "A string of x zero bits. For example, 05 = 00000.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_power_x",
-    "anchor": "<em>0x</em>"
+    "anchor": "0x"
   },
   {
-    "term": "<em>0x0X</em>",
+    "term": "0x0X",
     "definition": "8-bit binary representation of the hexadecimal number X, for example, 0x02 = 00000010.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/0x0x",
-    "anchor": "<em>0x0X</em>"
+    "anchor": "0x0X"
   },
   {
-    "term": "<em>0xab</em>",
+    "term": "0xab",
     "definition": "Hexadecimal notation that is used to define a byte (i.e., eight bits) of information, where a and b each specify four bits of information and have values from the range {0, 1, 2,F}. For example, 0xc6 is used to represent 11000110, where c is 1100, and 6 is 0110.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/0xab",
-    "anchor": "<em>0xab</em>"
+    "anchor": "0xab"
   },
   {
-    "term": "<em>a mod b</em>",
+    "term": "a mod b",
     "definition": "The modulo operation of integers a and b. a mod b returns the remainder after dividing a by b.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/a_mod_b",
-    "anchor": "<em>amodb</em>"
+    "anchor": "amodb"
   },
   {
-    "term": "<em>A(i)</em>",
+    "term": "A(i)",
     "definition": "The output of the <i>i</i><sup>th</sup> iteration in the first pipeline of a double pipeline iteration mode.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/a_parenths_i",
-    "anchor": "<em>A(i)</em>"
+    "anchor": "A(i)"
   },
   {
-    "term": "<em>A</em>",
+    "term": "A",
     "abbrSyn": [
       {
         "text": "Address",
@@ -240,143 +240,143 @@
     "definition": "The associated data string.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/a_uppercase",
-    "anchor": "<em>A</em>"
+    "anchor": "A"
   },
   {
-    "term": "<em>a</em>",
+    "term": "a",
     "definition": "The significance level.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/a_lowercase",
-    "anchor": "<em>a</em>"
+    "anchor": "a"
   },
   {
-    "term": "<em>AES(k, input)</em>",
+    "term": "AES(k, input)",
     "definition": "A single AES encryption operation as specified in [FIPS 197] with k and input being the AES encryption key and one 128-bit block of plaintext/data, respectively.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/aes_k_input",
-    "anchor": "<em>AES(k,input)</em>"
+    "anchor": "AES(k,input)"
   },
   {
-    "term": "<em>Alen</em>",
+    "term": "Alen",
     "definition": "The bit length of the associated data.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/alen",
-    "anchor": "<em>Alen</em>"
+    "anchor": "Alen"
   },
   {
-    "term": "<em>Alphabet size</em>",
+    "term": "Alphabet size",
     "definition": "The number of distinct symbols that the noise source produces.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/alphabet_size",
-    "anchor": "<em>Alphabetsize</em>"
+    "anchor": "Alphabetsize"
   },
   {
-    "term": "<em>Alphabet</em>",
+    "term": "Alphabet",
     "definition": "A finite set of two or more symbols.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/alphabet",
-    "anchor": "<em>Alphabet</em>"
+    "anchor": "Alphabet"
   },
   {
-    "term": "<em>assurance_level</em>",
+    "term": "assurance_level",
     "definition": "The level of assurance (e.g., HIGH, MEDIUM, or LOW) that a claimed signatory possesses the private signature key.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/assurance_level",
-    "anchor": "<em>assurance_level</em>"
+    "anchor": "assurance_level"
   },
   {
-    "term": "<em>b</em>",
+    "term": "b",
     "definition": "The block size, in bits.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/lower_case_b",
-    "anchor": "<em>b</em>"
+    "anchor": "b"
   },
   {
-    "term": "<em>B</em>",
+    "term": "B",
     "definition": "The bit string to be determined",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/upper_case_b",
-    "anchor": "<em>B</em>"
+    "anchor": "B"
   },
   {
-    "term": "<em>Bi</em>",
+    "term": "Bi",
     "definition": "The ith block of the formatted input.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/bi",
-    "anchor": "<em>Bi</em>"
+    "anchor": "Bi"
   },
   {
-    "term": "<em>Binary data (from a noise source)</em>",
+    "term": "Binary data (from a noise source)",
     "definition": "Digitized output from a noise source that consists of a single bit; that is, each sampled output value is represented as either 0 or 1.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/binary_data",
-    "anchor": "<em>Binarydata(fromanoisesource)</em>"
+    "anchor": "Binarydata(fromanoisesource)"
   },
   {
-    "term": "<em>bLen</em>",
+    "term": "bLen",
     "definition": "The length of the bit string B in bits",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/blen",
-    "anchor": "<em>bLen</em>"
+    "anchor": "bLen"
   },
   {
-    "term": "<em>C#j</em>",
+    "term": "C#j",
     "definition": "The jth ciphertext segment.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/c_pound_sub_i",
-    "anchor": "<em>C#j</em>"
+    "anchor": "C#j"
   },
   {
-    "term": "<em>C*n</em>",
+    "term": "C*n",
     "definition": "The last block of the ciphertext, which may be a partial block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cstarn",
-    "anchor": "<em>C*n</em>"
+    "anchor": "C*n"
   },
   {
-    "term": "<em>CIPH-1K(X)</em>",
+    "term": "CIPH-1K(X)",
     "definition": "The inverse cipher function of the block cipher algorithm under the key K applied to the data block X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ciph_1kx",
-    "anchor": "<em>CIPH1K(X)</em>"
+    "anchor": "CIPH1K(X)"
   },
   {
-    "term": "<em>CIPHK(X)</em>",
+    "term": "CIPHK(X)",
     "definition": "The forward cipher function of the block cipher algorithm under the key K applied to the data block X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ciph_kx",
-    "anchor": "<em>CIPHK(X)</em>"
+    "anchor": "CIPHK(X)"
   },
   {
-    "term": "<em>Cj</em>",
+    "term": "Cj",
     "definition": "The jth ciphertext block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cj",
-    "anchor": "<em>Cj</em>"
+    "anchor": "Cj"
   },
   {
-    "term": "<em>Clen</em>",
+    "term": "Clen",
     "definition": "The bit length of the ciphertext.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/clen",
-    "anchor": "<em>Clen</em>"
+    "anchor": "Clen"
   },
   {
-    "term": "<em>Cn</em>",
+    "term": "Cn",
     "definition": "Block of data representing the Ciphertext n",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cn_symbol",
-    "anchor": "<em>Cn</em>"
+    "anchor": "Cn"
   },
   {
-    "term": "<em>Conditioning (of noise source output)</em>",
+    "term": "Conditioning (of noise source output)",
     "definition": "A method of processing the raw data to reduce bias and/or ensure that the entropy rate of the conditioned output is no less than some specified amount.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/conditioning",
-    "anchor": "<em>Conditioning(ofnoisesourceoutput)</em>"
+    "anchor": "Conditioning(ofnoisesourceoutput)"
   },
   {
-    "term": "<em>Confidence interval</em>",
+    "term": "Confidence interval",
     "abbrSyn": [
       {
         "text": "CI",
@@ -386,45 +386,45 @@
     "definition": "An interval estimate [low, high] of a population parameter. If the population is repeatedly sampled, and confidence intervals are computed for each sample with significance level , approximately 100(1 ) % of the intervals are expected to contain the true population parameter.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/confidence_interval",
-    "anchor": "<em>Confidenceinterval</em>"
+    "anchor": "Confidenceinterval"
   },
   {
-    "term": "<em>Continuous test</em>",
+    "term": "Continuous test",
     "definition": "A type of health test performed within an entropy source on the output of its noise source in order to gain some level of assurance that the noise source is working correctly, prior to producing each output from the entropy source.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/continuous_test",
-    "anchor": "<em>Continuoustest</em>"
+    "anchor": "Continuoustest"
   },
   {
-    "term": "<em>Ctri</em>",
+    "term": "Ctri",
     "definition": "The ith counter block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ctri",
-    "anchor": "<em>Ctri</em>"
+    "anchor": "Ctri"
   },
   {
-    "term": "<em>Cumulative Distribution Function (CDF) F(x)</em>",
+    "term": "Cumulative Distribution Function (CDF) F(x)",
     "definition": "A function giving the probability that the random variable X is less than or equal to x, for every value x. That is, F(x) = P(X  x).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cumulative_distribution_function",
-    "anchor": "<em>CumulativeDistributionFunction(CDF)F(x)</em>"
+    "anchor": "CumulativeDistributionFunction(CDF)F(x)"
   },
   {
-    "term": "<em>D</em>",
+    "term": "D",
     "definition": "A payload of data that is assembled and transmitted by the message signatory, which includes (at least) the message and a digital signature, and may also include one or more timestamps.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/d_uppercase",
-    "anchor": "<em>D</em>"
+    "anchor": "D"
   },
   {
-    "term": "<em>d</em>",
+    "term": "d",
     "definition": "The normalized difference between the observed and expected number of frequency components. See Sections 2.6 and 3.6.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/d_lowercase",
-    "anchor": "<em>d</em>"
+    "anchor": "d"
   },
   {
-    "term": "<em>Dataset</em>",
+    "term": "Dataset",
     "seeAlso": [
       {
         "text": "<em>Sample</em>",
@@ -434,192 +434,192 @@
     "definition": "A collection of data.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dataset",
-    "anchor": "<em>Dataset</em>"
+    "anchor": "Dataset"
   },
   {
-    "term": "<em>Destruction</em>",
+    "term": "Destruction",
     "definition": "The process of overwriting, erasing, or physically destroying a key so that it cannot be recovered.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/destruction",
-    "anchor": "<em>Destruction</em>"
+    "anchor": "Destruction"
   },
   {
-    "term": "<em>Dictionary</em>",
+    "term": "Dictionary",
     "definition": "A dynamic-length data structure that stores a collection of elements or values, where a unique label identifies each element. The label can be any data type.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dictionary",
-    "anchor": "<em>Dictionary</em>"
+    "anchor": "Dictionary"
   },
   {
-    "term": "<em>Digitization</em>",
+    "term": "Digitization",
     "definition": "The process of generating bits from the noise source.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/digitization",
-    "anchor": "<em>Digitization</em>"
+    "anchor": "Digitization"
   },
   {
-    "term": "<em>dP</em>",
+    "term": "dP",
     "definition": "RSA private exponent for the prime factor p in the CRT format, i.e., d mod (p - 1); an integer.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dp",
-    "anchor": "<em>dP</em>"
+    "anchor": "dP"
   },
   {
-    "term": "<em>dQ</em>",
+    "term": "dQ",
     "definition": "RSA private exponent for the prime factor q in the CRT format, i.e., d mod (q - 1); an integer.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dq",
-    "anchor": "<em>dQ</em>"
+    "anchor": "dQ"
   },
   {
-    "term": "<em>E[ ]</em>",
+    "term": "E[ ]",
     "definition": "The expected value of a random variable.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/expected_value_of_random_value",
-    "anchor": "<em>E[]</em>"
+    "anchor": "E[]"
   },
   {
-    "term": "<em>e</em>",
+    "term": "e",
     "definition": "The original input string of zero and one bits to be tested.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/e",
-    "anchor": "<em>e</em>"
+    "anchor": "e"
   },
   {
-    "term": "<em>eBits</em>",
+    "term": "eBits",
     "definition": "The bit length of the RSA exponent e.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ebits",
-    "anchor": "<em>eBits</em>"
+    "anchor": "eBits"
   },
   {
-    "term": "<em>ei</em>",
+    "term": "ei",
     "definition": "The ith bit in the original sequencee.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ei",
-    "anchor": "<em>ei</em>"
+    "anchor": "ei"
   },
   {
-    "term": "<em>enc8(i)</em>",
+    "term": "enc8(i)",
     "definition": "For an integer i ranging from 0 to 255, enc8(i) is the byte encoding of i, with bit 0 being the low-order bit of the byte.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/byte_encoding_of_int",
-    "anchor": "<em>enc8(i)</em>"
+    "anchor": "enc8(i)"
   },
   {
-    "term": "<em>Entropy rate</em>",
+    "term": "Entropy rate",
     "definition": "The rate at which a digitized noise source (or entropy source) provides entropy; it is computed as the assessed amount of entropy provided by a bitstring output from the source, divided by the total number of bits in the bitstring (yielding the assessed bits of entropy per output bit). This will be a value between zero (no entropy) and one.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/entropy_rate",
-    "anchor": "<em>Entropyrate</em>"
+    "anchor": "Entropyrate"
   },
   {
-    "term": "<em>Estimate</em>",
+    "term": "Estimate",
     "definition": "The estimated value of a parameter, as computed using an estimator.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/estimate",
-    "anchor": "<em>Estimate</em>"
+    "anchor": "Estimate"
   },
   {
-    "term": "<em>Estimator</em>",
+    "term": "Estimator",
     "definition": "A technique for estimating the value of a parameter.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/estimator",
-    "anchor": "<em>Estimator</em>"
+    "anchor": "Estimator"
   },
   {
-    "term": "<em>F</em>",
+    "term": "F",
     "definition": "Standard Normal Cumulative Distribution Function (see Section 5.5.3).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/f",
-    "anchor": "<em>F</em>"
+    "anchor": "F"
   },
   {
-    "term": "<em>fn</em>",
+    "term": "fn",
     "definition": "The sum of the log2 distances between matching L-bit templates, i.e., the sum of the number of digits in the distance between L-bit templates. See Sections 2.9 and 3.9.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/f_n",
-    "anchor": "<em>fn</em>"
+    "anchor": "fn"
   },
   {
-    "term": "<em>GCD(a, b)</em>",
+    "term": "GCD(a, b)",
     "definition": "Greatest Common Divisor of two positive integers a and b. For example, GCD(12, 16) = 4.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/gcda_b",
-    "anchor": "<em>GCD(a,b)</em>"
+    "anchor": "GCD(a,b)"
   },
   {
-    "term": "<em>GCTRK (ICB, X)</em>",
+    "term": "GCTRK (ICB, X)",
     "definition": "The output of the GCTR function for a given block cipher with key K applied to the bit string X with an initial counter block ICB.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/gctrk",
-    "anchor": "<em>GCTRK(ICB,X)</em>"
+    "anchor": "GCTRK(ICB,X)"
   },
   {
-    "term": "<em>GHASHH (X)</em>",
+    "term": "GHASHH (X)",
     "definition": "The output of the GHASH function under the hash subkey H applied to the bit string X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ghash_x",
-    "anchor": "<em>GHASHH(X)</em>"
+    "anchor": "GHASHH(X)"
   },
   {
-    "term": "<em>gir</em>",
+    "term": "gir",
     "definition": "DH key exchange value, also called a DH shared secret (in IKE version 2).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/g_ir",
-    "anchor": "<em>gir</em>"
+    "anchor": "gir"
   },
   {
-    "term": "<em>Global performance metric</em>",
+    "term": "Global performance metric",
     "definition": "For a predictor, the number of accurate predictions over a long period.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/global_performance_metric",
-    "anchor": "<em>Globalperformancemetric</em>"
+    "anchor": "Globalperformancemetric"
   },
   {
-    "term": "<em>gxy</em>",
+    "term": "gxy",
     "definition": "Diffie-Hellman (DH) key exchange value, also called a DH shared secret (in IKE version 1).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/gxy",
-    "anchor": "<em>gxy</em>"
+    "anchor": "gxy"
   },
   {
-    "term": "<em>H(M)</em>",
+    "term": "H(M)",
     "definition": "A hash value that is generated on M.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/hm",
-    "anchor": "<em>H(M)</em>"
+    "anchor": "H(M)"
   },
   {
-    "term": "<em>H(x)</em>",
+    "term": "H(x)",
     "definition": "A cryptographic hash function with x as an input.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/hx",
-    "anchor": "<em>H(x)</em>"
+    "anchor": "H(x)"
   },
   {
-    "term": "<em>h</em>",
+    "term": "h",
     "definition": "An ECC domain parameter; the cofactor, a positive integer that is equal to the order of the elliptic curve group, divided by the order of the cyclic subgroup generated by the distinguished point G. That is, nh is the order of the elliptic curve, where n is the order of the cyclic subgroup generated by the distinguished point G.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/lower_case_h",
-    "anchor": "<em>h</em>"
+    "anchor": "h"
   },
   {
-    "term": "<em>H</em>",
+    "term": "H",
     "definition": "The hash subkey.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/upper_case_h",
-    "anchor": "<em>H</em>"
+    "anchor": "H"
   },
   {
-    "term": "<em>H0</em>",
+    "term": "H0",
     "definition": "The null hypothesis; i.e., the statement that the sequence is random.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/h_0",
-    "anchor": "<em>H0</em>"
+    "anchor": "H0"
   },
   {
-    "term": "<em>HMAC-hash</em>",
+    "term": "HMAC-hash",
     "abbrSyn": [
       {
         "text": "Keyed-Hash Message Authentication Code",
@@ -629,402 +629,402 @@
     "definition": "The HMAC algorithm using the hash function, HASH (e.g., HASHcould be SHA-1). See FIPS 198-1 for the specification of the HMAC algorithm using one of the approved hash functions.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/hmac_hash",
-    "anchor": "<em>HMAChash</em>"
+    "anchor": "HMAChash"
   },
   {
-    "term": "<em>i</em>",
+    "term": "i",
     "definition": "A counter taking integer values in the interval [1, 2<i><sup>r</sup></i>-1] that is encoded as a bit string of length <i>r</i>; used as an input to each invocation of a PRF in the counter mode and (optionally) in the feedback and double-pipeline iteration modes.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/i",
-    "anchor": "<em>i</em>"
+    "anchor": "i"
   },
   {
-    "term": "<em>ICV1</em>",
+    "term": "ICV1",
     "definition": "The 64-bit default ICV for KW:0xA6A6A6A6A6A6A6A6.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/icv1",
-    "anchor": "<em>ICV1</em>"
+    "anchor": "ICV1"
   },
   {
-    "term": "<em>ICV2</em>",
+    "term": "ICV2",
     "definition": "The 32-bit default ICV for KWP:0xA65959A6.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/icv2",
-    "anchor": "<em>ICV2</em>"
+    "anchor": "ICV2"
   },
   {
-    "term": "<em>ICV3</em>",
+    "term": "ICV3",
     "definition": "The 32-bit default ICV for TKW:0xA6A6A6A6.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/icv3",
-    "anchor": "<em>ICV3</em>"
+    "anchor": "ICV3"
   },
   {
-    "term": "<em>IDP, IDR, IDU, IDV</em>",
+    "term": "IDP, IDR, IDU, IDV",
     "definition": "Identifier bit strings for parties P, R, U, and V, respectively.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/idp_idr_idu_idv",
-    "anchor": "<em>IDP,IDR,IDU,IDV</em>"
+    "anchor": "IDP,IDR,IDU,IDV"
   },
   {
-    "term": "<em>Ij</em>",
+    "term": "Ij",
     "definition": "The jth input block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/i_j",
-    "anchor": "<em>Ij</em>"
+    "anchor": "Ij"
   },
   {
-    "term": "<em>In</em>",
+    "term": "In",
     "definition": "Block of data representing the Input Block n",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/input_block_n",
-    "anchor": "<em>In</em>"
+    "anchor": "In"
   },
   {
-    "term": "<em>incs(X)</em>",
+    "term": "incs(X)",
     "definition": "The output of incrementing the right-most s bits of the bit string X, regarded as the binary representation of an integer, by 1 modulo 2s.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/output_increment_s_bits",
-    "anchor": "<em>incs(X)</em>"
+    "anchor": "incs(X)"
   },
   {
-    "term": "<em>Independent</em>",
+    "term": "Independent",
     "definition": "Two random variables X and Y are independent if they do not convey information about each other. Receiving information about X does not change the assessment of the probability distribution of Y (and vice versa).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/independent",
-    "anchor": "<em>Independent</em>"
+    "anchor": "Independent"
   },
   {
-    "term": "<em>int(X)</em>",
+    "term": "int(X)",
     "definition": "The integer for which the bit string X is a binary representation. len(X) The bit length of the bit string X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/int_x",
-    "anchor": "<em>int(X)</em>"
+    "anchor": "int(X)"
   },
   {
-    "term": "<em>j</em>",
+    "term": "j",
     "definition": "The index to a sequence of data blocks or data segments ordered from left to right.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/j",
-    "anchor": "<em>j</em>"
+    "anchor": "j"
   },
   {
-    "term": "<em>K1</em>",
+    "term": "K1",
     "definition": "The first subkey.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/k1",
-    "anchor": "<em>K1</em>"
+    "anchor": "K1"
   },
   {
-    "term": "<em>K2</em>",
+    "term": "K2",
     "definition": "The second subkey.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/k2",
-    "anchor": "<em>K2</em>"
+    "anchor": "K2"
   },
   {
-    "term": "<em>Key management product</em>",
+    "term": "Key management product",
     "definition": "A key management product is a cryptographic key (symmetric or asymmetric) or certificate used for encryption, decryption, digital signature, or signature verification; and other items, such as certificate revocation lists and compromised key lists, obtained by trusted means from the same source, which validate the authenticity of keys or certificates. Software that performs either a security or cryptographic function (e.g., keying material accounting and control, random number generation, cryptographic module verification) is also considered to be a cryptographic product.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/key_management_product",
-    "anchor": "<em>Keymanagementproduct</em>"
+    "anchor": "Keymanagementproduct"
   },
   {
-    "term": "<em>Key specification</em>",
+    "term": "Key specification",
     "definition": "A key specification documents the data format, encryption algorithms, hashing algorithms, signature algorithms, physical media, and data constraints for keys required by a cryptographic device and/or application.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/key_specification",
-    "anchor": "<em>Keyspecification</em>"
+    "anchor": "Keyspecification"
   },
   {
-    "term": "<em>Key1</em>",
+    "term": "Key1",
     "definition": "The first component of a TDEA key.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/key1",
-    "anchor": "<em>Key1</em>"
+    "anchor": "Key1"
   },
   {
-    "term": "<em>Key2</em>",
+    "term": "Key2",
     "definition": "The second component of a TDEA key.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/key2",
-    "anchor": "<em>Key2</em>"
+    "anchor": "Key2"
   },
   {
-    "term": "<em>Key3</em>",
+    "term": "Key3",
     "definition": "The third component of a TDEA key.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/key3",
-    "anchor": "<em>Key3</em>"
+    "anchor": "Key3"
   },
   {
-    "term": "<em>KeyData</em>",
+    "term": "KeyData",
     "definition": "Keying material other than that which is used for the MacKey employed in key confirmation.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/keydata",
-    "anchor": "<em>KeyData</em>"
+    "anchor": "KeyData"
   },
   {
-    "term": "<em>KEYn</em>",
+    "term": "KEYn",
     "definition": "Block of data representing KEY n",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/keyn",
-    "anchor": "<em>KEYn</em>"
+    "anchor": "KEYn"
   },
   {
-    "term": "<em>Kill Command</em>",
+    "term": "Kill Command",
     "definition": "A command that readers can send to tags that uses electronic disabling mechanisms to prevent tags from responding to any additional commands.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/kill_command",
-    "anchor": "<em>KillCommand</em>"
+    "anchor": "KillCommand"
   },
   {
-    "term": "<em>Klen</em>",
+    "term": "Klen",
     "definition": "The bit length of the block cipher key.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/klen",
-    "anchor": "<em>Klen</em>"
+    "anchor": "Klen"
   },
   {
-    "term": "<em>kLen</em>",
+    "term": "kLen",
     "definition": "The length of K in bits",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/k_len",
-    "anchor": "<em>kLen</em>"
+    "anchor": "kLen"
   },
   {
-    "term": "<em>L</em>",
+    "term": "L",
     "definition": "An integer specifying the length of the derived keying material <i>K<sub>OUT&nbsp;</sub></i>in bits, which is represented as a bit string when it is an input to a key-derivation function.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/l",
-    "anchor": "<em>L</em>"
+    "anchor": "L"
   },
   {
-    "term": "<em>L-bit Hash Function</em>",
+    "term": "L-bit Hash Function",
     "definition": "A hash function for which the length of the output is L bits.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/l_bit_hash_function",
-    "anchor": "<em>LbitHashFunction</em>"
+    "anchor": "LbitHashFunction"
   },
   {
-    "term": "<em>LCM(a, b)</em>",
+    "term": "LCM(a, b)",
     "definition": "Least Common Multiple of two positive integers a and b. For example, LCM(4, 6) = 12.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/lcma_b",
-    "anchor": "<em>LCM(a,b)</em>"
+    "anchor": "LCM(a,b)"
   },
   {
-    "term": "<em>Len</em>",
+    "term": "Len",
     "definition": "The number of n-byte string elements in a WOTS+ private key, public key, and signature.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/len",
-    "anchor": "<em>Len</em>"
+    "anchor": "Len"
   },
   {
-    "term": "<em>Level of Significance (a)</em>",
+    "term": "Level of Significance (a)",
     "definition": "The probability of falsely rejecting the null hypothesis, i.e., the probability of concluding that the null hypothesis is false when the hypothesis is, in fact, true. The tester usually chooses this value; typical values are 0.05, 0.01 or 0.001; occasionally, smaller values such as 0.0001 are used. The level of significance is the probability of concluding that a sequence is non-random when it is in fact random. Synonyms: Type I error, a error.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/level_of_significance_a",
-    "anchor": "<em>LevelofSignificance(a)</em>"
+    "anchor": "LevelofSignificance(a)"
   },
   {
-    "term": "<em>lg(x)</em>",
+    "term": "lg(x)",
     "definition": "The base 2 logarithm of the positive real number x.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/lg_x",
-    "anchor": "<em>lg(x)</em>"
+    "anchor": "lg(x)"
   },
   {
-    "term": "<em>List</em>",
+    "term": "List",
     "definition": "A dynamic-length data structure that stores a sequence of values, where each value is identified by its integer index.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/list",
-    "anchor": "<em>List</em>"
+    "anchor": "List"
   },
   {
-    "term": "<em>Local performance metric</em>",
+    "term": "Local performance metric",
     "definition": "For a predictor, the length of the longest run of correct predictions",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/local_performance_metric",
-    "anchor": "<em>Localperformancemetric</em>"
+    "anchor": "Localperformancemetric"
   },
   {
-    "term": "<em>Lock Command</em>",
+    "term": "Lock Command",
     "definition": "A command that readers can send to a tag to block access to certain information on the tag.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/lock_command",
-    "anchor": "<em>LockCommand</em>"
+    "anchor": "LockCommand"
   },
   {
-    "term": "<em>log(x)</em>",
+    "term": "log(x)",
     "definition": "The natural logarithm of x: log(x) = loge(x) = ln(x).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/log_x",
-    "anchor": "<em>log(x)</em>"
+    "anchor": "log(x)"
   },
   {
-    "term": "<em>log2(x)</em>",
+    "term": "log2(x)",
     "definition": "Defined as ln(x)/ln(2), where ln is the natural logarithm.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/log2_x",
-    "anchor": "<em>log2(x)</em>"
+    "anchor": "log2(x)"
   },
   {
-    "term": "<em>LSBm(X)</em>",
+    "term": "LSBm(X)",
     "definition": "The bit string consisting of the m least significant bits of the bit string X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/lsbm_x",
-    "anchor": "<em>LSBm(X)</em>"
+    "anchor": "LSBm(X)"
   },
   {
-    "term": "<em>MacData</em>",
+    "term": "MacData",
     "definition": "A byte string input to the MacTag computation.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/macdata",
-    "anchor": "<em>MacData</em>"
+    "anchor": "MacData"
   },
   {
-    "term": "<em>MacDataU, (or MacDataV)</em>",
+    "term": "MacDataU, (or MacDataV)",
     "definition": "MacData associated with party U (or party V, respectively), and used to generate MacTagU (or MacTagV, respectively). Each is a byte string.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/macdata_u",
-    "anchor": "<em>MacDataU,(orMacDataV)</em>"
+    "anchor": "MacDataU,(orMacDataV)"
   },
   {
-    "term": "<em>MacKey</em>",
+    "term": "MacKey",
     "definition": "Key used to compute the MAC; a byte string.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mackey",
-    "anchor": "<em>MacKey</em>"
+    "anchor": "MacKey"
   },
   {
-    "term": "<em>MacKeyLen</em>",
+    "term": "MacKeyLen",
     "definition": "The byte length of the MacKey.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mackeylen",
-    "anchor": "<em>MacKeyLen</em>"
+    "anchor": "MacKeyLen"
   },
   {
-    "term": "<em>MacTagLen</em>",
+    "term": "MacTagLen",
     "definition": "The byte length of MacTag.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mactaglen",
-    "anchor": "<em>MacTagLen</em>"
+    "anchor": "MacTagLen"
   },
   {
-    "term": "<em>MacTagV, (MacTagU)</em>",
+    "term": "MacTagV, (MacTagU)",
     "definition": "The MacTag generated by party V (or party U, respectively). Each is a byte string.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mactag_v",
-    "anchor": "<em>MacTagV,(MacTagU)</em>"
+    "anchor": "MacTagV,(MacTagU)"
   },
   {
-    "term": "<em>Markov model</em>",
+    "term": "Markov model",
     "definition": "A model for a probability distribution where the probability that the ith element of a sequence has a given value depends only on the values of the previous n elements of the sequence. The model is called an nth order Markov model.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/markov_model",
-    "anchor": "<em>Markovmodel</em>"
+    "anchor": "Markovmodel"
   },
   {
-    "term": "<em>MaxErrs</em>",
+    "term": "MaxErrs",
     "definition": "The maximum number of times that the output of any implementation of the decryption verification process can be INVALID before the key is retired.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/maxerrs",
-    "anchor": "<em>MaxErrs</em>"
+    "anchor": "MaxErrs"
   },
   {
-    "term": "<em>mgfSeed</em>",
+    "term": "mgfSeed",
     "definition": "String from which a mask is derived; a byte string.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mgfseed",
-    "anchor": "<em>mgfSeed</em>"
+    "anchor": "mgfSeed"
   },
   {
-    "term": "<em>Mi</em>",
+    "term": "Mi",
     "definition": "The ith block of the formatted message.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/m_sub_i",
-    "anchor": "<em>Mi</em>"
+    "anchor": "Mi"
   },
   {
-    "term": "<em>min(x, y)</em>",
+    "term": "min(x, y)",
     "definition": "The minimum ofx and y. For example, if x < y, then min(x, y) = x.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/min_x_y",
-    "anchor": "<em>min(x,y)</em>"
+    "anchor": "min(x,y)"
   },
   {
-    "term": "<em>Mlen</em>",
+    "term": "Mlen",
     "definition": "The bit length of the message.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mlen",
-    "anchor": "<em>Mlen</em>"
+    "anchor": "Mlen"
   },
   {
-    "term": "<em>Mn*</em>",
+    "term": "Mn*",
     "definition": "The final block, possibly a partial block, of the formatted message.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mnstar",
-    "anchor": "<em>Mn*</em>"
+    "anchor": "Mn*"
   },
   {
-    "term": "<em>Ms</em>",
+    "term": "Ms",
     "definition": "The (original) message prior to randomization.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ms",
-    "anchor": "<em>Ms</em>"
+    "anchor": "Ms"
   },
   {
-    "term": "<em>MSBm(X)</em>",
+    "term": "MSBm(X)",
     "definition": "The bit string consisting of the m most significant bits of the bit string X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/msbm_x",
-    "anchor": "<em>MSBm(X)</em>"
+    "anchor": "MSBm(X)"
   },
   {
-    "term": "<em>N</em>",
+    "term": "N",
     "definition": "The number of M-bit blocks to be tested.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/n",
-    "anchor": "<em>N</em>"
+    "anchor": "N"
   },
   {
-    "term": "<em>n</em>",
+    "term": "n",
     "definition": "The number of iterations of the PRF needed to generate <i>L</i> bits of keying material.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/n_lowercase",
-    "anchor": "<em>n</em>"
+    "anchor": "n"
   },
   {
-    "term": "<em>Narrowest internal width</em>",
+    "term": "Narrowest internal width",
     "definition": "The maximum amount of information from the input that can affect the output. For example, if f(x) = SHA-1(x) || 01, and x consists of a string of 1000 binary bits, then the narrowest internal width of f(x) is 160 bits (the SHA-1 output length), and the output width of f(x) is 162 bits (the 160 bits from the SHA-1 operation, concatenated by 01).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/narrowest_internal_width",
-    "anchor": "<em>Narrowestinternalwidth</em>"
+    "anchor": "Narrowestinternalwidth"
   },
   {
-    "term": "<em>nBits</em>",
+    "term": "nBits",
     "definition": "The bit length of the RSA modulus n.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/nbits",
-    "anchor": "<em>nBits</em>"
+    "anchor": "nBits"
   },
   {
-    "term": "<em>nLen</em>",
+    "term": "nLen",
     "definition": "The bit length of the nonce.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/n_len",
-    "anchor": "<em>nLen</em>"
+    "anchor": "nLen"
   },
   {
-    "term": "<em>Noise source</em>",
+    "term": "Noise source",
     "definition": "The component of an entropy source that contains the non-deterministic, entropy-producing activity (e.g., thermal noise or hard drive seek times).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/noise_source",
-    "anchor": "<em>Noisesource</em>"
+    "anchor": "Noisesource"
   },
   {
-    "term": "<em>Non-deterministic Random Bit Generator (NRBG)</em>",
+    "term": "Non-deterministic Random Bit Generator (NRBG)",
     "abbrSyn": [
       {
         "text": "NRBG",
@@ -1040,150 +1040,150 @@
     "definition": "An RBG that always has access to an entropy source and (when working properly) produces output bitstrings that have full entropy. Often called a True Random Number (or Bit) Generator. (Contrast with a deterministic random bit generator).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/non_deterministic_random_bit_generator",
-    "anchor": "<em>NondeterministicRandomBitGenerator(NRBG)</em>"
+    "anchor": "NondeterministicRandomBitGenerator(NRBG)"
   },
   {
-    "term": "<em>Non-physical non-deterministic random bit generator</em>",
+    "term": "Non-physical non-deterministic random bit generator",
     "definition": "An entropy source that does not use dedicated hardware but uses system resources (RAM content, thread number etc.) or the interaction of the user (time between keystrokes etc.).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/non_physical_non_deterministic_random_bit_generator",
-    "anchor": "<em>Nonphysicalnondeterministicrandombitgenerator</em>"
+    "anchor": "Nonphysicalnondeterministicrandombitgenerator"
   },
   {
-    "term": "<em>Null</em>",
+    "term": "Null",
     "definition": "The empty bit string",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/null_symbol",
-    "anchor": "<em>Null</em>"
+    "anchor": "Null"
   },
   {
-    "term": "<em>NV</em>",
+    "term": "NV",
     "definition": "Nonce contributed by party V; a byte string.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/nv",
-    "anchor": "<em>NV</em>"
+    "anchor": "NV"
   },
   {
-    "term": "<em>Oj</em>",
+    "term": "Oj",
     "definition": "The jth output block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/o_sub_j",
-    "anchor": "<em>Oj</em>"
+    "anchor": "Oj"
   },
   {
-    "term": "<em>On</em>",
+    "term": "On",
     "definition": "Block of data representing Output Block n",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/o_n",
-    "anchor": "<em>On</em>"
+    "anchor": "On"
   },
   {
-    "term": "<em>On-demand test</em>",
+    "term": "On-demand test",
     "definition": "A type of health test that is available to be run whenever a user or a relying component requests it.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/on_demand_test",
-    "anchor": "<em>Ondemandtest</em>"
+    "anchor": "Ondemandtest"
   },
   {
-    "term": "<em>P#j</em>",
+    "term": "P#j",
     "definition": "The jth plaintext segment.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/jth_plaintext_segment",
-    "anchor": "<em>P#j</em>"
+    "anchor": "P#j"
   },
   {
-    "term": "<em>P*n</em>",
+    "term": "P*n",
     "definition": "The last block of the plaintext, which may be a partial block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/p_star_n",
-    "anchor": "<em>P*n</em>"
+    "anchor": "P*n"
   },
   {
-    "term": "<em>p</em>",
+    "term": "p",
     "definition": "An FFC domain parameter; an odd prime number that determines the size of the finite field <i>GF</i>(<i>p</i>).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/p_lowercase",
-    "anchor": "<em>p</em>"
+    "anchor": "p"
   },
   {
-    "term": "<em>padding</em>",
+    "term": "padding",
     "definition": "A string consisting of a single 1 bit, followed by zero or more 0 bits.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/padding",
-    "anchor": "<em>padding</em>"
+    "anchor": "padding"
   },
   {
-    "term": "<em>Physical non-deterministic random bit generator</em>",
+    "term": "Physical non-deterministic random bit generator",
     "definition": "An entropy source that uses dedicated hardware or uses a physical experiment (noisy diode(s), oscillators, event sampling like radioactive decay, etc.)",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/physical_non_deterministic_random_bit_generator",
-    "anchor": "<em>Physicalnondeterministicrandombitgenerator</em>"
+    "anchor": "Physicalnondeterministicrandombitgenerator"
   },
   {
-    "term": "<em>Pj</em>",
+    "term": "Pj",
     "definition": "The jth plaintext block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/p_sub_j",
-    "anchor": "<em>Pj</em>"
+    "anchor": "Pj"
   },
   {
-    "term": "<em>Plen</em>",
+    "term": "Plen",
     "definition": "The bit length of the payload.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/p_len",
-    "anchor": "<em>Plen</em>"
+    "anchor": "Plen"
   },
   {
-    "term": "<em>Pn</em>",
+    "term": "Pn",
     "definition": "Block of data representing Plaintext n",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/p_sub_n",
-    "anchor": "<em>Pn</em>"
+    "anchor": "Pn"
   },
   {
-    "term": "<em>Predictor</em>",
+    "term": "Predictor",
     "definition": "A function that predicts the next value in a sequence, based on previously observed values in the sequence.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/predictor",
-    "anchor": "<em>Predictor</em>"
+    "anchor": "Predictor"
   },
   {
-    "term": "<em>PRF(s, x)</em>",
+    "term": "PRF(s, x)",
     "definition": "A pseudorandom function with seed <i>s</i> and input data <i>x</i>.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/prf_s_x",
-    "anchor": "<em>PRF(s,x)</em>"
+    "anchor": "PRF(s,x)"
   },
   {
-    "term": "<em>PrivKeyU, PrivKeyV</em>",
+    "term": "PrivKeyU, PrivKeyV",
     "definition": "Private key of party U or V, respectively.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/privkey_u_privkey_v",
-    "anchor": "<em>PrivKeyU,PrivKeyV</em>"
+    "anchor": "PrivKeyU,PrivKeyV"
   },
   {
-    "term": "<em>Probability model</em>",
+    "term": "Probability model",
     "definition": "A mathematical representation of a random phenomenon.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/probability_model",
-    "anchor": "<em>Probabilitymodel</em>"
+    "anchor": "Probabilitymodel"
   },
   {
-    "term": "<em>PubKeyU, PubKeyV</em>",
+    "term": "PubKeyU, PubKeyV",
     "definition": "Public key of party U or V, respectively.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/pubkey_u_pubkey_v",
-    "anchor": "<em>PubKeyU,PubKeyV</em>"
+    "anchor": "PubKeyU,PubKeyV"
   },
   {
-    "term": "<em>q</em>",
+    "term": "q",
     "definition": "When used as an FFC domain parameter, <i>q</i> is the (odd) prime number equal to the order of the multiplicative subgroup of <i>GF</i>(<i>p</i>)* generated by <i>g</i>. Note that <i>q</i> is a divisor of <i>p</i>  1.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/q_lowercase",
-    "anchor": "<em>q</em>"
+    "anchor": "q"
   },
   {
-    "term": "<em>Q</em>",
+    "term": "Q",
     "abbrSyn": [
       {
         "text": "Quasi",
@@ -1193,94 +1193,94 @@
     "definition": "A bit string representation of the octet length of P.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/q",
-    "anchor": "<em>Q</em>"
+    "anchor": "Q"
   },
   {
-    "term": "<em>qInv</em>",
+    "term": "qInv",
     "definition": "Inverse of q modulo p in the CRT format, i.e., q-1 mod p; an integer.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/q_inv",
-    "anchor": "<em>qInv</em>"
+    "anchor": "qInv"
   },
   {
-    "term": "<em>r</em>",
+    "term": "r",
     "definition": "An integer that is less than or equal to 32, whose value is the bit length of the agreed-upon binary encoding of a counter <i>i</i> used as input during invocations of the PRF employed by a KDF.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/r_lowercase",
-    "anchor": "<em>r</em>"
+    "anchor": "r"
   },
   {
-    "term": "<em>R</em>",
+    "term": "R",
     "definition": "The constant within the algorithm for the block multiplication operation.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/r",
-    "anchor": "<em>R</em>"
+    "anchor": "R"
   },
   {
-    "term": "<em>Raw data</em>",
+    "term": "Raw data",
     "definition": "Digitized output of the noise source.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/raw_data",
-    "anchor": "<em>Rawdata</em>"
+    "anchor": "Rawdata"
   },
   {
-    "term": "<em>Rb</em>",
+    "term": "Rb",
     "definition": "The constant string for subkey generation for a cipher with block size b.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/r_sub_b",
-    "anchor": "<em>Rb</em>"
+    "anchor": "Rb"
   },
   {
-    "term": "<em>RESULTn</em>",
+    "term": "RESULTn",
     "definition": "Block of data representing Plaintext n, if encryption state, or Ciphertext n, if decryption state",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/resultn",
-    "anchor": "<em>RESULTn</em>"
+    "anchor": "RESULTn"
   },
   {
-    "term": "<em>Run (of output sequences)</em>",
+    "term": "Run (of output sequences)",
     "definition": "A sequence of identical values.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/run_of_output_sequences",
-    "anchor": "<em>Run(ofoutputsequences)</em>"
+    "anchor": "Run(ofoutputsequences)"
   },
   {
-    "term": "<em>rv[0b]</em>",
+    "term": "rv[0b]",
     "definition": "For bit string rv, rv[0b] is a substring consisting of the leftmost b+1 bit(s) of rv, where b  0.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/rv_substring",
-    "anchor": "<em>rv[0b]</em>"
+    "anchor": "rv[0b]"
   },
   {
-    "term": "<em>rv_length_indicator</em>",
+    "term": "rv_length_indicator",
     "definition": "A 16-bit binary representation of the length (in bits) of rv.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/rv_length_indicator",
-    "anchor": "<em>rv_length_indicator</em>"
+    "anchor": "rv_length_indicator"
   },
   {
-    "term": "<em>rv</em>",
+    "term": "rv",
     "definition": "The random value that is combined with the message Ms to produce the randomized message M.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/rv",
-    "anchor": "<em>rv</em>"
+    "anchor": "rv"
   },
   {
-    "term": "<em>S_XMSS</em>",
+    "term": "S_XMSS",
     "definition": "A secret random value used for pseudorandom key generation in XMSS.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/s_xmss",
-    "anchor": "<em>S_XMSS</em>"
+    "anchor": "S_XMSS"
   },
   {
-    "term": "<em>s</em>",
+    "term": "s",
     "definition": "The standard deviation of a random variable =(x-m)2f ( x )dx.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/s",
-    "anchor": "<em>s</em>"
+    "anchor": "s"
   },
   {
-    "term": "<em>S</em>",
+    "term": "S",
     "abbrSyn": [
       {
         "text": "Specific",
@@ -1290,17 +1290,17 @@
     "definition": "The desired security strength for a digital signature.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/s_uppercase",
-    "anchor": "<em>S</em>"
+    "anchor": "S"
   },
   {
-    "term": "<em>s2</em>",
+    "term": "s2",
     "definition": "The variance of a random variable = (standard deviation)2.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/s2",
-    "anchor": "<em>s2</em>"
+    "anchor": "s2"
   },
   {
-    "term": "<em>Sample</em>",
+    "term": "Sample",
     "seeAlso": [
       {
         "text": "<em>Dataset</em>",
@@ -1310,448 +1310,448 @@
     "definition": "An observation of the raw data output by a noise source. Common examples of output values obtained by sampling are single bits, single bytes, etc. (The term sample is often extended to denote a sequence of such observations; this Recommendation will refrain from that practice.)",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sample",
-    "anchor": "<em>Sample</em>"
+    "anchor": "Sample"
   },
   {
-    "term": "<em>Security boundary</em>",
+    "term": "Security boundary",
     "definition": "A conceptual boundary that is used to assess the amount of entropy provided by the values output from an entropy source. The entropy assessment is performed under the assumption that any observer (including any adversary) is outside of that boundary.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security_boundary",
-    "anchor": "<em>Securityboundary</em>"
+    "anchor": "Securityboundary"
   },
   {
-    "term": "<em>SEED</em>",
+    "term": "SEED",
     "definition": "An optional ECC domain parameter; an initialization value that is used during domain parameter generation that can also be used to provide assurance at a later time that the resulting domain parameters were generated using a canonical process.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/seed_symbol",
-    "anchor": "<em>SEED</em>"
+    "anchor": "SEED"
   },
   {
-    "term": "<em>sig</em>",
+    "term": "sig",
     "definition": "The received digital signature of a randomized message.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sig_received",
-    "anchor": "<em>sig</em>"
+    "anchor": "sig"
   },
   {
-    "term": "<em>sig</em>",
+    "term": "sig",
     "definition": "A digital signature of a randomized message.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sig",
-    "anchor": "<em>sig</em>"
+    "anchor": "sig"
   },
   {
-    "term": "<em>SK_PRF</em>",
+    "term": "SK_PRF",
     "definition": "An n-byte key used to pseudorandomly generate the randomizer r.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sk_prf",
-    "anchor": "<em>SK_PRF</em>"
+    "anchor": "SK_PRF"
   },
   {
-    "term": "<em>SKEY</em>",
+    "term": "SKEY",
     "definition": "A session key in TPM.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/skey",
-    "anchor": "<em>SKEY</em>"
+    "anchor": "SKEY"
   },
   {
-    "term": "<em>Sn</em>",
+    "term": "Sn",
     "definition": "The nth partial sum for values Xi = {-1, +1}; i.e., the sum of the first n values of Xi.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/s_sub_n",
-    "anchor": "<em>Sn</em>"
+    "anchor": "Sn"
   },
   {
-    "term": "<em>sobs</em>",
+    "term": "sobs",
     "definition": "The observed value which is used as a statistic in the Frequency test.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sobs",
-    "anchor": "<em>sobs</em>"
+    "anchor": "sobs"
   },
   {
-    "term": "<em>ss_K</em>",
+    "term": "ss_K",
     "definition": "The security strength that can be supported by the key K",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ss_k",
-    "anchor": "<em>ss_K</em>"
+    "anchor": "ss_K"
   },
   {
-    "term": "<em>ss_Mi</em>",
+    "term": "ss_Mi",
     "definition": "The security strength that can be supported by the combination of the methods used to generate a key Ki, and the methods used to protect it after generation (e.g., during key-transport and/or storage)",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ss_mi",
-    "anchor": "<em>ss_Mi</em>"
+    "anchor": "ss_Mi"
   },
   {
-    "term": "<em>Start-up testing</em>",
+    "term": "Start-up testing",
     "definition": "A suite of health tests that are performed every time the entropy source is initialized or powered up. These tests are carried out on the noise source before any output is released from the entropy source.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/start_up_testing",
-    "anchor": "<em>Startuptesting</em>"
+    "anchor": "Startuptesting"
   },
   {
-    "term": "<em>Stochastic model</em>",
+    "term": "Stochastic model",
     "definition": "A stochastic model is a mathematical description (of the relevant properties) of an entropy source using random variables. A stochastic model used for an entropy source analysis is used to support the estimation of the entropy of the digitized data and finally of the raw data. In particular, the model is intended to provide a family of distributions, which contains the true (but unknown) distribution of the noise source outputs. Moreover, the stochastic model should allow an understanding of the factors that may affect the entropy. The distribution of the entropy source needs to remain in the family of distributions, even if the quality of the digitized data goes down.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/stochastic_model",
-    "anchor": "<em>Stochasticmodel</em>"
+    "anchor": "Stochasticmodel"
   },
   {
-    "term": "<em>Submitter</em>",
+    "term": "Submitter",
     "definition": "The party that submits the entire entropy source and output from its components for validation. The submitter can be any entity that can provide validation information as required by this Recommendation (e.g., developer, designer, vendor or any organization).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/submitter",
-    "anchor": "<em>Submitter</em>"
+    "anchor": "Submitter"
   },
   {
-    "term": "<em>Symbol</em>",
+    "term": "Symbol",
     "definition": "The value of the noise source output (i.e., sample value).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/symbol",
-    "anchor": "<em>Symbol</em>"
+    "anchor": "Symbol"
   },
   {
-    "term": "<em>T</em>",
+    "term": "T",
     "definition": "The MAC.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/t_uppercase",
-    "anchor": "<em>T</em>"
+    "anchor": "T"
   },
   {
-    "term": "<em>t</em>",
+    "term": "t",
     "definition": "The octet length of the MAC.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/t",
-    "anchor": "<em>t</em>"
+    "anchor": "t"
   },
   {
-    "term": "<em>T192(X)</em>",
+    "term": "T192(X)",
     "definition": "A truncation function that outputs the most significant (i.e., leftmost) 192 bits of the input bit string X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/t_192_x",
-    "anchor": "<em>T192(X)</em>"
+    "anchor": "T192(X)"
   },
   {
-    "term": "<em>Testing laboratory</em>",
+    "term": "Testing laboratory",
     "definition": "An accredited cryptographic security testing laboratory.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/testing_laboratory",
-    "anchor": "<em>Testinglaboratory</em>"
+    "anchor": "Testinglaboratory"
   },
   {
-    "term": "<em>TEXTn</em>",
+    "term": "TEXTn",
     "definition": "Block of data representing Plaintext n, if encryption state, or Ciphertext n,",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/textn",
-    "anchor": "<em>TEXTn</em>"
+    "anchor": "TEXTn"
   },
   {
-    "term": "<em>timestamp_signatureTTA</em>",
+    "term": "timestamp_signatureTTA",
     "definition": "A digital signature that is generated using a TTAs private signature key.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/timestamp_signaturetta",
-    "anchor": "<em>timestamp_signatureTTA</em>"
+    "anchor": "timestamp_signatureTTA"
   },
   {
-    "term": "<em>timestamp_time</em>",
+    "term": "timestamp_time",
     "definition": "The time provided in a timestamp.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/timestamp_time",
-    "anchor": "<em>timestamp_time</em>"
+    "anchor": "timestamp_time"
   },
   {
-    "term": "<em>timestamp</em>",
+    "term": "timestamp",
     "definition": "Contains the time and, possibly, other information; a component of timestamped_data.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/timestamp_symbol",
-    "anchor": "<em>timestamp</em>"
+    "anchor": "timestamp"
   },
   {
-    "term": "<em>timestamped_data</em>",
+    "term": "timestamped_data",
     "definition": "The data on which a digital signature is generated by a TTA.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/timestamped_data",
-    "anchor": "<em>timestamped_data</em>"
+    "anchor": "timestamped_data"
   },
   {
-    "term": "<em>Tj</em>",
+    "term": "Tj",
     "definition": "The jth counter block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/t_sub_j",
-    "anchor": "<em>Tj</em>"
+    "anchor": "Tj"
   },
   {
-    "term": "<em>Tlen</em>",
+    "term": "Tlen",
     "definition": "The bit length of the MAC.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tlen",
-    "anchor": "<em>Tlen</em>"
+    "anchor": "Tlen"
   },
   {
-    "term": "<em>TMacTagBits(X)</em>",
+    "term": "TMacTagBits(X)",
     "definition": "A truncation function that outputs the most significant (i.e., leftmost) MacTagBits bits of the input string, X, when the bit length of X is greater than MacTagBits; otherwise, the function outputs X. For example, T2(1011) = 10, T3(1011) = 101, and T4(1011) = 1011.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tmactagbits_x",
-    "anchor": "<em>TMacTagBits(X)</em>"
+    "anchor": "TMacTagBits(X)"
   },
   {
-    "term": "<em>TTA_supplied_info</em>",
+    "term": "TTA_supplied_info",
     "definition": "Additional information that is included in the timestamped_data by a TTA during the generation of a timestamp_signature.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tta_supplied_info",
-    "anchor": "<em>TTA_supplied_info</em>"
+    "anchor": "TTA_supplied_info"
   },
   {
-    "term": "<em>TW(S)</em>",
+    "term": "TW(S)",
     "definition": "The output of the wrapping function for TKW applied to the string S.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tw_s",
-    "anchor": "<em>TW(S)</em>"
+    "anchor": "TW(S)"
   },
   {
-    "term": "<em>TW-1(C)</em>",
+    "term": "TW-1(C)",
     "definition": "The output of the unwrapping function for TKW applied to the string C.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tw_1_c",
-    "anchor": "<em>TW1(C)</em>"
+    "anchor": "TW1(C)"
   },
   {
-    "term": "<em>Type I error</em>",
+    "term": "Type I error",
     "definition": "Incorrectly rejection of a true null hypothesis.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/type_i_error",
-    "anchor": "<em>TypeIerror</em>"
+    "anchor": "TypeIerror"
   },
   {
-    "term": "<em>u</em>",
+    "term": "u",
     "definition": "The number of bits in the last plaintext or ciphertext block.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/u_lowercase",
-    "anchor": "<em>u</em>"
+    "anchor": "u"
   },
   {
-    "term": "<em>user_supplied_info</em>",
+    "term": "user_supplied_info",
     "definition": "Additional information that is provided by an entity when requesting a timestamp from a TTA.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/user_supplied_info",
-    "anchor": "<em>user_supplied_info</em>"
+    "anchor": "user_supplied_info"
   },
   {
-    "term": "<em>VARIABLEn</em>",
+    "term": "VARIABLEn",
     "definition": "Block of data representing the value of VARIABLE for the nth iteration",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/variablen",
-    "anchor": "<em>VARIABLEn</em>"
+    "anchor": "VARIABLEn"
   },
   {
-    "term": "<em>Vn(obs)</em>",
+    "term": "Vn(obs)",
     "definition": "The observed number of runs in a sequence of length n. See Sections 2.3 and 3.3.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/vnobs",
-    "anchor": "<em>Vn(obs)</em>"
+    "anchor": "Vn(obs)"
   },
   {
-    "term": "<em>Vn</em>",
+    "term": "Vn",
     "definition": "The expected number of runs that would occur in a sequence of length n under an assumption of randomness See Sections 2.3 and 3.3.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/vn",
-    "anchor": "<em>Vn</em>"
+    "anchor": "Vn"
   },
   {
-    "term": "<em>W(S)</em>",
+    "term": "W(S)",
     "definition": "The output of the wrapping function for KW and KWP applied to the bit string S.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/w_s",
-    "anchor": "<em>W(S)</em>"
+    "anchor": "W(S)"
   },
   {
-    "term": "<em>w</em>",
+    "term": "w",
     "definition": "The length of a key-derivation key in bits.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/w",
-    "anchor": "<em>w</em>"
+    "anchor": "w"
   },
   {
-    "term": "<em>W-1(C)</em>",
+    "term": "W-1(C)",
     "definition": "The output of the unwrapping function for KW and KWP applied to the bit string C.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/w_1_c",
-    "anchor": "<em>W1(C)</em>"
+    "anchor": "W1(C)"
   },
   {
-    "term": "<em>X =? Y</em>",
+    "term": "X =? Y",
     "definition": "Check for the equality of X and Y.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_notequalto_y",
-    "anchor": "<em>X=?Y</em>"
+    "anchor": "X=?Y"
   },
   {
-    "term": "<em>x -1 mod n</em>",
+    "term": "x -1 mod n",
     "definition": "The multiplicative inverse of the integer x modulo the positive integer n. This quantity is defined if and only if x is relatively prime to n. For the purposes of this Recommendation, y = x-1 mod n is the unique integer satisfying the following two conditions:",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x__1_mod_n",
-    "anchor": "<em>x1modn</em>"
+    "anchor": "x1modn"
   },
   {
-    "term": "<em>x mod n</em>",
+    "term": "x mod n",
     "definition": "The unique remainder r, 0 r  (n  1), when integer x is divided by positive integer n. For example, 23 mod 7 = 2.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_mod_n",
-    "anchor": "<em>xmodn</em>"
+    "anchor": "xmodn"
   },
   {
-    "term": "<em>X|Y</em>",
+    "term": "X|Y",
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_concat_y",
-    "anchor": "<em>X|Y</em>"
+    "anchor": "X|Y"
   },
   {
-    "term": "<em>XY</em>",
+    "term": "XY",
     "definition": "Bit-wise inclusive-or of two bit-strings X and Y of the same bit length.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_XOR_y",
-    "anchor": "<em>XY</em>"
+    "anchor": "XY"
   },
   {
-    "term": "<em>X</em>",
+    "term": "X",
     "definition": "The smallest integer that is larger than or equal to X. The ceiling of X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_uppercase",
-    "anchor": "<em>X</em>"
+    "anchor": "X"
   },
   {
-    "term": "<em>x</em>",
+    "term": "x",
     "definition": "The smallest integer that is larger than or equal to <i>X</i>. The ceiling of <i>X</i>. For example,&nbsp;<span class=\"math-tex\">\\(\\lceil\\)</span>8.2<span class=\"math-tex\">\\(\\rceil\\)</span>&nbsp;= 9.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ceiling_x",
-    "anchor": "<em>x</em>"
+    "anchor": "x"
   },
   {
-    "term": "<em>X<< 1</em>",
+    "term": "X<< 1",
     "definition": "The bit string that results from discarding the leftmost bit of the bit string X and appending a 0 bit on the right.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_leftbitshift_1",
-    "anchor": "<em>X<<1</em>"
+    "anchor": "X<<1"
   },
   {
-    "term": "<em>X>> 1</em>",
+    "term": "X>> 1",
     "definition": "The bit string that results from discarding the rightmost bit of the bit string X and prepending a 0 bit on the left.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_rightbitshift_1",
-    "anchor": "<em>X>>1</em>"
+    "anchor": "X>>1"
   },
   {
-    "term": "<em>xy</em>",
+    "term": "xy",
     "definition": "The product of two integers, x and y.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x_y_int_product",
-    "anchor": "<em>xy</em>"
+    "anchor": "xy"
   },
   {
-    "term": "<em>X2(obs)</em>",
+    "term": "X2(obs)",
     "definition": "The chi-square statistic computed on the observed values. See Sections 2.2, 2.4, 2.5, 2.7, 2.8, 2.10, 2.12, 2.14, and the corresponding sections of Section 3.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x2obs",
-    "anchor": "<em>X2(obs)</em>"
+    "anchor": "X2(obs)"
   },
   {
-    "term": "<em>X2</em>",
+    "term": "X2",
     "definition": "The [theoretical] chi-square distribution; used as a test statistic; also, a test statistic that follows the X2 distribution.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/x2",
-    "anchor": "<em>X2</em>"
+    "anchor": "X2"
   },
   {
-    "term": "<em>Xi</em>",
+    "term": "Xi",
     "definition": "The elements of the string consisting of1 that is to be tested for randomness, where Xi = 2ei-1.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/xi",
-    "anchor": "<em>Xi</em>"
+    "anchor": "Xi"
   },
   {
-    "term": "<em>xj</em>",
+    "term": "xj",
     "definition": "The total number of times that a given state occurs in the identified cycles. See Section 2.15 and 3.15.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/xj",
-    "anchor": "<em>xj</em>"
+    "anchor": "xj"
   },
   {
-    "term": "<em>Z</em>",
+    "term": "Z",
     "definition": "A shared secret (represented as a byte string) that is used to derive secret keying material using a key derivation method.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/z_uppercase",
-    "anchor": "<em>Z</em>"
+    "anchor": "Z"
   },
   {
-    "term": "<i>K<sub>IN</sub></i>",
+    "term": "K_IN",
     "definition": "A key-derivation key used as input to a key-derivation function (along with other data) to derive the output keying material <i>K<sub>OUT</sub></i>.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/k_sub_in",
-    "anchor": "<i>K<sub>IN</sub></i>"
+    "anchor": "K_IN"
   },
   {
-    "term": "<i>K<sub>OUT</sub></i>",
+    "term": "K_OUT",
     "definition": "Output keying material that is derived from the key-derivation key <i>K<sub>IN</sub></i> and other data that were used as input to a key-derivation function.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/k_sub_out",
-    "anchor": "<i>K<sub>OUT</sub></i>"
+    "anchor": "K_OUT"
   },
   {
-    "term": "<i>X&nbsp;</i>:= <i>Y</i>",
+    "term": "X := Y",
     "definition": "<i>X</i> is defined to be equal to <i>Y.</i>",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/define_x_equal_to_y",
-    "anchor": "<i>X&nbsp;</i>:=<i>Y</i>"
+    "anchor": "X:=Y"
   },
   {
-    "term": "<span class=\"math-tex\">\\(\\in\\)</span>",
+    "term": "in",
     "definition": "For an element <i>s</i> and a set <i>S</i>, <i>s</i>&nbsp;<span class=\"math-tex\">\\(\\in\\)</span>&nbsp;<i>S</i>, means that <i>s</i> belongs to <i>S.</i>",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/element_belongs_to",
-    "anchor": "<spanclass=\"mathtex\">\\(\\in\\)</span>"
+    "anchor": "in"
   },
   {
-    "term": "<span class=\"math-tex\">\\(\\varepsilon\\)</span>",
+    "term": "epsilon",
     "definition": "A positive constant that is assumed to be no greater than&nbsp;<span class=\"math-tex\">\\(2^{-32}\\)</span>",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/epsilon",
-    "anchor": "<spanclass=\"mathtex\">\\(\\varepsilon\\)</span>"
+    "anchor": "epsilon"
   },
   {
-    "term": "<strong>client</strong>",
+    "term": "client",
     "definition": "a machine or software application that accesses a cloud over a network connection, perhaps on behalf of a consumer; and",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/client",
-    "anchor": "<strong>client</strong>"
+    "anchor": "client"
   },
   {
-    "term": "<strong>cloud consumer or customer</strong>",
+    "term": "cloud consumer or customer",
     "definition": "a person or organization that is a customer of a cloud; note that a cloud customer may itself be a cloud and that clouds may offer services to one another;",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cloud_consumer_or_customer",
-    "anchor": "<strong>cloudconsumerorcustomer</strong>"
+    "anchor": "cloudconsumerorcustomer"
   },
   {
-    "term": "<strong>cloud provider or provider</strong>",
+    "term": "cloud provider or provider",
     "definition": "an organization that provides cloud services.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cloud_provider_or_provider",
-    "anchor": "<strong>cloudproviderorprovider</strong>"
+    "anchor": "cloudproviderorprovider"
   },
   {
-    "term": "<strong>Shall</strong>",
+    "term": "Shall",
     "definition": "The term used to indicate a requirement of a Federal Information Processing Standard (FIPS) or a requirement that needs to be fulfilled to claim conformance with this Recommendation. Note that <strong>shall</strong> may be coupled with <strong>not</strong> to become <strong>shall not</strong>.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/shall",
-    "anchor": "<strong>Shall</strong>"
+    "anchor": "Shall"
   },
   {
-    "term": "<strong>Should</strong>",
+    "term": "Should",
     "definition": "The term used to indicate an important recommendation. Ignoring the recommendation could result in undesirable results. Note that <strong>should</strong> may be coupled with <strong>not</strong> to become <strong>should not</strong>.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/should",
-    "anchor": "<strong>Should</strong>"
+    "anchor": "Should"
   },
   {
     "term": "",
@@ -1761,11 +1761,11 @@
     "anchor": ""
   },
   {
-    "term": "0<i>x</i>00",
+    "term": "0x00",
     "definition": "An all-zero octet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/0x00",
-    "anchor": "0<i>x</i>00"
+    "anchor": "0x00"
   },
   {
     "term": "24 Hours a Day, Seven Days a Week",
@@ -3595,11 +3595,11 @@
     "anchor": "ADP"
   },
   {
-    "term": "ADRS<sup>C</sup>",
+    "term": "ADRS^C",
     "definition": "Compressed Address",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/adrs_c",
-    "anchor": "ADRS<sup>C</sup>"
+    "anchor": "ADRS^C"
   },
   {
     "term": "ADS",
@@ -5157,7 +5157,7 @@
     "anchor": "AmericanWaterWorksAssociation"
   },
   {
-    "term": "American&nbsp;Association&nbsp;of&nbsp;Motor&nbsp;Vehicle Administrators",
+    "term": "American Association of Motor Vehicle Administrators",
     "abbrSyn": [
       {
         "text": "AAMVA",
@@ -5167,10 +5167,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/american_association_of_motor_vehicle_administrators",
-    "anchor": "American&nbsp;Association&nbsp;of&nbsp;Motor&nbsp;VehicleAdministrators"
+    "anchor": "AmericanAssociationofMotorVehicleAdministrators"
   },
   {
-    "term": "American&nbsp;Society&nbsp;for&nbsp;Testing&nbsp;and&nbsp;Materials",
+    "term": "American Society for Testing and Materials",
     "abbrSyn": [
       {
         "text": "ASTM",
@@ -5180,7 +5180,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/american_society_for_testing_and_materials",
-    "anchor": "American&nbsp;Society&nbsp;for&nbsp;Testing&nbsp;and&nbsp;Materials"
+    "anchor": "AmericanSocietyforTestingandMaterials"
   },
   {
     "term": "AMI TruE",
@@ -11841,7 +11841,7 @@
     "anchor": "C&A"
   },
   {
-    "term": "C&amp;S",
+    "term": "C&S",
     "abbrSyn": [
       {
         "text": "Control and Status",
@@ -11851,7 +11851,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/c_and_s",
-    "anchor": "C&amp;S"
+    "anchor": "C&S"
   },
   {
     "term": "C, CU, CV",
@@ -12771,7 +12771,7 @@
     "anchor": "CardVerifiableCertificate"
   },
   {
-    "term": "Card&nbsp;Management&nbsp;System&nbsp;to&nbsp;Card",
+    "term": "Card Management System to Card",
     "abbrSyn": [
       {
         "text": "CMTC",
@@ -12781,7 +12781,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/card_management_system_to_card",
-    "anchor": "Card&nbsp;Management&nbsp;System&nbsp;to&nbsp;Card"
+    "anchor": "CardManagementSystemtoCard"
   },
   {
     "term": "cardholder",
@@ -19655,7 +19655,7 @@
     "anchor": "Consortium"
   },
   {
-    "term": "Consortium for Information &amp; Software Quality",
+    "term": "Consortium for Information & Software Quality",
     "abbrSyn": [
       {
         "text": "CISQ",
@@ -19665,7 +19665,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/consortium_for_information_and_software_quality",
-    "anchor": "ConsortiumforInformation&amp;SoftwareQuality"
+    "anchor": "ConsortiumforInformation&SoftwareQuality"
   },
   {
     "term": "Constrained Application Protocol",
@@ -23839,7 +23839,7 @@
     "anchor": "CY"
   },
   {
-    "term": "Cyan,&nbsp;Magenta,&nbsp;Yellow,&nbsp;and&nbsp;Key&nbsp;(or&nbsp;blacK)",
+    "term": "Cyan, Magenta, Yellow, and Key (or blacK)",
     "abbrSyn": [
       {
         "text": "CMYK",
@@ -23849,7 +23849,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cyan_magenta_yellow_and_key_or_black",
-    "anchor": "Cyan,&nbsp;Magenta,&nbsp;Yellow,&nbsp;and&nbsp;Key&nbsp;(or&nbsp;blacK)"
+    "anchor": "Cyan,Magenta,Yellow,andKey(orblacK)"
   },
   {
     "term": "Cyber",
@@ -25465,7 +25465,7 @@
     "anchor": "datasetwithoutidentifiers"
   },
   {
-    "term": "Date&nbsp;of&nbsp;Birth",
+    "term": "Date of Birth",
     "abbrSyn": [
       {
         "text": "DOB",
@@ -25475,7 +25475,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/date_of_birth",
-    "anchor": "Date&nbsp;of&nbsp;Birth"
+    "anchor": "DateofBirth"
   },
   {
     "term": "DATO",
@@ -26764,7 +26764,7 @@
     "anchor": "DerivedTestRequirement"
   },
   {
-    "term": "Derived&nbsp;PIV&nbsp;Credential&nbsp;Issuer",
+    "term": "Derived PIV Credential Issuer",
     "abbrSyn": [
       {
         "text": "DPCI",
@@ -26774,7 +26774,7 @@
     "definition": "Derived PIV Credential (and associated token) Issuer; an issuer of Derived PIV Credentials as defined in [NIST SP 800-63-2]and [NIST SP 800-157].",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/derived_piv_credential_issuer",
-    "anchor": "Derived&nbsp;PIV&nbsp;Credential&nbsp;Issuer"
+    "anchor": "DerivedPIVCredentialIssuer"
   },
   {
     "term": "DES",
@@ -40808,7 +40808,7 @@
     "anchor": "GlobalPositioningSystem"
   },
   {
-    "term": "Global Positioning System Systems Engineering &amp; Integration",
+    "term": "Global Positioning System Systems Engineering & Integration",
     "abbrSyn": [
       {
         "text": "GPS SE&amp;I",
@@ -40818,7 +40818,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/global_positioning_system_systems_engineering_and_integration",
-    "anchor": "GlobalPositioningSystemSystemsEngineering&amp;Integration"
+    "anchor": "GlobalPositioningSystemSystemsEngineering&Integration"
   },
   {
     "term": "Global Standards One",
@@ -41332,7 +41332,7 @@
     "anchor": "GPS"
   },
   {
-    "term": "GPS SE&amp;I",
+    "term": "GPS SE&I",
     "abbrSyn": [
       {
         "text": "Global Positioning System Systems Engineering &amp; Integration",
@@ -41342,7 +41342,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/gps_se_and_i",
-    "anchor": "GPSSE&amp;I"
+    "anchor": "GPSSE&I"
   },
   {
     "term": "GPT",
@@ -45016,7 +45016,7 @@
     "anchor": "I&A"
   },
   {
-    "term": "I&amp;T",
+    "term": "I&T",
     "abbrSyn": [
       {
         "text": "Information and Technology",
@@ -45026,7 +45026,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/i_and_t",
-    "anchor": "I&amp;T"
+    "anchor": "I&T"
   },
   {
     "term": "I&W",
@@ -46814,7 +46814,7 @@
     "anchor": "IEEEIndustrialElectronicsSociety"
   },
   {
-    "term": "IEEE Power &amp; Energy Society",
+    "term": "IEEE Power & Energy Society",
     "abbrSyn": [
       {
         "text": "PES",
@@ -46824,7 +46824,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ieee_power_and_energy_society",
-    "anchor": "IEEEPower&amp;EnergySociety"
+    "anchor": "IEEEPower&EnergySociety"
   },
   {
     "term": "IEEE Power System Communications and Cybersecurity",
@@ -53973,7 +53973,7 @@
     "anchor": "JWTSigningService"
   },
   {
-    "term": "K&amp;S",
+    "term": "K&S",
     "abbrSyn": [
       {
         "text": "Knowledge and Skill statement",
@@ -53983,7 +53983,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/k_and_s",
-    "anchor": "K&amp;S"
+    "anchor": "K&S"
   },
   {
     "term": "KAK",
@@ -58257,11 +58257,11 @@
     "anchor": "LSB"
   },
   {
-    "term": "LSB<i><sub>s</sub></i>(<i>X</i>)",
+    "term": "LSB_s(X)",
     "definition": "The bit string consisting of the s right-most bits of the bit string X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/lsb_s_x",
-    "anchor": "LSB<i><sub>s</sub></i>(<i>X</i>)"
+    "anchor": "LSB_s(X)"
   },
   {
     "term": "LSI",
@@ -60216,7 +60216,7 @@
     "anchor": "measurement"
   },
   {
-    "term": "Measurement, Control, &amp; Automation Association",
+    "term": "Measurement, Control, & Automation Association",
     "abbrSyn": [
       {
         "text": "MCAA",
@@ -60226,7 +60226,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/measurement_control_automation_association",
-    "anchor": "Measurement,Control,&amp;AutomationAssociation"
+    "anchor": "Measurement,Control,&AutomationAssociation"
   },
   {
     "term": "measures",
@@ -60393,7 +60393,7 @@
     "anchor": "MedicalDeviceRiskAssessmentPlatform"
   },
   {
-    "term": "Medical Imaging &amp; Technology Alliance",
+    "term": "Medical Imaging & Technology Alliance",
     "abbrSyn": [
       {
         "text": "MITA",
@@ -60403,7 +60403,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/medical_imaging_and_technology_alliance",
-    "anchor": "MedicalImaging&amp;TechnologyAlliance"
+    "anchor": "MedicalImaging&TechnologyAlliance"
   },
   {
     "term": "Medium Access Control",
@@ -62846,7 +62846,7 @@
     "anchor": "MOP"
   },
   {
-    "term": "Morale,&nbsp;Welfare,&nbsp;and&nbsp;Recreation",
+    "term": "Morale, Welfare, and Recreation",
     "abbrSyn": [
       {
         "text": "MWR",
@@ -62856,7 +62856,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/morale_welfare_and_recreation",
-    "anchor": "Morale,&nbsp;Welfare,&nbsp;and&nbsp;Recreation"
+    "anchor": "Morale,Welfare,andRecreation"
   },
   {
     "term": "MOSS",
@@ -63200,11 +63200,11 @@
     "anchor": "MSB"
   },
   {
-    "term": "MSB<i><sub>s</sub></i>(<i>X</i>)",
+    "term": "MSB_s(X)",
     "definition": "The bit string consisting of the s left-most bits of the bit string X.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/msb_s_x",
-    "anchor": "MSB<i><sub>s</sub></i>(<i>X</i>)"
+    "anchor": "MSB_s(X)"
   },
   {
     "term": "MSC",
@@ -65443,7 +65443,7 @@
     "anchor": "NationalWhiteCollarCrimeCenter"
   },
   {
-    "term": "National&nbsp;Agency&nbsp;Check&nbsp;with&nbsp;Written Inquiries",
+    "term": "National Agency Check with Written Inquiries",
     "abbrSyn": [
       {
         "text": "NACI",
@@ -65453,10 +65453,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/national_agency_check_with_written_inquiries",
-    "anchor": "National&nbsp;Agency&nbsp;Check&nbsp;with&nbsp;WrittenInquiries"
+    "anchor": "NationalAgencyCheckwithWrittenInquiries"
   },
   {
-    "term": "National&nbsp;Criminal&nbsp;History&nbsp;Check",
+    "term": "National Criminal History Check",
     "abbrSyn": [
       {
         "text": "NCHC",
@@ -65466,7 +65466,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/national_criminal_history_check",
-    "anchor": "National&nbsp;Criminal&nbsp;History&nbsp;Check"
+    "anchor": "NationalCriminalHistoryCheck"
   },
   {
     "term": "NATO",
@@ -70784,7 +70784,7 @@
     "anchor": "Oncardcomparison"
   },
   {
-    "term": "On-Card&nbsp;Biometric&nbsp;One-to-One&nbsp;Comparison",
+    "term": "On-Card Biometric One-to-One Comparison",
     "abbrSyn": [
       {
         "text": "OCC",
@@ -70794,7 +70794,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/on_card_biometric_one_to_one_comparison",
-    "anchor": "OnCard&nbsp;Biometric&nbsp;OnetoOne&nbsp;Comparison"
+    "anchor": "OnCardBiometricOnetoOneComparison"
   },
   {
     "term": "ONCD",
@@ -75817,7 +75817,7 @@
     "anchor": "PlanofAction&Milestones(POA&M)"
   },
   {
-    "term": "Plan Of Action &amp; Milestones3",
+    "term": "Plan Of Action & Milestones3",
     "abbrSyn": [
       {
         "text": "POA&M",
@@ -75827,7 +75827,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/poam3",
-    "anchor": "PlanOfAction&amp;Milestones3"
+    "anchor": "PlanOfAction&Milestones3"
   },
   {
     "term": "plan of action and milestones",
@@ -95072,7 +95072,7 @@
     "anchor": "StandardPositioningService"
   },
   {
-    "term": "Standard&nbsp;Red&nbsp;Green&nbsp;Blue",
+    "term": "Standard Red Green Blue",
     "abbrSyn": [
       {
         "text": "sRGB",
@@ -95082,7 +95082,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/standard_red_green_blue",
-    "anchor": "Standard&nbsp;Red&nbsp;Green&nbsp;Blue"
+    "anchor": "StandardRedGreenBlue"
   },
   {
     "term": "Standards Developing Organization",
@@ -99286,7 +99286,7 @@
     "anchor": "Thirdpartytesting"
   },
   {
-    "term": "Thousandth&nbsp;of&nbsp;an&nbsp;inch",
+    "term": "Thousandth of an inch",
     "abbrSyn": [
       {
         "text": "mil",
@@ -99296,7 +99296,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/thousandth_of_an_inch",
-    "anchor": "Thousandth&nbsp;of&nbsp;an&nbsp;inch"
+    "anchor": "Thousandthofaninch"
   },
   {
     "term": "Thread",
@@ -101586,7 +101586,7 @@
     "anchor": "TT"
   },
   {
-    "term": "TT&amp;C",
+    "term": "TT&C",
     "abbrSyn": [
       {
         "text": "Telemetry, Tracking, and Command",
@@ -101596,7 +101596,7 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tt_and_c",
-    "anchor": "TT&amp;C"
+    "anchor": "TT&C"
   },
   {
     "term": "TT&E",
@@ -104139,7 +104139,7 @@
     "anchor": "V"
   },
   {
-    "term": "V&amp;V",
+    "term": "V&V",
     "abbrSyn": [
       {
         "text": "verification and validation",
@@ -104149,7 +104149,7 @@
     "definition": "The process of determining whether the requirements for a system or component are complete and correct, the products of each development phase fulfill the requirements or conditions imposed by the previous phase, and the final system or component complies with specified requirements.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/v_v",
-    "anchor": "V&amp;V"
+    "anchor": "V&V"
   },
   {
     "term": "V2G",
