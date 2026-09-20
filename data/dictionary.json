@@ -1704,18 +1704,6 @@
     ]
   },
   {
-    "term": "AMA",
-    "anchor": "AMA",
-    "definitions": [
-      {
-        "organisation": "Nist",
-        "definition": "Term found but the definition does not exist yet.",
-        "url": "https://csrc.nist.gov/glossary/term/ama",
-        "anchor": "AMA"
-      }
-    ]
-  },
-  {
     "term": "AMD PSB",
     "anchor": "AMDPSB",
     "definitions": [
