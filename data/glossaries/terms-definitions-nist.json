@@ -4884,6 +4884,19 @@
     "anchor": "AlternatingCurrent"
   },
   {
+    "term": "AMA",
+    "abbrSyn": [
+      {
+        "text": "American Medical Association",
+        "link": "https://csrc.nist.gov/glossary/term/american_medical_association"
+      }
+    ],
+    "definition": "Term found but the definition does not exist yet.",
+    "organisation": "Nist",
+    "url": "https://csrc.nist.gov/glossary/term/ama",
+    "anchor": "AMA"
+  },
+  {
     "term": "Amazon Web Services",
     "abbrSyn": [
       {
