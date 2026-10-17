@@ -54,9 +54,13 @@ function formatLastBuiltAt(value) {
 
 // ── State ──────────────────────────────────────────────────────────────────
 
+const route = useRoute()
+const nuxtApp = useNuxtApp()
+
 const searchTerm = ref('')
 const searchHistory = ref([])
 const searchHistoryIndex = ref(-1)
+let historyLoaded = false
 
 const SEARCH_DEBOUNCE_MS = 1000
 const SEARCH_HISTORY_MAX = 50
@@ -122,9 +126,17 @@ function recordSearchTerm(term) {
   persistSearchHistory()
 }
 
+function queryTerm(value) {
+  const raw = Array.isArray(value) ? value[0] : value
+  return String(raw ?? '').trim()
+}
+
 function readSearchTermFromUrl() {
   if (!import.meta.client) return ''
-  return new URLSearchParams(globalThis.location.search).get(SEARCH_QUERY_PARAM)?.trim() ?? ''
+  const fromLocation = new URLSearchParams(globalThis.location.search).get(SEARCH_QUERY_PARAM)?.trim() ?? ''
+  const fromRoute = queryTerm(route.query[SEARCH_QUERY_PARAM])
+  const captured = queryTerm(nuxtApp.$initialSearchTerm)
+  return fromLocation || fromRoute || captured
 }
 
 function syncSearchTermToUrl(term) {
@@ -189,6 +201,18 @@ function removeCurrentSearchTerm() {
   searchHistoryIndex.value = nextIndex
   applyHistoryTerm(nextHistory[nextIndex])
 }
+
+watch(
+  () => queryTerm(route.query[SEARCH_QUERY_PARAM]),
+  (term) => {
+    if (!historyLoaded || term === searchTerm.value.trim()) return
+    clearTimeout(_debounceTimer)
+    _skipHistoryCommitForTerm = term
+    searchTerm.value = term
+    debouncedSearch.value = term
+    if (term) recordSearchTerm(term)
+  }
+)
 
 watch(searchTerm, (val) => {
   syncSearchTermToUrl(val)
@@ -542,6 +566,7 @@ function scheduleHashScroll() {
 
 onMounted(() => {
   loadSearchHistory()
+  historyLoaded = true
   applySearchTermFromUrl()
   nextTick(() => {
     isMounted.value = true
