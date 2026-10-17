@@ -61,6 +61,7 @@ const searchHistoryIndex = ref(-1)
 const SEARCH_DEBOUNCE_MS = 1000
 const SEARCH_HISTORY_MAX = 50
 const SEARCH_HISTORY_STORAGE_KEY = 'ssi-dictionary-search-history-v1'
+const SEARCH_QUERY_PARAM = 'q'
 
 // Debounced version of searchTerm used for filtering/highlighting so that
 // the 11k-item computed list only recalculates after the user stops typing.
@@ -121,11 +122,39 @@ function recordSearchTerm(term) {
   persistSearchHistory()
 }
 
+function readSearchTermFromUrl() {
+  if (!import.meta.client) return ''
+  return new URLSearchParams(globalThis.location.search).get(SEARCH_QUERY_PARAM)?.trim() ?? ''
+}
+
+function syncSearchTermToUrl(term) {
+  if (!import.meta.client) return
+  const url = new URL(globalThis.location.href)
+  const trimmed = String(term).trim()
+  if (trimmed) url.searchParams.set(SEARCH_QUERY_PARAM, trimmed)
+  else url.searchParams.delete(SEARCH_QUERY_PARAM)
+
+  const next = `${url.pathname}${url.search}${url.hash}`
+  const current = `${globalThis.location.pathname}${globalThis.location.search}${globalThis.location.hash}`
+  if (next === current) return
+  globalThis.history.replaceState(globalThis.history.state, '', next)
+}
+
 function applyHistoryTerm(term) {
   clearTimeout(_debounceTimer)
   _skipHistoryCommitForTerm = String(term).trim()
   searchTerm.value = term
   debouncedSearch.value = String(term).trim()
+}
+
+function applySearchTermFromUrl() {
+  const term = readSearchTermFromUrl()
+  if (!term) return
+  clearTimeout(_debounceTimer)
+  _skipHistoryCommitForTerm = term
+  searchTerm.value = term
+  debouncedSearch.value = term
+  recordSearchTerm(term)
 }
 
 function goToPreviousSearchTerm() {
@@ -162,6 +191,7 @@ function removeCurrentSearchTerm() {
 }
 
 watch(searchTerm, (val) => {
+  syncSearchTermToUrl(val)
   clearTimeout(_debounceTimer)
   _debounceTimer = setTimeout(() => {
     const trimmed = val.trim()
@@ -478,7 +508,8 @@ function scrollToAnchor(anchor) {
   if (!targetEl) return false
 
   targetEl.scrollIntoView({ block: 'start' })
-  history.replaceState(null, '', `#${anchor}`)
+  const { pathname, search } = globalThis.location
+  history.replaceState(globalThis.history.state, '', `${pathname}${search}#${anchor}`)
   pendingHashAnchor.value = ''
   hasHandledCurrentHash.value = true
   return true
@@ -511,6 +542,7 @@ function scheduleHashScroll() {
 
 onMounted(() => {
   loadSearchHistory()
+  applySearchTermFromUrl()
   nextTick(() => {
     isMounted.value = true
     nextTick(() => {
