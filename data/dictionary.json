@@ -24125,7 +24125,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "Certificate (as defined above).",
+        "definition": "A set of data that uniquely identifies a public key that has a corresponding private key and an owner that is authorized to use the key pair. The certificate contains the owners public key and possibly other information and is digitally signed by a certification authority (i.e., a trusted party), thereby binding the public key to the owner.",
         "url": "https://csrc.nist.gov/glossary/term/digital_certificate",
         "anchor": "DigitalCertificate"
       }
@@ -48935,7 +48935,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "A method of encrypting and decrypting keys and (possibly) associated data using a symmetric key; both confidentiality and integrity protection are provided.",
+        "definition": "A method of protecting secret keying material (along with associated integrity information) that provides both confidentiality and integrity protection when using symmetric-key algorithms.",
         "url": "https://csrc.nist.gov/glossary/term/key_wrapping",
         "anchor": "Keywrapping"
       }
