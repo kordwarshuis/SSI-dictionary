@@ -47286,6 +47286,18 @@
     ]
   },
   {
+    "term": "KEM combiner",
+    "anchor": "KEMcombiner",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "A function that takes in two or more shared secret keys and returns a combined shared secret key.",
+        "url": "https://csrc.nist.gov/glossary/term/kem_combiner",
+        "anchor": "KEMcombiner"
+      }
+    ]
+  },
+  {
     "term": "KERI",
     "anchor": "KERI",
     "definitions": [
@@ -98844,6 +98856,18 @@
     ]
   },
   {
+    "term": "acceptable",
+    "anchor": "acceptable",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "Approved for use. An allowed algorithm and key length/strength in a FIPS or SP is approved for use in accordance with any associated guidance.",
+        "url": "https://csrc.nist.gov/glossary/term/acceptable",
+        "anchor": "acceptable"
+      }
+    ]
+  },
+  {
     "term": "acceptable use agreement",
     "anchor": "acceptableuseagreement",
     "definitions": [
@@ -107142,6 +107166,18 @@
     ]
   },
   {
+    "term": "dual signature",
+    "anchor": "dualsignature",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "A dual signature consists of two (or more) signatures on a common message. It may also be known as a hybrid signature or composite signature.",
+        "url": "https://csrc.nist.gov/glossary/term/dual_signature",
+        "anchor": "dualsignature"
+      }
+    ]
+  },
+  {
     "term": "dual-use foundation model",
     "anchor": "dualusefoundationmodel",
     "definitions": [
@@ -108866,6 +108902,18 @@
         "definition": "A mathematically rigorous technique for the specification, development, and verification of software systems.",
         "url": "https://csrc.nist.gov/glossary/term/formal_methods",
         "anchor": "formalmethods"
+      }
+    ]
+  },
+  {
+    "term": "forward secrecy",
+    "anchor": "forwardsecrecy",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "Providing protection against the use of compromised old keys that could be used to attack the newer derived keys still in use for integrity and confidentiality protection.",
+        "url": "https://csrc.nist.gov/glossary/term/forward_secrecy",
+        "anchor": "forwardsecrecy"
       }
     ]
   },
@@ -121604,6 +121652,18 @@
         "definition": "The inability to avoid adversity.",
         "url": "https://csrc.nist.gov/glossary/term/susceptibility",
         "anchor": "susceptibility"
+      }
+    ]
+  },
+  {
+    "term": "symmetric-key cryptography",
+    "anchor": "symmetrickeycryptography",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "A cryptographic algorithm that uses the same secret key for its operation and, if applicable, for reversing the effects of the operation (e.g., an AES key for encryption and decryption).",
+        "url": "https://csrc.nist.gov/glossary/term/symmetric_key_cryptography",
+        "anchor": "symmetrickeycryptography"
       }
     ]
   },
