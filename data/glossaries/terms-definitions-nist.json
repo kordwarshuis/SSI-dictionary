@@ -9195,6 +9195,13 @@
     "anchor": "BacktrackingResistance"
   },
   {
+    "term": "backup",
+    "definition": "A copy of files and programs made to facilitate recovery.",
+    "organisation": "Nist",
+    "url": "https://csrc.nist.gov/glossary/term/backup",
+    "anchor": "backup"
+  },
+  {
     "term": "Backup (key and/or metadata)",
     "definition": "To copy a key and/or metadata to a medium that is separate from that used for operational storage and from which the key and/or metadata can be recovered if the original values in operational storage are lost or modified.",
     "organisation": "Nist",
@@ -24411,7 +24418,7 @@
   },
   {
     "term": "Cybersecurity Risk",
-    "definition": "An effect of uncertainty on or within information and technology. Cybersecurity risks relate to the loss of confidentiality, integrity, or availability of information,data, or information (orcontrol)systems and reflect the potential adverse impacts to organizational operations (i.e., mission, functions, image, or reputation) and assets, individuals, other organizations, and the Nation. (Definition based on ISO Guide 73 [6] and NIST SP 800-60 Vol. 1 Rev. 1 [7])",
+    "definition": "An effect of uncertainty on or within information and technology. Cybersecurity risks relate to the loss of confidentiality, integrity, or availability of information, data, or information (or control) systems and reflect the potential adverse impacts to organizational operations (i.e., mission, functions, image, or reputation) and assets, individuals, other organizations, and the Nation.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cybersecurity_risk",
     "anchor": "CybersecurityRisk"
@@ -59322,6 +59329,19 @@
     "anchor": "Manufacturing"
   },
   {
+    "term": "Manufacturing Extension Partnership",
+    "abbrSyn": [
+      {
+        "text": "MEP",
+        "link": "https://csrc.nist.gov/glossary/term/mep"
+      }
+    ],
+    "definition": "Term found but the definition does not exist yet.",
+    "organisation": "Nist",
+    "url": "https://csrc.nist.gov/glossary/term/manufacturing_extension_partnership",
+    "anchor": "ManufacturingExtensionPartnership"
+  },
+  {
     "term": "Manufacturing Operations",
     "definition": "Activities concerning the facility operation, system processes, materials input/output, maintenance, supply and distribution, health, and safety, emergency response, human resources, security, information technology and other contributing measures to the manufacturing enterprise.",
     "organisation": "Nist",
@@ -60662,6 +60682,10 @@
   {
     "term": "MEP",
     "abbrSyn": [
+      {
+        "text": "Manufacturing Extension Partnership",
+        "link": "https://csrc.nist.gov/glossary/term/manufacturing_extension_partnership"
+      },
       {
         "text": "Message Exchange Pattern",
         "link": "https://csrc.nist.gov/glossary/term/message_exchange_pattern"
@@ -86715,6 +86739,19 @@
     "anchor": "SBA"
   },
   {
+    "term": "SBDC",
+    "abbrSyn": [
+      {
+        "text": "Small Business Development Center",
+        "link": "https://csrc.nist.gov/glossary/term/small_business_development_center"
+      }
+    ],
+    "definition": "Term found but the definition does not exist yet.",
+    "organisation": "Nist",
+    "url": "https://csrc.nist.gov/glossary/term/sbdc",
+    "anchor": "SBDC"
+  },
+  {
     "term": "SBH",
     "abbrSyn": [
       {
@@ -92390,6 +92427,19 @@
     "anchor": "SmallBusinessAdministration"
   },
   {
+    "term": "Small Business Development Center",
+    "abbrSyn": [
+      {
+        "text": "SBDC",
+        "link": "https://csrc.nist.gov/glossary/term/sbdc"
+      }
+    ],
+    "definition": "Term found but the definition does not exist yet.",
+    "organisation": "Nist",
+    "url": "https://csrc.nist.gov/glossary/term/small_business_development_center",
+    "anchor": "SmallBusinessDevelopmentCenter"
+  },
+  {
     "term": "Small Business Innovation Research",
     "abbrSyn": [
       {
@@ -92527,6 +92577,9 @@
       },
       {
         "text": "Small and Medium-Sized Businesses"
+      },
+      {
+        "text": "Small to Medium-Sized Business"
       }
     ],
     "definition": "Term found but the definition does not exist yet.",

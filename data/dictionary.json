@@ -19949,7 +19949,7 @@
     "definitions": [
       {
         "organisation": "Nist",
-        "definition": "An effect of uncertainty on or within information and technology. Cybersecurity risks relate to the loss of confidentiality, integrity, or availability of information,data, or information (orcontrol)systems and reflect the potential adverse impacts to organizational operations (i.e., mission, functions, image, or reputation) and assets, individuals, other organizations, and the Nation. (Definition based on ISO Guide 73 [6] and NIST SP 800-60 Vol. 1 Rev. 1 [7])",
+        "definition": "An effect of uncertainty on or within information and technology. Cybersecurity risks relate to the loss of confidentiality, integrity, or availability of information, data, or information (or control) systems and reflect the potential adverse impacts to organizational operations (i.e., mission, functions, image, or reputation) and assets, individuals, other organizations, and the Nation.",
         "url": "https://csrc.nist.gov/glossary/term/cybersecurity_risk",
         "anchor": "CybersecurityRisk"
       }
@@ -54696,6 +54696,18 @@
     ]
   },
   {
+    "term": "Manufacturing Extension Partnership",
+    "anchor": "ManufacturingExtensionPartnership",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "Term found but the definition does not exist yet.",
+        "url": "https://csrc.nist.gov/glossary/term/manufacturing_extension_partnership",
+        "anchor": "ManufacturingExtensionPartnership"
+      }
+    ]
+  },
+  {
     "term": "Manufacturing Operations",
     "anchor": "ManufacturingOperations",
     "definitions": [
@@ -77520,6 +77532,18 @@
     ]
   },
   {
+    "term": "SBDC",
+    "anchor": "SBDC",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "Term found but the definition does not exist yet.",
+        "url": "https://csrc.nist.gov/glossary/term/sbdc",
+        "anchor": "SBDC"
+      }
+    ]
+  },
+  {
     "term": "SBH",
     "anchor": "SBH",
     "definitions": [
@@ -84662,6 +84686,18 @@
         "definition": "Term found but the definition does not exist yet.",
         "url": "https://csrc.nist.gov/glossary/term/small_business_administration",
         "anchor": "SmallBusinessAdministration"
+      }
+    ]
+  },
+  {
+    "term": "Small Business Development Center",
+    "anchor": "SmallBusinessDevelopmentCenter",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "Term found but the definition does not exist yet.",
+        "url": "https://csrc.nist.gov/glossary/term/small_business_development_center",
+        "anchor": "SmallBusinessDevelopmentCenter"
       }
     ]
   },
@@ -101378,6 +101414,18 @@
         "definition": "A poisoning attack that causes a model to perform an adversary-selected behaviour in response to inputs that follow a particular backdoor pattern.",
         "url": "https://csrc.nist.gov/glossary/term/backdoor_poisoning_attack",
         "anchor": "backdoorpoisoningattack"
+      }
+    ]
+  },
+  {
+    "term": "backup",
+    "anchor": "backup",
+    "definitions": [
+      {
+        "organisation": "Nist",
+        "definition": "A copy of files and programs made to facilitate recovery.",
+        "url": "https://csrc.nist.gov/glossary/term/backup",
+        "anchor": "backup"
       }
     ]
   },
