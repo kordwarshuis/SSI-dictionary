@@ -58,6 +58,7 @@ fs.readdir(directoryPathInput, (err, files) => {
                     organisation: entry.organisation,
                     definition: entry.definition,
                     url: entry.url,
+                    ...(entry.sourceUrl ? { sourceUrl: entry.sourceUrl } : {}),
                     anchor
                 });
             });

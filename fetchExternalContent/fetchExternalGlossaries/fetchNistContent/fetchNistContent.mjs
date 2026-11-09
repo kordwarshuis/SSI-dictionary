@@ -11,6 +11,8 @@ console.log('Nist: Fetching external content...');
 
 // CONFIG
 const url = 'https://csrc.nist.gov/csrc/media/glossary/glossary-export.zip';
+// Homepage for the NIST checkbox ↗ link (per-term pages stay on each entry's `url`)
+const sourceUrl = 'https://csrc.nist.gov/glossary/';
 const dir = './fetchExternalContent/fetchExternalGlossaries/fetchNistContent/download'
 const filename = 'glossary-export.zip';
 const fullPath = path.join(dir, filename); // Use path.join for better compatibility
@@ -55,6 +57,7 @@ function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
             termObj.definition = "Term found but the definition does not exist yet.";
         }
         termObj.organisation = "Nist";
+        termObj.sourceUrl = sourceUrl;
         if (termObj.link) {
             termObj.url = termObj.link;
             delete termObj.link;

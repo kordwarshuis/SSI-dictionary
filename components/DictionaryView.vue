@@ -9,7 +9,7 @@ import { DynamicScroller, DynamicScrollerItem } from 'vue-virtual-scroller'
  *
  * Props:
  *   termsData – Array of term objects produced by createDictionary.mjs
- *               Shape: [{ term, anchor, definitions: [{ organisation, definition, url, anchor }] }]
+ *               Shape: [{ term, anchor, definitions: [{ organisation, definition, url, sourceUrl?, anchor }] }]
  */
 
 const props = defineProps({
@@ -296,10 +296,15 @@ const checkedOrganisations = computed(() => {
 })
 
 const organisationLinks = computed(() => {
+  // Prefer sourceUrl (glossary homepage) when present — NIST and similar sources
+  // put a unique per-term page in `url`, which must not become the checkbox ↗ link.
   const links = {}
   props.termsData.forEach((term) =>
     term.definitions.forEach((def) => {
-      if (def.organisation && def.url && !links[def.organisation]) {
+      if (!def.organisation || links[def.organisation]) return
+      if (def.sourceUrl) {
+        links[def.organisation] = def.sourceUrl
+      } else if (def.url) {
         links[def.organisation] = def.url
       }
     })
