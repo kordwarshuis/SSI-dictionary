@@ -15,11 +15,15 @@ const { data: dictionaryPayload, status, error } = await useFetch('/api/dictiona
 
 const termsData = computed(() => dictionaryPayload.value?.termsData ?? [])
 const lastBuiltAt = computed(() => dictionaryPayload.value?.lastBuiltAt ?? null)
+const dictionaryViewRef = ref(null)
 
-function clearHashFromUrl() {
+function resetToInitState() {
   if (!import.meta.client) return
-  const { pathname, search } = globalThis.location
-  globalThis.history.replaceState(null, '', `${pathname}${search}`)
+  if (dictionaryViewRef.value?.resetToInitialState) {
+    dictionaryViewRef.value.resetToInitialState()
+    return
+  }
+  globalThis.history.replaceState(null, '', globalThis.location.pathname)
 }
 </script>
 
@@ -28,7 +32,7 @@ function clearHashFromUrl() {
     <!-- Hero -->
     <header class="ssi-hero text-center py-1">
       <h1 class="ssi-hero__title m-0">
-        <button type="button" class="ssi-hero__title-button" @click="clearHashFromUrl">
+        <button type="button" class="ssi-hero__title-button" @click="resetToInitState">
           Self Sovereign Identity (SSI) Dictionary
         </button>
         <a
@@ -88,7 +92,12 @@ function clearHashFromUrl() {
       </div>
 
       <!-- Dictionary -->
-      <DictionaryView v-else :terms-data="termsData" :last-built-at="lastBuiltAt" />
+      <DictionaryView
+        v-else
+        ref="dictionaryViewRef"
+        :terms-data="termsData"
+        :last-built-at="lastBuiltAt"
+      />
     </div>
   </div>
 </template>

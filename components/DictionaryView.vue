@@ -234,6 +234,27 @@ function clearSearch() {
   debouncedSearch.value = ''
 }
 
+function resetToInitialState() {
+  clearTimeout(_debounceTimer)
+  _skipHistoryCommitForTerm = ''
+  searchTerm.value = ''
+  debouncedSearch.value = ''
+  orgOverrides.value = {}
+  showDefinitions.value = true
+  termOverrides.value = {}
+  filtersOpen.value = false
+  pendingHashAnchor.value = ''
+  hasHandledCurrentHash.value = true
+  if (import.meta.client) {
+    nuxtApp.$initialSearchTerm = ''
+    const { pathname } = globalThis.location
+    globalThis.history.replaceState(globalThis.history.state, '', pathname)
+    scrollToTop()
+  }
+}
+
+defineExpose({ resetToInitialState })
+
 // Derived from props so it is available during SSR and on first render,
 // eliminating the flash of "sources: 0 / all terms hidden" that occurred
 // when these were initialised only inside onMounted.
